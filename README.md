@@ -52,3 +52,20 @@ python -m wengua_quant --app-root /path/to/WenguaApp --backend logistic --device
 ```
 
 本次 Mac 源导出校验失败的永久审计及回归用例见 `docs/audits/MAC_V2_CATALOG_REJECTION_20261103.md`。
+
+
+### 已有Mac实验的结果诊断（无需重训）
+
+2026-11-03 首次逻辑回归真实书内试验的五组模型，**全部将12件物品预测为“找回”**。独立11事件家族、12物品、10找回/2未找回；事件加权准确率86.4%，但专业特征组Log Loss高于无九宫先验。不能以该成绩证明九宫专业因子有稳定预测价值。
+
+升级代码后，直接审计已存在的输出（只读，不训练也不覆盖文件）：
+
+```bash
+cd /Users/masonliu/WenguaApp/WenguaQuant
+git pull --ff-only
+source .venv/bin/activate
+python -m unittest discover -s tests -v
+python -m wengua_quant.audit local/runs/20261103T164538_321806Z
+```
+
+完整逐案失败模式和避免在已知11个案例上反复调参的约束：`docs/audits/LOST_PROPERTY_MAC_PILOT_DIAGNOSTIC_20261103.md`。
