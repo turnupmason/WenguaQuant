@@ -1,0 +1,5 @@
+# Pinned research-only dependencies; no network LLM or App runtime dependencies.
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0
+catboost==1.2.8

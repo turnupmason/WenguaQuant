@@ -1,0 +1,10 @@
+# WenguaQuant Project Status · 2026-11-03
+
+- **Repository**: `turnupmason/WenguaQuant`, branch `main`; independent research. Initialized in this delivery, latest commit/CI to be checked after upload.
+- **Linked read-only research source**: `turnupmason/WenguaApp` professional V2 export. Source archive SHA `21362e6f0266c03dcdc4a7ef35f45954ba274ae6458de0ba341132abca7d0405`. The historic source database is not included here and must not be rewritten.
+- **Available research source facts**: 194 case events; 4606 source-indexed professional fields (including fixed scoring features in separate ablation), not 4606 independent samples. Source V2's pilot export has 12 targets from 11 events. The only currently approved training target is book-reported lost-item status at last feedback. Health severity/site/recovery, item direction/time need audited labels and properly defined follow-up.
+- **Implemented**: pinned V2 export reader, strict feature white-list, group-held-out CV, five prior/context/chart/professional/fixed-rule ablations, logistic and optional CatBoost CPU/GPU, source-input SHA receipt, event-weighted metrics, no-overwrite output, synthetic contract/unit tests, cross-OS CI.
+- **Not implemented / not claimed**: genuine medical outcome training, clinically meaningful probabilities, prospective/blind validation, time-to-event training with censoring, verified GPU execution on user's hardware, signed iOS deployment.
+- **Baseline WenguaApp unchanged**: V9 severity scoring and V11 prose, V27 discomfort, V4 recovery timeline remain separate traditional rule engines. Never train by copying their scores as true outcomes.
+- **Source engineering receipt**: WenguaApp main `72c6c08d201c5f6a7eac7d3f4005692250393c36`; CI #41578974964 success at time of initial inspection. This is NOT WenguaQuant's own CI.
+- **Next gate**: run a real export with the local WenguaApp historical SQLite archive and train the first full independent pilot on that export; review all results against class-prior baseline. The local archive is not present in this ChatGPT container.
