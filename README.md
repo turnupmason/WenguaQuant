@@ -38,3 +38,17 @@ python -m unittest discover -s tests -v
 ```
 
 测试仅验证**合成输入**的管线、分组与防泄漏，不声称已用真实医学案例训练或通过外部盲测。实际 GitHub Actions 与当前阶段见 [Project Status](docs/PROJECT_STATUS.md)。
+
+### Mac 本地运行（两个仓库实际路径可不同）
+
+如果 `WenguaQuant` 是放在 `WenguaApp/WenguaQuant/` 内，仍然在 WenguaQuant 仓库内运行，`--app-root` 指向上级 WenguaApp 的完整路径。出现 `Unsafe, missing-source, or duplicated feature catalog entry` 时，先 `git pull --ff-only` 获取 2026-11-03 的精确字段名修复；此错误发生在训练前的特征校验，**不能算训练成功**。已导出的旧文件不删除、不覆盖。
+
+```bash
+cd /path/to/WenguaApp/WenguaQuant
+git pull --ff-only
+source .venv/bin/activate
+python -m unittest discover -s tests -v
+python -m wengua_quant --app-root /path/to/WenguaApp --backend logistic --device CPU
+```
+
+本次 Mac 源导出校验失败的永久审计及回归用例见 `docs/audits/MAC_V2_CATALOG_REJECTION_20261103.md`。

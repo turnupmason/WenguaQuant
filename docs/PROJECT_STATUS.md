@@ -8,3 +8,10 @@
 - **Baseline WenguaApp unchanged**: V9 severity scoring and V11 prose, V27 discomfort, V4 recovery timeline remain separate traditional rule engines. Never train by copying their scores as true outcomes.
 - **Source engineering receipt**: WenguaApp main `72c6c08d201c5f6a7eac7d3f4005692250393c36`; CI #41578974964 success at time of initial inspection. This is NOT WenguaQuant's own CI.
 - **Next gate**: run a real export with the local WenguaApp historical SQLite archive and train the first full independent pilot on that export; review all results against class-prior baseline. The local archive is not present in this ChatGPT container.
+
+## 2026-11-03 Mac V2 catalog validation repair (WenguaQuant v0.1 patch)
+
+- The first real Mac run **successfully exported** 194 primary events, 19 additional source casts and 4,606 professional feature fields from WenguaApp. The source export then failed at the WenguaQuant catalog validator: `ValueError: Unsafe, missing-source, or duplicated feature catalog entry`. **No real-case model fit or predictive metrics were produced by that attempt.**
+- Cause in `wengua_quant/dataset.py`: overly broad `FORBIDDEN` token `result` rejected the legitimate source-derived `heuristic.role_edge.<source>.<target>.control_matrix_result`, which is a pre-question fixed user strength/control matrix output, not a later event outcome.
+- Patched only the exact source-style, group-bound suffix for acceptance and kept it in the fixed-heuristic `professional` ablation; any outcome/feedback/label terms in role identities or other field names remain forbidden. Error reports now include the offending catalog feature ID for actionable diagnostics.
+- Synthetic unit suite: **9 tests passed locally**, including matrix-feature acceptance, ablation isolation and negative leakage cases. Actual post-fix Mac export/training and new-commit CI must be reported separately once run. Failure record: `docs/audits/MAC_V2_CATALOG_REJECTION_20261103.md`. WenguaApp application, frozen rules and historical archive unchanged.

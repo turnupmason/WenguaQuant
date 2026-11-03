@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from wengua_quant.dataset import SOURCE_SHA, load_v2_export, row_features
+from wengua_quant.dataset import SOURCE_SHA, load_v2_export, row_features, _unsafe_feature_id
 from wengua_quant.model import evaluate, fit, MODES, save_research_run
 
 
@@ -13,7 +13,8 @@ def fixture(root: Path):
     root.mkdir(parents=True, exist_ok=True)
     groups = {'p1.deity': 'palace_residents_season_void_horse',
               'role.tianxin_palace': 'conditional_signifiers',
-              'heuristic.star_power': 'fixed_user_heuristics'}
+              'heuristic.star_power': 'fixed_user_heuristics',
+              'heuristic.role_edge.doctor_marker.illness_marker.control_matrix_result': 'fixed_user_heuristics'}
     entries = [{'feature_id': key, 'group': group, 'input_only': True,
                 'source_paths': ['src/wengua/original_source.py']} for key, group in groups.items()]
     (root / 'feature_catalog.json').write_text(json.dumps({'schema': 'professional_features_v2_test_synthetic',
@@ -43,7 +44,8 @@ def fixture(root: Path):
             i = int(r['event_family_id'].split('-')[-1])
             w.writerow({'case_id': r['case_id'], 'p1.deity': '值符' if i%2 else '白虎',
                         'role.tianxin_palace': str((i%8)+1),
-                        'heuristic.star_power': '极大' if i%2 else '小'})
+                        'heuristic.star_power': '极大' if i%2 else '小',
+                        'heuristic.role_edge.doctor_marker.illness_marker.control_matrix_result': '中等' if i%2 else '小'})
     (root / 'inventory.json').write_text(json.dumps({'source_sha256': SOURCE_SHA,
         'exported_rows': len(rows), 'exported_event_families': 8}), encoding='utf8')
     return rows
@@ -62,7 +64,7 @@ class PipelineTests(unittest.TestCase):
         cohort = load_v2_export(self.root)
         self.assertEqual(len(cohort.observations), 9)
         self.assertEqual(len({r.family for r in cohort.observations}), 8)
-        self.assertEqual(len(cohort.professional_groups), 3)
+        self.assertEqual(len(cohort.professional_groups), 4)
 
     def test_ablation_isolation(self):
         c = load_v2_export(self.root)
@@ -75,6 +77,9 @@ class PipelineTests(unittest.TestCase):
         self.assertIn('professional.role.tianxin_palace', row_features(r, c, 'professional_facts'))
         self.assertNotIn('professional.heuristic.star_power', row_features(r, c, 'professional_facts'))
         self.assertIn('professional.heuristic.star_power', row_features(r, c, 'professional'))
+        matrix_key = 'professional.heuristic.role_edge.doctor_marker.illness_marker.control_matrix_result'
+        self.assertNotIn(matrix_key, row_features(r, c, 'professional_facts'))
+        self.assertIn(matrix_key, row_features(r, c, 'professional'))
 
     def test_grouped_loo_research_only(self):
         c = load_v2_export(self.root)
@@ -111,6 +116,20 @@ class PipelineTests(unittest.TestCase):
         p.write_text(json.dumps(d), encoding='utf8')
         with self.assertRaisesRegex(ValueError, 'Unsafe'):
             load_v2_export(self.root)
+
+    def test_source_matrix_result_is_not_a_real_outcome(self):
+        good = 'heuristic.role_edge.doctor_marker.illness_marker.control_matrix_result'
+        self.assertFalse(_unsafe_feature_id(good, 'fixed_user_heuristics'))
+        self.assertTrue(_unsafe_feature_id(good, 'conditional_signifiers'))
+        for suspect in (
+            'heuristic.role_edge.future_label.illness_marker.control_matrix_result',
+            'heuristic.role_edge.doctor_marker.author_result.control_matrix_result',
+            'heuristic.role_edge.doctor_marker.illness_marker.control_matrix_result_future_label',
+            'role_edge.doctor_marker.illness_marker.control_matrix_result',
+            'heuristic.role_edge.doctor_marker.illness_marker.observed_result',
+        ):
+            with self.subTest(suspect=suspect):
+                self.assertTrue(_unsafe_feature_id(suspect, 'fixed_user_heuristics'))
 
     def test_reject_mismatched_archive(self):
         p = self.root / 'data/inventory.json'

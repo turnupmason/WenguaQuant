@@ -31,6 +31,22 @@ FORBIDDEN = re.compile(r'(label|outcome|result|feedback|verdict|conclusion|predi
                        r'event_family_id|case_id|section_key|source_book)', re.I)
 
 
+def _unsafe_feature_id(key: str, group: str) -> bool:
+    """Block outcome-bearing predictors, not the source's rule-matrix *result*.
+
+    WenguaApp V2 names its *computed traditional strength relation*
+    ``heuristic.role_edge.<source>.<target>.control_matrix_result``. It is
+    NOT an observed event result, and is allowed only in the fixed-heuristic
+    ablation group. Other occurrences of ``result``, including in a role
+    name, must still be rejected as possible target leakage.
+    """
+    candidate = key
+    if (group == 'fixed_user_heuristics'
+            and re.fullmatch(r'heuristic\.role_edge\.[a-z][a-z0-9_]*\.[a-z][a-z0-9_]*\.control_matrix_result', key)):
+        candidate = key.removesuffix('control_matrix_result') + 'control_matrix_value'
+    return bool(FORBIDDEN.search(candidate))
+
+
 @dataclass(frozen=True)
 class Observation:
     case_id: str
@@ -89,10 +105,10 @@ def load_v2_export(path: Path, *, expected_source_sha: str = SOURCE_SHA) -> Coho
     groups: dict[str, str] = {}
     for entry in entries:
         key, group = entry.get('feature_id'), entry.get('group')
-        if (not isinstance(key, str) or not key or FORBIDDEN.search(key)
+        if (not isinstance(key, str) or not key or _unsafe_feature_id(key, group)
                 or group not in SAFE_GROUPS or entry.get('input_only') is not True
                 or not entry.get('source_paths') or key in groups):
-            raise ValueError('Unsafe, missing-source, or duplicated feature catalog entry')
+            raise ValueError(f'Unsafe, missing-source, or duplicated feature catalog entry: {key!r} (group={group!r})')
         groups[key] = group
     with paths['flat_features.tsv'].open(encoding='utf8', newline='') as f:
         reader = csv.DictReader(f, delimiter='\t')

@@ -31,3 +31,9 @@ At current N≈11 independent lost-property events, grouped leave-one-event-fami
 ## Audit controls
 
 Runs write exclusively into newly named `local/runs/` directories, preserve failures, hash input files, and retain per-fold group-held-out predictions and comparison metrics. `production_enabled=false` hardcoded in reports. Unit tests are **synthetic software fixtures**, never additional historical validation cases. A new dataset/source version must be reviewed and pinned explicitly; no automatic promotion to production.
+
+## Source naming collision and permanent negative case (2026-11-03)
+
+Source V2 uses the literal name `control_matrix_result` to describe **a traditional, pre-question rule-matrix calculation**, not the subsequently reported real-world event result. Its complete feature ID is `heuristic.role_edge.<source_role>.<target_role>.control_matrix_result`. Because a generic forbidden-word check matched the substring `result`, the first real Mac export was refused after 194 records and 4,606 features were exported. The revised validator allows only this exact role-edge shape when the source group is `fixed_user_heuristics`; the rest of the feature name is still scanned for forbidden outcome terms. This field is available only in the full `professional` ablation, never in `professional_facts`. Do **not** generalize this exception to arbitrary keys ending in `result`, and do **not** relabel it as an empirically learned observed outcome.
+
+The diagnostic export failure is retained as a failure, not reported as a successful training experiment. A synthetic fixture exercises the source field and malicious lookalikes. Passing tests does not establish acceptance of every field in the historical 4,606-feature catalog; that requires the user's fresh real export on Mac and report inspection.
