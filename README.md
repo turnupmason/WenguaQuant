@@ -69,3 +69,8 @@ python -m wengua_quant.audit local/runs/20261103T164538_321806Z
 ```
 
 完整逐案失败模式和避免在已知11个案例上反复调参的约束：`docs/audits/LOST_PROPERTY_MAC_PILOT_DIAGNOSTIC_20261103.md`。
+
+
+## Independent Wengua Master V3 model-data curriculum
+
+WenguaQuant now also hosts an **isolated** traditional Qwen SFT data-preparation track under [wengua_master_v3/](wengua_master_v3/), completely separate from the existing observed-outcome `wengua_quant/` pipeline. Public [V3 introduction](docs/master_v3/README.md), [dataset audit](docs/master_v3/V3_DATA_AUDIT_20261104.md) and [1,024 hypothetical palace relation drills](data/master_v3/public_rule_drills.jsonl) are available. The 12-case/55-author-step/20-QA workbook-derived source-study bundle remains private and user-downloadable; it is not published as verbatim ancient book data and does not imply true foreknowledge. See audit for exact 87 candidate tasks and family holdouts. Original WenguaApp V2 13,341-dialogue course and all frozen iOS scoring remain unchanged.
