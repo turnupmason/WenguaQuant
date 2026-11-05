@@ -1,0 +1,275 @@
+{
+  "conclusion": "success",
+  "headSha": "1b224be37ea554444c96619c4c941ad1b79b7af3",
+  "jobs": [
+    {
+      "completedAt": "2026-11-05T22:13:46Z",
+      "conclusion": "success",
+      "databaseId": 127567768209,
+      "name": "research-contract (windows-latest, 3.11)",
+      "startedAt": "2026-11-05T22:12:28Z",
+      "status": "completed",
+      "steps": [
+        {
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/setup-python@v5",
+          "number": 3,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run python -m pip install --upgrade pip",
+          "number": 4,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run python -m pip install -r requirements.txt",
+          "number": 5,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Real software checks with explicitly synthetic fixtures (not real-case validation)",
+          "number": 6,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@v5",
+          "number": 11,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 12,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 13,
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/turnupmason/WenguaQuant/actions/runs/42119480901/job/127567768209",
+      "log": "42119480901_127567768209.log.gz",
+      "uncompressed_sha256": "b1893c90d2077f0c2867fdca771ec83db48354dbc00121e29c1fdd718a75c15b"
+    },
+    {
+      "completedAt": "2026-11-05T22:13:25Z",
+      "conclusion": "success",
+      "databaseId": 127567768529,
+      "name": "research-contract (ubuntu-latest, 3.12)",
+      "startedAt": "2026-11-05T22:12:28Z",
+      "status": "completed",
+      "steps": [
+        {
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/setup-python@v5",
+          "number": 3,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run python -m pip install --upgrade pip",
+          "number": 4,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run python -m pip install -r requirements.txt",
+          "number": 5,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Real software checks with explicitly synthetic fixtures (not real-case validation)",
+          "number": 6,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@v5",
+          "number": 11,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 12,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 13,
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/turnupmason/WenguaQuant/actions/runs/42119480901/job/127567768529",
+      "log": "42119480901_127567768529.log.gz",
+      "uncompressed_sha256": "0e6eed8410c2e8e537483bea72c39862da8366725a9ea5f68c41efcdcc6be2b3"
+    },
+    {
+      "completedAt": "2026-11-05T22:14:04Z",
+      "conclusion": "success",
+      "databaseId": 127567768819,
+      "name": "research-contract (windows-latest, 3.12)",
+      "startedAt": "2026-11-05T22:12:28Z",
+      "status": "completed",
+      "steps": [
+        {
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/setup-python@v5",
+          "number": 3,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run python -m pip install --upgrade pip",
+          "number": 4,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run python -m pip install -r requirements.txt",
+          "number": 5,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Real software checks with explicitly synthetic fixtures (not real-case validation)",
+          "number": 6,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@v5",
+          "number": 11,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 12,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 13,
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/turnupmason/WenguaQuant/actions/runs/42119480901/job/127567768819",
+      "log": "42119480901_127567768819.log.gz",
+      "uncompressed_sha256": "692106a062548a222e50ba5650b1bc741bd57efd90a2f699c1e04e045faafeca"
+    },
+    {
+      "completedAt": "2026-11-05T22:12:53Z",
+      "conclusion": "success",
+      "databaseId": 127567769355,
+      "name": "research-contract (ubuntu-latest, 3.11)",
+      "startedAt": "2026-11-05T22:12:28Z",
+      "status": "completed",
+      "steps": [
+        {
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/setup-python@v5",
+          "number": 3,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run python -m pip install --upgrade pip",
+          "number": 4,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run python -m pip install -r requirements.txt",
+          "number": 5,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Real software checks with explicitly synthetic fixtures (not real-case validation)",
+          "number": 6,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@v5",
+          "number": 11,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 12,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 13,
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/turnupmason/WenguaQuant/actions/runs/42119480901/job/127567769355",
+      "log": "42119480901_127567769355.log.gz",
+      "uncompressed_sha256": "bbc32ebd0b75c4c78e5927086af0cd0a33db6c38baf8ac2bf04f6bd77b0bf40f"
+    }
+  ],
+  "url": "https://github.com/turnupmason/WenguaQuant/actions/runs/42119480901"
+}

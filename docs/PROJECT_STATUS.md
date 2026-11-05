@@ -30,3 +30,6 @@
 ### 2026-11-04 · Wengua Master V3 first data migration (separate Qwen curriculum)
 
 New isolated `wengua_master_v3` data prep, plus 1,024 public hypothetical directional palace exercises and source-safe workbook inventory in `data/master_v3`; 12 user-supplied source health case IDs, 55 author paragraphs, 20 knowledge QAs. Local private source-study candidates **87 = 74 train + 13 test**, NOT published as original texts. Original flags all `未审`, manual expert columns blank, user authorizes using Codex compilation as source research. No fresh full nine-palace expert prediction gold; old V2 Qwen 13,341 tasks and old outcome statistics unchanged. SHA receipts and withheld private source boundaries in [V3 audit](master_v3/V3_DATA_AUDIT_20261104.md). New real GitHub CI to be checked against target commit; local software unit tests on the staged toolkit passed, no new 14B/32B GPU fit or Xcode build performed. Private 194-case SQLite absent from this runtime; V2 author-export adapter is opt-in read-only on the user's machine.
+
+
+本批最终验收：23项软件回归通过；完整恢复后，11913核心记录与7614材料逐条存库读回相等，194案、1008分析均保留，所有分析source_id有效。本批574材料、509候选课程、54结构、11疑点全部处置；标题不作内容问答。源码1b224be的Windows/Linux×Python3.11/3.12四工作均success；WenguaApp数据归属指针b41d335e的两个Python工作success，完整日志在docs/corpus_audits/20261105_batch02/。原起盘和V5.1的49项运行文件哈希不变。候选不是已完成训练或独立预测验证。

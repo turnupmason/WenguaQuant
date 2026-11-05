@@ -1,0 +1,31 @@
+{
+  "uploaded_bytes": 78571,
+  "uploaded_characters": 26755,
+  "material_units": 574,
+  "core_candidates": 509,
+  "context_only_units": 54,
+  "quarantined_units": 11,
+  "each_material_has_explicit_disposition": true,
+  "each_core_maps_to_material_and_rag": true,
+  "new_real_cases": 0,
+  "new_case_analysis_records": 0,
+  "stem_pair_rows": 81,
+  "star_hour_rows": 108,
+  "door_matrix_counts": {
+    "【动应】": 64,
+    "【静应】": 62
+  },
+  "missing_door_matrix_cells": {
+    "【动应】": [],
+    "【静应】": [
+      "伤生",
+      "死杜"
+    ]
+  },
+  "cumulative_rag_documents": 5929,
+  "cumulative_cases": 194,
+  "cumulative_sections": 45,
+  "legacy_manual_scores_used_as_teacher": false,
+  "current_training_changed": false,
+  "file_title_only_core_removed": 1
+}

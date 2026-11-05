@@ -1,0 +1,693 @@
+{
+  "conclusion": "success",
+  "headSha": "b41d335e00fd75a294e195c1cabad85331d9baa2",
+  "jobs": [
+    {
+      "completedAt": "2026-11-05T22:13:27Z",
+      "conclusion": "success",
+      "databaseId": 127567855507,
+      "name": "v80_current (3.11)",
+      "startedAt": "2026-11-05T22:12:39Z",
+      "status": "completed",
+      "steps": [
+        {
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/setup-python@v5",
+          "number": 3,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Independent probability research contracts and read-only cohort (stdlib)",
+          "number": 4,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Independent Qwen32B source preparation, event isolation and cited retrieval (stdlib)",
+          "number": 5,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Read-only book validation review, source fidelity and no final-test export",
+          "number": 6,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Independent pinned 8B profile, pressure protocol and real stdlib worker transport",
+          "number": 7,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "8B native exit status, stderr tee, timeout and unchanged non-worker subprocess contracts",
+          "number": 8,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Encrypted private delivery hash, authentication and no-overwrite contracts",
+          "number": 9,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Reviewed course private release, family isolation and fresh worker contracts",
+          "number": 10,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Lossless compressed historical source restoration",
+          "number": 11,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Independent WenguaApp source RAG, phase boundaries and existing time-casting delegates",
+          "number": 12,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V5.1 evidence-visible repair, no hidden feedback targets and preserved V4 contracts",
+          "number": 13,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete v5 source dispatch, scope, holdout and independent worker contracts",
+          "number": 14,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Verify sealed V9 scoring V11 wording and V27 site release",
+          "number": 15,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Disease recovery V4 independent five-path source witness and date-only reading",
+          "number": 16,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Disease recovery V3 source conditions calendar and enabled route",
+          "number": 17,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete Yin/Yang 9 bureaus x 60 hours center-door host source invariants",
+          "number": 18,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Health site/discomfort independent research rules and explicit disabled iOS UI",
+          "number": 19,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V19 native site/source rank, full nine-stage evidence and real family gate (Python 3.11/3.12)",
+          "number": 20,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Explicit injury gate on real clocks and both surgery conditions",
+          "number": 21,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V11 body-discomfort standalone draft real chart and actor contract",
+          "number": 22,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Body location inner outer yin yang source candidate real chart regression",
+          "number": 23,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V13 body-region, illness-versus-patient door and three carriers 1080 actual charts",
+          "number": 24,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V14 cross-book source variants 255 workbook and 1080 true-char directional gates",
+          "number": 25,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "External body-location note draft integrity and no medical conclusions",
+          "number": 26,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Current V8.0 original 5x5 power and 72 cohost rules",
+          "number": 27,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "All eight role complete environments, pairs, triples and palace restrictions",
+          "number": 28,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "No deprecated customer wording or obsolete source metadata in live iPhone app",
+          "number": 29,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Premium iOS result screen source contract",
+          "number": 30,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Immersive offline iPhone journey, frozen V8 and role UI contract",
+          "number": 31,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Health V8.0 branded verdict and ten-grade customer-only copy",
+          "number": 32,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Disease-only independent Tianrui/Tianqin 81 source and cohost contract",
+          "number": 33,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "2026-10-28 13:44 same-clock self and colleague source audit",
+          "number": 34,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V8 grandparent real roles and 0 verdict",
+          "number": 35,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Real 200-grid centered palace and elder-only Qian Kun source contract",
+          "number": 36,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Mac launch helper shell syntax (display/build only)",
+          "number": 37,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Device viewport and fixed nine-palace source UI layout",
+          "number": 38,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Tianxian per-unique-palace floor-once and permanent Kun-2 centre-earth host",
+          "number": 39,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Confirm friend direct proxy and concise actual V8 same-clock customer text",
+          "number": 40,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V11 friend-month-only versus four real family sibling auxiliary palaces",
+          "number": 41,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Geng Xun dual-stage source 12-month regression",
+          "number": 42,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Six-Jia all four columns source-identity regression",
+          "number": 43,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Historical father Jia failures converted to approved rule regressions",
+          "number": 44,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V10.2 decisive facts concise verdict regression",
+          "number": 45,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V10.1 true-symbol prose dedup regression",
+          "number": 46,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "User-approved Tianxian/Fuyin and permanent Kun narrated from one editable template",
+          "number": 47,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Real source/snapshot Important byte integrity",
+          "number": 48,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Twelve manually pending prewritten prose candidates obey frozen score map",
+          "number": 49,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "GPT editorial V1 1080-index and 12 real-fact immutability guard",
+          "number": 50,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Persisted 1080 full physical plate, void and source81 coverage",
+          "number": 51,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Existing database schema and 1080 index smoke",
+          "number": 52,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@v5",
+          "number": 103,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 104,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 105,
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/turnupmason/WenguaApp/actions/runs/42119506044/job/127567855507",
+      "log": "42119506044_127567855507.log.gz",
+      "uncompressed_sha256": "bb6585cbabb18cfd14fddd7613ab85799ca4e74372a834a773abbb9365c107af"
+    },
+    {
+      "completedAt": "2026-11-05T22:13:20Z",
+      "conclusion": "success",
+      "databaseId": 127567855913,
+      "name": "v80_current (3.12)",
+      "startedAt": "2026-11-05T22:12:38Z",
+      "status": "completed",
+      "steps": [
+        {
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/setup-python@v5",
+          "number": 3,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Independent probability research contracts and read-only cohort (stdlib)",
+          "number": 4,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Independent Qwen32B source preparation, event isolation and cited retrieval (stdlib)",
+          "number": 5,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Read-only book validation review, source fidelity and no final-test export",
+          "number": 6,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Independent pinned 8B profile, pressure protocol and real stdlib worker transport",
+          "number": 7,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "8B native exit status, stderr tee, timeout and unchanged non-worker subprocess contracts",
+          "number": 8,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Encrypted private delivery hash, authentication and no-overwrite contracts",
+          "number": 9,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Reviewed course private release, family isolation and fresh worker contracts",
+          "number": 10,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Lossless compressed historical source restoration",
+          "number": 11,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Independent WenguaApp source RAG, phase boundaries and existing time-casting delegates",
+          "number": 12,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V5.1 evidence-visible repair, no hidden feedback targets and preserved V4 contracts",
+          "number": 13,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete v5 source dispatch, scope, holdout and independent worker contracts",
+          "number": 14,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Verify sealed V9 scoring V11 wording and V27 site release",
+          "number": 15,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Disease recovery V4 independent five-path source witness and date-only reading",
+          "number": 16,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Disease recovery V3 source conditions calendar and enabled route",
+          "number": 17,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete Yin/Yang 9 bureaus x 60 hours center-door host source invariants",
+          "number": 18,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Health site/discomfort independent research rules and explicit disabled iOS UI",
+          "number": 19,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V19 native site/source rank, full nine-stage evidence and real family gate (Python 3.11/3.12)",
+          "number": 20,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Explicit injury gate on real clocks and both surgery conditions",
+          "number": 21,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V11 body-discomfort standalone draft real chart and actor contract",
+          "number": 22,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Body location inner outer yin yang source candidate real chart regression",
+          "number": 23,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V13 body-region, illness-versus-patient door and three carriers 1080 actual charts",
+          "number": 24,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V14 cross-book source variants 255 workbook and 1080 true-char directional gates",
+          "number": 25,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "External body-location note draft integrity and no medical conclusions",
+          "number": 26,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Current V8.0 original 5x5 power and 72 cohost rules",
+          "number": 27,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "All eight role complete environments, pairs, triples and palace restrictions",
+          "number": 28,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "No deprecated customer wording or obsolete source metadata in live iPhone app",
+          "number": 29,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Premium iOS result screen source contract",
+          "number": 30,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Immersive offline iPhone journey, frozen V8 and role UI contract",
+          "number": 31,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Health V8.0 branded verdict and ten-grade customer-only copy",
+          "number": 32,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Disease-only independent Tianrui/Tianqin 81 source and cohost contract",
+          "number": 33,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "2026-10-28 13:44 same-clock self and colleague source audit",
+          "number": 34,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V8 grandparent real roles and 0 verdict",
+          "number": 35,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Real 200-grid centered palace and elder-only Qian Kun source contract",
+          "number": 36,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Mac launch helper shell syntax (display/build only)",
+          "number": 37,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Device viewport and fixed nine-palace source UI layout",
+          "number": 38,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Tianxian per-unique-palace floor-once and permanent Kun-2 centre-earth host",
+          "number": 39,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Confirm friend direct proxy and concise actual V8 same-clock customer text",
+          "number": 40,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V11 friend-month-only versus four real family sibling auxiliary palaces",
+          "number": 41,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Geng Xun dual-stage source 12-month regression",
+          "number": 42,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Six-Jia all four columns source-identity regression",
+          "number": 43,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Historical father Jia failures converted to approved rule regressions",
+          "number": 44,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V10.2 decisive facts concise verdict regression",
+          "number": 45,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "V10.1 true-symbol prose dedup regression",
+          "number": 46,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "User-approved Tianxian/Fuyin and permanent Kun narrated from one editable template",
+          "number": 47,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Real source/snapshot Important byte integrity",
+          "number": 48,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Twelve manually pending prewritten prose candidates obey frozen score map",
+          "number": 49,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "GPT editorial V1 1080-index and 12 real-fact immutability guard",
+          "number": 50,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Persisted 1080 full physical plate, void and source81 coverage",
+          "number": 51,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Existing database schema and 1080 index smoke",
+          "number": 52,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@v5",
+          "number": 103,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 104,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 105,
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/turnupmason/WenguaApp/actions/runs/42119506044/job/127567855913",
+      "log": "42119506044_127567855913.log.gz",
+      "uncompressed_sha256": "3b824025a134a4953a9e32eb77966859e651bce88230af45443ed1b8f61f65d5"
+    }
+  ],
+  "url": "https://github.com/turnupmason/WenguaApp/actions/runs/42119506044"
+}
