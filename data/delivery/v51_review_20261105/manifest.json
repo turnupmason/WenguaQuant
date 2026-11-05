@@ -1,0 +1,8 @@
+{
+  "file": "data/delivery/v51_review_20261105/delivery.enc",
+  "archive_name": "Wengua_V51_逐轮审核_20261105.zip",
+  "archive_sha256": "976043cd1091981715b69ade702e4063dc9e50762cbd0aabeb1aec2156771b1d",
+  "ciphertext_sha256": "0350adb83db2e6432001a34a8cd72f5a7ce9a1af98ad098a158c6b6c6aa2f7ea",
+  "private_key_published": false,
+  "purpose": "evaluation_only_not_classical_source_or_SFT"
+}

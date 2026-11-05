@@ -90,6 +90,48 @@
         "coverage.json": "5101523b49a750caf84ddc420a950e24152a407b700a74dabda0fea38acff3bb"
       },
       "library": "sources.json.gz"
+    },
+    {
+      "id": "v51_review",
+      "manifest": "data/delivery/v51_review_20261105/manifest.json",
+      "destination": "local/reviews/v51_20261105",
+      "files": {
+        "README.txt": "027eeaeb731af81641fadae16100ee86e7ce45f92581e1d53c9f2e69aa3ebb34",
+        "Wengua_V51_逐题逐轮审核.html": "28a06817d8add7f7b66444cc0a41f917a68e6984c9171bc29ef171000c9bc959",
+        "Wengua_V51_逐题逐轮审核.xlsx": "bcb908ff92df47e885438e8ba5f7aee52ee377d6f98655883466a66d1be3a5a6",
+        "all_66_task_reviews.json": "ef0ecaafa7043f99f0bd05fbe660be49e3394018d4eb5e2ff3e1476177748e1b",
+        "audit.json": "cfeefcee288676d694cb04ae9e3de533c912df1fcec7cc8e453957cffca0ca1a",
+        "excel_readback.json": "b22291d5fdd8e966dc06295a7af2945d98a04a400d8439867ddec320eb9126e4",
+        "public_summary.json": "c83a34563e7671ec4852751ac8f5302fd1b674eb06027a6ecf056877d0729f95",
+        "repair_scope.json": "90939f6bb660fc4c83f723ad2321a662f4a782f638cb056741a8397b2b99a259",
+        "retrieval_diagnostics.json": "181c199862b960c0bc093f192294656a7470c5121e7c1f27fd219e1336a036af",
+        "reviewed_source_units.json": "51f15e10a880a6015442776170d5c6bf84ff5b6cfefb4301d4c841d879515c84",
+        "upload_provenance.json": "a57e5e73e7b3e4305122d13e4626e73fc02a933a1de5404e31a26376be93b76c",
+        "审核报告.md": "1e1b683d656c96081563083bd801fa040fd835f9edaa66e718c70104bc270906",
+        "input/parent_provenance.json": "1a1f230b1b486aa7dad3c097a7213aba58666a8bcd4f0f83ac0f267aee7b81a5",
+        "input/phase_status.json": "8da79ad9d5b76575093235fae54574fde4c170d6474dac21c77e12d26a051e21",
+        "input/results.html": "a63ab90f4c127a2f51307632d3cb1a6fc8efa6f02174f381598e0edc316a6a5c",
+        "input/sweep_contract.json": "3e9a973fcf560170a2f93efc25f599b25834d2bc4034c3aa0cfbb973135c2ad0",
+        "input/trials/inherited_repair/cycle_01/epoch_history.json": "634ac735e08158a5c661b340c30440537adafde408f979c3f5f05fe0980c17b4",
+        "input/trials/inherited_repair/cycle_01/stage_status.json": "8da79ad9d5b76575093235fae54574fde4c170d6474dac21c77e12d26a051e21",
+        "input/trials/inherited_repair/generations/epoch_01_seen_diagnostics.jsonl": "fcf0619dc34099b541abd90948e8289b6d3921092b12edab634846b38dd09c3a",
+        "input/trials/inherited_repair/generations/epoch_01_validation.jsonl": "dfeeb02ec10ad8c1f7b036444100e603cd4aac74480f5eef32e89f1247ea84db",
+        "input/trials/inherited_repair/generations/epoch_02_seen_diagnostics.jsonl": "ce0342c10c081eb16927b7dee1d103286b0250601517a043c5e800cb17b415a7",
+        "input/trials/inherited_repair/generations/epoch_02_validation.jsonl": "06c3f04c5c22bdea647ed6629da41ad75765f5da0bcad68c03b0be76d9536277",
+        "input/trials/inherited_repair/generations/parent_seen_diagnostics.jsonl": "77068b766f1033f4124e31cfdead919a94903332109132e2cd4c5c82165e307b",
+        "input/trials/inherited_repair/generations/validation_base.jsonl": "303b16b83631815d033f250221f32a8f82cf62f37c4075160d80f9c2443b5b8d",
+        "input/trials/inherited_repair/generations/validation_parent.jsonl": "a49ecc72d6614ae3981104ad78e8d87f22b3f852a0dce0571f742d2564dea1ed",
+        "input/trials/inherited_repair/job_contract.json": "39f0334eef940f965b93f26f77884ac75bc53b83d37e297ed430974970accad3",
+        "input/trials/inherited_repair/results.html": "a63ab90f4c127a2f51307632d3cb1a6fc8efa6f02174f381598e0edc316a6a5c",
+        "input/trials/inherited_repair/smoke/epoch_history.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "input/trials/inherited_repair/smoke/stage_status.json": "c90d16d6ecd3298a5fd31974e642a2197685bd87de33254a47242c04546f2372",
+        "source_recipe/build_review.py": "eea0cb3fac8944da6daaef918d520a252f38e8fe36525b50244ad08b2073ec96",
+        "source_recipe/review_notes.py": "d335fc303bbd29e044306b0f05056d0269f024e8bd7b29ec04ff242a8169e885",
+        "original_upload.zip": "026468ee8d6d02186ebf1928689a6ed5ae2edd40ec5cc9dac657ee12816f595b"
+      },
+      "library": null,
+      "optional": true,
+      "purpose": "evaluation_only_exclude_from_knowledge_and_training"
     }
   ]
 }

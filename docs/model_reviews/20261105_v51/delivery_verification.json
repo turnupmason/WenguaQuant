@@ -1,0 +1,16 @@
+{
+  "original_upload": "Wengua_V51_review_20261105_173454.zip",
+  "bytes": 558047,
+  "sha256": "026468ee8d6d02186ebf1928689a6ed5ae2edd40ec5cc9dac657ee12816f595b",
+  "original_upload_members": 17,
+  "generation_records": 235,
+  "reviewed_distinct_tasks": 66,
+  "frozen_course_or_weights_modified": false,
+  "archive_members": 32,
+  "all_members_authenticated_decrypted_and_hash_verified": true,
+  "catalog_library": null,
+  "training_started": false,
+  "original_input_paths_preserved": true,
+  "workbook_cells_read_back": 6213,
+  "local_software_tests": "see software verification / actual CI separately"
+}

@@ -1,0 +1,347 @@
+{
+  "schema": "wengua_v51_uploaded_run_review_20261105",
+  "upload_files": 17,
+  "outputs": 235,
+  "distinct_tasks": 66,
+  "prompt_target_matches": 235,
+  "phase_history_agree": true,
+  "runtime_source_hash_comparison": {
+    "exact": 16,
+    "windows_CRLF": 33
+  },
+  "dataset_release_matches_after_line_ending_normalization": true,
+  "source_database_sha256": "21362e6f0266c03dcdc4a7ef35f45954ba274ae6458de0ba341132abca7d0405",
+  "state": "complete",
+  "steps": 1284,
+  "epochs": [
+    {
+      "epoch": 1.0,
+      "steps": 642,
+      "validation_loss": 1.7177809446584433,
+      "per_format_loss": {
+        "chart_application": 0.008128362707793713,
+        "complete_case": 0.2806134521961212,
+        "conditional_dialogue": 3.331847906112671,
+        "foundation_qa": 3.2505340576171875
+      }
+    },
+    {
+      "epoch": 2.0,
+      "steps": 1284,
+      "validation_loss": 1.7032603324623778,
+      "per_format_loss": {
+        "chart_application": 0.005523235071450472,
+        "complete_case": 0.2690139710903168,
+        "conditional_dialogue": 3.2996723651885986,
+        "foundation_qa": 3.2388317584991455
+      }
+    }
+  ],
+  "base_validation_loss": 4.838495373725891,
+  "parent_validation_loss": 2.17047618329525,
+  "generation_files": {
+    "epoch_01_seen_diagnostics.jsonl": {
+      "outputs": 29,
+      "exact_text_matches_not_semantic_accuracy": 8,
+      "empty": 0,
+      "token_cap_hits": 0,
+      "mean_answer_chars": 31.24,
+      "max_input_tokens": 2102,
+      "formats": {
+        "foundation_qa": 6,
+        "conditional_dialogue": 11,
+        "chart_application": 6,
+        "complete_case": 6
+      },
+      "tasks": {
+        "reviewed_rule": 2,
+        "conditional_timing_reading": 2,
+        "ordered_pair_name": 2,
+        "literal_reference_table": 2,
+        "condition_followup": 1,
+        "printed_star_location": 6,
+        "author_analysis_review": 6,
+        "chronology_review": 3,
+        "case_error_correction": 1,
+        "ordered_name_error_correction": 2,
+        "ordered_pair_condition_followup": 2
+      }
+    },
+    "epoch_01_validation.jsonl": {
+      "outputs": 37,
+      "exact_text_matches_not_semantic_accuracy": 21,
+      "empty": 0,
+      "token_cap_hits": 0,
+      "mean_answer_chars": 69.76,
+      "max_input_tokens": 985,
+      "formats": {
+        "chart_application": 20,
+        "complete_case": 12,
+        "conditional_dialogue": 2,
+        "foundation_qa": 3
+      },
+      "tasks": {
+        "printed_star_location": 8,
+        "author_step_attributed_review": 4,
+        "case_error_correction": 1,
+        "complete_source_rule_reading": 1,
+        "all_fields_literal_chart_cell": 9,
+        "supplementary_attributed_case_source": 7,
+        "chronology_review": 1,
+        "reviewed_rule": 2,
+        "real_chart_directed_relation": 3,
+        "author_analysis_review": 1
+      }
+    },
+    "epoch_02_seen_diagnostics.jsonl": {
+      "outputs": 29,
+      "exact_text_matches_not_semantic_accuracy": 9,
+      "empty": 0,
+      "token_cap_hits": 1,
+      "mean_answer_chars": 66.62,
+      "max_input_tokens": 2102,
+      "formats": {
+        "foundation_qa": 6,
+        "conditional_dialogue": 11,
+        "chart_application": 6,
+        "complete_case": 6
+      },
+      "tasks": {
+        "reviewed_rule": 2,
+        "conditional_timing_reading": 2,
+        "ordered_pair_name": 2,
+        "literal_reference_table": 2,
+        "condition_followup": 1,
+        "printed_star_location": 6,
+        "author_analysis_review": 6,
+        "chronology_review": 3,
+        "case_error_correction": 1,
+        "ordered_name_error_correction": 2,
+        "ordered_pair_condition_followup": 2
+      }
+    },
+    "epoch_02_validation.jsonl": {
+      "outputs": 37,
+      "exact_text_matches_not_semantic_accuracy": 20,
+      "empty": 0,
+      "token_cap_hits": 0,
+      "mean_answer_chars": 54.54,
+      "max_input_tokens": 985,
+      "formats": {
+        "chart_application": 20,
+        "complete_case": 12,
+        "conditional_dialogue": 2,
+        "foundation_qa": 3
+      },
+      "tasks": {
+        "printed_star_location": 8,
+        "author_step_attributed_review": 4,
+        "case_error_correction": 1,
+        "complete_source_rule_reading": 1,
+        "all_fields_literal_chart_cell": 9,
+        "supplementary_attributed_case_source": 7,
+        "chronology_review": 1,
+        "reviewed_rule": 2,
+        "real_chart_directed_relation": 3,
+        "author_analysis_review": 1
+      }
+    },
+    "parent_seen_diagnostics.jsonl": {
+      "outputs": 29,
+      "exact_text_matches_not_semantic_accuracy": 4,
+      "empty": 0,
+      "token_cap_hits": 1,
+      "mean_answer_chars": 71.79,
+      "max_input_tokens": 2102,
+      "formats": {
+        "foundation_qa": 6,
+        "conditional_dialogue": 11,
+        "chart_application": 6,
+        "complete_case": 6
+      },
+      "tasks": {
+        "reviewed_rule": 2,
+        "conditional_timing_reading": 2,
+        "ordered_pair_name": 2,
+        "literal_reference_table": 2,
+        "condition_followup": 1,
+        "printed_star_location": 6,
+        "author_analysis_review": 6,
+        "chronology_review": 3,
+        "case_error_correction": 1,
+        "ordered_name_error_correction": 2,
+        "ordered_pair_condition_followup": 2
+      }
+    },
+    "validation_base.jsonl": {
+      "outputs": 37,
+      "exact_text_matches_not_semantic_accuracy": 0,
+      "empty": 0,
+      "token_cap_hits": 0,
+      "mean_answer_chars": 333.54,
+      "max_input_tokens": 985,
+      "formats": {
+        "chart_application": 20,
+        "complete_case": 12,
+        "conditional_dialogue": 2,
+        "foundation_qa": 3
+      },
+      "tasks": {
+        "printed_star_location": 8,
+        "author_step_attributed_review": 4,
+        "case_error_correction": 1,
+        "complete_source_rule_reading": 1,
+        "all_fields_literal_chart_cell": 9,
+        "supplementary_attributed_case_source": 7,
+        "chronology_review": 1,
+        "reviewed_rule": 2,
+        "real_chart_directed_relation": 3,
+        "author_analysis_review": 1
+      }
+    },
+    "validation_parent.jsonl": {
+      "outputs": 37,
+      "exact_text_matches_not_semantic_accuracy": 0,
+      "empty": 0,
+      "token_cap_hits": 0,
+      "mean_answer_chars": 50.97,
+      "max_input_tokens": 985,
+      "formats": {
+        "chart_application": 20,
+        "complete_case": 12,
+        "conditional_dialogue": 2,
+        "foundation_qa": 3
+      },
+      "tasks": {
+        "printed_star_location": 8,
+        "author_step_attributed_review": 4,
+        "case_error_correction": 1,
+        "complete_source_rule_reading": 1,
+        "all_fields_literal_chart_cell": 9,
+        "supplementary_attributed_case_source": 7,
+        "chronology_review": 1,
+        "reviewed_rule": 2,
+        "real_chart_directed_relation": 3,
+        "author_analysis_review": 1
+      }
+    }
+  },
+  "formal_validation_event_families": 1,
+  "formal_validation_variants": 37,
+  "seen_diagnostic_tasks": 29,
+  "seen_original_splits": {
+    "train": 13,
+    "validation": 16
+  },
+  "training_records": 10173,
+  "training_formats": {
+    "chart_application": {
+      "records": 3775,
+      "target_chars": 55575,
+      "mean_target_chars": 14.72,
+      "task_counts": {
+        "directed_palace_relation": 72,
+        "palace_stem_growth": 80,
+        "printed_star_location": 1135,
+        "complete_table_cell_reading": 145,
+        "all_fields_literal_chart_cell": 1296,
+        "unparsed_case_table_literal_cell": 443,
+        "literal_source_table_cell": 233,
+        "real_chart_directed_relation": 371
+      }
+    },
+    "complete_case": {
+      "records": 2929,
+      "target_chars": 281368,
+      "mean_target_chars": 96.06,
+      "task_counts": {
+        "author_analysis_review": 152,
+        "author_step_attributed_review": 802,
+        "supplementary_attributed_case_source": 1974,
+        "reviewed_short_source_proposition": 1
+      }
+    },
+    "conditional_dialogue": {
+      "records": 686,
+      "target_chars": 26755,
+      "mean_target_chars": 39.0,
+      "task_counts": {
+        "conditional_timing_reading": 15,
+        "condition_followup": 10,
+        "chronology_review": 152,
+        "case_error_correction": 152,
+        "outcome_conditioned_timing": 14,
+        "source_difference_correction": 2,
+        "reviewed_short_source_proposition": 7,
+        "ordered_name_error_correction": 80,
+        "ordered_pair_condition_followup": 80,
+        "number_system_contrast": 5,
+        "scoped_method_application": 1,
+        "cross_method_error_correction": 1,
+        "omitted_slot_correction": 1,
+        "identity_switch_multiturn": 9,
+        "identity_required_followup": 1,
+        "missing_feedback_boundary": 152,
+        "weather_dimensions_correction": 1,
+        "weather_condition_priority": 1,
+        "weather_missing_condition": 1,
+        "weather_no_unstated_sky_condition": 1
+      }
+    },
+    "foundation_qa": {
+      "records": 2783,
+      "target_chars": 224760,
+      "mean_target_chars": 80.76,
+      "task_counts": {
+        "reviewed_rule": 689,
+        "ordered_pair_name": 80,
+        "literal_reference_table": 64,
+        "literal_stem_growth": 120,
+        "trigram_facet": 87,
+        "stem_facet": 65,
+        "branch_facet": 69,
+        "door_facet": 15,
+        "star_facet": 21,
+        "deity_facet": 17,
+        "ordered_stem_conditions": 161,
+        "ordered_door_rule": 136,
+        "formation_complete_conditions": 55,
+        "three_zha_conditions": 1,
+        "five_jia_common_conditions": 1,
+        "five_jia_complete_conditions": 5,
+        "body_surface_internal_analogy": 8,
+        "body_rough_analogy": 1,
+        "month_pair_terms_with_boundary": 12,
+        "branch_double_hour": 12,
+        "xun_members_void": 6,
+        "reference_dates": 12,
+        "six_jia_source_explanation": 6,
+        "twelve_growth_source_table": 9,
+        "door_domain_facet": 8,
+        "hour_branch_horse": 4,
+        "guest_host_dimension": 9,
+        "complete_source_rule_reading": 1009,
+        "context_required_fragment": 13,
+        "source_scope_and_evidence_boundary": 19,
+        "table_explanatory_rule": 34,
+        "recovered_short_source_rule": 19,
+        "reviewed_short_source_proposition": 8,
+        "hetu_exact_slots": 5,
+        "hetu_error_correction": 1,
+        "scoped_method_slots": 1,
+        "complete_requested_slots": 1
+      }
+    }
+  },
+  "title_only_split_counts": {
+    "train": 20,
+    "test": 1,
+    "validation": 3
+  },
+  "conflicting_exact_training_prompt_groups": 0,
+  "final_test_supplied": false,
+  "weights_supplied": false,
+  "per_step_logs_supplied": false,
+  "semantic_model_winner_approved": false,
+  "frozen_course_or_weights_modified": false
+}
