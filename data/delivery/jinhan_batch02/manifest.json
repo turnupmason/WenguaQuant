@@ -1,7 +1,7 @@
 {
   "file": "data/delivery/jinhan_batch02/delivery.enc",
-  "archive_name": "WenguaQuant_金函卷一至四_批次02.zip",
-  "archive_sha256": "74b8ef386784dddabf6a00833c5f76839f7384bec8dc76e9136c2a4e87a59c77",
-  "ciphertext_sha256": "eb11389bfeb9f8afe1be0b76ad17723acfead423d5173af2b7667dff550ea074",
+  "archive_name": "WenguaQuant_金函卷一至四_批次02_复核3.zip",
+  "archive_sha256": "c1fbe56d4427a080e0f827a1f383071251676bd2e446413c12d34f34381e5d23",
+  "ciphertext_sha256": "c6c9403c42a7d2e5bafb289631f3bbd2574097455b8dd6c8e3724af233baeb55",
   "private_key_published": false
 }

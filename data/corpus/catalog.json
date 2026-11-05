@@ -1,5 +1,6 @@
 {
   "data_owner": "WenguaQuant",
+  "snapshot": "batch02_review3",
   "entries": [
     {
       "id": "base",
@@ -76,17 +77,17 @@
     {
       "id": "batch02",
       "manifest": "data/delivery/jinhan_batch02/manifest.json",
-      "destination": "local/corpus/jinhan_batch02",
+      "destination": "local/corpus/jinhan_batch02_review3",
       "files": {
         "excel_audit.json": "e307a36d339250caba9d27de89179803ee001558964ba8d8de48b4d3614b1a3f",
         "original.txt": "61f4409aa5b2d4d3ebad71d7394eef7ede7c96a5bb6bb66d918c818949b584a8",
         "prior_issue_links.json": "782b36c7b26f61f65190da4689a3715ec0ac639ac5f80b5c38b4e91991164a4a",
         "source_recipe.py": "269d7d33949f88ff625fee7e6ba94c9e22f1be6c558a68a731a5663870097762",
-        "sources.json.gz": "7637de1258cd0f3ace333d83536d7e414086d1b3b1828d5eb5255fd0eac4629c",
-        "review_units.json": "020225c58bbb677e7c9c139d6e3f2b3b18b5a48b0cf692521437a11b3349a908",
-        "金函卷一至四_全材料核心课程RAG对照.xlsx": "7136f50548b4a029dcb98d450299a9073c68ef2091dc758cd75d0cd1eefb45df",
-        "core_course.json": "1ecda9569fc646369f829fe6869dff0d38aea6a0c0753034b77bd2c415703b80",
-        "coverage.json": "736d8a84fbbf4b5306d30c3728f36a22a32cf09586c960f6a401bb0ef6c0454d"
+        "sources.json.gz": "f346be5d277ae1161e7af7bcba8f93ef80cf0dcdd3653a64b71dda7b8296087e",
+        "review_units.json": "671f5033aac5dd26cd148323f03bf4f083447da5926206c4f9244e3640ddb7ad",
+        "金函卷一至四_全材料核心课程RAG对照.xlsx": "21f279c244ec4f287f262aa9ba1f673d653b2394145d0e3e9ed080433e6fcbf4",
+        "core_course.json": "23490a50f4eba3a3345e2e05146c730e353bbdfc1fda8cce070c4fc399c70eac",
+        "coverage.json": "5101523b49a750caf84ddc420a950e24152a407b700a74dabda0fea38acff3bb"
       },
       "library": "sources.json.gz"
     }

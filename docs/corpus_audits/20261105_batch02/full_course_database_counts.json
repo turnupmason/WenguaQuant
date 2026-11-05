@@ -1,0 +1,11 @@
+{
+  "frozen_course_records": 11913,
+  "frozen_course_materials": 7614,
+  "frozen_course_cases": 194,
+  "frozen_course_author_steps": 1008,
+  "corpus_core_lessons": 509,
+  "cases": 194,
+  "all_frozen_record_and_material_payloads_read_back": true,
+  "all_author_step_source_ids_resolve": true,
+  "title_only_lesson_removed": 1
+}

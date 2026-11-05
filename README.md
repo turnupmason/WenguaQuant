@@ -12,7 +12,7 @@ git pull --ff-only origin main
 & ..\WenguaApp\local\qwen_env\Scripts\python.exe -X utf8 -m wengua_corpus restore --include-course-v51
 ```
 
-恢复后Excel在`local/corpus/jinhan_batch02/`，累计SQLite在`local/databases/three_books_batch02.sqlite3`。CPU检索不加载模型。课程候选需要后续语义及答题风格验收，不因入库而自动称训练就绪。
+恢复后Excel在`local/corpus/jinhan_batch02_review3/`，累计SQLite在`local/databases/three_books_batch02_review3_with_v51.sqlite3`。CPU检索不加载模型。课程候选需要后续语义及答题风格验收，不因入库而自动称训练就绪。
 
 ---
 

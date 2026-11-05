@@ -6,9 +6,9 @@
       1,
       1
     ],
-    "course_state": "source_grounded_candidate_not_current_training",
+    "course_state": "context_only",
     "rag_document_id": "jinhan.batch02.u0001",
-    "core_course_id": "jinhan.batch02.u0001.core"
+    "core_course_id": null
   },
   {
     "id": "jinhan.batch02.u0002",

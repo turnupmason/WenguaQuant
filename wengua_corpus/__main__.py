@@ -42,7 +42,7 @@ def main(argv=None):
    if entry.get('optional') and not a.include_course_v51:continue
    out=restore(entry,bytes.fromhex(keytext));directories[entry['id']]=out
    if entry.get('library'):libraries.append(library(out/entry['library']))
-  index=r.ROOT/'local/rag/batch02.sqlite3'
+  index=r.ROOT/('local/rag/'+catalog.get('snapshot','batch02')+'.sqlite3')
   if not index.exists():r.build_index(libraries,index)
   else:
    with r.Index(index) as i:
@@ -51,7 +51,7 @@ def main(argv=None):
   parent=a.app_root/'archives/sqlite/WenguaApp_双书194案例_V391纯断词十二长生_完整研究库.sqlite3'
   if r.digest(parent.read_bytes())!='21362e6f0266c03dcdc4a7ef35f45954ba274ae6458de0ba341132abca7d0405':raise ValueError('Wrong original source database')
   for name in ('preface','batch02'):
-   out=r.ROOT/'local/databases'/('three_books_'+name+'.sqlite3');receipt=out.with_suffix('.receipt.json')
+   out=r.ROOT/'local/databases'/('three_books_'+(catalog.get('snapshot',name) if name=='batch02' else name)+('_with_v51' if name=='batch02' and a.include_course_v51 else '')+'.sqlite3');receipt=out.with_suffix('.receipt.json')
    if not out.exists():
     proof=append_database(parent,out,library(directories[name]/'sources.json.gz'),r.read(directories[name]/'review_units.json'))
     if name=='batch02':
@@ -59,6 +59,16 @@ def main(argv=None):
      with closing(sqlite3.connect(out)) as db:
       db.execute('CREATE TABLE corpus_core_lessons(id TEXT PRIMARY KEY,unit_id TEXT NOT NULL,payload_json TEXT NOT NULL)')
       db.executemany('INSERT INTO corpus_core_lessons VALUES(?,?,?)',[(x['id'],x['material_unit_id'],r.dumps(x)) for x in course]);db.commit()
+     if a.include_course_v51:
+      pack=r.read(directories['v51']/'pack.json');units=pack['units'];cases={x['case_id'] for x in pack['dossiers']}
+      assert all(set(x['source_ids']).issubset(units) and set(x['case_ids']).issubset(cases) for x in pack['records'])
+      with closing(sqlite3.connect(out)) as db:
+       db.executescript('CREATE TABLE frozen_course_records(id TEXT PRIMARY KEY,payload_json TEXT NOT NULL); CREATE TABLE frozen_course_materials(id TEXT PRIMARY KEY,payload_json TEXT NOT NULL); CREATE TABLE frozen_course_cases(id TEXT PRIMARY KEY,payload_json TEXT NOT NULL); CREATE TABLE frozen_course_author_steps(case_id TEXT,step_id TEXT,payload_json TEXT NOT NULL,PRIMARY KEY(case_id,step_id));')
+       db.executemany('INSERT INTO frozen_course_records VALUES(?,?)',[(x['id'],r.dumps(x)) for x in pack['records']])
+       db.executemany('INSERT INTO frozen_course_materials VALUES(?,?)',[(k,r.dumps(v)) for k,v in units.items()])
+       db.executemany('INSERT INTO frozen_course_cases VALUES(?,?)',[(x['case_id'],r.dumps(x)) for x in pack['dossiers']])
+       steps=[(x['case_id'],str(z['step']),r.dumps(z)) for x in pack['dossiers'] for z in x['author_steps']];assert len(steps)==1008
+       db.executemany('INSERT INTO frozen_course_author_steps VALUES(?,?,?)',steps);db.commit()
      proof['output_database_sha256']=r.digest(out.read_bytes())
     r.write(receipt,proof)
    elif r.digest(out.read_bytes())!=r.read(receipt)['output_database_sha256']:raise ValueError('Database receipt changed')

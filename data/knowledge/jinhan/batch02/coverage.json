@@ -4,8 +4,8 @@
   "chapters": 1,
   "documents": 574,
   "document_kinds": {
-    "rule": 510,
-    "reference": 64
+    "rule": 509,
+    "reference": 65
   },
   "cases": 0,
   "unaccounted_nonblank_lines": 0,
@@ -29,7 +29,7 @@
     "八门静应": 115,
     "八门白话译释": 26
   },
-  "core_course_candidates": 510,
+  "core_course_candidates": 509,
   "quarantined_units": 11,
   "stem_pair_rows": 81,
   "unique_stem_pairs": 81,
