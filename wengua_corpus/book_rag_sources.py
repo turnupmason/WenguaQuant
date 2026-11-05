@@ -16,5 +16,3 @@ def literal_selector(chapter,lo,hi,quote=None):
         a,b=positions[offset],positions[offset+len(key)-1]+1
     return {'chapter':rag.chapter_key(chapter),'source_sha256':chapter['source_sha256'],'lines':[lo,hi],
             'chars':[a,b],'quote_sha256':rag.digest(raw[a:b])}
-
-
