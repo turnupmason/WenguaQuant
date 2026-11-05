@@ -8,3 +8,5 @@ __pycache__/
 .env
 *.sqlite3
 *.db
+
+.legacy_app/

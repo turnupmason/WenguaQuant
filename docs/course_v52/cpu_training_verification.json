@@ -1,0 +1,12 @@
+{
+  "windows_native_12_mib_restore_fixture_passed": false,
+  "full_parent_comparison_two_rate_loop_export_exercised": true,
+  "software_fixture_only": true,
+  "steps": 12,
+  "fresh_parent_optimizer_verified": true,
+  "parent_weights_preserved_before_first_update": true,
+  "fresh_worker_resume_tensor_equal": true,
+  "optimizer_step_restored": true,
+  "evaluation_worker_exercised": true,
+  "real_8b_gpu_fit_verified": false
+}
