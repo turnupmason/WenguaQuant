@@ -1,3 +1,23 @@
+# 问卦资料主仓库 · WenguaQuant
+
+古籍原文、分类索引、核心课程对照、RAG和私有数据库统一由这里管理。起盘与应用代码继续留在WenguaApp，当前V5.1训练不变。
+
+当前新增：[金函卷一至四与资料迁移说明](docs/CORPUS_HOME_20261105.md)。原文和Excel以此前教材口令恢复，公开仅存密文、抽象索引与校验记录。
+
+```powershell
+Set-Location "$env:USERPROFILE"
+if (!(Test-Path WenguaQuant/.git)) { git clone https://github.com/turnupmason/WenguaQuant.git }
+Set-Location WenguaQuant
+git pull --ff-only origin main
+& ..\WenguaApp\local\qwen_env\Scripts\python.exe -X utf8 -m wengua_corpus restore --include-course-v51
+```
+
+恢复后Excel在`local/corpus/jinhan_batch02/`，累计SQLite在`local/databases/three_books_batch02.sqlite3`。CPU检索不加载模型。课程候选需要后续语义及答题风格验收，不因入库而自动称训练就绪。
+
+---
+
+以下为隔离保留的历史统计/旧V3轨道，不是当前纯古籍数据入口。
+
 # WenguaQuant · 问卦数据驱动量化研究
 
 独立于 [WenguaApp](https://github.com/turnupmason/WenguaApp) 的量化研究仓库。目标是**从具有来源证据的真实结果中学习统计权重**，而不是复制 WenguaApp 传统 V9 加减分算法。只在预先定义的研究任务上训练；研究输出不接入正式 iOS App。

@@ -1,0 +1,6316 @@
+[
+  {
+    "id": "jinhan.batch02.u0001",
+    "category": "目录结构",
+    "source_lines": [
+      1,
+      1
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0001",
+    "core_course_id": "jinhan.batch02.u0001.core"
+  },
+  {
+    "id": "jinhan.batch02.u0002",
+    "category": "目录结构",
+    "source_lines": [
+      3,
+      3
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0002",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0003",
+    "category": "基础与条件",
+    "source_lines": [
+      5,
+      5
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0003",
+    "core_course_id": "jinhan.batch02.u0003.core"
+  },
+  {
+    "id": "jinhan.batch02.u0004",
+    "category": "基础与条件",
+    "source_lines": [
+      7,
+      7
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0004",
+    "core_course_id": "jinhan.batch02.u0004.core"
+  },
+  {
+    "id": "jinhan.batch02.u0005",
+    "category": "基础与条件",
+    "source_lines": [
+      9,
+      9
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0005",
+    "core_course_id": "jinhan.batch02.u0005.core"
+  },
+  {
+    "id": "jinhan.batch02.u0006",
+    "category": "基础与条件",
+    "source_lines": [
+      11,
+      11
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0006",
+    "core_course_id": "jinhan.batch02.u0006.core"
+  },
+  {
+    "id": "jinhan.batch02.u0007",
+    "category": "基础与条件",
+    "source_lines": [
+      13,
+      13
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0007",
+    "core_course_id": "jinhan.batch02.u0007.core"
+  },
+  {
+    "id": "jinhan.batch02.u0008",
+    "category": "基础与条件",
+    "source_lines": [
+      15,
+      15
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0008",
+    "core_course_id": "jinhan.batch02.u0008.core"
+  },
+  {
+    "id": "jinhan.batch02.u0009",
+    "category": "基础与条件",
+    "source_lines": [
+      17,
+      17
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0009",
+    "core_course_id": "jinhan.batch02.u0009.core"
+  },
+  {
+    "id": "jinhan.batch02.u0010",
+    "category": "基础与条件",
+    "source_lines": [
+      19,
+      19
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0010",
+    "core_course_id": "jinhan.batch02.u0010.core"
+  },
+  {
+    "id": "jinhan.batch02.u0011",
+    "category": "基础与条件",
+    "source_lines": [
+      21,
+      21
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0011",
+    "core_course_id": "jinhan.batch02.u0011.core"
+  },
+  {
+    "id": "jinhan.batch02.u0012",
+    "category": "基础与条件",
+    "source_lines": [
+      23,
+      23
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0012",
+    "core_course_id": "jinhan.batch02.u0012.core"
+  },
+  {
+    "id": "jinhan.batch02.u0013",
+    "category": "基础与条件",
+    "source_lines": [
+      25,
+      25
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0013",
+    "core_course_id": "jinhan.batch02.u0013.core"
+  },
+  {
+    "id": "jinhan.batch02.u0014",
+    "category": "基础与条件",
+    "source_lines": [
+      27,
+      27
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0014",
+    "core_course_id": "jinhan.batch02.u0014.core"
+  },
+  {
+    "id": "jinhan.batch02.u0015",
+    "category": "基础与条件",
+    "source_lines": [
+      29,
+      29
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0015",
+    "core_course_id": "jinhan.batch02.u0015.core"
+  },
+  {
+    "id": "jinhan.batch02.u0016",
+    "category": "基础与条件",
+    "source_lines": [
+      31,
+      31
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0016",
+    "core_course_id": "jinhan.batch02.u0016.core"
+  },
+  {
+    "id": "jinhan.batch02.u0017",
+    "category": "基础与条件",
+    "source_lines": [
+      33,
+      33
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0017",
+    "core_course_id": "jinhan.batch02.u0017.core"
+  },
+  {
+    "id": "jinhan.batch02.u0018",
+    "category": "基础与条件",
+    "source_lines": [
+      35,
+      35
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0018",
+    "core_course_id": "jinhan.batch02.u0018.core"
+  },
+  {
+    "id": "jinhan.batch02.u0019",
+    "category": "基础与条件",
+    "source_lines": [
+      37,
+      37
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0019",
+    "core_course_id": "jinhan.batch02.u0019.core"
+  },
+  {
+    "id": "jinhan.batch02.u0020",
+    "category": "基础与条件",
+    "source_lines": [
+      39,
+      39
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0020",
+    "core_course_id": "jinhan.batch02.u0020.core"
+  },
+  {
+    "id": "jinhan.batch02.u0021",
+    "category": "基础与条件",
+    "source_lines": [
+      41,
+      41
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0021",
+    "core_course_id": "jinhan.batch02.u0021.core"
+  },
+  {
+    "id": "jinhan.batch02.u0022",
+    "category": "基础与条件",
+    "source_lines": [
+      43,
+      43
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0022",
+    "core_course_id": "jinhan.batch02.u0022.core"
+  },
+  {
+    "id": "jinhan.batch02.u0023",
+    "category": "基础与条件",
+    "source_lines": [
+      45,
+      45
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0023",
+    "core_course_id": "jinhan.batch02.u0023.core"
+  },
+  {
+    "id": "jinhan.batch02.u0024",
+    "category": "基础与条件",
+    "source_lines": [
+      47,
+      47
+    ],
+    "course_state": "quarantined_text_issue",
+    "rag_document_id": "jinhan.batch02.u0024",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0025",
+    "category": "基础与条件",
+    "source_lines": [
+      49,
+      49
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0025",
+    "core_course_id": "jinhan.batch02.u0025.core"
+  },
+  {
+    "id": "jinhan.batch02.u0026",
+    "category": "基础与条件",
+    "source_lines": [
+      51,
+      51
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0026",
+    "core_course_id": "jinhan.batch02.u0026.core"
+  },
+  {
+    "id": "jinhan.batch02.u0027",
+    "category": "基础与条件",
+    "source_lines": [
+      53,
+      53
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0027",
+    "core_course_id": "jinhan.batch02.u0027.core"
+  },
+  {
+    "id": "jinhan.batch02.u0028",
+    "category": "基础与条件",
+    "source_lines": [
+      55,
+      58
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0028",
+    "core_course_id": "jinhan.batch02.u0028.core"
+  },
+  {
+    "id": "jinhan.batch02.u0029",
+    "category": "基础与条件",
+    "source_lines": [
+      60,
+      60
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0029",
+    "core_course_id": "jinhan.batch02.u0029.core"
+  },
+  {
+    "id": "jinhan.batch02.u0030",
+    "category": "基础与条件",
+    "source_lines": [
+      62,
+      62
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0030",
+    "core_course_id": "jinhan.batch02.u0030.core"
+  },
+  {
+    "id": "jinhan.batch02.u0031",
+    "category": "基础与条件",
+    "source_lines": [
+      64,
+      64
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0031",
+    "core_course_id": "jinhan.batch02.u0031.core"
+  },
+  {
+    "id": "jinhan.batch02.u0032",
+    "category": "基础与条件",
+    "source_lines": [
+      66,
+      66
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0032",
+    "core_course_id": "jinhan.batch02.u0032.core"
+  },
+  {
+    "id": "jinhan.batch02.u0033",
+    "category": "基础与条件",
+    "source_lines": [
+      68,
+      68
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0033",
+    "core_course_id": "jinhan.batch02.u0033.core"
+  },
+  {
+    "id": "jinhan.batch02.u0034",
+    "category": "基础与条件",
+    "source_lines": [
+      70,
+      70
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0034",
+    "core_course_id": "jinhan.batch02.u0034.core"
+  },
+  {
+    "id": "jinhan.batch02.u0035",
+    "category": "基础与条件",
+    "source_lines": [
+      72,
+      72
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0035",
+    "core_course_id": "jinhan.batch02.u0035.core"
+  },
+  {
+    "id": "jinhan.batch02.u0036",
+    "category": "基础与条件",
+    "source_lines": [
+      74,
+      74
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0036",
+    "core_course_id": "jinhan.batch02.u0036.core"
+  },
+  {
+    "id": "jinhan.batch02.u0037",
+    "category": "基础与条件",
+    "source_lines": [
+      76,
+      76
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0037",
+    "core_course_id": "jinhan.batch02.u0037.core"
+  },
+  {
+    "id": "jinhan.batch02.u0038",
+    "category": "基础与条件",
+    "source_lines": [
+      78,
+      78
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0038",
+    "core_course_id": "jinhan.batch02.u0038.core"
+  },
+  {
+    "id": "jinhan.batch02.u0039",
+    "category": "基础与条件",
+    "source_lines": [
+      80,
+      80
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0039",
+    "core_course_id": "jinhan.batch02.u0039.core"
+  },
+  {
+    "id": "jinhan.batch02.u0040",
+    "category": "基础与条件",
+    "source_lines": [
+      82,
+      82
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0040",
+    "core_course_id": "jinhan.batch02.u0040.core"
+  },
+  {
+    "id": "jinhan.batch02.u0041",
+    "category": "基础与条件",
+    "source_lines": [
+      84,
+      84
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0041",
+    "core_course_id": "jinhan.batch02.u0041.core"
+  },
+  {
+    "id": "jinhan.batch02.u0042",
+    "category": "基础与条件",
+    "source_lines": [
+      86,
+      86
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0042",
+    "core_course_id": "jinhan.batch02.u0042.core"
+  },
+  {
+    "id": "jinhan.batch02.u0043",
+    "category": "基础与条件",
+    "source_lines": [
+      88,
+      88
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0043",
+    "core_course_id": "jinhan.batch02.u0043.core"
+  },
+  {
+    "id": "jinhan.batch02.u0044",
+    "category": "基础与条件",
+    "source_lines": [
+      90,
+      90
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0044",
+    "core_course_id": "jinhan.batch02.u0044.core"
+  },
+  {
+    "id": "jinhan.batch02.u0045",
+    "category": "基础与条件",
+    "source_lines": [
+      92,
+      92
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0045",
+    "core_course_id": "jinhan.batch02.u0045.core"
+  },
+  {
+    "id": "jinhan.batch02.u0046",
+    "category": "基础与条件",
+    "source_lines": [
+      94,
+      94
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0046",
+    "core_course_id": "jinhan.batch02.u0046.core"
+  },
+  {
+    "id": "jinhan.batch02.u0047",
+    "category": "基础与条件",
+    "source_lines": [
+      96,
+      96
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0047",
+    "core_course_id": "jinhan.batch02.u0047.core"
+  },
+  {
+    "id": "jinhan.batch02.u0048",
+    "category": "基础与条件",
+    "source_lines": [
+      98,
+      98
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0048",
+    "core_course_id": "jinhan.batch02.u0048.core"
+  },
+  {
+    "id": "jinhan.batch02.u0049",
+    "category": "基础与条件",
+    "source_lines": [
+      100,
+      100
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0049",
+    "core_course_id": "jinhan.batch02.u0049.core"
+  },
+  {
+    "id": "jinhan.batch02.u0050",
+    "category": "基础与条件",
+    "source_lines": [
+      102,
+      111
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0050",
+    "core_course_id": "jinhan.batch02.u0050.core"
+  },
+  {
+    "id": "jinhan.batch02.u0051",
+    "category": "基础与条件",
+    "source_lines": [
+      113,
+      113
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0051",
+    "core_course_id": "jinhan.batch02.u0051.core"
+  },
+  {
+    "id": "jinhan.batch02.u0052",
+    "category": "基础与条件",
+    "source_lines": [
+      115,
+      115
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0052",
+    "core_course_id": "jinhan.batch02.u0052.core"
+  },
+  {
+    "id": "jinhan.batch02.u0053",
+    "category": "基础与条件",
+    "source_lines": [
+      117,
+      117
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0053",
+    "core_course_id": "jinhan.batch02.u0053.core"
+  },
+  {
+    "id": "jinhan.batch02.u0054",
+    "category": "基础与条件",
+    "source_lines": [
+      119,
+      119
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0054",
+    "core_course_id": "jinhan.batch02.u0054.core"
+  },
+  {
+    "id": "jinhan.batch02.u0055",
+    "category": "基础与条件",
+    "source_lines": [
+      121,
+      121
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0055",
+    "core_course_id": "jinhan.batch02.u0055.core"
+  },
+  {
+    "id": "jinhan.batch02.u0056",
+    "category": "基础与条件",
+    "source_lines": [
+      123,
+      123
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0056",
+    "core_course_id": "jinhan.batch02.u0056.core"
+  },
+  {
+    "id": "jinhan.batch02.u0057",
+    "category": "基础与条件",
+    "source_lines": [
+      125,
+      125
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0057",
+    "core_course_id": "jinhan.batch02.u0057.core"
+  },
+  {
+    "id": "jinhan.batch02.u0058",
+    "category": "基础与条件",
+    "source_lines": [
+      127,
+      127
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0058",
+    "core_course_id": "jinhan.batch02.u0058.core"
+  },
+  {
+    "id": "jinhan.batch02.u0059",
+    "category": "基础与条件",
+    "source_lines": [
+      129,
+      129
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0059",
+    "core_course_id": "jinhan.batch02.u0059.core"
+  },
+  {
+    "id": "jinhan.batch02.u0060",
+    "category": "基础与条件",
+    "source_lines": [
+      131,
+      131
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0060",
+    "core_course_id": "jinhan.batch02.u0060.core"
+  },
+  {
+    "id": "jinhan.batch02.u0061",
+    "category": "目录结构",
+    "source_lines": [
+      133,
+      133
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0061",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0062",
+    "category": "有向干对格局",
+    "source_lines": [
+      135,
+      135
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0062",
+    "core_course_id": "jinhan.batch02.u0062.core"
+  },
+  {
+    "id": "jinhan.batch02.u0063",
+    "category": "有向干对格局",
+    "source_lines": [
+      137,
+      137
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0063",
+    "core_course_id": "jinhan.batch02.u0063.core"
+  },
+  {
+    "id": "jinhan.batch02.u0064",
+    "category": "有向干对格局",
+    "source_lines": [
+      138,
+      138
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0064",
+    "core_course_id": "jinhan.batch02.u0064.core"
+  },
+  {
+    "id": "jinhan.batch02.u0065",
+    "category": "有向干对格局",
+    "source_lines": [
+      139,
+      139
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0065",
+    "core_course_id": "jinhan.batch02.u0065.core"
+  },
+  {
+    "id": "jinhan.batch02.u0066",
+    "category": "有向干对格局",
+    "source_lines": [
+      140,
+      140
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0066",
+    "core_course_id": "jinhan.batch02.u0066.core"
+  },
+  {
+    "id": "jinhan.batch02.u0067",
+    "category": "有向干对格局",
+    "source_lines": [
+      141,
+      141
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0067",
+    "core_course_id": "jinhan.batch02.u0067.core"
+  },
+  {
+    "id": "jinhan.batch02.u0068",
+    "category": "有向干对格局",
+    "source_lines": [
+      142,
+      142
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0068",
+    "core_course_id": "jinhan.batch02.u0068.core"
+  },
+  {
+    "id": "jinhan.batch02.u0069",
+    "category": "有向干对格局",
+    "source_lines": [
+      143,
+      143
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0069",
+    "core_course_id": "jinhan.batch02.u0069.core"
+  },
+  {
+    "id": "jinhan.batch02.u0070",
+    "category": "有向干对格局",
+    "source_lines": [
+      144,
+      144
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0070",
+    "core_course_id": "jinhan.batch02.u0070.core"
+  },
+  {
+    "id": "jinhan.batch02.u0071",
+    "category": "有向干对格局",
+    "source_lines": [
+      146,
+      146
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0071",
+    "core_course_id": "jinhan.batch02.u0071.core"
+  },
+  {
+    "id": "jinhan.batch02.u0072",
+    "category": "有向干对格局",
+    "source_lines": [
+      147,
+      147
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0072",
+    "core_course_id": "jinhan.batch02.u0072.core"
+  },
+  {
+    "id": "jinhan.batch02.u0073",
+    "category": "有向干对格局",
+    "source_lines": [
+      148,
+      148
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0073",
+    "core_course_id": "jinhan.batch02.u0073.core"
+  },
+  {
+    "id": "jinhan.batch02.u0074",
+    "category": "有向干对格局",
+    "source_lines": [
+      149,
+      149
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0074",
+    "core_course_id": "jinhan.batch02.u0074.core"
+  },
+  {
+    "id": "jinhan.batch02.u0075",
+    "category": "有向干对格局",
+    "source_lines": [
+      150,
+      150
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0075",
+    "core_course_id": "jinhan.batch02.u0075.core"
+  },
+  {
+    "id": "jinhan.batch02.u0076",
+    "category": "有向干对格局",
+    "source_lines": [
+      151,
+      151
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0076",
+    "core_course_id": "jinhan.batch02.u0076.core"
+  },
+  {
+    "id": "jinhan.batch02.u0077",
+    "category": "有向干对格局",
+    "source_lines": [
+      152,
+      152
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0077",
+    "core_course_id": "jinhan.batch02.u0077.core"
+  },
+  {
+    "id": "jinhan.batch02.u0078",
+    "category": "有向干对格局",
+    "source_lines": [
+      153,
+      153
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0078",
+    "core_course_id": "jinhan.batch02.u0078.core"
+  },
+  {
+    "id": "jinhan.batch02.u0079",
+    "category": "有向干对格局",
+    "source_lines": [
+      154,
+      154
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0079",
+    "core_course_id": "jinhan.batch02.u0079.core"
+  },
+  {
+    "id": "jinhan.batch02.u0080",
+    "category": "有向干对格局",
+    "source_lines": [
+      156,
+      156
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0080",
+    "core_course_id": "jinhan.batch02.u0080.core"
+  },
+  {
+    "id": "jinhan.batch02.u0081",
+    "category": "有向干对格局",
+    "source_lines": [
+      157,
+      157
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0081",
+    "core_course_id": "jinhan.batch02.u0081.core"
+  },
+  {
+    "id": "jinhan.batch02.u0082",
+    "category": "有向干对格局",
+    "source_lines": [
+      158,
+      158
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0082",
+    "core_course_id": "jinhan.batch02.u0082.core"
+  },
+  {
+    "id": "jinhan.batch02.u0083",
+    "category": "有向干对格局",
+    "source_lines": [
+      159,
+      159
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0083",
+    "core_course_id": "jinhan.batch02.u0083.core"
+  },
+  {
+    "id": "jinhan.batch02.u0084",
+    "category": "有向干对格局",
+    "source_lines": [
+      160,
+      160
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0084",
+    "core_course_id": "jinhan.batch02.u0084.core"
+  },
+  {
+    "id": "jinhan.batch02.u0085",
+    "category": "有向干对格局",
+    "source_lines": [
+      161,
+      161
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0085",
+    "core_course_id": "jinhan.batch02.u0085.core"
+  },
+  {
+    "id": "jinhan.batch02.u0086",
+    "category": "有向干对格局",
+    "source_lines": [
+      162,
+      162
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0086",
+    "core_course_id": "jinhan.batch02.u0086.core"
+  },
+  {
+    "id": "jinhan.batch02.u0087",
+    "category": "有向干对格局",
+    "source_lines": [
+      163,
+      163
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0087",
+    "core_course_id": "jinhan.batch02.u0087.core"
+  },
+  {
+    "id": "jinhan.batch02.u0088",
+    "category": "有向干对格局",
+    "source_lines": [
+      164,
+      164
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0088",
+    "core_course_id": "jinhan.batch02.u0088.core"
+  },
+  {
+    "id": "jinhan.batch02.u0089",
+    "category": "有向干对格局",
+    "source_lines": [
+      166,
+      166
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0089",
+    "core_course_id": "jinhan.batch02.u0089.core"
+  },
+  {
+    "id": "jinhan.batch02.u0090",
+    "category": "有向干对格局",
+    "source_lines": [
+      167,
+      167
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0090",
+    "core_course_id": "jinhan.batch02.u0090.core"
+  },
+  {
+    "id": "jinhan.batch02.u0091",
+    "category": "有向干对格局",
+    "source_lines": [
+      168,
+      168
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0091",
+    "core_course_id": "jinhan.batch02.u0091.core"
+  },
+  {
+    "id": "jinhan.batch02.u0092",
+    "category": "有向干对格局",
+    "source_lines": [
+      169,
+      169
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0092",
+    "core_course_id": "jinhan.batch02.u0092.core"
+  },
+  {
+    "id": "jinhan.batch02.u0093",
+    "category": "有向干对格局",
+    "source_lines": [
+      170,
+      170
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0093",
+    "core_course_id": "jinhan.batch02.u0093.core"
+  },
+  {
+    "id": "jinhan.batch02.u0094",
+    "category": "有向干对格局",
+    "source_lines": [
+      171,
+      171
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0094",
+    "core_course_id": "jinhan.batch02.u0094.core"
+  },
+  {
+    "id": "jinhan.batch02.u0095",
+    "category": "有向干对格局",
+    "source_lines": [
+      172,
+      172
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0095",
+    "core_course_id": "jinhan.batch02.u0095.core"
+  },
+  {
+    "id": "jinhan.batch02.u0096",
+    "category": "有向干对格局",
+    "source_lines": [
+      173,
+      173
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0096",
+    "core_course_id": "jinhan.batch02.u0096.core"
+  },
+  {
+    "id": "jinhan.batch02.u0097",
+    "category": "有向干对格局",
+    "source_lines": [
+      174,
+      174
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0097",
+    "core_course_id": "jinhan.batch02.u0097.core"
+  },
+  {
+    "id": "jinhan.batch02.u0098",
+    "category": "有向干对格局",
+    "source_lines": [
+      176,
+      176
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0098",
+    "core_course_id": "jinhan.batch02.u0098.core"
+  },
+  {
+    "id": "jinhan.batch02.u0099",
+    "category": "有向干对格局",
+    "source_lines": [
+      177,
+      177
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0099",
+    "core_course_id": "jinhan.batch02.u0099.core"
+  },
+  {
+    "id": "jinhan.batch02.u0100",
+    "category": "有向干对格局",
+    "source_lines": [
+      178,
+      178
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0100",
+    "core_course_id": "jinhan.batch02.u0100.core"
+  },
+  {
+    "id": "jinhan.batch02.u0101",
+    "category": "有向干对格局",
+    "source_lines": [
+      179,
+      179
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0101",
+    "core_course_id": "jinhan.batch02.u0101.core"
+  },
+  {
+    "id": "jinhan.batch02.u0102",
+    "category": "有向干对格局",
+    "source_lines": [
+      180,
+      180
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0102",
+    "core_course_id": "jinhan.batch02.u0102.core"
+  },
+  {
+    "id": "jinhan.batch02.u0103",
+    "category": "有向干对格局",
+    "source_lines": [
+      181,
+      181
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0103",
+    "core_course_id": "jinhan.batch02.u0103.core"
+  },
+  {
+    "id": "jinhan.batch02.u0104",
+    "category": "有向干对格局",
+    "source_lines": [
+      182,
+      182
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0104",
+    "core_course_id": "jinhan.batch02.u0104.core"
+  },
+  {
+    "id": "jinhan.batch02.u0105",
+    "category": "有向干对格局",
+    "source_lines": [
+      183,
+      183
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0105",
+    "core_course_id": "jinhan.batch02.u0105.core"
+  },
+  {
+    "id": "jinhan.batch02.u0106",
+    "category": "有向干对格局",
+    "source_lines": [
+      184,
+      184
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0106",
+    "core_course_id": "jinhan.batch02.u0106.core"
+  },
+  {
+    "id": "jinhan.batch02.u0107",
+    "category": "有向干对格局",
+    "source_lines": [
+      186,
+      186
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0107",
+    "core_course_id": "jinhan.batch02.u0107.core"
+  },
+  {
+    "id": "jinhan.batch02.u0108",
+    "category": "有向干对格局",
+    "source_lines": [
+      187,
+      187
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0108",
+    "core_course_id": "jinhan.batch02.u0108.core"
+  },
+  {
+    "id": "jinhan.batch02.u0109",
+    "category": "有向干对格局",
+    "source_lines": [
+      188,
+      188
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0109",
+    "core_course_id": "jinhan.batch02.u0109.core"
+  },
+  {
+    "id": "jinhan.batch02.u0110",
+    "category": "有向干对格局",
+    "source_lines": [
+      189,
+      189
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0110",
+    "core_course_id": "jinhan.batch02.u0110.core"
+  },
+  {
+    "id": "jinhan.batch02.u0111",
+    "category": "有向干对格局",
+    "source_lines": [
+      190,
+      190
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0111",
+    "core_course_id": "jinhan.batch02.u0111.core"
+  },
+  {
+    "id": "jinhan.batch02.u0112",
+    "category": "有向干对格局",
+    "source_lines": [
+      191,
+      191
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0112",
+    "core_course_id": "jinhan.batch02.u0112.core"
+  },
+  {
+    "id": "jinhan.batch02.u0113",
+    "category": "有向干对格局",
+    "source_lines": [
+      192,
+      192
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0113",
+    "core_course_id": "jinhan.batch02.u0113.core"
+  },
+  {
+    "id": "jinhan.batch02.u0114",
+    "category": "有向干对格局",
+    "source_lines": [
+      193,
+      193
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0114",
+    "core_course_id": "jinhan.batch02.u0114.core"
+  },
+  {
+    "id": "jinhan.batch02.u0115",
+    "category": "有向干对格局",
+    "source_lines": [
+      194,
+      194
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0115",
+    "core_course_id": "jinhan.batch02.u0115.core"
+  },
+  {
+    "id": "jinhan.batch02.u0116",
+    "category": "有向干对格局",
+    "source_lines": [
+      196,
+      196
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0116",
+    "core_course_id": "jinhan.batch02.u0116.core"
+  },
+  {
+    "id": "jinhan.batch02.u0117",
+    "category": "有向干对格局",
+    "source_lines": [
+      197,
+      197
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0117",
+    "core_course_id": "jinhan.batch02.u0117.core"
+  },
+  {
+    "id": "jinhan.batch02.u0118",
+    "category": "有向干对格局",
+    "source_lines": [
+      198,
+      198
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0118",
+    "core_course_id": "jinhan.batch02.u0118.core"
+  },
+  {
+    "id": "jinhan.batch02.u0119",
+    "category": "有向干对格局",
+    "source_lines": [
+      199,
+      199
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0119",
+    "core_course_id": "jinhan.batch02.u0119.core"
+  },
+  {
+    "id": "jinhan.batch02.u0120",
+    "category": "有向干对格局",
+    "source_lines": [
+      200,
+      200
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0120",
+    "core_course_id": "jinhan.batch02.u0120.core"
+  },
+  {
+    "id": "jinhan.batch02.u0121",
+    "category": "有向干对格局",
+    "source_lines": [
+      201,
+      201
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0121",
+    "core_course_id": "jinhan.batch02.u0121.core"
+  },
+  {
+    "id": "jinhan.batch02.u0122",
+    "category": "有向干对格局",
+    "source_lines": [
+      202,
+      202
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0122",
+    "core_course_id": "jinhan.batch02.u0122.core"
+  },
+  {
+    "id": "jinhan.batch02.u0123",
+    "category": "有向干对格局",
+    "source_lines": [
+      203,
+      203
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0123",
+    "core_course_id": "jinhan.batch02.u0123.core"
+  },
+  {
+    "id": "jinhan.batch02.u0124",
+    "category": "有向干对格局",
+    "source_lines": [
+      204,
+      204
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0124",
+    "core_course_id": "jinhan.batch02.u0124.core"
+  },
+  {
+    "id": "jinhan.batch02.u0125",
+    "category": "有向干对格局",
+    "source_lines": [
+      206,
+      206
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0125",
+    "core_course_id": "jinhan.batch02.u0125.core"
+  },
+  {
+    "id": "jinhan.batch02.u0126",
+    "category": "有向干对格局",
+    "source_lines": [
+      207,
+      207
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0126",
+    "core_course_id": "jinhan.batch02.u0126.core"
+  },
+  {
+    "id": "jinhan.batch02.u0127",
+    "category": "有向干对格局",
+    "source_lines": [
+      208,
+      208
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0127",
+    "core_course_id": "jinhan.batch02.u0127.core"
+  },
+  {
+    "id": "jinhan.batch02.u0128",
+    "category": "有向干对格局",
+    "source_lines": [
+      209,
+      209
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0128",
+    "core_course_id": "jinhan.batch02.u0128.core"
+  },
+  {
+    "id": "jinhan.batch02.u0129",
+    "category": "有向干对格局",
+    "source_lines": [
+      210,
+      210
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0129",
+    "core_course_id": "jinhan.batch02.u0129.core"
+  },
+  {
+    "id": "jinhan.batch02.u0130",
+    "category": "有向干对格局",
+    "source_lines": [
+      211,
+      211
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0130",
+    "core_course_id": "jinhan.batch02.u0130.core"
+  },
+  {
+    "id": "jinhan.batch02.u0131",
+    "category": "有向干对格局",
+    "source_lines": [
+      212,
+      212
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0131",
+    "core_course_id": "jinhan.batch02.u0131.core"
+  },
+  {
+    "id": "jinhan.batch02.u0132",
+    "category": "有向干对格局",
+    "source_lines": [
+      213,
+      213
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0132",
+    "core_course_id": "jinhan.batch02.u0132.core"
+  },
+  {
+    "id": "jinhan.batch02.u0133",
+    "category": "有向干对格局",
+    "source_lines": [
+      214,
+      214
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0133",
+    "core_course_id": "jinhan.batch02.u0133.core"
+  },
+  {
+    "id": "jinhan.batch02.u0134",
+    "category": "有向干对格局",
+    "source_lines": [
+      216,
+      216
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0134",
+    "core_course_id": "jinhan.batch02.u0134.core"
+  },
+  {
+    "id": "jinhan.batch02.u0135",
+    "category": "有向干对格局",
+    "source_lines": [
+      217,
+      217
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0135",
+    "core_course_id": "jinhan.batch02.u0135.core"
+  },
+  {
+    "id": "jinhan.batch02.u0136",
+    "category": "有向干对格局",
+    "source_lines": [
+      218,
+      218
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0136",
+    "core_course_id": "jinhan.batch02.u0136.core"
+  },
+  {
+    "id": "jinhan.batch02.u0137",
+    "category": "有向干对格局",
+    "source_lines": [
+      219,
+      219
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0137",
+    "core_course_id": "jinhan.batch02.u0137.core"
+  },
+  {
+    "id": "jinhan.batch02.u0138",
+    "category": "有向干对格局",
+    "source_lines": [
+      220,
+      220
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0138",
+    "core_course_id": "jinhan.batch02.u0138.core"
+  },
+  {
+    "id": "jinhan.batch02.u0139",
+    "category": "有向干对格局",
+    "source_lines": [
+      221,
+      221
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0139",
+    "core_course_id": "jinhan.batch02.u0139.core"
+  },
+  {
+    "id": "jinhan.batch02.u0140",
+    "category": "有向干对格局",
+    "source_lines": [
+      222,
+      222
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0140",
+    "core_course_id": "jinhan.batch02.u0140.core"
+  },
+  {
+    "id": "jinhan.batch02.u0141",
+    "category": "有向干对格局",
+    "source_lines": [
+      223,
+      223
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0141",
+    "core_course_id": "jinhan.batch02.u0141.core"
+  },
+  {
+    "id": "jinhan.batch02.u0142",
+    "category": "有向干对格局",
+    "source_lines": [
+      224,
+      224
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0142",
+    "core_course_id": "jinhan.batch02.u0142.core"
+  },
+  {
+    "id": "jinhan.batch02.u0143",
+    "category": "目录结构",
+    "source_lines": [
+      226,
+      226
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0143",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0144",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      228,
+      228
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0144",
+    "core_course_id": "jinhan.batch02.u0144.core"
+  },
+  {
+    "id": "jinhan.batch02.u0145",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      229,
+      229
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0145",
+    "core_course_id": "jinhan.batch02.u0145.core"
+  },
+  {
+    "id": "jinhan.batch02.u0146",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      230,
+      230
+    ],
+    "course_state": "quarantined_text_issue",
+    "rag_document_id": "jinhan.batch02.u0146",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0147",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      231,
+      231
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0147",
+    "core_course_id": "jinhan.batch02.u0147.core"
+  },
+  {
+    "id": "jinhan.batch02.u0148",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      232,
+      232
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0148",
+    "core_course_id": "jinhan.batch02.u0148.core"
+  },
+  {
+    "id": "jinhan.batch02.u0149",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      233,
+      233
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0149",
+    "core_course_id": "jinhan.batch02.u0149.core"
+  },
+  {
+    "id": "jinhan.batch02.u0150",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      234,
+      234
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0150",
+    "core_course_id": "jinhan.batch02.u0150.core"
+  },
+  {
+    "id": "jinhan.batch02.u0151",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      235,
+      235
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0151",
+    "core_course_id": "jinhan.batch02.u0151.core"
+  },
+  {
+    "id": "jinhan.batch02.u0152",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      236,
+      236
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0152",
+    "core_course_id": "jinhan.batch02.u0152.core"
+  },
+  {
+    "id": "jinhan.batch02.u0153",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      237,
+      237
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0153",
+    "core_course_id": "jinhan.batch02.u0153.core"
+  },
+  {
+    "id": "jinhan.batch02.u0154",
+    "category": "目录结构",
+    "source_lines": [
+      239,
+      239
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0154",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0155",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      241,
+      241
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0155",
+    "core_course_id": "jinhan.batch02.u0155.core"
+  },
+  {
+    "id": "jinhan.batch02.u0156",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      242,
+      242
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0156",
+    "core_course_id": "jinhan.batch02.u0156.core"
+  },
+  {
+    "id": "jinhan.batch02.u0157",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      243,
+      243
+    ],
+    "course_state": "quarantined_text_issue",
+    "rag_document_id": "jinhan.batch02.u0157",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0158",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      244,
+      244
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0158",
+    "core_course_id": "jinhan.batch02.u0158.core"
+  },
+  {
+    "id": "jinhan.batch02.u0159",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      245,
+      245
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0159",
+    "core_course_id": "jinhan.batch02.u0159.core"
+  },
+  {
+    "id": "jinhan.batch02.u0160",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      246,
+      246
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0160",
+    "core_course_id": "jinhan.batch02.u0160.core"
+  },
+  {
+    "id": "jinhan.batch02.u0161",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      247,
+      247
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0161",
+    "core_course_id": "jinhan.batch02.u0161.core"
+  },
+  {
+    "id": "jinhan.batch02.u0162",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      248,
+      248
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0162",
+    "core_course_id": "jinhan.batch02.u0162.core"
+  },
+  {
+    "id": "jinhan.batch02.u0163",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      249,
+      249
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0163",
+    "core_course_id": "jinhan.batch02.u0163.core"
+  },
+  {
+    "id": "jinhan.batch02.u0164",
+    "category": "时加干诀与译释",
+    "source_lines": [
+      250,
+      250
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0164",
+    "core_course_id": "jinhan.batch02.u0164.core"
+  },
+  {
+    "id": "jinhan.batch02.u0165",
+    "category": "目录结构",
+    "source_lines": [
+      252,
+      252
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0165",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0166",
+    "category": "目录结构",
+    "source_lines": [
+      254,
+      254
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0166",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0167",
+    "category": "九星外应口诀",
+    "source_lines": [
+      256,
+      256
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0167",
+    "core_course_id": "jinhan.batch02.u0167.core"
+  },
+  {
+    "id": "jinhan.batch02.u0168",
+    "category": "九星外应口诀",
+    "source_lines": [
+      258,
+      258
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0168",
+    "core_course_id": "jinhan.batch02.u0168.core"
+  },
+  {
+    "id": "jinhan.batch02.u0169",
+    "category": "九星外应口诀",
+    "source_lines": [
+      259,
+      259
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0169",
+    "core_course_id": "jinhan.batch02.u0169.core"
+  },
+  {
+    "id": "jinhan.batch02.u0170",
+    "category": "九星外应口诀",
+    "source_lines": [
+      260,
+      260
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0170",
+    "core_course_id": "jinhan.batch02.u0170.core"
+  },
+  {
+    "id": "jinhan.batch02.u0171",
+    "category": "九星外应口诀",
+    "source_lines": [
+      261,
+      261
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0171",
+    "core_course_id": "jinhan.batch02.u0171.core"
+  },
+  {
+    "id": "jinhan.batch02.u0172",
+    "category": "九星外应口诀",
+    "source_lines": [
+      262,
+      262
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0172",
+    "core_course_id": "jinhan.batch02.u0172.core"
+  },
+  {
+    "id": "jinhan.batch02.u0173",
+    "category": "九星外应口诀",
+    "source_lines": [
+      263,
+      263
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0173",
+    "core_course_id": "jinhan.batch02.u0173.core"
+  },
+  {
+    "id": "jinhan.batch02.u0174",
+    "category": "九星外应口诀",
+    "source_lines": [
+      264,
+      264
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0174",
+    "core_course_id": "jinhan.batch02.u0174.core"
+  },
+  {
+    "id": "jinhan.batch02.u0175",
+    "category": "九星外应口诀",
+    "source_lines": [
+      265,
+      265
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0175",
+    "core_course_id": "jinhan.batch02.u0175.core"
+  },
+  {
+    "id": "jinhan.batch02.u0176",
+    "category": "九星外应口诀",
+    "source_lines": [
+      266,
+      266
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0176",
+    "core_course_id": "jinhan.batch02.u0176.core"
+  },
+  {
+    "id": "jinhan.batch02.u0177",
+    "category": "九星外应口诀",
+    "source_lines": [
+      267,
+      267
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0177",
+    "core_course_id": "jinhan.batch02.u0177.core"
+  },
+  {
+    "id": "jinhan.batch02.u0178",
+    "category": "九星外应口诀",
+    "source_lines": [
+      268,
+      268
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0178",
+    "core_course_id": "jinhan.batch02.u0178.core"
+  },
+  {
+    "id": "jinhan.batch02.u0179",
+    "category": "九星外应口诀",
+    "source_lines": [
+      269,
+      269
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0179",
+    "core_course_id": "jinhan.batch02.u0179.core"
+  },
+  {
+    "id": "jinhan.batch02.u0180",
+    "category": "目录结构",
+    "source_lines": [
+      271,
+      271
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0180",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0181",
+    "category": "九星外应口诀",
+    "source_lines": [
+      273,
+      273
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0181",
+    "core_course_id": "jinhan.batch02.u0181.core"
+  },
+  {
+    "id": "jinhan.batch02.u0182",
+    "category": "九星外应口诀",
+    "source_lines": [
+      275,
+      275
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0182",
+    "core_course_id": "jinhan.batch02.u0182.core"
+  },
+  {
+    "id": "jinhan.batch02.u0183",
+    "category": "九星外应口诀",
+    "source_lines": [
+      276,
+      276
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0183",
+    "core_course_id": "jinhan.batch02.u0183.core"
+  },
+  {
+    "id": "jinhan.batch02.u0184",
+    "category": "九星外应口诀",
+    "source_lines": [
+      277,
+      277
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0184",
+    "core_course_id": "jinhan.batch02.u0184.core"
+  },
+  {
+    "id": "jinhan.batch02.u0185",
+    "category": "九星外应口诀",
+    "source_lines": [
+      278,
+      278
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0185",
+    "core_course_id": "jinhan.batch02.u0185.core"
+  },
+  {
+    "id": "jinhan.batch02.u0186",
+    "category": "九星外应口诀",
+    "source_lines": [
+      279,
+      279
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0186",
+    "core_course_id": "jinhan.batch02.u0186.core"
+  },
+  {
+    "id": "jinhan.batch02.u0187",
+    "category": "九星外应口诀",
+    "source_lines": [
+      280,
+      280
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0187",
+    "core_course_id": "jinhan.batch02.u0187.core"
+  },
+  {
+    "id": "jinhan.batch02.u0188",
+    "category": "九星外应口诀",
+    "source_lines": [
+      281,
+      281
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0188",
+    "core_course_id": "jinhan.batch02.u0188.core"
+  },
+  {
+    "id": "jinhan.batch02.u0189",
+    "category": "九星外应口诀",
+    "source_lines": [
+      282,
+      282
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0189",
+    "core_course_id": "jinhan.batch02.u0189.core"
+  },
+  {
+    "id": "jinhan.batch02.u0190",
+    "category": "九星外应口诀",
+    "source_lines": [
+      283,
+      283
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0190",
+    "core_course_id": "jinhan.batch02.u0190.core"
+  },
+  {
+    "id": "jinhan.batch02.u0191",
+    "category": "九星外应口诀",
+    "source_lines": [
+      284,
+      284
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0191",
+    "core_course_id": "jinhan.batch02.u0191.core"
+  },
+  {
+    "id": "jinhan.batch02.u0192",
+    "category": "九星外应口诀",
+    "source_lines": [
+      285,
+      285
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0192",
+    "core_course_id": "jinhan.batch02.u0192.core"
+  },
+  {
+    "id": "jinhan.batch02.u0193",
+    "category": "九星外应口诀",
+    "source_lines": [
+      286,
+      286
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0193",
+    "core_course_id": "jinhan.batch02.u0193.core"
+  },
+  {
+    "id": "jinhan.batch02.u0194",
+    "category": "九星外应口诀",
+    "source_lines": [
+      288,
+      288
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0194",
+    "core_course_id": "jinhan.batch02.u0194.core"
+  },
+  {
+    "id": "jinhan.batch02.u0195",
+    "category": "目录结构",
+    "source_lines": [
+      290,
+      290
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0195",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0196",
+    "category": "九星外应口诀",
+    "source_lines": [
+      292,
+      292
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0196",
+    "core_course_id": "jinhan.batch02.u0196.core"
+  },
+  {
+    "id": "jinhan.batch02.u0197",
+    "category": "九星外应口诀",
+    "source_lines": [
+      294,
+      294
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0197",
+    "core_course_id": "jinhan.batch02.u0197.core"
+  },
+  {
+    "id": "jinhan.batch02.u0198",
+    "category": "九星外应口诀",
+    "source_lines": [
+      295,
+      295
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0198",
+    "core_course_id": "jinhan.batch02.u0198.core"
+  },
+  {
+    "id": "jinhan.batch02.u0199",
+    "category": "九星外应口诀",
+    "source_lines": [
+      296,
+      296
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0199",
+    "core_course_id": "jinhan.batch02.u0199.core"
+  },
+  {
+    "id": "jinhan.batch02.u0200",
+    "category": "九星外应口诀",
+    "source_lines": [
+      297,
+      297
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0200",
+    "core_course_id": "jinhan.batch02.u0200.core"
+  },
+  {
+    "id": "jinhan.batch02.u0201",
+    "category": "九星外应口诀",
+    "source_lines": [
+      298,
+      298
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0201",
+    "core_course_id": "jinhan.batch02.u0201.core"
+  },
+  {
+    "id": "jinhan.batch02.u0202",
+    "category": "九星外应口诀",
+    "source_lines": [
+      299,
+      299
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0202",
+    "core_course_id": "jinhan.batch02.u0202.core"
+  },
+  {
+    "id": "jinhan.batch02.u0203",
+    "category": "九星外应口诀",
+    "source_lines": [
+      300,
+      300
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0203",
+    "core_course_id": "jinhan.batch02.u0203.core"
+  },
+  {
+    "id": "jinhan.batch02.u0204",
+    "category": "九星外应口诀",
+    "source_lines": [
+      301,
+      301
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0204",
+    "core_course_id": "jinhan.batch02.u0204.core"
+  },
+  {
+    "id": "jinhan.batch02.u0205",
+    "category": "九星外应口诀",
+    "source_lines": [
+      302,
+      302
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0205",
+    "core_course_id": "jinhan.batch02.u0205.core"
+  },
+  {
+    "id": "jinhan.batch02.u0206",
+    "category": "九星外应口诀",
+    "source_lines": [
+      303,
+      303
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0206",
+    "core_course_id": "jinhan.batch02.u0206.core"
+  },
+  {
+    "id": "jinhan.batch02.u0207",
+    "category": "九星外应口诀",
+    "source_lines": [
+      304,
+      304
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0207",
+    "core_course_id": "jinhan.batch02.u0207.core"
+  },
+  {
+    "id": "jinhan.batch02.u0208",
+    "category": "九星外应口诀",
+    "source_lines": [
+      305,
+      305
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0208",
+    "core_course_id": "jinhan.batch02.u0208.core"
+  },
+  {
+    "id": "jinhan.batch02.u0209",
+    "category": "目录结构",
+    "source_lines": [
+      307,
+      307
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0209",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0210",
+    "category": "九星外应口诀",
+    "source_lines": [
+      309,
+      309
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0210",
+    "core_course_id": "jinhan.batch02.u0210.core"
+  },
+  {
+    "id": "jinhan.batch02.u0211",
+    "category": "九星外应口诀",
+    "source_lines": [
+      311,
+      311
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0211",
+    "core_course_id": "jinhan.batch02.u0211.core"
+  },
+  {
+    "id": "jinhan.batch02.u0212",
+    "category": "九星外应口诀",
+    "source_lines": [
+      312,
+      312
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0212",
+    "core_course_id": "jinhan.batch02.u0212.core"
+  },
+  {
+    "id": "jinhan.batch02.u0213",
+    "category": "九星外应口诀",
+    "source_lines": [
+      313,
+      313
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0213",
+    "core_course_id": "jinhan.batch02.u0213.core"
+  },
+  {
+    "id": "jinhan.batch02.u0214",
+    "category": "九星外应口诀",
+    "source_lines": [
+      314,
+      314
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0214",
+    "core_course_id": "jinhan.batch02.u0214.core"
+  },
+  {
+    "id": "jinhan.batch02.u0215",
+    "category": "九星外应口诀",
+    "source_lines": [
+      315,
+      315
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0215",
+    "core_course_id": "jinhan.batch02.u0215.core"
+  },
+  {
+    "id": "jinhan.batch02.u0216",
+    "category": "九星外应口诀",
+    "source_lines": [
+      316,
+      316
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0216",
+    "core_course_id": "jinhan.batch02.u0216.core"
+  },
+  {
+    "id": "jinhan.batch02.u0217",
+    "category": "九星外应口诀",
+    "source_lines": [
+      317,
+      317
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0217",
+    "core_course_id": "jinhan.batch02.u0217.core"
+  },
+  {
+    "id": "jinhan.batch02.u0218",
+    "category": "九星外应口诀",
+    "source_lines": [
+      318,
+      318
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0218",
+    "core_course_id": "jinhan.batch02.u0218.core"
+  },
+  {
+    "id": "jinhan.batch02.u0219",
+    "category": "九星外应口诀",
+    "source_lines": [
+      319,
+      319
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0219",
+    "core_course_id": "jinhan.batch02.u0219.core"
+  },
+  {
+    "id": "jinhan.batch02.u0220",
+    "category": "九星外应口诀",
+    "source_lines": [
+      320,
+      320
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0220",
+    "core_course_id": "jinhan.batch02.u0220.core"
+  },
+  {
+    "id": "jinhan.batch02.u0221",
+    "category": "九星外应口诀",
+    "source_lines": [
+      321,
+      321
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0221",
+    "core_course_id": "jinhan.batch02.u0221.core"
+  },
+  {
+    "id": "jinhan.batch02.u0222",
+    "category": "九星外应口诀",
+    "source_lines": [
+      322,
+      322
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0222",
+    "core_course_id": "jinhan.batch02.u0222.core"
+  },
+  {
+    "id": "jinhan.batch02.u0223",
+    "category": "目录结构",
+    "source_lines": [
+      324,
+      324
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0223",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0224",
+    "category": "九星外应口诀",
+    "source_lines": [
+      326,
+      326
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0224",
+    "core_course_id": "jinhan.batch02.u0224.core"
+  },
+  {
+    "id": "jinhan.batch02.u0225",
+    "category": "九星外应口诀",
+    "source_lines": [
+      328,
+      328
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0225",
+    "core_course_id": "jinhan.batch02.u0225.core"
+  },
+  {
+    "id": "jinhan.batch02.u0226",
+    "category": "九星外应口诀",
+    "source_lines": [
+      329,
+      329
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0226",
+    "core_course_id": "jinhan.batch02.u0226.core"
+  },
+  {
+    "id": "jinhan.batch02.u0227",
+    "category": "九星外应口诀",
+    "source_lines": [
+      330,
+      330
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0227",
+    "core_course_id": "jinhan.batch02.u0227.core"
+  },
+  {
+    "id": "jinhan.batch02.u0228",
+    "category": "九星外应口诀",
+    "source_lines": [
+      331,
+      331
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0228",
+    "core_course_id": "jinhan.batch02.u0228.core"
+  },
+  {
+    "id": "jinhan.batch02.u0229",
+    "category": "九星外应口诀",
+    "source_lines": [
+      332,
+      332
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0229",
+    "core_course_id": "jinhan.batch02.u0229.core"
+  },
+  {
+    "id": "jinhan.batch02.u0230",
+    "category": "九星外应口诀",
+    "source_lines": [
+      333,
+      333
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0230",
+    "core_course_id": "jinhan.batch02.u0230.core"
+  },
+  {
+    "id": "jinhan.batch02.u0231",
+    "category": "九星外应口诀",
+    "source_lines": [
+      334,
+      334
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0231",
+    "core_course_id": "jinhan.batch02.u0231.core"
+  },
+  {
+    "id": "jinhan.batch02.u0232",
+    "category": "九星外应口诀",
+    "source_lines": [
+      335,
+      335
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0232",
+    "core_course_id": "jinhan.batch02.u0232.core"
+  },
+  {
+    "id": "jinhan.batch02.u0233",
+    "category": "九星外应口诀",
+    "source_lines": [
+      336,
+      336
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0233",
+    "core_course_id": "jinhan.batch02.u0233.core"
+  },
+  {
+    "id": "jinhan.batch02.u0234",
+    "category": "九星外应口诀",
+    "source_lines": [
+      337,
+      337
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0234",
+    "core_course_id": "jinhan.batch02.u0234.core"
+  },
+  {
+    "id": "jinhan.batch02.u0235",
+    "category": "九星外应口诀",
+    "source_lines": [
+      338,
+      338
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0235",
+    "core_course_id": "jinhan.batch02.u0235.core"
+  },
+  {
+    "id": "jinhan.batch02.u0236",
+    "category": "九星外应口诀",
+    "source_lines": [
+      339,
+      339
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0236",
+    "core_course_id": "jinhan.batch02.u0236.core"
+  },
+  {
+    "id": "jinhan.batch02.u0237",
+    "category": "目录结构",
+    "source_lines": [
+      341,
+      341
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0237",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0238",
+    "category": "九星外应口诀",
+    "source_lines": [
+      343,
+      343
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0238",
+    "core_course_id": "jinhan.batch02.u0238.core"
+  },
+  {
+    "id": "jinhan.batch02.u0239",
+    "category": "九星外应口诀",
+    "source_lines": [
+      345,
+      345
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0239",
+    "core_course_id": "jinhan.batch02.u0239.core"
+  },
+  {
+    "id": "jinhan.batch02.u0240",
+    "category": "九星外应口诀",
+    "source_lines": [
+      346,
+      346
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0240",
+    "core_course_id": "jinhan.batch02.u0240.core"
+  },
+  {
+    "id": "jinhan.batch02.u0241",
+    "category": "九星外应口诀",
+    "source_lines": [
+      347,
+      347
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0241",
+    "core_course_id": "jinhan.batch02.u0241.core"
+  },
+  {
+    "id": "jinhan.batch02.u0242",
+    "category": "九星外应口诀",
+    "source_lines": [
+      348,
+      348
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0242",
+    "core_course_id": "jinhan.batch02.u0242.core"
+  },
+  {
+    "id": "jinhan.batch02.u0243",
+    "category": "九星外应口诀",
+    "source_lines": [
+      349,
+      349
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0243",
+    "core_course_id": "jinhan.batch02.u0243.core"
+  },
+  {
+    "id": "jinhan.batch02.u0244",
+    "category": "九星外应口诀",
+    "source_lines": [
+      350,
+      350
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0244",
+    "core_course_id": "jinhan.batch02.u0244.core"
+  },
+  {
+    "id": "jinhan.batch02.u0245",
+    "category": "九星外应口诀",
+    "source_lines": [
+      351,
+      351
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0245",
+    "core_course_id": "jinhan.batch02.u0245.core"
+  },
+  {
+    "id": "jinhan.batch02.u0246",
+    "category": "九星外应口诀",
+    "source_lines": [
+      352,
+      352
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0246",
+    "core_course_id": "jinhan.batch02.u0246.core"
+  },
+  {
+    "id": "jinhan.batch02.u0247",
+    "category": "九星外应口诀",
+    "source_lines": [
+      353,
+      353
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0247",
+    "core_course_id": "jinhan.batch02.u0247.core"
+  },
+  {
+    "id": "jinhan.batch02.u0248",
+    "category": "九星外应口诀",
+    "source_lines": [
+      354,
+      354
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0248",
+    "core_course_id": "jinhan.batch02.u0248.core"
+  },
+  {
+    "id": "jinhan.batch02.u0249",
+    "category": "九星外应口诀",
+    "source_lines": [
+      355,
+      355
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0249",
+    "core_course_id": "jinhan.batch02.u0249.core"
+  },
+  {
+    "id": "jinhan.batch02.u0250",
+    "category": "九星外应口诀",
+    "source_lines": [
+      356,
+      356
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0250",
+    "core_course_id": "jinhan.batch02.u0250.core"
+  },
+  {
+    "id": "jinhan.batch02.u0251",
+    "category": "目录结构",
+    "source_lines": [
+      358,
+      358
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0251",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0252",
+    "category": "九星外应口诀",
+    "source_lines": [
+      360,
+      360
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0252",
+    "core_course_id": "jinhan.batch02.u0252.core"
+  },
+  {
+    "id": "jinhan.batch02.u0253",
+    "category": "九星外应口诀",
+    "source_lines": [
+      362,
+      362
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0253",
+    "core_course_id": "jinhan.batch02.u0253.core"
+  },
+  {
+    "id": "jinhan.batch02.u0254",
+    "category": "九星外应口诀",
+    "source_lines": [
+      363,
+      363
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0254",
+    "core_course_id": "jinhan.batch02.u0254.core"
+  },
+  {
+    "id": "jinhan.batch02.u0255",
+    "category": "九星外应口诀",
+    "source_lines": [
+      364,
+      364
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0255",
+    "core_course_id": "jinhan.batch02.u0255.core"
+  },
+  {
+    "id": "jinhan.batch02.u0256",
+    "category": "九星外应口诀",
+    "source_lines": [
+      365,
+      365
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0256",
+    "core_course_id": "jinhan.batch02.u0256.core"
+  },
+  {
+    "id": "jinhan.batch02.u0257",
+    "category": "九星外应口诀",
+    "source_lines": [
+      366,
+      366
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0257",
+    "core_course_id": "jinhan.batch02.u0257.core"
+  },
+  {
+    "id": "jinhan.batch02.u0258",
+    "category": "九星外应口诀",
+    "source_lines": [
+      367,
+      367
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0258",
+    "core_course_id": "jinhan.batch02.u0258.core"
+  },
+  {
+    "id": "jinhan.batch02.u0259",
+    "category": "九星外应口诀",
+    "source_lines": [
+      368,
+      368
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0259",
+    "core_course_id": "jinhan.batch02.u0259.core"
+  },
+  {
+    "id": "jinhan.batch02.u0260",
+    "category": "九星外应口诀",
+    "source_lines": [
+      369,
+      369
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0260",
+    "core_course_id": "jinhan.batch02.u0260.core"
+  },
+  {
+    "id": "jinhan.batch02.u0261",
+    "category": "九星外应口诀",
+    "source_lines": [
+      370,
+      370
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0261",
+    "core_course_id": "jinhan.batch02.u0261.core"
+  },
+  {
+    "id": "jinhan.batch02.u0262",
+    "category": "九星外应口诀",
+    "source_lines": [
+      371,
+      371
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0262",
+    "core_course_id": "jinhan.batch02.u0262.core"
+  },
+  {
+    "id": "jinhan.batch02.u0263",
+    "category": "九星外应口诀",
+    "source_lines": [
+      372,
+      372
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0263",
+    "core_course_id": "jinhan.batch02.u0263.core"
+  },
+  {
+    "id": "jinhan.batch02.u0264",
+    "category": "九星外应口诀",
+    "source_lines": [
+      373,
+      373
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0264",
+    "core_course_id": "jinhan.batch02.u0264.core"
+  },
+  {
+    "id": "jinhan.batch02.u0265",
+    "category": "目录结构",
+    "source_lines": [
+      375,
+      375
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0265",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0266",
+    "category": "九星外应口诀",
+    "source_lines": [
+      377,
+      377
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0266",
+    "core_course_id": "jinhan.batch02.u0266.core"
+  },
+  {
+    "id": "jinhan.batch02.u0267",
+    "category": "九星外应口诀",
+    "source_lines": [
+      379,
+      379
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0267",
+    "core_course_id": "jinhan.batch02.u0267.core"
+  },
+  {
+    "id": "jinhan.batch02.u0268",
+    "category": "九星外应口诀",
+    "source_lines": [
+      380,
+      380
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0268",
+    "core_course_id": "jinhan.batch02.u0268.core"
+  },
+  {
+    "id": "jinhan.batch02.u0269",
+    "category": "九星外应口诀",
+    "source_lines": [
+      381,
+      381
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0269",
+    "core_course_id": "jinhan.batch02.u0269.core"
+  },
+  {
+    "id": "jinhan.batch02.u0270",
+    "category": "九星外应口诀",
+    "source_lines": [
+      382,
+      382
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0270",
+    "core_course_id": "jinhan.batch02.u0270.core"
+  },
+  {
+    "id": "jinhan.batch02.u0271",
+    "category": "九星外应口诀",
+    "source_lines": [
+      383,
+      383
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0271",
+    "core_course_id": "jinhan.batch02.u0271.core"
+  },
+  {
+    "id": "jinhan.batch02.u0272",
+    "category": "九星外应口诀",
+    "source_lines": [
+      384,
+      384
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0272",
+    "core_course_id": "jinhan.batch02.u0272.core"
+  },
+  {
+    "id": "jinhan.batch02.u0273",
+    "category": "九星外应口诀",
+    "source_lines": [
+      385,
+      385
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0273",
+    "core_course_id": "jinhan.batch02.u0273.core"
+  },
+  {
+    "id": "jinhan.batch02.u0274",
+    "category": "九星外应口诀",
+    "source_lines": [
+      386,
+      386
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0274",
+    "core_course_id": "jinhan.batch02.u0274.core"
+  },
+  {
+    "id": "jinhan.batch02.u0275",
+    "category": "九星外应口诀",
+    "source_lines": [
+      387,
+      387
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0275",
+    "core_course_id": "jinhan.batch02.u0275.core"
+  },
+  {
+    "id": "jinhan.batch02.u0276",
+    "category": "九星外应口诀",
+    "source_lines": [
+      388,
+      388
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0276",
+    "core_course_id": "jinhan.batch02.u0276.core"
+  },
+  {
+    "id": "jinhan.batch02.u0277",
+    "category": "九星外应口诀",
+    "source_lines": [
+      389,
+      389
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0277",
+    "core_course_id": "jinhan.batch02.u0277.core"
+  },
+  {
+    "id": "jinhan.batch02.u0278",
+    "category": "九星外应口诀",
+    "source_lines": [
+      390,
+      390
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0278",
+    "core_course_id": "jinhan.batch02.u0278.core"
+  },
+  {
+    "id": "jinhan.batch02.u0279",
+    "category": "目录结构",
+    "source_lines": [
+      392,
+      392
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0279",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0280",
+    "category": "九星外应口诀",
+    "source_lines": [
+      394,
+      394
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0280",
+    "core_course_id": "jinhan.batch02.u0280.core"
+  },
+  {
+    "id": "jinhan.batch02.u0281",
+    "category": "九星外应口诀",
+    "source_lines": [
+      396,
+      396
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0281",
+    "core_course_id": "jinhan.batch02.u0281.core"
+  },
+  {
+    "id": "jinhan.batch02.u0282",
+    "category": "九星外应口诀",
+    "source_lines": [
+      397,
+      397
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0282",
+    "core_course_id": "jinhan.batch02.u0282.core"
+  },
+  {
+    "id": "jinhan.batch02.u0283",
+    "category": "九星外应口诀",
+    "source_lines": [
+      398,
+      398
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0283",
+    "core_course_id": "jinhan.batch02.u0283.core"
+  },
+  {
+    "id": "jinhan.batch02.u0284",
+    "category": "九星外应口诀",
+    "source_lines": [
+      399,
+      399
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0284",
+    "core_course_id": "jinhan.batch02.u0284.core"
+  },
+  {
+    "id": "jinhan.batch02.u0285",
+    "category": "九星外应口诀",
+    "source_lines": [
+      400,
+      400
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0285",
+    "core_course_id": "jinhan.batch02.u0285.core"
+  },
+  {
+    "id": "jinhan.batch02.u0286",
+    "category": "九星外应口诀",
+    "source_lines": [
+      401,
+      401
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0286",
+    "core_course_id": "jinhan.batch02.u0286.core"
+  },
+  {
+    "id": "jinhan.batch02.u0287",
+    "category": "九星外应口诀",
+    "source_lines": [
+      402,
+      402
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0287",
+    "core_course_id": "jinhan.batch02.u0287.core"
+  },
+  {
+    "id": "jinhan.batch02.u0288",
+    "category": "九星外应口诀",
+    "source_lines": [
+      403,
+      403
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0288",
+    "core_course_id": "jinhan.batch02.u0288.core"
+  },
+  {
+    "id": "jinhan.batch02.u0289",
+    "category": "九星外应口诀",
+    "source_lines": [
+      404,
+      404
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0289",
+    "core_course_id": "jinhan.batch02.u0289.core"
+  },
+  {
+    "id": "jinhan.batch02.u0290",
+    "category": "九星外应口诀",
+    "source_lines": [
+      405,
+      405
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0290",
+    "core_course_id": "jinhan.batch02.u0290.core"
+  },
+  {
+    "id": "jinhan.batch02.u0291",
+    "category": "九星外应口诀",
+    "source_lines": [
+      406,
+      406
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0291",
+    "core_course_id": "jinhan.batch02.u0291.core"
+  },
+  {
+    "id": "jinhan.batch02.u0292",
+    "category": "九星外应口诀",
+    "source_lines": [
+      407,
+      407
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0292",
+    "core_course_id": "jinhan.batch02.u0292.core"
+  },
+  {
+    "id": "jinhan.batch02.u0293",
+    "category": "目录结构",
+    "source_lines": [
+      409,
+      409
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0293",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0294",
+    "category": "目录结构",
+    "source_lines": [
+      411,
+      411
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0294",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0295",
+    "category": "三奇到宫外应",
+    "source_lines": [
+      413,
+      420
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0295",
+    "core_course_id": "jinhan.batch02.u0295.core"
+  },
+  {
+    "id": "jinhan.batch02.u0296",
+    "category": "目录结构",
+    "source_lines": [
+      422,
+      422
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0296",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0297",
+    "category": "三奇到宫外应",
+    "source_lines": [
+      424,
+      431
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0297",
+    "core_course_id": "jinhan.batch02.u0297.core"
+  },
+  {
+    "id": "jinhan.batch02.u0298",
+    "category": "目录结构",
+    "source_lines": [
+      433,
+      433
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0298",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0299",
+    "category": "三奇到宫外应",
+    "source_lines": [
+      435,
+      442
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0299",
+    "core_course_id": "jinhan.batch02.u0299.core"
+  },
+  {
+    "id": "jinhan.batch02.u0300",
+    "category": "目录结构",
+    "source_lines": [
+      444,
+      444
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0300",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0301",
+    "category": "六甲奇仪外应",
+    "source_lines": [
+      446,
+      455
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0301",
+    "core_course_id": "jinhan.batch02.u0301.core"
+  },
+  {
+    "id": "jinhan.batch02.u0302",
+    "category": "目录结构",
+    "source_lines": [
+      457,
+      457
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0302",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0303",
+    "category": "目录结构",
+    "source_lines": [
+      459,
+      459
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0303",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0304",
+    "category": "八门概述",
+    "source_lines": [
+      461,
+      461
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0304",
+    "core_course_id": "jinhan.batch02.u0304.core"
+  },
+  {
+    "id": "jinhan.batch02.u0305",
+    "category": "八门概述",
+    "source_lines": [
+      463,
+      464
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0305",
+    "core_course_id": "jinhan.batch02.u0305.core"
+  },
+  {
+    "id": "jinhan.batch02.u0306",
+    "category": "八门概述",
+    "source_lines": [
+      466,
+      466
+    ],
+    "course_state": "quarantined_text_issue",
+    "rag_document_id": "jinhan.batch02.u0306",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0307",
+    "category": "目录结构",
+    "source_lines": [
+      468,
+      468
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0307",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0308",
+    "category": "八门动应",
+    "source_lines": [
+      469,
+      469
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0308",
+    "core_course_id": "jinhan.batch02.u0308.core"
+  },
+  {
+    "id": "jinhan.batch02.u0309",
+    "category": "八门动应",
+    "source_lines": [
+      470,
+      470
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0309",
+    "core_course_id": "jinhan.batch02.u0309.core"
+  },
+  {
+    "id": "jinhan.batch02.u0310",
+    "category": "八门动应",
+    "source_lines": [
+      471,
+      471
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0310",
+    "core_course_id": "jinhan.batch02.u0310.core"
+  },
+  {
+    "id": "jinhan.batch02.u0311",
+    "category": "八门动应",
+    "source_lines": [
+      472,
+      472
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0311",
+    "core_course_id": "jinhan.batch02.u0311.core"
+  },
+  {
+    "id": "jinhan.batch02.u0312",
+    "category": "八门动应",
+    "source_lines": [
+      473,
+      473
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0312",
+    "core_course_id": "jinhan.batch02.u0312.core"
+  },
+  {
+    "id": "jinhan.batch02.u0313",
+    "category": "八门动应",
+    "source_lines": [
+      474,
+      474
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0313",
+    "core_course_id": "jinhan.batch02.u0313.core"
+  },
+  {
+    "id": "jinhan.batch02.u0314",
+    "category": "八门动应",
+    "source_lines": [
+      475,
+      475
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0314",
+    "core_course_id": "jinhan.batch02.u0314.core"
+  },
+  {
+    "id": "jinhan.batch02.u0315",
+    "category": "八门动应",
+    "source_lines": [
+      476,
+      476
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0315",
+    "core_course_id": "jinhan.batch02.u0315.core"
+  },
+  {
+    "id": "jinhan.batch02.u0316",
+    "category": "目录结构",
+    "source_lines": [
+      478,
+      478
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0316",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0317",
+    "category": "八门静应",
+    "source_lines": [
+      479,
+      479
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0317",
+    "core_course_id": "jinhan.batch02.u0317.core"
+  },
+  {
+    "id": "jinhan.batch02.u0318",
+    "category": "八门静应",
+    "source_lines": [
+      480,
+      480
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0318",
+    "core_course_id": "jinhan.batch02.u0318.core"
+  },
+  {
+    "id": "jinhan.batch02.u0319",
+    "category": "八门静应",
+    "source_lines": [
+      481,
+      481
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0319",
+    "core_course_id": "jinhan.batch02.u0319.core"
+  },
+  {
+    "id": "jinhan.batch02.u0320",
+    "category": "八门静应",
+    "source_lines": [
+      482,
+      482
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0320",
+    "core_course_id": "jinhan.batch02.u0320.core"
+  },
+  {
+    "id": "jinhan.batch02.u0321",
+    "category": "八门静应",
+    "source_lines": [
+      483,
+      483
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0321",
+    "core_course_id": "jinhan.batch02.u0321.core"
+  },
+  {
+    "id": "jinhan.batch02.u0322",
+    "category": "八门静应",
+    "source_lines": [
+      484,
+      484
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0322",
+    "core_course_id": "jinhan.batch02.u0322.core"
+  },
+  {
+    "id": "jinhan.batch02.u0323",
+    "category": "八门静应",
+    "source_lines": [
+      485,
+      485
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0323",
+    "core_course_id": "jinhan.batch02.u0323.core"
+  },
+  {
+    "id": "jinhan.batch02.u0324",
+    "category": "八门静应",
+    "source_lines": [
+      486,
+      486
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0324",
+    "core_course_id": "jinhan.batch02.u0324.core"
+  },
+  {
+    "id": "jinhan.batch02.u0325",
+    "category": "八门静应",
+    "source_lines": [
+      488,
+      488
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0325",
+    "core_course_id": "jinhan.batch02.u0325.core"
+  },
+  {
+    "id": "jinhan.batch02.u0326",
+    "category": "八门静应",
+    "source_lines": [
+      490,
+      490
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0326",
+    "core_course_id": "jinhan.batch02.u0326.core"
+  },
+  {
+    "id": "jinhan.batch02.u0327",
+    "category": "八门静应",
+    "source_lines": [
+      492,
+      492
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0327",
+    "core_course_id": "jinhan.batch02.u0327.core"
+  },
+  {
+    "id": "jinhan.batch02.u0328",
+    "category": "目录结构",
+    "source_lines": [
+      494,
+      494
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0328",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0329",
+    "category": "八门概述",
+    "source_lines": [
+      496,
+      496
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0329",
+    "core_course_id": "jinhan.batch02.u0329.core"
+  },
+  {
+    "id": "jinhan.batch02.u0330",
+    "category": "八门概述",
+    "source_lines": [
+      498,
+      499
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0330",
+    "core_course_id": "jinhan.batch02.u0330.core"
+  },
+  {
+    "id": "jinhan.batch02.u0331",
+    "category": "八门概述",
+    "source_lines": [
+      501,
+      501
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0331",
+    "core_course_id": "jinhan.batch02.u0331.core"
+  },
+  {
+    "id": "jinhan.batch02.u0332",
+    "category": "目录结构",
+    "source_lines": [
+      503,
+      503
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0332",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0333",
+    "category": "八门静应",
+    "source_lines": [
+      504,
+      504
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0333",
+    "core_course_id": "jinhan.batch02.u0333.core"
+  },
+  {
+    "id": "jinhan.batch02.u0334",
+    "category": "八门静应",
+    "source_lines": [
+      505,
+      505
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0334",
+    "core_course_id": "jinhan.batch02.u0334.core"
+  },
+  {
+    "id": "jinhan.batch02.u0335",
+    "category": "八门静应",
+    "source_lines": [
+      506,
+      506
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0335",
+    "core_course_id": "jinhan.batch02.u0335.core"
+  },
+  {
+    "id": "jinhan.batch02.u0336",
+    "category": "八门静应",
+    "source_lines": [
+      507,
+      507
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0336",
+    "core_course_id": "jinhan.batch02.u0336.core"
+  },
+  {
+    "id": "jinhan.batch02.u0337",
+    "category": "八门静应",
+    "source_lines": [
+      508,
+      508
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0337",
+    "core_course_id": "jinhan.batch02.u0337.core"
+  },
+  {
+    "id": "jinhan.batch02.u0338",
+    "category": "八门静应",
+    "source_lines": [
+      509,
+      509
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0338",
+    "core_course_id": "jinhan.batch02.u0338.core"
+  },
+  {
+    "id": "jinhan.batch02.u0339",
+    "category": "八门静应",
+    "source_lines": [
+      510,
+      510
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0339",
+    "core_course_id": "jinhan.batch02.u0339.core"
+  },
+  {
+    "id": "jinhan.batch02.u0340",
+    "category": "八门静应",
+    "source_lines": [
+      511,
+      511
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0340",
+    "core_course_id": "jinhan.batch02.u0340.core"
+  },
+  {
+    "id": "jinhan.batch02.u0341",
+    "category": "目录结构",
+    "source_lines": [
+      513,
+      513
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0341",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0342",
+    "category": "八门动应",
+    "source_lines": [
+      514,
+      514
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0342",
+    "core_course_id": "jinhan.batch02.u0342.core"
+  },
+  {
+    "id": "jinhan.batch02.u0343",
+    "category": "八门动应",
+    "source_lines": [
+      515,
+      515
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0343",
+    "core_course_id": "jinhan.batch02.u0343.core"
+  },
+  {
+    "id": "jinhan.batch02.u0344",
+    "category": "八门动应",
+    "source_lines": [
+      516,
+      516
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0344",
+    "core_course_id": "jinhan.batch02.u0344.core"
+  },
+  {
+    "id": "jinhan.batch02.u0345",
+    "category": "八门动应",
+    "source_lines": [
+      517,
+      517
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0345",
+    "core_course_id": "jinhan.batch02.u0345.core"
+  },
+  {
+    "id": "jinhan.batch02.u0346",
+    "category": "八门动应",
+    "source_lines": [
+      518,
+      518
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0346",
+    "core_course_id": "jinhan.batch02.u0346.core"
+  },
+  {
+    "id": "jinhan.batch02.u0347",
+    "category": "八门动应",
+    "source_lines": [
+      519,
+      519
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0347",
+    "core_course_id": "jinhan.batch02.u0347.core"
+  },
+  {
+    "id": "jinhan.batch02.u0348",
+    "category": "八门动应",
+    "source_lines": [
+      520,
+      520
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0348",
+    "core_course_id": "jinhan.batch02.u0348.core"
+  },
+  {
+    "id": "jinhan.batch02.u0349",
+    "category": "八门动应",
+    "source_lines": [
+      521,
+      521
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0349",
+    "core_course_id": "jinhan.batch02.u0349.core"
+  },
+  {
+    "id": "jinhan.batch02.u0350",
+    "category": "八门动应",
+    "source_lines": [
+      523,
+      523
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0350",
+    "core_course_id": "jinhan.batch02.u0350.core"
+  },
+  {
+    "id": "jinhan.batch02.u0351",
+    "category": "八门动应",
+    "source_lines": [
+      525,
+      525
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0351",
+    "core_course_id": "jinhan.batch02.u0351.core"
+  },
+  {
+    "id": "jinhan.batch02.u0352",
+    "category": "目录结构",
+    "source_lines": [
+      527,
+      527
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0352",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0353",
+    "category": "八门概述",
+    "source_lines": [
+      529,
+      529
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0353",
+    "core_course_id": "jinhan.batch02.u0353.core"
+  },
+  {
+    "id": "jinhan.batch02.u0354",
+    "category": "八门概述",
+    "source_lines": [
+      531,
+      532
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0354",
+    "core_course_id": "jinhan.batch02.u0354.core"
+  },
+  {
+    "id": "jinhan.batch02.u0355",
+    "category": "八门概述",
+    "source_lines": [
+      534,
+      534
+    ],
+    "course_state": "quarantined_text_issue",
+    "rag_document_id": "jinhan.batch02.u0355",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0356",
+    "category": "八门概述",
+    "source_lines": [
+      536,
+      536
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0356",
+    "core_course_id": "jinhan.batch02.u0356.core"
+  },
+  {
+    "id": "jinhan.batch02.u0357",
+    "category": "目录结构",
+    "source_lines": [
+      538,
+      538
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0357",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0358",
+    "category": "八门静应",
+    "source_lines": [
+      539,
+      539
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0358",
+    "core_course_id": "jinhan.batch02.u0358.core"
+  },
+  {
+    "id": "jinhan.batch02.u0359",
+    "category": "八门静应",
+    "source_lines": [
+      540,
+      540
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0359",
+    "core_course_id": "jinhan.batch02.u0359.core"
+  },
+  {
+    "id": "jinhan.batch02.u0360",
+    "category": "八门静应",
+    "source_lines": [
+      541,
+      541
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0360",
+    "core_course_id": "jinhan.batch02.u0360.core"
+  },
+  {
+    "id": "jinhan.batch02.u0361",
+    "category": "八门静应",
+    "source_lines": [
+      542,
+      542
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0361",
+    "core_course_id": "jinhan.batch02.u0361.core"
+  },
+  {
+    "id": "jinhan.batch02.u0362",
+    "category": "八门静应",
+    "source_lines": [
+      543,
+      543
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0362",
+    "core_course_id": "jinhan.batch02.u0362.core"
+  },
+  {
+    "id": "jinhan.batch02.u0363",
+    "category": "八门静应",
+    "source_lines": [
+      544,
+      544
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0363",
+    "core_course_id": "jinhan.batch02.u0363.core"
+  },
+  {
+    "id": "jinhan.batch02.u0364",
+    "category": "八门静应",
+    "source_lines": [
+      545,
+      545
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0364",
+    "core_course_id": "jinhan.batch02.u0364.core"
+  },
+  {
+    "id": "jinhan.batch02.u0365",
+    "category": "八门静应",
+    "source_lines": [
+      546,
+      546
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0365",
+    "core_course_id": "jinhan.batch02.u0365.core"
+  },
+  {
+    "id": "jinhan.batch02.u0366",
+    "category": "八门静应",
+    "source_lines": [
+      548,
+      548
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0366",
+    "core_course_id": "jinhan.batch02.u0366.core"
+  },
+  {
+    "id": "jinhan.batch02.u0367",
+    "category": "八门静应",
+    "source_lines": [
+      550,
+      550
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0367",
+    "core_course_id": "jinhan.batch02.u0367.core"
+  },
+  {
+    "id": "jinhan.batch02.u0368",
+    "category": "目录结构",
+    "source_lines": [
+      552,
+      552
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0368",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0369",
+    "category": "八门动应",
+    "source_lines": [
+      553,
+      553
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0369",
+    "core_course_id": "jinhan.batch02.u0369.core"
+  },
+  {
+    "id": "jinhan.batch02.u0370",
+    "category": "八门动应",
+    "source_lines": [
+      554,
+      554
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0370",
+    "core_course_id": "jinhan.batch02.u0370.core"
+  },
+  {
+    "id": "jinhan.batch02.u0371",
+    "category": "八门动应",
+    "source_lines": [
+      555,
+      555
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0371",
+    "core_course_id": "jinhan.batch02.u0371.core"
+  },
+  {
+    "id": "jinhan.batch02.u0372",
+    "category": "八门动应",
+    "source_lines": [
+      556,
+      556
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0372",
+    "core_course_id": "jinhan.batch02.u0372.core"
+  },
+  {
+    "id": "jinhan.batch02.u0373",
+    "category": "八门动应",
+    "source_lines": [
+      557,
+      557
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0373",
+    "core_course_id": "jinhan.batch02.u0373.core"
+  },
+  {
+    "id": "jinhan.batch02.u0374",
+    "category": "八门动应",
+    "source_lines": [
+      558,
+      558
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0374",
+    "core_course_id": "jinhan.batch02.u0374.core"
+  },
+  {
+    "id": "jinhan.batch02.u0375",
+    "category": "八门动应",
+    "source_lines": [
+      559,
+      559
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0375",
+    "core_course_id": "jinhan.batch02.u0375.core"
+  },
+  {
+    "id": "jinhan.batch02.u0376",
+    "category": "八门动应",
+    "source_lines": [
+      560,
+      560
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0376",
+    "core_course_id": "jinhan.batch02.u0376.core"
+  },
+  {
+    "id": "jinhan.batch02.u0377",
+    "category": "八门动应",
+    "source_lines": [
+      561,
+      561
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0377",
+    "core_course_id": "jinhan.batch02.u0377.core"
+  },
+  {
+    "id": "jinhan.batch02.u0378",
+    "category": "目录结构",
+    "source_lines": [
+      563,
+      563
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0378",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0379",
+    "category": "八门概述",
+    "source_lines": [
+      565,
+      565
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0379",
+    "core_course_id": "jinhan.batch02.u0379.core"
+  },
+  {
+    "id": "jinhan.batch02.u0380",
+    "category": "八门概述",
+    "source_lines": [
+      567,
+      568
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0380",
+    "core_course_id": "jinhan.batch02.u0380.core"
+  },
+  {
+    "id": "jinhan.batch02.u0381",
+    "category": "八门概述",
+    "source_lines": [
+      570,
+      570
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0381",
+    "core_course_id": "jinhan.batch02.u0381.core"
+  },
+  {
+    "id": "jinhan.batch02.u0382",
+    "category": "目录结构",
+    "source_lines": [
+      572,
+      572
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0382",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0383",
+    "category": "八门静应",
+    "source_lines": [
+      573,
+      573
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0383",
+    "core_course_id": "jinhan.batch02.u0383.core"
+  },
+  {
+    "id": "jinhan.batch02.u0384",
+    "category": "八门静应",
+    "source_lines": [
+      574,
+      574
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0384",
+    "core_course_id": "jinhan.batch02.u0384.core"
+  },
+  {
+    "id": "jinhan.batch02.u0385",
+    "category": "八门静应",
+    "source_lines": [
+      575,
+      575
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0385",
+    "core_course_id": "jinhan.batch02.u0385.core"
+  },
+  {
+    "id": "jinhan.batch02.u0386",
+    "category": "八门静应",
+    "source_lines": [
+      576,
+      576
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0386",
+    "core_course_id": "jinhan.batch02.u0386.core"
+  },
+  {
+    "id": "jinhan.batch02.u0387",
+    "category": "八门静应",
+    "source_lines": [
+      577,
+      577
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0387",
+    "core_course_id": "jinhan.batch02.u0387.core"
+  },
+  {
+    "id": "jinhan.batch02.u0388",
+    "category": "八门静应",
+    "source_lines": [
+      578,
+      578
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0388",
+    "core_course_id": "jinhan.batch02.u0388.core"
+  },
+  {
+    "id": "jinhan.batch02.u0389",
+    "category": "八门静应",
+    "source_lines": [
+      579,
+      579
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0389",
+    "core_course_id": "jinhan.batch02.u0389.core"
+  },
+  {
+    "id": "jinhan.batch02.u0390",
+    "category": "八门静应",
+    "source_lines": [
+      581,
+      581
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0390",
+    "core_course_id": "jinhan.batch02.u0390.core"
+  },
+  {
+    "id": "jinhan.batch02.u0391",
+    "category": "八门静应",
+    "source_lines": [
+      582,
+      582
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0391",
+    "core_course_id": "jinhan.batch02.u0391.core"
+  },
+  {
+    "id": "jinhan.batch02.u0392",
+    "category": "八门静应",
+    "source_lines": [
+      583,
+      583
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0392",
+    "core_course_id": "jinhan.batch02.u0392.core"
+  },
+  {
+    "id": "jinhan.batch02.u0393",
+    "category": "八门静应",
+    "source_lines": [
+      584,
+      584
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0393",
+    "core_course_id": "jinhan.batch02.u0393.core"
+  },
+  {
+    "id": "jinhan.batch02.u0394",
+    "category": "八门静应",
+    "source_lines": [
+      585,
+      585
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0394",
+    "core_course_id": "jinhan.batch02.u0394.core"
+  },
+  {
+    "id": "jinhan.batch02.u0395",
+    "category": "八门静应",
+    "source_lines": [
+      586,
+      586
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0395",
+    "core_course_id": "jinhan.batch02.u0395.core"
+  },
+  {
+    "id": "jinhan.batch02.u0396",
+    "category": "八门静应",
+    "source_lines": [
+      587,
+      587
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0396",
+    "core_course_id": "jinhan.batch02.u0396.core"
+  },
+  {
+    "id": "jinhan.batch02.u0397",
+    "category": "八门静应",
+    "source_lines": [
+      588,
+      588
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0397",
+    "core_course_id": "jinhan.batch02.u0397.core"
+  },
+  {
+    "id": "jinhan.batch02.u0398",
+    "category": "八门静应",
+    "source_lines": [
+      589,
+      589
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0398",
+    "core_course_id": "jinhan.batch02.u0398.core"
+  },
+  {
+    "id": "jinhan.batch02.u0399",
+    "category": "目录结构",
+    "source_lines": [
+      591,
+      591
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0399",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0400",
+    "category": "八门动应",
+    "source_lines": [
+      592,
+      592
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0400",
+    "core_course_id": "jinhan.batch02.u0400.core"
+  },
+  {
+    "id": "jinhan.batch02.u0401",
+    "category": "八门动应",
+    "source_lines": [
+      593,
+      593
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0401",
+    "core_course_id": "jinhan.batch02.u0401.core"
+  },
+  {
+    "id": "jinhan.batch02.u0402",
+    "category": "八门动应",
+    "source_lines": [
+      594,
+      594
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0402",
+    "core_course_id": "jinhan.batch02.u0402.core"
+  },
+  {
+    "id": "jinhan.batch02.u0403",
+    "category": "八门动应",
+    "source_lines": [
+      595,
+      595
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0403",
+    "core_course_id": "jinhan.batch02.u0403.core"
+  },
+  {
+    "id": "jinhan.batch02.u0404",
+    "category": "八门动应",
+    "source_lines": [
+      596,
+      596
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0404",
+    "core_course_id": "jinhan.batch02.u0404.core"
+  },
+  {
+    "id": "jinhan.batch02.u0405",
+    "category": "八门动应",
+    "source_lines": [
+      597,
+      597
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0405",
+    "core_course_id": "jinhan.batch02.u0405.core"
+  },
+  {
+    "id": "jinhan.batch02.u0406",
+    "category": "八门动应",
+    "source_lines": [
+      598,
+      598
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0406",
+    "core_course_id": "jinhan.batch02.u0406.core"
+  },
+  {
+    "id": "jinhan.batch02.u0407",
+    "category": "八门动应",
+    "source_lines": [
+      599,
+      599
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0407",
+    "core_course_id": "jinhan.batch02.u0407.core"
+  },
+  {
+    "id": "jinhan.batch02.u0408",
+    "category": "八门动应",
+    "source_lines": [
+      600,
+      600
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0408",
+    "core_course_id": "jinhan.batch02.u0408.core"
+  },
+  {
+    "id": "jinhan.batch02.u0409",
+    "category": "八门动应",
+    "source_lines": [
+      602,
+      602
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0409",
+    "core_course_id": "jinhan.batch02.u0409.core"
+  },
+  {
+    "id": "jinhan.batch02.u0410",
+    "category": "目录结构",
+    "source_lines": [
+      604,
+      604
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0410",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0411",
+    "category": "八门概述",
+    "source_lines": [
+      606,
+      606
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0411",
+    "core_course_id": "jinhan.batch02.u0411.core"
+  },
+  {
+    "id": "jinhan.batch02.u0412",
+    "category": "八门概述",
+    "source_lines": [
+      608,
+      609
+    ],
+    "course_state": "quarantined_text_issue",
+    "rag_document_id": "jinhan.batch02.u0412",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0413",
+    "category": "八门概述",
+    "source_lines": [
+      611,
+      611
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0413",
+    "core_course_id": "jinhan.batch02.u0413.core"
+  },
+  {
+    "id": "jinhan.batch02.u0414",
+    "category": "目录结构",
+    "source_lines": [
+      613,
+      613
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0414",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0415",
+    "category": "八门静应",
+    "source_lines": [
+      614,
+      614
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0415",
+    "core_course_id": "jinhan.batch02.u0415.core"
+  },
+  {
+    "id": "jinhan.batch02.u0416",
+    "category": "八门静应",
+    "source_lines": [
+      615,
+      615
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0416",
+    "core_course_id": "jinhan.batch02.u0416.core"
+  },
+  {
+    "id": "jinhan.batch02.u0417",
+    "category": "八门静应",
+    "source_lines": [
+      616,
+      616
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0417",
+    "core_course_id": "jinhan.batch02.u0417.core"
+  },
+  {
+    "id": "jinhan.batch02.u0418",
+    "category": "八门静应",
+    "source_lines": [
+      617,
+      617
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0418",
+    "core_course_id": "jinhan.batch02.u0418.core"
+  },
+  {
+    "id": "jinhan.batch02.u0419",
+    "category": "八门静应",
+    "source_lines": [
+      618,
+      618
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0419",
+    "core_course_id": "jinhan.batch02.u0419.core"
+  },
+  {
+    "id": "jinhan.batch02.u0420",
+    "category": "八门静应",
+    "source_lines": [
+      619,
+      619
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0420",
+    "core_course_id": "jinhan.batch02.u0420.core"
+  },
+  {
+    "id": "jinhan.batch02.u0421",
+    "category": "八门静应",
+    "source_lines": [
+      620,
+      620
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0421",
+    "core_course_id": "jinhan.batch02.u0421.core"
+  },
+  {
+    "id": "jinhan.batch02.u0422",
+    "category": "八门静应",
+    "source_lines": [
+      621,
+      621
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0422",
+    "core_course_id": "jinhan.batch02.u0422.core"
+  },
+  {
+    "id": "jinhan.batch02.u0423",
+    "category": "八门静应",
+    "source_lines": [
+      623,
+      623
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0423",
+    "core_course_id": "jinhan.batch02.u0423.core"
+  },
+  {
+    "id": "jinhan.batch02.u0424",
+    "category": "八门静应",
+    "source_lines": [
+      624,
+      624
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0424",
+    "core_course_id": "jinhan.batch02.u0424.core"
+  },
+  {
+    "id": "jinhan.batch02.u0425",
+    "category": "八门静应",
+    "source_lines": [
+      625,
+      625
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0425",
+    "core_course_id": "jinhan.batch02.u0425.core"
+  },
+  {
+    "id": "jinhan.batch02.u0426",
+    "category": "八门静应",
+    "source_lines": [
+      626,
+      626
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0426",
+    "core_course_id": "jinhan.batch02.u0426.core"
+  },
+  {
+    "id": "jinhan.batch02.u0427",
+    "category": "八门静应",
+    "source_lines": [
+      627,
+      627
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0427",
+    "core_course_id": "jinhan.batch02.u0427.core"
+  },
+  {
+    "id": "jinhan.batch02.u0428",
+    "category": "八门静应",
+    "source_lines": [
+      628,
+      628
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0428",
+    "core_course_id": "jinhan.batch02.u0428.core"
+  },
+  {
+    "id": "jinhan.batch02.u0429",
+    "category": "八门静应",
+    "source_lines": [
+      629,
+      629
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0429",
+    "core_course_id": "jinhan.batch02.u0429.core"
+  },
+  {
+    "id": "jinhan.batch02.u0430",
+    "category": "八门静应",
+    "source_lines": [
+      630,
+      630
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0430",
+    "core_course_id": "jinhan.batch02.u0430.core"
+  },
+  {
+    "id": "jinhan.batch02.u0431",
+    "category": "八门静应",
+    "source_lines": [
+      631,
+      631
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0431",
+    "core_course_id": "jinhan.batch02.u0431.core"
+  },
+  {
+    "id": "jinhan.batch02.u0432",
+    "category": "目录结构",
+    "source_lines": [
+      633,
+      633
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0432",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0433",
+    "category": "八门动应",
+    "source_lines": [
+      634,
+      634
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0433",
+    "core_course_id": "jinhan.batch02.u0433.core"
+  },
+  {
+    "id": "jinhan.batch02.u0434",
+    "category": "八门动应",
+    "source_lines": [
+      635,
+      635
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0434",
+    "core_course_id": "jinhan.batch02.u0434.core"
+  },
+  {
+    "id": "jinhan.batch02.u0435",
+    "category": "八门动应",
+    "source_lines": [
+      636,
+      636
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0435",
+    "core_course_id": "jinhan.batch02.u0435.core"
+  },
+  {
+    "id": "jinhan.batch02.u0436",
+    "category": "八门动应",
+    "source_lines": [
+      637,
+      637
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0436",
+    "core_course_id": "jinhan.batch02.u0436.core"
+  },
+  {
+    "id": "jinhan.batch02.u0437",
+    "category": "八门动应",
+    "source_lines": [
+      638,
+      638
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0437",
+    "core_course_id": "jinhan.batch02.u0437.core"
+  },
+  {
+    "id": "jinhan.batch02.u0438",
+    "category": "八门动应",
+    "source_lines": [
+      639,
+      639
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0438",
+    "core_course_id": "jinhan.batch02.u0438.core"
+  },
+  {
+    "id": "jinhan.batch02.u0439",
+    "category": "八门动应",
+    "source_lines": [
+      640,
+      640
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0439",
+    "core_course_id": "jinhan.batch02.u0439.core"
+  },
+  {
+    "id": "jinhan.batch02.u0440",
+    "category": "八门动应",
+    "source_lines": [
+      641,
+      641
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0440",
+    "core_course_id": "jinhan.batch02.u0440.core"
+  },
+  {
+    "id": "jinhan.batch02.u0441",
+    "category": "八门动应",
+    "source_lines": [
+      642,
+      642
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0441",
+    "core_course_id": "jinhan.batch02.u0441.core"
+  },
+  {
+    "id": "jinhan.batch02.u0442",
+    "category": "八门动应",
+    "source_lines": [
+      644,
+      644
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0442",
+    "core_course_id": "jinhan.batch02.u0442.core"
+  },
+  {
+    "id": "jinhan.batch02.u0443",
+    "category": "目录结构",
+    "source_lines": [
+      646,
+      646
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0443",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0444",
+    "category": "八门概述",
+    "source_lines": [
+      648,
+      648
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0444",
+    "core_course_id": "jinhan.batch02.u0444.core"
+  },
+  {
+    "id": "jinhan.batch02.u0445",
+    "category": "八门概述",
+    "source_lines": [
+      650,
+      651
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0445",
+    "core_course_id": "jinhan.batch02.u0445.core"
+  },
+  {
+    "id": "jinhan.batch02.u0446",
+    "category": "八门概述",
+    "source_lines": [
+      653,
+      653
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0446",
+    "core_course_id": "jinhan.batch02.u0446.core"
+  },
+  {
+    "id": "jinhan.batch02.u0447",
+    "category": "目录结构",
+    "source_lines": [
+      655,
+      655
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0447",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0448",
+    "category": "八门静应",
+    "source_lines": [
+      656,
+      656
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0448",
+    "core_course_id": "jinhan.batch02.u0448.core"
+  },
+  {
+    "id": "jinhan.batch02.u0449",
+    "category": "八门静应",
+    "source_lines": [
+      657,
+      657
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0449",
+    "core_course_id": "jinhan.batch02.u0449.core"
+  },
+  {
+    "id": "jinhan.batch02.u0450",
+    "category": "八门静应",
+    "source_lines": [
+      658,
+      658
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0450",
+    "core_course_id": "jinhan.batch02.u0450.core"
+  },
+  {
+    "id": "jinhan.batch02.u0451",
+    "category": "八门静应",
+    "source_lines": [
+      659,
+      659
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0451",
+    "core_course_id": "jinhan.batch02.u0451.core"
+  },
+  {
+    "id": "jinhan.batch02.u0452",
+    "category": "八门静应",
+    "source_lines": [
+      660,
+      660
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0452",
+    "core_course_id": "jinhan.batch02.u0452.core"
+  },
+  {
+    "id": "jinhan.batch02.u0453",
+    "category": "八门静应",
+    "source_lines": [
+      661,
+      661
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0453",
+    "core_course_id": "jinhan.batch02.u0453.core"
+  },
+  {
+    "id": "jinhan.batch02.u0454",
+    "category": "八门静应",
+    "source_lines": [
+      662,
+      662
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0454",
+    "core_course_id": "jinhan.batch02.u0454.core"
+  },
+  {
+    "id": "jinhan.batch02.u0455",
+    "category": "八门静应",
+    "source_lines": [
+      663,
+      663
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0455",
+    "core_course_id": "jinhan.batch02.u0455.core"
+  },
+  {
+    "id": "jinhan.batch02.u0456",
+    "category": "八门静应",
+    "source_lines": [
+      665,
+      665
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0456",
+    "core_course_id": "jinhan.batch02.u0456.core"
+  },
+  {
+    "id": "jinhan.batch02.u0457",
+    "category": "八门静应",
+    "source_lines": [
+      666,
+      666
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0457",
+    "core_course_id": "jinhan.batch02.u0457.core"
+  },
+  {
+    "id": "jinhan.batch02.u0458",
+    "category": "八门静应",
+    "source_lines": [
+      667,
+      667
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0458",
+    "core_course_id": "jinhan.batch02.u0458.core"
+  },
+  {
+    "id": "jinhan.batch02.u0459",
+    "category": "八门静应",
+    "source_lines": [
+      668,
+      668
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0459",
+    "core_course_id": "jinhan.batch02.u0459.core"
+  },
+  {
+    "id": "jinhan.batch02.u0460",
+    "category": "八门静应",
+    "source_lines": [
+      669,
+      669
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0460",
+    "core_course_id": "jinhan.batch02.u0460.core"
+  },
+  {
+    "id": "jinhan.batch02.u0461",
+    "category": "八门静应",
+    "source_lines": [
+      670,
+      670
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0461",
+    "core_course_id": "jinhan.batch02.u0461.core"
+  },
+  {
+    "id": "jinhan.batch02.u0462",
+    "category": "八门静应",
+    "source_lines": [
+      671,
+      671
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0462",
+    "core_course_id": "jinhan.batch02.u0462.core"
+  },
+  {
+    "id": "jinhan.batch02.u0463",
+    "category": "八门静应",
+    "source_lines": [
+      672,
+      672
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0463",
+    "core_course_id": "jinhan.batch02.u0463.core"
+  },
+  {
+    "id": "jinhan.batch02.u0464",
+    "category": "八门静应",
+    "source_lines": [
+      673,
+      673
+    ],
+    "course_state": "quarantined_text_issue",
+    "rag_document_id": "jinhan.batch02.u0464",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0465",
+    "category": "八门静应",
+    "source_lines": [
+      675,
+      675
+    ],
+    "course_state": "quarantined_text_issue",
+    "rag_document_id": "jinhan.batch02.u0465",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0466",
+    "category": "目录结构",
+    "source_lines": [
+      677,
+      677
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0466",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0467",
+    "category": "八门动应",
+    "source_lines": [
+      678,
+      678
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0467",
+    "core_course_id": "jinhan.batch02.u0467.core"
+  },
+  {
+    "id": "jinhan.batch02.u0468",
+    "category": "八门动应",
+    "source_lines": [
+      679,
+      679
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0468",
+    "core_course_id": "jinhan.batch02.u0468.core"
+  },
+  {
+    "id": "jinhan.batch02.u0469",
+    "category": "八门动应",
+    "source_lines": [
+      680,
+      680
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0469",
+    "core_course_id": "jinhan.batch02.u0469.core"
+  },
+  {
+    "id": "jinhan.batch02.u0470",
+    "category": "八门动应",
+    "source_lines": [
+      681,
+      681
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0470",
+    "core_course_id": "jinhan.batch02.u0470.core"
+  },
+  {
+    "id": "jinhan.batch02.u0471",
+    "category": "八门动应",
+    "source_lines": [
+      682,
+      682
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0471",
+    "core_course_id": "jinhan.batch02.u0471.core"
+  },
+  {
+    "id": "jinhan.batch02.u0472",
+    "category": "八门动应",
+    "source_lines": [
+      683,
+      683
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0472",
+    "core_course_id": "jinhan.batch02.u0472.core"
+  },
+  {
+    "id": "jinhan.batch02.u0473",
+    "category": "八门动应",
+    "source_lines": [
+      684,
+      684
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0473",
+    "core_course_id": "jinhan.batch02.u0473.core"
+  },
+  {
+    "id": "jinhan.batch02.u0474",
+    "category": "八门动应",
+    "source_lines": [
+      685,
+      685
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0474",
+    "core_course_id": "jinhan.batch02.u0474.core"
+  },
+  {
+    "id": "jinhan.batch02.u0475",
+    "category": "八门动应",
+    "source_lines": [
+      686,
+      686
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0475",
+    "core_course_id": "jinhan.batch02.u0475.core"
+  },
+  {
+    "id": "jinhan.batch02.u0476",
+    "category": "目录结构",
+    "source_lines": [
+      688,
+      688
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0476",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0477",
+    "category": "八门概述",
+    "source_lines": [
+      690,
+      690
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0477",
+    "core_course_id": "jinhan.batch02.u0477.core"
+  },
+  {
+    "id": "jinhan.batch02.u0478",
+    "category": "八门概述",
+    "source_lines": [
+      692,
+      693
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0478",
+    "core_course_id": "jinhan.batch02.u0478.core"
+  },
+  {
+    "id": "jinhan.batch02.u0479",
+    "category": "目录结构",
+    "source_lines": [
+      695,
+      695
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0479",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0480",
+    "category": "八门静应",
+    "source_lines": [
+      696,
+      696
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0480",
+    "core_course_id": "jinhan.batch02.u0480.core"
+  },
+  {
+    "id": "jinhan.batch02.u0481",
+    "category": "八门静应",
+    "source_lines": [
+      697,
+      697
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0481",
+    "core_course_id": "jinhan.batch02.u0481.core"
+  },
+  {
+    "id": "jinhan.batch02.u0482",
+    "category": "八门静应",
+    "source_lines": [
+      698,
+      698
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0482",
+    "core_course_id": "jinhan.batch02.u0482.core"
+  },
+  {
+    "id": "jinhan.batch02.u0483",
+    "category": "八门静应",
+    "source_lines": [
+      699,
+      699
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0483",
+    "core_course_id": "jinhan.batch02.u0483.core"
+  },
+  {
+    "id": "jinhan.batch02.u0484",
+    "category": "八门静应",
+    "source_lines": [
+      700,
+      700
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0484",
+    "core_course_id": "jinhan.batch02.u0484.core"
+  },
+  {
+    "id": "jinhan.batch02.u0485",
+    "category": "八门静应",
+    "source_lines": [
+      701,
+      701
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0485",
+    "core_course_id": "jinhan.batch02.u0485.core"
+  },
+  {
+    "id": "jinhan.batch02.u0486",
+    "category": "八门静应",
+    "source_lines": [
+      702,
+      702
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0486",
+    "core_course_id": "jinhan.batch02.u0486.core"
+  },
+  {
+    "id": "jinhan.batch02.u0487",
+    "category": "八门静应",
+    "source_lines": [
+      704,
+      704
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0487",
+    "core_course_id": "jinhan.batch02.u0487.core"
+  },
+  {
+    "id": "jinhan.batch02.u0488",
+    "category": "八门静应",
+    "source_lines": [
+      705,
+      705
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0488",
+    "core_course_id": "jinhan.batch02.u0488.core"
+  },
+  {
+    "id": "jinhan.batch02.u0489",
+    "category": "八门静应",
+    "source_lines": [
+      706,
+      706
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0489",
+    "core_course_id": "jinhan.batch02.u0489.core"
+  },
+  {
+    "id": "jinhan.batch02.u0490",
+    "category": "八门静应",
+    "source_lines": [
+      707,
+      707
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0490",
+    "core_course_id": "jinhan.batch02.u0490.core"
+  },
+  {
+    "id": "jinhan.batch02.u0491",
+    "category": "八门静应",
+    "source_lines": [
+      708,
+      708
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0491",
+    "core_course_id": "jinhan.batch02.u0491.core"
+  },
+  {
+    "id": "jinhan.batch02.u0492",
+    "category": "八门静应",
+    "source_lines": [
+      709,
+      709
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0492",
+    "core_course_id": "jinhan.batch02.u0492.core"
+  },
+  {
+    "id": "jinhan.batch02.u0493",
+    "category": "八门静应",
+    "source_lines": [
+      710,
+      710
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0493",
+    "core_course_id": "jinhan.batch02.u0493.core"
+  },
+  {
+    "id": "jinhan.batch02.u0494",
+    "category": "八门静应",
+    "source_lines": [
+      711,
+      711
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0494",
+    "core_course_id": "jinhan.batch02.u0494.core"
+  },
+  {
+    "id": "jinhan.batch02.u0495",
+    "category": "八门静应",
+    "source_lines": [
+      712,
+      712
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0495",
+    "core_course_id": "jinhan.batch02.u0495.core"
+  },
+  {
+    "id": "jinhan.batch02.u0496",
+    "category": "目录结构",
+    "source_lines": [
+      714,
+      714
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0496",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0497",
+    "category": "八门动应",
+    "source_lines": [
+      715,
+      715
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0497",
+    "core_course_id": "jinhan.batch02.u0497.core"
+  },
+  {
+    "id": "jinhan.batch02.u0498",
+    "category": "八门动应",
+    "source_lines": [
+      716,
+      716
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0498",
+    "core_course_id": "jinhan.batch02.u0498.core"
+  },
+  {
+    "id": "jinhan.batch02.u0499",
+    "category": "八门动应",
+    "source_lines": [
+      717,
+      717
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0499",
+    "core_course_id": "jinhan.batch02.u0499.core"
+  },
+  {
+    "id": "jinhan.batch02.u0500",
+    "category": "八门动应",
+    "source_lines": [
+      718,
+      718
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0500",
+    "core_course_id": "jinhan.batch02.u0500.core"
+  },
+  {
+    "id": "jinhan.batch02.u0501",
+    "category": "八门动应",
+    "source_lines": [
+      719,
+      719
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0501",
+    "core_course_id": "jinhan.batch02.u0501.core"
+  },
+  {
+    "id": "jinhan.batch02.u0502",
+    "category": "八门动应",
+    "source_lines": [
+      720,
+      720
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0502",
+    "core_course_id": "jinhan.batch02.u0502.core"
+  },
+  {
+    "id": "jinhan.batch02.u0503",
+    "category": "八门动应",
+    "source_lines": [
+      721,
+      721
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0503",
+    "core_course_id": "jinhan.batch02.u0503.core"
+  },
+  {
+    "id": "jinhan.batch02.u0504",
+    "category": "八门动应",
+    "source_lines": [
+      722,
+      722
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0504",
+    "core_course_id": "jinhan.batch02.u0504.core"
+  },
+  {
+    "id": "jinhan.batch02.u0505",
+    "category": "八门动应",
+    "source_lines": [
+      723,
+      723
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0505",
+    "core_course_id": "jinhan.batch02.u0505.core"
+  },
+  {
+    "id": "jinhan.batch02.u0506",
+    "category": "八门动应",
+    "source_lines": [
+      725,
+      725
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0506",
+    "core_course_id": "jinhan.batch02.u0506.core"
+  },
+  {
+    "id": "jinhan.batch02.u0507",
+    "category": "目录结构",
+    "source_lines": [
+      727,
+      727
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0507",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0508",
+    "category": "八门概述",
+    "source_lines": [
+      729,
+      729
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0508",
+    "core_course_id": "jinhan.batch02.u0508.core"
+  },
+  {
+    "id": "jinhan.batch02.u0509",
+    "category": "八门概述",
+    "source_lines": [
+      731,
+      732
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0509",
+    "core_course_id": "jinhan.batch02.u0509.core"
+  },
+  {
+    "id": "jinhan.batch02.u0510",
+    "category": "目录结构",
+    "source_lines": [
+      734,
+      734
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0510",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0511",
+    "category": "八门静应",
+    "source_lines": [
+      735,
+      735
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0511",
+    "core_course_id": "jinhan.batch02.u0511.core"
+  },
+  {
+    "id": "jinhan.batch02.u0512",
+    "category": "八门静应",
+    "source_lines": [
+      736,
+      736
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0512",
+    "core_course_id": "jinhan.batch02.u0512.core"
+  },
+  {
+    "id": "jinhan.batch02.u0513",
+    "category": "八门静应",
+    "source_lines": [
+      737,
+      737
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0513",
+    "core_course_id": "jinhan.batch02.u0513.core"
+  },
+  {
+    "id": "jinhan.batch02.u0514",
+    "category": "八门静应",
+    "source_lines": [
+      738,
+      738
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0514",
+    "core_course_id": "jinhan.batch02.u0514.core"
+  },
+  {
+    "id": "jinhan.batch02.u0515",
+    "category": "八门静应",
+    "source_lines": [
+      739,
+      739
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0515",
+    "core_course_id": "jinhan.batch02.u0515.core"
+  },
+  {
+    "id": "jinhan.batch02.u0516",
+    "category": "八门静应",
+    "source_lines": [
+      740,
+      740
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0516",
+    "core_course_id": "jinhan.batch02.u0516.core"
+  },
+  {
+    "id": "jinhan.batch02.u0517",
+    "category": "八门静应",
+    "source_lines": [
+      741,
+      741
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0517",
+    "core_course_id": "jinhan.batch02.u0517.core"
+  },
+  {
+    "id": "jinhan.batch02.u0518",
+    "category": "八门静应",
+    "source_lines": [
+      742,
+      742
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0518",
+    "core_course_id": "jinhan.batch02.u0518.core"
+  },
+  {
+    "id": "jinhan.batch02.u0519",
+    "category": "八门静应",
+    "source_lines": [
+      744,
+      744
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0519",
+    "core_course_id": "jinhan.batch02.u0519.core"
+  },
+  {
+    "id": "jinhan.batch02.u0520",
+    "category": "八门静应",
+    "source_lines": [
+      745,
+      745
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0520",
+    "core_course_id": "jinhan.batch02.u0520.core"
+  },
+  {
+    "id": "jinhan.batch02.u0521",
+    "category": "八门静应",
+    "source_lines": [
+      746,
+      746
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0521",
+    "core_course_id": "jinhan.batch02.u0521.core"
+  },
+  {
+    "id": "jinhan.batch02.u0522",
+    "category": "八门静应",
+    "source_lines": [
+      747,
+      747
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0522",
+    "core_course_id": "jinhan.batch02.u0522.core"
+  },
+  {
+    "id": "jinhan.batch02.u0523",
+    "category": "八门静应",
+    "source_lines": [
+      748,
+      748
+    ],
+    "course_state": "quarantined_text_issue",
+    "rag_document_id": "jinhan.batch02.u0523",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0524",
+    "category": "八门静应",
+    "source_lines": [
+      749,
+      749
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0524",
+    "core_course_id": "jinhan.batch02.u0524.core"
+  },
+  {
+    "id": "jinhan.batch02.u0525",
+    "category": "八门静应",
+    "source_lines": [
+      750,
+      750
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0525",
+    "core_course_id": "jinhan.batch02.u0525.core"
+  },
+  {
+    "id": "jinhan.batch02.u0526",
+    "category": "八门静应",
+    "source_lines": [
+      751,
+      751
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0526",
+    "core_course_id": "jinhan.batch02.u0526.core"
+  },
+  {
+    "id": "jinhan.batch02.u0527",
+    "category": "八门静应",
+    "source_lines": [
+      752,
+      752
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0527",
+    "core_course_id": "jinhan.batch02.u0527.core"
+  },
+  {
+    "id": "jinhan.batch02.u0528",
+    "category": "八门静应",
+    "source_lines": [
+      753,
+      753
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0528",
+    "core_course_id": "jinhan.batch02.u0528.core"
+  },
+  {
+    "id": "jinhan.batch02.u0529",
+    "category": "八门静应",
+    "source_lines": [
+      755,
+      755
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0529",
+    "core_course_id": "jinhan.batch02.u0529.core"
+  },
+  {
+    "id": "jinhan.batch02.u0530",
+    "category": "目录结构",
+    "source_lines": [
+      757,
+      757
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0530",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0531",
+    "category": "八门动应",
+    "source_lines": [
+      758,
+      758
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0531",
+    "core_course_id": "jinhan.batch02.u0531.core"
+  },
+  {
+    "id": "jinhan.batch02.u0532",
+    "category": "八门动应",
+    "source_lines": [
+      759,
+      759
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0532",
+    "core_course_id": "jinhan.batch02.u0532.core"
+  },
+  {
+    "id": "jinhan.batch02.u0533",
+    "category": "八门动应",
+    "source_lines": [
+      760,
+      760
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0533",
+    "core_course_id": "jinhan.batch02.u0533.core"
+  },
+  {
+    "id": "jinhan.batch02.u0534",
+    "category": "八门动应",
+    "source_lines": [
+      761,
+      761
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0534",
+    "core_course_id": "jinhan.batch02.u0534.core"
+  },
+  {
+    "id": "jinhan.batch02.u0535",
+    "category": "八门动应",
+    "source_lines": [
+      762,
+      762
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0535",
+    "core_course_id": "jinhan.batch02.u0535.core"
+  },
+  {
+    "id": "jinhan.batch02.u0536",
+    "category": "八门动应",
+    "source_lines": [
+      763,
+      763
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0536",
+    "core_course_id": "jinhan.batch02.u0536.core"
+  },
+  {
+    "id": "jinhan.batch02.u0537",
+    "category": "八门动应",
+    "source_lines": [
+      764,
+      764
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0537",
+    "core_course_id": "jinhan.batch02.u0537.core"
+  },
+  {
+    "id": "jinhan.batch02.u0538",
+    "category": "八门动应",
+    "source_lines": [
+      765,
+      765
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0538",
+    "core_course_id": "jinhan.batch02.u0538.core"
+  },
+  {
+    "id": "jinhan.batch02.u0539",
+    "category": "八门动应",
+    "source_lines": [
+      766,
+      766
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0539",
+    "core_course_id": "jinhan.batch02.u0539.core"
+  },
+  {
+    "id": "jinhan.batch02.u0540",
+    "category": "目录结构",
+    "source_lines": [
+      768,
+      768
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0540",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0541",
+    "category": "目录结构",
+    "source_lines": [
+      770,
+      770
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0541",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0542",
+    "category": "八门白话译释",
+    "source_lines": [
+      772,
+      772
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0542",
+    "core_course_id": "jinhan.batch02.u0542.core"
+  },
+  {
+    "id": "jinhan.batch02.u0543",
+    "category": "八门白话译释",
+    "source_lines": [
+      774,
+      775
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0543",
+    "core_course_id": "jinhan.batch02.u0543.core"
+  },
+  {
+    "id": "jinhan.batch02.u0544",
+    "category": "八门白话译释",
+    "source_lines": [
+      777,
+      777
+    ],
+    "course_state": "quarantined_text_issue",
+    "rag_document_id": "jinhan.batch02.u0544",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0545",
+    "category": "八门白话译释",
+    "source_lines": [
+      779,
+      779
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0545",
+    "core_course_id": "jinhan.batch02.u0545.core"
+  },
+  {
+    "id": "jinhan.batch02.u0546",
+    "category": "八门白话译释",
+    "source_lines": [
+      781,
+      781
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0546",
+    "core_course_id": "jinhan.batch02.u0546.core"
+  },
+  {
+    "id": "jinhan.batch02.u0547",
+    "category": "八门白话译释",
+    "source_lines": [
+      783,
+      783
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0547",
+    "core_course_id": "jinhan.batch02.u0547.core"
+  },
+  {
+    "id": "jinhan.batch02.u0548",
+    "category": "目录结构",
+    "source_lines": [
+      785,
+      785
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0548",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0549",
+    "category": "八门白话译释",
+    "source_lines": [
+      787,
+      787
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0549",
+    "core_course_id": "jinhan.batch02.u0549.core"
+  },
+  {
+    "id": "jinhan.batch02.u0550",
+    "category": "八门白话译释",
+    "source_lines": [
+      789,
+      790
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0550",
+    "core_course_id": "jinhan.batch02.u0550.core"
+  },
+  {
+    "id": "jinhan.batch02.u0551",
+    "category": "八门白话译释",
+    "source_lines": [
+      792,
+      792
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0551",
+    "core_course_id": "jinhan.batch02.u0551.core"
+  },
+  {
+    "id": "jinhan.batch02.u0552",
+    "category": "目录结构",
+    "source_lines": [
+      794,
+      794
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0552",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0553",
+    "category": "八门白话译释",
+    "source_lines": [
+      796,
+      796
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0553",
+    "core_course_id": "jinhan.batch02.u0553.core"
+  },
+  {
+    "id": "jinhan.batch02.u0554",
+    "category": "八门白话译释",
+    "source_lines": [
+      798,
+      799
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0554",
+    "core_course_id": "jinhan.batch02.u0554.core"
+  },
+  {
+    "id": "jinhan.batch02.u0555",
+    "category": "八门白话译释",
+    "source_lines": [
+      801,
+      801
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0555",
+    "core_course_id": "jinhan.batch02.u0555.core"
+  },
+  {
+    "id": "jinhan.batch02.u0556",
+    "category": "八门白话译释",
+    "source_lines": [
+      803,
+      803
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0556",
+    "core_course_id": "jinhan.batch02.u0556.core"
+  },
+  {
+    "id": "jinhan.batch02.u0557",
+    "category": "目录结构",
+    "source_lines": [
+      805,
+      805
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0557",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0558",
+    "category": "八门白话译释",
+    "source_lines": [
+      807,
+      807
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0558",
+    "core_course_id": "jinhan.batch02.u0558.core"
+  },
+  {
+    "id": "jinhan.batch02.u0559",
+    "category": "八门白话译释",
+    "source_lines": [
+      809,
+      810
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0559",
+    "core_course_id": "jinhan.batch02.u0559.core"
+  },
+  {
+    "id": "jinhan.batch02.u0560",
+    "category": "八门白话译释",
+    "source_lines": [
+      812,
+      812
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0560",
+    "core_course_id": "jinhan.batch02.u0560.core"
+  },
+  {
+    "id": "jinhan.batch02.u0561",
+    "category": "目录结构",
+    "source_lines": [
+      814,
+      814
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0561",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0562",
+    "category": "八门白话译释",
+    "source_lines": [
+      816,
+      816
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0562",
+    "core_course_id": "jinhan.batch02.u0562.core"
+  },
+  {
+    "id": "jinhan.batch02.u0563",
+    "category": "八门白话译释",
+    "source_lines": [
+      818,
+      819
+    ],
+    "course_state": "quarantined_text_issue",
+    "rag_document_id": "jinhan.batch02.u0563",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0564",
+    "category": "八门白话译释",
+    "source_lines": [
+      821,
+      821
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0564",
+    "core_course_id": "jinhan.batch02.u0564.core"
+  },
+  {
+    "id": "jinhan.batch02.u0565",
+    "category": "目录结构",
+    "source_lines": [
+      823,
+      823
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0565",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0566",
+    "category": "八门白话译释",
+    "source_lines": [
+      825,
+      825
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0566",
+    "core_course_id": "jinhan.batch02.u0566.core"
+  },
+  {
+    "id": "jinhan.batch02.u0567",
+    "category": "八门白话译释",
+    "source_lines": [
+      827,
+      828
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0567",
+    "core_course_id": "jinhan.batch02.u0567.core"
+  },
+  {
+    "id": "jinhan.batch02.u0568",
+    "category": "八门白话译释",
+    "source_lines": [
+      830,
+      830
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0568",
+    "core_course_id": "jinhan.batch02.u0568.core"
+  },
+  {
+    "id": "jinhan.batch02.u0569",
+    "category": "目录结构",
+    "source_lines": [
+      832,
+      832
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0569",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0570",
+    "category": "八门白话译释",
+    "source_lines": [
+      834,
+      834
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0570",
+    "core_course_id": "jinhan.batch02.u0570.core"
+  },
+  {
+    "id": "jinhan.batch02.u0571",
+    "category": "八门白话译释",
+    "source_lines": [
+      836,
+      837
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0571",
+    "core_course_id": "jinhan.batch02.u0571.core"
+  },
+  {
+    "id": "jinhan.batch02.u0572",
+    "category": "目录结构",
+    "source_lines": [
+      839,
+      839
+    ],
+    "course_state": "context_only",
+    "rag_document_id": "jinhan.batch02.u0572",
+    "core_course_id": null
+  },
+  {
+    "id": "jinhan.batch02.u0573",
+    "category": "八门白话译释",
+    "source_lines": [
+      841,
+      841
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0573",
+    "core_course_id": "jinhan.batch02.u0573.core"
+  },
+  {
+    "id": "jinhan.batch02.u0574",
+    "category": "八门白话译释",
+    "source_lines": [
+      843,
+      844
+    ],
+    "course_state": "source_grounded_candidate_not_current_training",
+    "rag_document_id": "jinhan.batch02.u0574",
+    "core_course_id": "jinhan.batch02.u0574.core"
+  }
+]

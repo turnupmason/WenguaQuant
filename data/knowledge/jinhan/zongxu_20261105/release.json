@@ -1,0 +1,62 @@
+{
+  "schema": "wengua_reviewed_book_chapter_delta_v1",
+  "book_id": "jinhan",
+  "chapter_id": "zongxu_part01",
+  "archive_name": "Wengua_第三书金函_总序首批_20261105.zip",
+  "archive_sha256": "df17af1c3fafc9f8940486bef85d0de11e2631d497ed6f13777eb0ec17155b03",
+  "files": {
+    "README.txt": "3b3f42d1fe44dc3b0eb1ab032b51c4f2a49f6f7200ae164e8c05a2c8ca1b8cff",
+    "book_metadata.json": "031d7984e467211ccfa5419e7f9e1f7ff57b555b0fbef533d996b85fba158015",
+    "cleaned_reading.txt": "248f473cc3441fa66ac5caea5dd028df8f93d512234341ade31e9ca6b8fd6b12",
+    "corrections.json": "e758630d55da6ebdb29ac21b3f7cd49d0075479f33953b601b00196e65337211",
+    "coverage.json": "84c4c67feffd400f224068f2a281eac1666f4add23847c035351f854efdb7984",
+    "editorial_edition.json": "5bf4e2d96dce1af3ebaf63a78e84b3f2650826ac7eae9eef3f3bd5de9a09210a",
+    "excel_audit.json": "d5064a9e06a5e98744a38f63a26a11649b95d5f69c3406d30141cbcfe4db4c49",
+    "original_paste.txt": "b02ec3be7f56054f8605ebe5255ffc4283300f0da06df69eab9ff3dba59a236d",
+    "review_units.json": "f6ef21804d6f7c2320433a4e5ff0e5cd77b8e4ebe54a3d983a19248f1612493a",
+    "source_recipe/build_editorial.py": "ac4527acfc37ad8849b55b2547557c3a13a764e2132d64911e1350cc78ea106d",
+    "source_recipe/build_review.py": "5347bf29907a565540c8e00cf534538c4f38feacfdcd68ba25cb29c4d88059de",
+    "sources.json.gz": "824c5841be17034137cd71fce8701ae54edcf5fae966e80b7d3a05a664e9cf16",
+    "金函_总序首批_原文校订与知识审阅.html": "971aea9f33127331f946f32d44d6e3176d402937880cfffc0c8b97ad17413ac8",
+    "金函_总序首批_原文校订与知识审阅.xlsx": "f5035934a2833541794463fd5fad31e074b7fa0c00f6883621bfd49e61fea199"
+  },
+  "delivery_manifest": "data/delivery/book_chapters/jinhan_zongxu_20261105/manifest.json",
+  "installed_directory": "local/books/jinhan/zongxu_part01_v1",
+  "index_path": "local/wengua_rag/index_three_books_v1.sqlite3",
+  "database_path": "local/books/Wengua_三书194案例_总序首批_20261105.sqlite3",
+  "parent_database": "archives/sqlite/WenguaApp_双书194案例_V391纯断词十二长生_完整研究库.sqlite3",
+  "parent_database_sha256": "21362e6f0266c03dcdc4a7ef35f45954ba274ae6458de0ba341132abca7d0405",
+  "coverage": {
+    "schema": "wengua_book_rag_v1",
+    "books": 1,
+    "chapters": 1,
+    "documents": 35,
+    "document_kinds": {
+      "rule": 17,
+      "reference": 18
+    },
+    "cases": 0,
+    "unaccounted_nonblank_lines": 0,
+    "source_characters": 3046,
+    "all_chapter_hashes_and_literal_parts_verified": true,
+    "qa_answers_indexed": false,
+    "model_quality_or_predictive_accuracy_verified": false,
+    "cleaned_lines": 64,
+    "review_units": 34,
+    "units_with_unresolved_text": 15,
+    "editorial_replacements": 37,
+    "new_cases": 0,
+    "book_complete": false,
+    "books_received_total": 3,
+    "books_remaining_planned": 7
+  },
+  "excel": {
+    "all_cells_read_back": true,
+    "cells": 1107,
+    "sha256": "f5035934a2833541794463fd5fad31e074b7fa0c00f6883621bfd49e61fea199"
+  },
+  "raw_source_public": false,
+  "current_training_changed": false,
+  "source_only_no_legacy_manual_grades": true,
+  "model_quality_verified": false
+}

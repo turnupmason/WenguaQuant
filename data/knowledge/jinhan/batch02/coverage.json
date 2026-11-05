@@ -1,0 +1,39 @@
+{
+  "schema": "wengua_book_rag_v1",
+  "books": 1,
+  "chapters": 1,
+  "documents": 574,
+  "document_kinds": {
+    "rule": 510,
+    "reference": 64
+  },
+  "cases": 0,
+  "unaccounted_nonblank_lines": 0,
+  "source_characters": 26755,
+  "all_chapter_hashes_and_literal_parts_verified": true,
+  "qa_answers_indexed": false,
+  "model_quality_or_predictive_accuracy_verified": false,
+  "upload_bytes": 78571,
+  "upload_sha256": "61f4409aa5b2d4d3ebad71d7394eef7ede7c96a5bb6bb66d918c818949b584a8",
+  "material_units": 574,
+  "categories": {
+    "目录结构": 54,
+    "基础与条件": 58,
+    "有向干对格局": 81,
+    "时加干诀与译释": 20,
+    "九星外应口诀": 118,
+    "三奇到宫外应": 3,
+    "六甲奇仪外应": 1,
+    "八门概述": 23,
+    "八门动应": 75,
+    "八门静应": 115,
+    "八门白话译释": 26
+  },
+  "core_course_candidates": 510,
+  "quarantined_units": 11,
+  "stem_pair_rows": 81,
+  "unique_stem_pairs": 81,
+  "real_cases_added": 0,
+  "real_author_case_analysis_added": 0,
+  "book_complete": false
+}

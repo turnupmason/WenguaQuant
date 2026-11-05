@@ -1,0 +1,9 @@
+{
+  "schema": "wengua_private_delivery_aes256cbc_hmacsha256_v1",
+  "file": "data/delivery/book_chapters/jinhan_zongxu_20261105/delivery.enc",
+  "ciphertext_sha256": "49db0c05273251628bf00811b6358b321943cb3dae1fa3c36a1e990981f41401",
+  "archive_name": "Wengua_第三书金函_总序首批_20261105.zip",
+  "archive_sha256": "df17af1c3fafc9f8940486bef85d0de11e2631d497ed6f13777eb0ec17155b03",
+  "master_key_published": false,
+  "plaintext_sources_published": false
+}

@@ -1,0 +1,868 @@
+[
+  {
+    "id": "jinhan.zongxu.palaces",
+    "title": "九宫数序",
+    "cleaned_lines": [
+      [
+        1,
+        1
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {
+      "1": "坎",
+      "2": "坤",
+      "3": "震",
+      "4": "巽",
+      "5": "中",
+      "6": "乾",
+      "7": "兑",
+      "8": "艮",
+      "9": "离"
+    },
+    "interpretation_limits": [],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.directions",
+    "title": "后天八卦方位",
+    "cleaned_lines": [
+      [
+        2,
+        2
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {
+      "离": "南",
+      "坎": "北",
+      "震": "东",
+      "兑": "西",
+      "坤": "西南",
+      "艮": "东北",
+      "乾": "西北",
+      "巽": "东南"
+    },
+    "interpretation_limits": [
+      "原贴三处方位串位已作明示校订，原字及同书古文对照仍保留。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.three_yuan",
+    "title": "三元八节三气概述",
+    "cleaned_lines": [
+      [
+        3,
+        3
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "一节统三气与三元的定义未展开；不能凭本段编写历法。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.fu_head",
+    "title": "甲己符头与超神节气",
+    "cleaned_lines": [
+      [
+        4,
+        5
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "符头可定位，但置闰补局的触发条件与节气边界尚未展开；不能解释为每逢甲己一律置闰。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.dun",
+    "title": "阴阳遁路径及奇仪顺逆",
+    "cleaned_lines": [
+      [
+        6,
+        7
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "原贴多处三仪；常见名词为六仪，同书古文只写仪，暂不暗改数目。",
+      "子午东部/西部指代和顺飞逆飞操作需后文章确认，不套当前App转盘算法。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.stars",
+    "title": "九星本宫数序",
+    "cleaned_lines": [
+      [
+        1,
+        1
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {
+      "1": "天蓬",
+      "2": "天芮",
+      "3": "天冲",
+      "4": "天辅",
+      "5": "天禽",
+      "6": "天心",
+      "7": "天柱",
+      "8": "天任",
+      "9": "天英"
+    },
+    "interpretation_limits": [
+      "这里是本宫对应，不能当作每张实际盘的星位。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.doors",
+    "title": "八门本宫对应",
+    "cleaned_lines": [
+      [
+        10,
+        10
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {
+      "休": "坎",
+      "生": "艮",
+      "伤": "震",
+      "杜": "巽",
+      "景": "离",
+      "死": "坤",
+      "惊": "兑",
+      "开": "乾"
+    },
+    "interpretation_limits": [
+      "这里是本宫对应，不能当作每张实际盘的门位。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.fu_shi",
+    "title": "直符与时干、直使与时支的概述",
+    "cleaned_lines": [
+      [
+        11,
+        11
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [
+      "这是原篇概述，不是完整起局代码；本篇沿用直符、直使字形，不强改值符、值使。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.plate_motion",
+    "title": "天地盘变化频率",
+    "cleaned_lines": [
+      [
+        12,
+        12
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "三仪文字疑点及地盘五日一移的具体对象需后文定义，不能据此改程序地盘。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.heaven_earth",
+    "title": "天地盘加临概述",
+    "cleaned_lines": [
+      [
+        13,
+        13
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [
+      "仅为总序说明，没有给出一条具体断案条件。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.fu_fan_yin",
+    "title": "伏吟反吟的本宫与冲宫条件",
+    "cleaned_lines": [
+      [
+        14,
+        15
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [
+      "原篇以甲子临甲子、天蓬对天英举例，不扩写未提供的全部干门星反吟判式。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.qi_men",
+    "title": "吉门三奇与墓迫限制",
+    "cleaned_lines": [
+      [
+        16,
+        16
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [
+      "必须同时保留后半句墓迫限制；这些是原书传统断语，不是现实事件成功保证。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.san_quan",
+    "title": "三全二可",
+    "cleaned_lines": [
+      [
+        17,
+        17
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "乙丙丁生休门疑有脱字或断句；同书古文另列开门，不擅补成唯一版本。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.xing_dun",
+    "title": "六仪击刑与九遁的概述",
+    "cleaned_lines": [
+      [
+        18,
+        18
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [
+      "本句仅有作者定性评价，没有六仪击刑具体落宫表或九遁全套算法，不添加人工分值。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.earth_dun",
+    "title": "地遁及墓迫条件",
+    "cleaned_lines": [
+      [
+        19,
+        19
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {
+      "conditions": [
+        "开门合乙",
+        "加临己位",
+        "不犯奇墓",
+        "不犯门迫"
+      ]
+    },
+    "interpretation_limits": [
+      "地遁条件必须作为一组保留，不因出现乙或开门就认定地遁。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.nine_dun",
+    "title": "天遁人遁与其余九遁段",
+    "cleaned_lines": [
+      [
+        20,
+        25
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "乘犯毕盖字形、神星鬼龙、坎虎艮风、巽云兑神均有错字串句。",
+      "同书古文提供九天神遁、九地鬼遁等对照，但未获同版页图，暂不重写成九遁唯一配方。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.tian_qin",
+    "title": "天禽寄宫与三胜、九天九地",
+    "cleaned_lines": [
+      [
+        26,
+        26
+      ],
+      [
+        59,
+        59
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [
+      "三胜、从三避五保留为本篇兵家语境；九天后一的参照点须连同直符原句读取，不跨书替换天乙含义。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.five_avoid",
+    "title": "五不击",
+    "cleaned_lines": [
+      [
+        27,
+        27
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [
+      "只记录本篇兵家传统论述，未给当代问事领域的适用转换。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.three_jia",
+    "title": "三类甲与内外主客",
+    "cleaned_lines": [
+      [
+        28,
+        28
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "一甲二甲三甲可能是孟甲仲甲四季甲的讹译；三甲未列具体干支，待同版或后文核定。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.yi_bing",
+    "title": "六乙天德与丙天威",
+    "cleaned_lines": [
+      [
+        29,
+        29
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "未采取行动的丙、但是布天威存在串句；同书古文将乙和丙分句，不擅重写。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.six_stems",
+    "title": "时临六丁至六甲的文字概述",
+    "cleaned_lines": [
+      [
+        30,
+        36
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [
+      "按原篇逐项记录条件与断语；不把军事、逃亡、隐伏断语迁移为疾病结局。",
+      "六癸和六庚在同一句，必须保留各自条件；六乙在另一个待校勘段。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.dragon_bird",
+    "title": "青龙反首与飞鸟跌穴",
+    "cleaned_lines": [
+      [
+        37,
+        38
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "原贴丙加丁与同书古文丙加甲相异，暂不当作正向格局规则。",
+      "原贴及同书古文均写甲加丙，不能无条件替换为戊加丙；甲所隐仪的条件需后文。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.four_patterns",
+    "title": "四组有向干组合",
+    "cleaned_lines": [
+      [
+        39,
+        42
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {
+      "乙加辛": "青龙逃走",
+      "辛加乙": "白虎猖狂",
+      "丁加癸": "朱雀投江",
+      "癸加丁": "螣蛇夭矫"
+    },
+    "interpretation_limits": [
+      "天、地盘顺序不能互换；保留本篇传统断语，不作概率或现实保证。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.geng_fu",
+    "title": "庚与直符的伏宫飞宫太白太乙",
+    "cleaned_lines": [
+      [
+        43,
+        46
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "同一庚符关系出现多个名称，不能直接折成一条无条件规则或用其他书名称覆盖。",
+      "出虞为疑字；须后文章界定直符、天乙及主客对象。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.geng_shi",
+    "title": "直使与庚的有向关系",
+    "cleaned_lines": [
+      [
+        47,
+        48
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [
+      "只记录本篇所称野战、同宫及主将语境，不借其他流派同名规则改写。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.geng_bing",
+    "title": "庚丙关系、共同主客限制与天地大小格",
+    "cleaned_lines": [
+      [
+        49,
+        51
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "共同的主客皆不利限制必须与前两格一起保留，不能只摘取贼来贼退。",
+      "庚下加癸与壬上加庚的上下写法尚未充分定义，不擅生成天地盘有向矩阵。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.geng_ji",
+    "title": "庚己与己庚的区别",
+    "cleaned_lines": [
+      [
+        52,
+        53
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [
+      "这是本篇兵家出征的传统断语，不直接转换成现代健康、工作或行程事实。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.year_month",
+    "title": "岁格月格",
+    "cleaned_lines": [
+      [
+        54,
+        54
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "岁逢于庚和朔建的加临对象未充分定义，不倒推补造天干位置。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.five_not_meet",
+    "title": "伏干与五不遇混句",
+    "cleaned_lines": [
+      [
+        55,
+        55
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "原贴把日干临庚命名五不遇；同书古文另有时干克日的五不遇句，疑漏句串名。",
+      "不把日干临庚作为五不遇的正向条件，不从别书静默补齐。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.bing_day",
+    "title": "丙加日干的悖乱",
+    "cleaned_lines": [
+      [
+        56,
+        56
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [
+      "保留本篇字面关系及传统比喻，不从国家混乱延伸新的现实事件。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.three_gates",
+    "title": "三门四户、天乙行宫与遇难句",
+    "cleaned_lines": [
+      [
+        57,
+        58
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "直使与直符加临主体、景门神后句与同书古文不一致；太冲与天冲亦有版本文字差异。",
+      "不强行将三门等同八门，不先修成一套可运行规则。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.san_zha",
+    "title": "三诈与太阴太阳",
+    "cleaned_lines": [
+      [
+        60,
+        60
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [],
+    "uncertainties": [
+      "前三二位缺明确参照点；太阳与太阴同段不一致。",
+      "三诈概述的吉神列举可能不全，待本书后文确认，不从前两书无标记补六合。"
+    ]
+  },
+  {
+    "id": "jinhan.zongxu.five_jia",
+    "title": "五假的门与干概述",
+    "cleaned_lines": [
+      [
+        61,
+        61
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {
+      "doors": [
+        "杜",
+        "死",
+        "惊",
+        "伤",
+        "景"
+      ],
+      "stems": [
+        "乙",
+        "丙",
+        "丁",
+        "己",
+        "癸"
+      ],
+      "deities_explicit": [
+        "九地",
+        "太阴"
+      ]
+    },
+    "interpretation_limits": [
+      "本段只给概述，未列五种五假的逐项配合条件；不能据此任意拼合成格。"
+    ],
+    "uncertainties": []
+  },
+  {
+    "id": "jinhan.zongxu.closing",
+    "title": "六戊六甲及结语",
+    "cleaned_lines": [
+      [
+        62,
+        64
+      ]
+    ],
+    "conditions": {
+      "scope": "this_work_preface_only",
+      "requires": [
+        "read_full_source_bundle",
+        "respect_current_question_and_method"
+      ],
+      "unknown_if_not_stated": true
+    },
+    "source_facts": {},
+    "interpretation_limits": [
+      "修辞和经验概述，不生成新的预测事实或口诀。"
+    ],
+    "uncertainties": []
+  }
+]

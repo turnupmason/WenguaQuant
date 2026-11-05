@@ -1,0 +1,14 @@
+{
+  "original_753_files_unchanged": true,
+  "v51_49_runtime_hashes_unchanged": true,
+  "source_database_sha256": "21362e6f0266c03dcdc4a7ef35f45954ba274ae6458de0ba341132abca7d0405",
+  "source_database_rows_preserved": 15618,
+  "source_database_tables_preserved": 251,
+  "new_database_books": 3,
+  "new_database_sections": 44,
+  "cases_preserved": 194,
+  "new_cases": 0,
+  "editorial_ledger_replayed": true,
+  "raw_and_cleaned_source_reopened": true,
+  "source_only_no_manual_score_teacher": true
+}

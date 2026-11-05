@@ -1,0 +1,74 @@
+{
+  "source_repository": "turnupmason/WenguaApp",
+  "source_commit": "a7c7cfc143ab41bcab77d101af6b700d407d0c5b",
+  "data_owner": "turnupmason/WenguaQuant",
+  "source_files_preserved_for_running_training": true,
+  "files": [
+    {
+      "path": "data/delivery/book_rag_v1/manifest.json",
+      "sha256": "50974bd0f7d084913abc64d54a33c494641de21b30b2067d824e893dc0c20f1b"
+    },
+    {
+      "path": "data/delivery/book_rag_v1/delivery.enc",
+      "sha256": "c7bd1ab94b856541db267421f548e441ff65d23a54a037a9303f7b966e5e329a"
+    },
+    {
+      "path": "data/delivery/book_chapters/jinhan_zongxu_20261105/manifest.json",
+      "sha256": "937a030a4408f528d2cb6a6e799ab61f1467e0aeb3cd93c16e1a75fc15d4459e"
+    },
+    {
+      "path": "data/delivery/book_chapters/jinhan_zongxu_20261105/delivery.enc",
+      "sha256": "49db0c05273251628bf00811b6358b321943cb3dae1fa3c36a1e990981f41401"
+    },
+    {
+      "path": "data/delivery/course_v51/manifest.json",
+      "sha256": "891aba0a1f2f54db00d1982decf4e70d67d7f0f37572bd434c86045b6cb9714e"
+    },
+    {
+      "path": "data/delivery/course_v51/delivery_v51.enc",
+      "sha256": "969f433cde36053adb43204c461788dbb79f1eec34b39ba4bcbc233af2ba7fed"
+    },
+    {
+      "path": "data/knowledge/book_rag_v1/release.json",
+      "sha256": "3f9c9adba785161c73d7b4419b6b1dc5af7dd67f73fae386b2360c945df5ecb2"
+    },
+    {
+      "path": "data/knowledge/jinhan/zongxu_20261105/release.json",
+      "sha256": "51d5827f9a353e6c21b6fa74acbb769f31133f71f2195d18a4550c1951e7a093"
+    },
+    {
+      "path": "data/knowledge/jinhan/zongxu_20261105/source_audit.json",
+      "sha256": "83c55ca88194fb59bab64cfc8d0258e3ebf7ce688eeb4de4aeef56b9e144656b"
+    },
+    {
+      "path": "data/knowledge/jinhan/zongxu_20261105/knowledge_index.json",
+      "sha256": "5da4925f4b9d024b0ca308a43dcf215910cac28e649ef5486cc4b88f703d9caa"
+    },
+    {
+      "path": "data/knowledge/jinhan/zongxu_20261105/chapter_manifest.json",
+      "sha256": "55cfb52380ebcedce71dbe429d788d75311a7716f89368abe156004f39e8c1f9"
+    },
+    {
+      "path": "data/knowledge/course_v51/release.json",
+      "sha256": "ed5942cc889630f5796b0f9f4dc8f1c0eaf1963091fdc662d082945da6b1ca18"
+    }
+  ],
+  "runtime_origins": [
+    {
+      "app_path": "src/wengua/book_rag.py",
+      "app_sha256": "8486817a767e6b4153c4a09d81b3e5623e31314926da331419af46ffba8f4887",
+      "quant_path": "wengua_corpus/book_rag.py"
+    },
+    {
+      "app_path": "src/wengua/book_rag_editorial.py",
+      "app_sha256": "3cbfde8e1da8bc48f51c8ec9b0d8dda60d35ed5bee1008d9f7e4041b82466e89",
+      "quant_path": "wengua_corpus/book_rag_editorial.py"
+    },
+    {
+      "app_path": "src/wengua/book_rag_sources.py",
+      "app_sha256": "3a736fd7d35bea9a2fb64c2357cc57e9b0cdb404f4f2aaac7891aa5ae233588b",
+      "quant_path": "wengua_corpus/book_rag_sources.py"
+    }
+  ],
+  "legacy_master_v3_not_active_for_pure_book_training": true
+}

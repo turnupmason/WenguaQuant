@@ -1,0 +1,71 @@
+{
+  "schema": "wengua_book_rag_v1",
+  "archive_name": "Wengua_两书RAG来源索引_v1_20261105.zip",
+  "archive_sha256": "beff51294ad964eb3efea9d843f9bc4d504af6780bbca0a21c85a5f020ae5ec2",
+  "files": {
+    "README.txt": "1dc3544ed160854d53c0e20bdcd7dae0221ff1f0bbb14183796581590fee6cbc",
+    "Wengua_两书RAG索引审阅.html": "24627fd864e24914cc47583f1b82bc1d1b333c92a39a4cea6041bb7baccd0c52",
+    "Wengua_两书RAG索引审阅.xlsx": "f49f1671901de3d11702acfe00eaf8bf178d20a58b409dc7e681cebf7b573ffc",
+    "coverage.json": "555eef43c308265a7db81951bacd28a9b5e840149cb42b1c8a5430f0727a4b6f",
+    "prompt_budget_audit.json": "629f994386e1aa7a017d1635230beefbac14134400021c1aebdfe0b109d713b8",
+    "rag_excel_audit.json": "9c26f292487a1d224d54fddac60dfe9c3f514f8b64ce1b9c22fea673bf69641d",
+    "retrieval_audit.json": "49b72c39ba931f37048a14b486eccd9eb1b119227b1e439a0df8ade0f54de8ab",
+    "retrieval_checks.json": "19722fd6ce6a542cd69bd5f4836b59b014833118553db97a0aa83c44550041c0",
+    "retrieval_gold_review.json": "c7b8ef9e80deb203fcf8676ca9b1efe4e233729ed18594b04f2f0c1cbefede43",
+    "reviewed_case_links.json": "a8e83b0aee335326b08d23257e6bcba8b0b587f74ac80e662c9f6b823b5e4167",
+    "source_recipe/case_links.json": "a8e83b0aee335326b08d23257e6bcba8b0b587f74ac80e662c9f6b823b5e4167",
+    "source_recipe/fragments.json": "daf0c613e5ebee45ddca4490c3592cfb1e9e9b3401cdc2c1fc1b268f8e77ff0c",
+    "source_recipe/inventory.json": "bf560886e22775f27a404d3bee5aa830f84c4eefc9e63d4cbd1b74a61c228ab1",
+    "source_recipe/step_reviews.json": "e8a3f23145bbbf8830060a572abdec8fca0174c9aeaafc62d55acf0993b8917a",
+    "sources.json.gz": "3c84495c70f0e37e3c745a3e4ef347d2867d58fffddb8fd6cfe8175159c473e5"
+  },
+  "source_library_sha256": "3c84495c70f0e37e3c745a3e4ef347d2867d58fffddb8fd6cfe8175159c473e5",
+  "coverage": {
+    "schema": "wengua_book_rag_v1",
+    "books": 2,
+    "chapters": 43,
+    "documents": 5320,
+    "document_kinds": {
+      "rule": 2049,
+      "reference": 361,
+      "case": 2910
+    },
+    "cases": 194,
+    "unaccounted_nonblank_lines": 0,
+    "source_characters": 577780,
+    "all_chapter_hashes_and_literal_parts_verified": true,
+    "qa_answers_indexed": false,
+    "model_quality_or_predictive_accuracy_verified": false,
+    "located_case_analysis_records": 1008,
+    "original_index_review_records": 1008,
+    "inventory_materials": 1451,
+    "inventory_dispositions": {
+      "reference_only_no_teaching_target": 39,
+      "reviewed_rule_bundle": 1375,
+      "reference_only_historical_overlap": 37
+    }
+  },
+  "retrieval_regression": {
+    "checks": 46,
+    "passed": 46,
+    "failures": 0,
+    "meaning": "Targeted source-retrieval regression only, not model-answer or event-prediction accuracy",
+    "dense_embeddings_used": false,
+    "actual_llm_inference_tested": false
+  },
+  "prompt_budget": {
+    "actual_official_tokenizer": "Qwen/Qwen3-8B@b968826d9c46dd6066d109eabc6255188de91218",
+    "prompts_checked": 52,
+    "max_input_tokens": 3327,
+    "context_limit": 4096,
+    "max_new_tokens": 768,
+    "truncation": false,
+    "actual_llm_or_gpu_loaded": false
+  },
+  "books_received": 2,
+  "additional_books_not_yet_received": 8,
+  "actual_model_answer_quality_verified": false,
+  "original_program_casting_reused": true,
+  "active_training_code_or_data_changed": false,
+  "source_only_no_supervised_answers_or_legacy_grade_teacher": true
+}

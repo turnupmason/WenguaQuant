@@ -1,0 +1,4 @@
+*.py text eol=lf
+*.json text eol=lf
+*.sql text eol=lf
+*.enc -text

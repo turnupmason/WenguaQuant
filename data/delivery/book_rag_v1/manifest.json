@@ -1,0 +1,10 @@
+{
+  "schema": "wengua_private_delivery_aes256cbc_hmacsha256_v1",
+  "file": "data/delivery/book_rag_v1/delivery.enc",
+  "ciphertext_sha256": "c7bd1ab94b856541db267421f548e441ff65d23a54a037a9303f7b966e5e329a",
+  "archive_name": "Wengua_两书RAG来源索引_v1_20261105.zip",
+  "archive_sha256": "beff51294ad964eb3efea9d843f9bc4d504af6780bbca0a21c85a5f020ae5ec2",
+  "key_delivery": "same private V4/V5.1 delivery key, never in Git",
+  "master_key_published": false,
+  "plaintext_sources_published": false
+}

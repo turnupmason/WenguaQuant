@@ -1,0 +1,25 @@
+{
+  "book_id": "jinhan",
+  "chapter_id": "zongxu_part01",
+  "source_status": "partial_user_chat_transcription",
+  "source_sha256": "b02ec3be7f56054f8605ebe5255ffc4283300f0da06df69eab9ff3dba59a236d",
+  "cleaned_sha256": "2053d92112cd44bcff38e0e92c3388d1bd021722b04e56490ae1b8fe53f2b422",
+  "visible_page_markers": [
+    5,
+    6,
+    7
+  ],
+  "opening_page_unknown": true,
+  "book_complete": false,
+  "source_characters": 3046,
+  "cleaned_segments": 64,
+  "editorial_replacements": 37,
+  "source_groups": 34,
+  "positive_source_groups": 17,
+  "groups_with_unresolved_text": 15,
+  "context_only_groups": 2,
+  "new_cases": 0,
+  "books_received": 3,
+  "planned_books_not_received": 7,
+  "teacher_or_current_training_modified": false
+}
