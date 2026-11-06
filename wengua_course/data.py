@@ -68,6 +68,35 @@ def chart_text(d):
  rows=d['primary_printed_chart']
  return '\n'.join(f"{PALACE[int(c['palace'])]}宫：神{c['deity_raw']}；门行{c['door_position_raw']}；星行{c['star_position_raw']}" for c in rows) if rows else ''
 
+def step_board(d,step,units):
+ """Choose only a preceding transcription in the same source chapter.
+ Cross-chart arguments retain author facts without attaching a false main board.
+ """
+ if d['case_id'] in COMPARISONS:return [],[],{'status':'paired_case_comparison_no_single_board'}
+ source=units[step['source_id']];candidates=[]
+ if source.get('section_id') is None or not source.get('lines'):return [],[],{'status':'missing_source_chapter_scope_author_evidence_only'}
+ for key,cells in [('primary',d['primary_printed_chart']),*d['additional_printed_charts'].items()]:
+  ids=[f"chart:{d['case_id']}:{key}:p{c['palace']}" for c in cells]
+  if len(cells)!=9 or any(sid not in units for sid in ids):continue
+  if any(units[sid].get('book_id')!=source.get('book_id') or units[sid].get('section_id')!=source.get('section_id') for sid in ids):continue
+  if any(json.loads(units[sid]['original_quote'])!=cell for sid,cell in zip(ids,cells)):raise ValueError('Board source cell differs')
+  end=max(c['source_line'] for c in cells)
+  if end<source['lines'][0]:candidates.append((end,key,cells,ids))
+ if not candidates:return [],[],{'status':'no_unambiguous_preceding_source_board'}
+ latest=max(candidates,key=lambda x:x[0]);end,key,cells,ids=latest
+ if sum(c[0]==end for c in candidates)>1:return [],[],{'status':'tied_source_board_scopes_author_evidence_only'}
+ if d['additional_printed_charts'] and any(t in step['original'] for t in ('上次','两局','前局','前一局','原局','第一局','第二局','两张','前后两')):
+  return [],[],{'status':'explicit_cross_chart_reasoning_author_evidence_only','source_cast_keys':[x[1] for x in candidates]}
+ # If an explicit star position disagrees, preserve both sources but do not mix
+ # the narrative's facts with a conflicting physical board as one gold input.
+ violations=[]
+ for match in re.finditer(r'天([蓬任冲辅英芮柱心])星[^。；]{0,12}?(?:落|在)(?:入|于)?[乾坎艮震巽离坤兑]?([1-9])宫',step['original']):
+  if '地盘' in step['original'][max(0,match.start()-8):match.start()]:continue
+  star,pal=match[1],int(match[2]);actual=[int(c['palace']) for c in cells if star in c['star_position_raw']]
+  if actual and pal not in actual:violations.append({'star':star,'author_palace':pal,'transcribed_palaces':actual})
+ if violations:return [],[],{'status':'source_position_difference_author_evidence_only','candidate_cast_key':key,'differences':violations}
+ return cells,ids,{'status':'source_chronology_bound','cast_key':key,'chart_last_source_line':end,'analysis_source_line':source['lines'][0],'book_id':source['book_id'],'section_id':source['section_id']}
+
 def source_bound_cases(pack):
  """Each author step remains in its own event. Never copy a multi-case review block.
  Case dossiers retain original metadata; normalized split comes from actual tasks.
@@ -180,6 +209,7 @@ def build(old,manual,*,revealed_groups=()):
    if chosen is None:
     step_dispositions.append({'case_id':cid,'step':st['step'],'source_id':st['source_id'],'action':'source_preserved_not_identical_input_output_SFT'});continue
    match,conclusion,target_end=chosen;prefix=text[:match.start()].strip()
+   bound_cells,bound_ids,binding=step_board(d,st,units);bound_board=chart_text(d|{'primary_printed_chart':bound_cells})
    evidence_start=max(text.rfind('。',0,match.start()),text.rfind('；',0,match.start()))+1
    causal_evidence=text[evidence_start:match.start()].strip('，,：:；; \n')
    target=conclusion+('\n依据：'+causal_evidence+'。' if 6<=len(causal_evidence)<=260 else '')
@@ -187,16 +217,16 @@ def build(old,manual,*,revealed_groups=()):
    if comparison:
     tags=list(re.finditer(r'([AB])卦',text[:match.start()]));scope=tags[-1][1] if tags else None
     if scope:target=scope+'卦结论：'+target
-   q=('原作者比较A、B两个不同病例。必须保留A、B标签，不把B的结论归给A。根据下列证据，本步对哪一例作了什么判断？\n' if comparison else '历史案例分析练习。根据作者已经核对的下列证据，本步作出了什么具体判断？只答本步，不补后来反馈。\n')+('原书抄盘：\n'+board+'\n' if board and not comparison else '')+'作者已核对的证据：\n'+prefix
-   x=row(q,target,[st['source_id']],units,task='author_evidence_to_conclusion',format='complete_case',split=split,group=group,domain=d['domain'],case_ids=lesson_cases,provenance={'comparison_cases':comparison,'conclusion_scope':scope,'kind':'literal_causal_bridge_not_blind_prediction','author_step':st['step'],'source_case_boundary':cid,'evidence_chars':[0,match.start()],'target_chars':[match.end(),target_end],'short_evidence_chars':[evidence_start,match.start()],'full_original_step_sha256':digest(text)})
+   q=('原作者比较A、B两个不同病例。必须保留A、B标签，不把B的结论归给A。根据下列证据，本步对哪一例作了什么判断？\n' if comparison else '历史案例分析练习。根据作者已经核对的下列证据，本步作出了什么具体判断？只答本步，不补后来反馈。\n')+('原书抄盘（盘次'+binding['cast_key']+'）：\n'+bound_board+'\n' if bound_board else '')+'作者已核对的证据：\n'+prefix
+   x=row(q,target,[st['source_id'],*bound_ids],units,task='author_evidence_to_conclusion',format='complete_case',split=split,group=group,domain=d['domain'],case_ids=lesson_cases,provenance={'board_binding':binding,'comparison_cases':comparison,'conclusion_scope':scope,'kind':'literal_causal_bridge_not_blind_prediction','author_step':st['step'],'source_case_boundary':cid,'evidence_chars':[0,match.start()],'target_chars':[match.end(),target_end],'short_evidence_chars':[evidence_start,match.start()],'full_original_step_sha256':digest(text)})
    records.append(x);step_dispositions.append({'case_id':cid,'step':st['step'],'source_id':st['source_id'],'action':'author_evidence_to_conclusion','new_id':x['id']})
   # Whole-case summary with only this case's author evidence. No multi-case retrospective block.
   if cid in prior_case and sourceids:
    r=prior_case[cid]
-   excerpt='\n'.join(f'{s["step"]}. {s["original"]}' for s in steps)
+   excerpt='\n'.join(f'{s["step"]}. '+(('盘次：'+step_board(d,s,units)[2].get('cast_key','跨盘或仅作者证据')+'；') if d['additional_printed_charts'] else '')+s['original'] for s in steps)
    # Long dense cases get complete contiguous analysis groups, not arbitrary character cuts.
-   if len(excerpt)<=1800:
-    records.append(row(('作者对照A、B两个不同病例。分清两例的条件差异与原断，不把B的结论转给A。\n' if comparison else '历史复盘。归纳本例作者的主要判断与盘面依据；后续反馈没有列出时，不写成已经验证。\n')+('原书抄盘：\n'+board+'\n' if board and not comparison else '')+'本例作者分析：\n'+excerpt,r['answer'],sorted(set(sourceids+r['source_ids'])),units,task='case_evidence_summary',format='complete_case',split=split,group=group,domain=d['domain'],case_ids=lesson_cases,provenance={'comparison_cases':comparison,'kind':'single_case_evidence_to_summary','parent_summary_id':r['id'],'unparsed_chart_not_fabricated':not bool(board)}))
+   if len('\n'.join(s['original'] for s in steps))<=1800:
+    records.append(row(('作者对照A、B两个不同病例。分清两例的条件差异与原断，不把B的结论转给A。\n' if comparison else ('本例多次排盘。按各步盘次分别归纳作者判断和依据，不把不同盘合并。\n' if d['additional_printed_charts'] else '历史复盘。归纳本例作者的主要判断与盘面依据；后续反馈没有列出时，不写成已经验证。\n'))+('原书抄盘：\n'+board+'\n' if board and not comparison and not d['additional_printed_charts'] else '')+'本例作者分析：\n'+excerpt,r['answer'],sorted(set(sourceids+r['source_ids'])),units,task='case_evidence_summary',format='complete_case',split=split,group=group,domain=d['domain'],case_ids=lesson_cases,provenance={'comparison_cases':comparison,'multiple_source_casts_separated':bool(d['additional_printed_charts']),'kind':'single_case_evidence_to_summary','parent_summary_id':r['id'],'unparsed_chart_not_fabricated':not bool(board)}))
   # Distinct source-printed positions are read independently from methodological interpretation.
   stars={}
   for c in d['primary_printed_chart']:
@@ -217,7 +247,7 @@ def build(old,manual,*,revealed_groups=()):
    answer=f'{rel}。{a}在{PALACE[pa]}宫属{ELEMENT[pa]}，{b}在{PALACE[pb]}宫属{ELEMENT[pb]}。'
    records.append(row(q,answer,sids,units,task='directed_relation',format='chart_application',split=split,group=group,domain=d['domain'],case_ids=[cid],checks={'kind':'relation','answer':rel},provenance={'kind':'deterministic_relation_from_book_elements_and_literal_chart','positions':{a:pa,b:pb},'no_strength_or_outcome_score':True}))
  # Add manual single-case stage tasks supplied with exact narrow sources (no fallback full review).
- result={'schema':SCHEMA,'source_books':sorted(BOOKS),'parent_source_sha256':old['source_sha256'],'source_parent_course_sha256':digest(dumps(old)),'units':deepcopy(units),'records':records,'case_catalog':case_catalog,'original_case_splits':old['case_splits'],'sealed_original_test_manifest':sealed,'old_task_dispositions':dispositions,'author_step_dispositions':step_dispositions,'development_policy':{'event_families':sorted(dev),'ancestor_unseen_claimed':False,'new_phase_withdrawn_families':sorted(dev),'revealed_case_families_kept_for_repair':sorted(revealed_groups),'purpose':'multi_domain_development_diagnostic_not_blind_prediction','final_test_opened_for_repairs':False}}
+ result={'schema':SCHEMA,'revision':2,'source_books':sorted(BOOKS),'parent_source_sha256':old['source_sha256'],'source_parent_course_sha256':digest(dumps(old)),'units':deepcopy(units),'records':records,'case_catalog':case_catalog,'original_case_splits':old['case_splits'],'sealed_original_test_manifest':sealed,'old_task_dispositions':dispositions,'author_step_dispositions':step_dispositions,'development_policy':{'event_families':sorted(dev),'ancestor_unseen_claimed':False,'new_phase_withdrawn_families':sorted(dev),'revealed_case_families_kept_for_repair':sorted(revealed_groups),'purpose':'multi_domain_development_diagnostic_not_blind_prediction','final_test_opened_for_repairs':False}}
  # Identical replays become one target with explicit deduplication, never different labels.
  unique={}
  for r in result['records']:

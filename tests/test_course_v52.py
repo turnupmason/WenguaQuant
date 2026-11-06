@@ -55,6 +55,28 @@ class Curriculum(unittest.TestCase):
  def test_multiturn_final_answer_is_the_target(self):
   p=data.build(fixture(),[]);p['records'][0]['messages'][-1]['content']='different'
   with self.assertRaises(ValueError):data.validate(p)
+class CastScopes(unittest.TestCase):
+ def fixture(self):
+  cid='software-case';units={};boards={}
+  for key,start in [('primary',10),('second',40)]:
+   cells=[]
+   for palace in range(1,10):
+    cell={'case_id':cid,'cast_key':key,'palace':palace,'source_line':start+palace,'deity_raw':'软件','door_position_raw':'软件','star_position_raw':'软件'};cells.append(cell)
+    units[f'chart:{cid}:{key}:p{palace}']={'book_id':'shenqi','section_id':1,'original_quote':data.dumps(cell)}
+   boards[key]=cells
+  step={'source_id':'step','original':'这是软件条件测试，不能当作真实案例。'};units['step']={'book_id':'shenqi','section_id':1,'lines':[60,60]}
+  return {'case_id':cid,'primary_printed_chart':boards['primary'],'additional_printed_charts':{'second':boards['second']}},step,units
+ def test_later_analysis_gets_later_board_not_primary(self):
+  d,s,u=self.fixture();cells,ids,proof=data.step_board(d,s,u);self.assertEqual(proof['cast_key'],'second');self.assertTrue(all(c['cast_key']=='second' for c in cells))
+ def test_before_second_chart_uses_primary(self):
+  d,s,u=self.fixture();u['step']['lines']=[30,30];self.assertEqual(data.step_board(d,s,u)[2]['cast_key'],'primary')
+ def test_cross_chart_argument_does_not_get_one_mixed_board(self):
+  d,s,u=self.fixture();s['original']='与上次原局作比较，软件字段仍须分开。';cells,_,proof=data.step_board(d,s,u);self.assertFalse(cells);self.assertIn('cross_chart',proof['status'])
+ def test_different_chapter_never_binds_by_line_number_alone(self):
+  d,s,u=self.fixture();u['step']['section_id']=2;self.assertFalse(data.step_board(d,s,u)[0])
+ def test_incomplete_transcription_not_called_complete_board(self):
+  d,s,u=self.fixture();d['primary_printed_chart']=d['primary_printed_chart'][:2];d['additional_printed_charts']={};self.assertFalse(data.step_board(d,s,u)[0])
+
 class FactualChecks(unittest.TestCase):
  def test_exact_name_does_not_accept_wrong_long_name(self):
   c={'kind':'exact_name','answer':'伏吟'};self.assertEqual(checks.evaluate('伏吟。',c)['status'],'pass')

@@ -9,7 +9,7 @@ if not exist "%WENGUA_PY%" (
   pause
   exit /b 2
 )
-if not exist "local\course_v52_data\pack.json" (
+if not exist "local\course_v52_data_r2\pack.json" (
   "%WENGUA_PY%" -X utf8 -m wengua_course restore
   if errorlevel 1 (
     echo Course restore failed. Preserve this message for review.
@@ -19,7 +19,7 @@ if not exist "local\course_v52_data\pack.json" (
 )
 "%WENGUA_PY%" -X utf8 -m wengua_course run --resume %*
 set "WENGUA_EXIT=%ERRORLEVEL%"
-echo Report: local\course_v52\run1\results.html
+echo Report: local\course_v52\run2\results.html
 if not "%WENGUA_EXIT%"=="0" echo Stopped or paused. Outputs preserved; repeat this command to resume.
 pause
 exit /b %WENGUA_EXIT%

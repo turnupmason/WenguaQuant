@@ -1,7 +1,7 @@
 {
   "file": "data/delivery/course_v52/delivery.enc",
-  "archive_name": "Wengua_两书条件课程_V52_20261105.zip",
-  "archive_sha256": "1a6911dab16655f45c4c0aed261045267b511a6eebd95dcf029694549944941c",
-  "ciphertext_sha256": "6e46b91982787d5fbf3a6839db1366ca969c1f423067c3863a8536e818655312",
+  "archive_name": "Wengua_两书条件课程_V52_20261106_r2.zip",
+  "archive_sha256": "a38fcc3df8c59afc16fb327b944b4f7de608b5cac8c29a9d8fde26762c1a7c85",
+  "ciphertext_sha256": "5fba1e0da7619c6df5b72e4213057830ab2f28a3834f69703e44e9ac2ce4525e",
   "private_key_published": false
 }

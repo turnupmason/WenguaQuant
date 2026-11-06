@@ -1,6 +1,6 @@
 {
   "schema": "wengua_two_book_conditional_course_v52",
-  "dataset_release_sha256": "52801d37f58016e16321f40cac0a74f0add9bb2220fc7a4b86d2938cde376426",
+  "dataset_release_sha256": "b384f57244b27d3235ee60207e715a388765bd2a16f722118e43ce0264bb260f",
   "training_rows": 5109,
   "unique_train_core_records": 3721,
   "training_formats_with_explicit_review_weight": {
@@ -9,7 +9,7 @@
     "foundation_qa": 1513,
     "complete_case": 427
   },
-  "max_actual_train_tokens": 1717,
+  "max_actual_train_tokens": 1654,
   "whole_targets_preserved": true,
   "final_test_prepared": false
 }

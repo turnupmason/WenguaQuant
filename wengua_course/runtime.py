@@ -8,7 +8,7 @@ import copy,json,math,os,sys
 from . import data,checks
 
 ROOT=Path(__file__).resolve().parents[1]
-DATA=ROOT/'local/course_v52_data'
+DATA=ROOT/'local/course_v52_data_r2'
 CONFIG=ROOT/'configs/course_v52.json'
 RELEASE=ROOT/'data/knowledge/course_v52/release.json'
 SWEEP_SCHEMA=SCHEMA=data.SCHEMA

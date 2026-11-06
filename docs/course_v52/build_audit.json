@@ -13,7 +13,7 @@
     "sources": 7614,
     "cases": 194,
     "lessons": 4131,
-    "lesson_sources": 13304,
+    "lesson_sources": 15932,
     "lesson_cases": 1438,
     "source_cases": 3447,
     "author_steps": 1008,
@@ -29,6 +29,12 @@
   "no_real_8b_gpu_training_claimed": true,
   "source_case_metadata_alias_rows_resolved": 8,
   "unresolved_source_case_aliases": 0,
+  "board_binding_statuses": {
+    "source_chronology_bound": 292,
+    "paired_case_comparison_no_single_board": 3,
+    "no_unambiguous_preceding_source_board": 66
+  },
+  "nonprimary_board_steps_bound": 36,
   "summary": {
     "records": 4131,
     "splits": {

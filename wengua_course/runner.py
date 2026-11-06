@@ -124,13 +124,13 @@ def export_review(root,out):
  return out
 
 def main(argv=None):
- a=argparse.ArgumentParser(description=__doc__);a.add_argument('command',choices=['restore','check','run','export']);a.add_argument('--app-root',type=Path);a.add_argument('--output',type=Path,default=runtime.ROOT/'local/course_v52/run1');a.add_argument('--hours',type=float,default=48);a.add_argument('--resume',action='store_true');a.add_argument('--resume-from-checkpoint',type=Path);a.add_argument('--parent',type=Path);a.add_argument('--archive',type=Path);a.add_argument('--key-file',type=Path);args=a.parse_args(argv)
+ a=argparse.ArgumentParser(description=__doc__);a.add_argument('command',choices=['restore','check','run','export']);a.add_argument('--app-root',type=Path);a.add_argument('--output',type=Path,default=runtime.ROOT/'local/course_v52/run2');a.add_argument('--hours',type=float,default=48);a.add_argument('--resume',action='store_true');a.add_argument('--resume-from-checkpoint',type=Path);a.add_argument('--parent',type=Path);a.add_argument('--archive',type=Path);a.add_argument('--key-file',type=Path);args=a.parse_args(argv)
  if args.command=='restore':
   from wengua_corpus.__main__ import restore
   release=data.read(runtime.RELEASE);value=args.key_file.read_text(encoding='utf-8-sig').strip() if args.key_file else input('粘贴此前V4/V5.1教材的64位口令（输入可见）：').strip()
   import re
   if not re.fullmatch('[0-9a-fA-F]{64}',value):raise ValueError('请使用此前教材的64位十六进制口令，不要输入ZIP文件路径')
-  restore({'manifest':release['delivery_manifest'],'destination':'local/course_v52_data','files':release['files']},bytes.fromhex(value));runtime.verify_data();print('V5.2课程、审阅Excel与两书课程数据库已恢复并校验。');return 0
+  restore({'manifest':release['delivery_manifest'],'destination':runtime.DATA.relative_to(runtime.ROOT).as_posix(),'files':release['files']},bytes.fromhex(value));runtime.verify_data();print('V5.2课程、审阅Excel与两书课程数据库已恢复并校验。');return 0
  if args.command=='export':print(export_review(args.output,args.archive or Path.home()/'Downloads/Wengua_V52_review.zip'));return 0
  runtime.configure(args.app_root);pack=runtime.verify_data()
  if not 0<args.hours<=168:a.error('hours must be >0 and <=168')
