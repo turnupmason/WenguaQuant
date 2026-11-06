@@ -1,0 +1,14 @@
+{
+  "software_fixture_only": true,
+  "windows_native_16_mib_restore_fixture_passed": false,
+  "pending_generation_resume_uses_fp32_norms": true,
+  "official_fresh_adapter_has_zero_B_and_no_old_weights": true,
+  "first_update_uses_verified_snapshot_and_empty_optimizer": true,
+  "fresh_process_resume_tensor_equal": true,
+  "last_position_generation_equal_to_full_projection": true,
+  "short_eager_forward_reference_exercised": true,
+  "cross_stage_evaluation_exercised": true,
+  "full_finite_loop_two_application_rates_and_export_exercised": true,
+  "real_rag_book_probe_not_claimed": true,
+  "real_8b_cuda_fit_verified": false
+}

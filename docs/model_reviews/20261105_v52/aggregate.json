@@ -1,0 +1,1242 @@
+{
+  "base": {
+    "outputs": 128,
+    "factual_pass": 9,
+    "checkable": 106,
+    "topic_macro": 0.06190476190476191,
+    "capped": 0,
+    "empty": 0,
+    "generated_tokens": 10486,
+    "relation_total": 54,
+    "relation_head_counts": {
+      "冲星所在宫对柱星所在宫的关系是：**克": 3,
+      "英星在坎一宫（星行任癸），任星在中五宫（星行空）": 1,
+      "关系：克": 22,
+      "结论：** 柱星所在宫对冲星所在宫，为**受克**关系": 1,
+      "心星所在宫为离九宫（心乙），柱星所在宫为坎一宫（星行辅戊）": 1,
+      "关系：受克": 1,
+      "冲星所在宫对芮星所在宫的关系是**受克": 1,
+      "结论：** 柱星所在宫对冲星所在宫，为**克**关系": 2,
+      "蓬星在兑七宫，五行属木": 1,
+      "英星在兑七宫（星行英乙），心星在艮八宫（星行心戊）": 1,
+      "辅星所在宫是坎一宫（星行辅 辛），柱星所在宫是离九宫（星行心 壬）": 1,
+      "辅星在震三宫（星行辅丙），心星在兑七宫（星行心庚）": 1,
+      "蓬星在艮八宫，对冲星在坤二宫": 1,
+      "任星在兑七宫，五行属**金": 1,
+      "辅星在震三宫（星行辅癸），心星在兑七宫（星行心戊）": 1,
+      "芮星在艮八宫，五行属**土": 1,
+      "任星在震三宫（星行任戊），蓬星在艮八宫（星行蓬壬）": 1,
+      "结论：英星所在宫对冲星所在宫的关系是“克”": 1,
+      "冲星所在宫对任星所在宫：**克": 1,
+      "辅星所在宫为艮八宫（神天），五行属水": 1,
+      "蓬星在离九宫，心星在震三宫": 1,
+      "冲星所在宫对蓬星所在宫，是**克": 1,
+      "蓬星在坤二宫，属金": 1,
+      "任星在震三宫，星行任癸": 1,
+      "辅星所在宫是震三宫（星行辅丁），对冲星所在宫是兑七宫（星行心己）": 1,
+      "蓬星在坤二宫，属火": 1,
+      "冲星所在宫对心星所在宫的关系是**受克": 1,
+      "英星在坤二宫（神虎），星行英戊": 1,
+      "心星在坎一宫，属水": 1,
+      "辅星所在宫为艮八宫（星行辅癸），英星所在宫为震三宫（星行英己）": 1
+    },
+    "strict_both_positions": 0,
+    "strict_both_positions_and_palace_elements": 0,
+    "per_topic": {
+      "foundation/scoped_rule": {
+        "pass": 1,
+        "total": 5
+      },
+      "education/condition_contrast": {
+        "pass": 5,
+        "total": 6
+      },
+      "formation/scoped_rule": {
+        "pass": 0,
+        "total": 7
+      },
+      "health/condition_contrast": {
+        "pass": 1,
+        "total": 5
+      },
+      "formation/condition_contrast": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "criminal_case/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "education/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "education/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "employment/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "employment/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "geography_environment_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "health/directed_relation": {
+        "pass": 0,
+        "total": 5
+      },
+      "health/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "life_opportunity_book_study/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "litigation/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "litigation/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "lost_property/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "marriage/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "marriage/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "military_history_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "miscellaneous_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "missing_person/directed_relation": {
+        "pass": 0,
+        "total": 5
+      },
+      "politics_elections/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "pregnancy/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "sports_competition/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "weather_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 4
+      }
+    }
+  },
+  "V4": {
+    "outputs": 128,
+    "factual_pass": 7,
+    "checkable": 106,
+    "topic_macro": 0.05476190476190477,
+    "capped": 0,
+    "empty": 0,
+    "generated_tokens": 2013,
+    "relation_total": 54,
+    "relation_head_counts": {
+      "兑七宫冲坤二宫": 2,
+      "克": 1,
+      "震三宫辅丙生坤二宫柱乙": 1,
+      "巽四宫受克，坤二宫受生": 1,
+      "离九宫心乙克震三宫芮庚": 1,
+      "巽四宫神地生离九宫神天": 1,
+      "芮宫生心宫": 1,
+      "兑英宫生坤符宫": 1,
+      "蓬巽四宫生芮离九宫": 1,
+      "冲星兑七宫克芮星艮八宫": 1,
+      "巽四宫神天对冲离九宫神地，是生": 1,
+      "坤二宫蓬丙生震三宫芮乙": 1,
+      "蓬壬生英己": 1,
+      "蓬乙兑七宫克丁离九宫": 1,
+      "巽四宫生坎一宫": 1,
+      "兑七宫英乙生艮八宫心戊": 1,
+      "巽四宫神阴开丁，生离九宫神蛇休丙": 1,
+      "震三宫克兑七宫": 1,
+      "蓬戊艮八宫克冲星芮己兑七宫": 1,
+      "坤二宫任戊生震三宫英己": 1,
+      "任丁兑七宫克芮庚震三宫": 1,
+      "艮八宫任乙生坤二宫心癸芮庚": 1,
+      "冲": 2,
+      "蓬震三宫冲任坎一宫": 1,
+      "辅巽癸震，心兑戊": 1,
+      "芮己受克": 1,
+      "巽四宫生离九宫": 2,
+      "坤二宫受生": 3,
+      "坎一宫英丙克兑七宫冲壬": 1,
+      "巽四宫冲离九宫": 1,
+      "坎一宫英乙生震三宫辅壬": 1,
+      "坤二宫冲震三宫": 1,
+      "艮八宫受克": 1,
+      "坤二宫生震三宫": 2,
+      "艮八宫辅癸生震三宫英己": 2,
+      "蓬丁离九宫克心己巽四宫": 1,
+      "冲星艮八宫克蓬星震三宫": 1,
+      "冲星兑七宫": 1,
+      "坤二宫生离九宫": 1,
+      "坤二宫任戊生震三宫心乙": 1,
+      "巽四宫神虎生离九宫神武": 1,
+      "芮庚震三宫克辅戊坎一宫": 1,
+      "坤二宫蓬丙生艮八宫英壬": 1,
+      "坤二宫冲离九宫": 1,
+      "坤二宫英星生震三宫心星": 1,
+      "巽冲离": 1,
+      "巽杜辛克坤庚芮癸": 1
+    },
+    "strict_both_positions": 0,
+    "strict_both_positions_and_palace_elements": 0,
+    "per_topic": {
+      "foundation/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "education/condition_contrast": {
+        "pass": 5,
+        "total": 6
+      },
+      "formation/scoped_rule": {
+        "pass": 0,
+        "total": 7
+      },
+      "health/condition_contrast": {
+        "pass": 1,
+        "total": 5
+      },
+      "formation/condition_contrast": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "criminal_case/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "education/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "education/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "employment/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "employment/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "geography_environment_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "health/directed_relation": {
+        "pass": 0,
+        "total": 5
+      },
+      "health/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "life_opportunity_book_study/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "litigation/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "litigation/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "lost_property/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "marriage/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "marriage/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "military_history_source/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "miscellaneous_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "missing_person/directed_relation": {
+        "pass": 0,
+        "total": 5
+      },
+      "politics_elections/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "pregnancy/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "sports_competition/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "weather_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 4
+      }
+    }
+  },
+  "V51E1": {
+    "outputs": 128,
+    "factual_pass": 10,
+    "checkable": 106,
+    "topic_macro": 0.08988095238095238,
+    "capped": 9,
+    "empty": 0,
+    "generated_tokens": 10179,
+    "relation_total": 54,
+    "relation_head_counts": {
+      "兑七宫（丁）冲坤二宫（庚）：冲星在坤，柱星在兑": 1,
+      "英星在巽四宫，任星在坎一宫": 1,
+      "辅震三宫→柱坤二宫：金生土": 1,
+      "离九宫受克于震三宫": 1,
+      "心乙（离九）受克于芮庚（震三）": 1,
+      "受生": 2,
+      "芮乙（乾六）比和坤二": 1,
+      "英（兑七）受克": 1,
+      "芮庚（离九）受克于蓬乙（乾六）": 1,
+      "冲星兑七宫（金）先受生，后受克": 1,
+      "坤冲震：受生": 1,
+      "蓬坤比和": 2,
+      "蓬壬（艮八）克英己（坤二）": 1,
+      "蓬乙兑七宫受克于英辛震三宫": 1,
+      "英辛在巽四宫，任戊在坎一宫": 1,
+      "英乙（兑7）比和心戊（艮8）": 1,
+      "坎一宫辅辛，震三宫芮己": 1,
+      "辅→心：克": 1,
+      "蓬艮比和": 1,
+      "坤二宫任戊受生于震三宫柱己，即任星受生": 1,
+      "任丁（兑七）受克于芮庚（震三）": 1,
+      "艮八宫任乙→坤二宫心丁：金生土": 1,
+      "任己（巽四）受生于冲癸（离九）": 1,
+      "蓬震三宫受克坤二宫": 1,
+      "辅巽癸水→心兑戊土：克": 1,
+      "芮己（艮八）→柱癸（震三）：克": 1,
+      "英（戊）在乾六宫，心（辛）在震三宫": 1,
+      "坤二宫任辛（金）对震三宫柱庚（金）：比和": 1,
+      "蓬壬（艮8）受克于任戊（震3）": 1,
+      "坎一宫英丙受克于乾六宫辅辛": 1,
+      "冲": 1,
+      "心（艮八）受克于柱（坎一）": 1,
+      "兑七宫（冲）→艮八宫（任）：冲星在前者，冲": 1,
+      "坎一宫受克于乾六宫": 1,
+      "艮八宫冲辛离九宫": 1,
+      "艮八宫（英）比和坤二宫（任）": 1,
+      "坤二宫受克于震三宫": 1,
+      "艮八宫辅癸（水）对离九宫柱壬（火）：受克": 1,
+      "蓬丁离九宫克心己巽四宫": 1,
+      "冲星艮八宫对蓬星乾六宫：冲星受克": 1,
+      "冲星在离九宫，柱星在坤二宫": 1,
+      "坤二宫（辛金）生离九宫（癸水）": 1,
+      "兑芮己受克于震任癸": 1,
+      "坤二宫任戊受克于震三宫柱乙": 1,
+      "辅震三宫克冲艮八宫": 1,
+      "芮庚（震）受克于辅戊（坎）": 1,
+      "蓬辛坤2宫受克于冲乙乾6宫": 1,
+      "坤二宫冲离九宫": 1,
+      "英星坤二宫受克于心星坎一宫": 1,
+      "心（坎1）受克": 1,
+      "离九宫（英丙）受生于艮八宫（任乙）": 1,
+      "辅巽（土）受生于英震（木），前者为弱，后者为强": 1
+    },
+    "strict_both_positions": 0,
+    "strict_both_positions_and_palace_elements": 0,
+    "per_topic": {
+      "foundation/scoped_rule": {
+        "pass": 1,
+        "total": 5
+      },
+      "education/condition_contrast": {
+        "pass": 1,
+        "total": 6
+      },
+      "formation/scoped_rule": {
+        "pass": 0,
+        "total": 7
+      },
+      "health/condition_contrast": {
+        "pass": 1,
+        "total": 5
+      },
+      "formation/condition_contrast": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "criminal_case/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "education/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "education/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "employment/directed_relation": {
+        "pass": 2,
+        "total": 4
+      },
+      "employment/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "geography_environment_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "health/directed_relation": {
+        "pass": 0,
+        "total": 5
+      },
+      "health/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "life_opportunity_book_study/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "litigation/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "litigation/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "lost_property/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "marriage/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "marriage/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "military_history_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "miscellaneous_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "missing_person/directed_relation": {
+        "pass": 1,
+        "total": 5
+      },
+      "politics_elections/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "pregnancy/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "sports_competition/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "weather_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 4
+      }
+    }
+  },
+  "V51E2": {
+    "outputs": 128,
+    "factual_pass": 9,
+    "checkable": 106,
+    "topic_macro": 0.09166666666666667,
+    "capped": 7,
+    "empty": 0,
+    "generated_tokens": 8734,
+    "relation_total": 54,
+    "relation_head_counts": {
+      "兑七宫（丁）与震三宫（芮己）：冲": 1,
+      "英星在巽四宫，任星在坎一宫": 1,
+      "辅巽（丁）比和坤（乙）": 1,
+      "离九宫受克": 1,
+      "心乙（离九）受克于芮庚（震三）": 1,
+      "受生": 2,
+      "芮乙(乾六)与心丁(艮八)：芮金受克于心木": 1,
+      "英（兑七）在巽四宫，柱（坎一）在震三宫": 1,
+      "芮坤2宫受克于蓬乾6宫": 1,
+      "冲星兑七宫（戊）先受克，后受生": 1,
+      "坤冲震：受克": 1,
+      "蓬坤比和": 1,
+      "蓬艮八宫比和": 1,
+      "蓬乙兑七宫受克于辛震三宫": 1,
+      "英辛在巽四宫，任戊在坎一宫": 1,
+      "英乙在兑，心戊在艮": 1,
+      "兑七宫与坎一宫：辅辛在坎，任丁在兑": 1,
+      "辅→心：受克": 1,
+      "蓬艮比和": 1,
+      "坤二宫任戊受克于坎一宫英乙": 1,
+      "任丁（兑七）受克于芮庚（震三）": 1,
+      "艮八宫任乙克震三宫冲辛": 1,
+      "任己（巽四）受克于冲癸（离九）": 1,
+      "蓬震三宫比和": 1,
+      "辅巽对心兑：辅木生心火": 1,
+      "芮己（艮八）→柱癸（震三）：克": 1,
+      "英（戊）在乾六宫，心（辛）在震三宫": 1,
+      "坤二宫任辛→震三宫柱庚": 1,
+      "蓬壬（艮8）在上，任戊（震3）在下": 1,
+      "坎一宫英丙→兑七宫冲壬：坎水克兑金": 1,
+      "冲": 1,
+      "心（艮八）→柱（坎一）：克": 1,
+      "兑七宫（冲）与艮八宫（任）：冲星在前者，是冲": 1,
+      "英星坎一宫受克于辅星乾六宫": 1,
+      "冲庚艮八宫受克于伤庚坎一宫": 1,
+      "艮八宫（英）克兑七宫（任）": 1,
+      "坤二宫（辛）→震三宫（庚）：受克": 1,
+      "辅癸艮八宫→星冲辛坎一宫：金生水": 1,
+      "蓬丁离九宫→心己巽四宫：克": 1,
+      "冲星艮八宫（武）比和坤二宫（蛇）": 1,
+      "冲星在离九宫，柱星在坤二宫": 1,
+      "坤二宫（辛金）克离九宫（癸水）": 1,
+      "震三宫任癸与兑七宫芮己：任先克芮": 1,
+      "任坤→心巽": 1,
+      "辅震三宫克冲艮八宫": 1,
+      "芮庚(震)→辅戊(坎)：克": 1,
+      "蓬辛坤2宫受克于冲乙乾6宫": 1,
+      "坤二宫蓬丙→艮八宫英壬": 1,
+      "冲癸在坎，心壬在坤": 1,
+      "英坤二宫受克于心坎一宫": 1,
+      "心（坎1）受克": 1,
+      "英（离九宫）→任（艮八宫）：水克土": 1,
+      "辅巽（土）受生于英震（木），辅弱": 1
+    },
+    "strict_both_positions": 0,
+    "strict_both_positions_and_palace_elements": 0,
+    "per_topic": {
+      "foundation/scoped_rule": {
+        "pass": 1,
+        "total": 5
+      },
+      "education/condition_contrast": {
+        "pass": 1,
+        "total": 6
+      },
+      "formation/scoped_rule": {
+        "pass": 0,
+        "total": 7
+      },
+      "health/condition_contrast": {
+        "pass": 1,
+        "total": 5
+      },
+      "formation/condition_contrast": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "criminal_case/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "education/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "education/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "employment/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "employment/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "geography_environment_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "health/directed_relation": {
+        "pass": 0,
+        "total": 5
+      },
+      "health/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "life_opportunity_book_study/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "litigation/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "litigation/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "lost_property/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "marriage/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "marriage/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "military_history_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "miscellaneous_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "missing_person/directed_relation": {
+        "pass": 0,
+        "total": 5
+      },
+      "politics_elections/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "pregnancy/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "sports_competition/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "weather_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 4
+      }
+    }
+  },
+  "5E1": {
+    "outputs": 128,
+    "factual_pass": 17,
+    "checkable": 106,
+    "topic_macro": 0.1625,
+    "capped": 3,
+    "empty": 0,
+    "generated_tokens": 4872,
+    "relation_total": 54,
+    "relation_head_counts": {
+      "受生": 28,
+      "受克": 21,
+      "生": 3,
+      "比和": 2
+    },
+    "strict_both_positions": 45,
+    "strict_both_positions_and_palace_elements": 44,
+    "per_topic": {
+      "foundation/scoped_rule": {
+        "pass": 1,
+        "total": 5
+      },
+      "education/condition_contrast": {
+        "pass": 3,
+        "total": 6
+      },
+      "formation/scoped_rule": {
+        "pass": 0,
+        "total": 7
+      },
+      "health/condition_contrast": {
+        "pass": 1,
+        "total": 5
+      },
+      "formation/condition_contrast": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "criminal_case/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "education/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "education/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "employment/directed_relation": {
+        "pass": 2,
+        "total": 4
+      },
+      "employment/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "geography_environment_historical_source/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "health/directed_relation": {
+        "pass": 0,
+        "total": 5
+      },
+      "health/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "life_opportunity_book_study/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "litigation/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "litigation/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "lost_property/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "marriage/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "marriage/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "military_history_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "miscellaneous_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "missing_person/directed_relation": {
+        "pass": 2,
+        "total": 5
+      },
+      "politics_elections/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "pregnancy/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "sports_competition/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "weather_historical_source/directed_relation": {
+        "pass": 2,
+        "total": 4
+      }
+    },
+    "pass_transition_from_parent": {
+      "(False, False)": 85,
+      "(True, True)": 5,
+      "(False, True)": 12,
+      "(True, False)": 4
+    }
+  },
+  "5E2": {
+    "outputs": 128,
+    "factual_pass": 19,
+    "checkable": 106,
+    "topic_macro": 0.1880952380952381,
+    "capped": 1,
+    "empty": 0,
+    "generated_tokens": 3382,
+    "relation_total": 54,
+    "relation_head_counts": {
+      "受生": 36,
+      "受克": 18
+    },
+    "strict_both_positions": 47,
+    "strict_both_positions_and_palace_elements": 47,
+    "per_topic": {
+      "foundation/scoped_rule": {
+        "pass": 1,
+        "total": 5
+      },
+      "education/condition_contrast": {
+        "pass": 4,
+        "total": 6
+      },
+      "formation/scoped_rule": {
+        "pass": 0,
+        "total": 7
+      },
+      "health/condition_contrast": {
+        "pass": 1,
+        "total": 5
+      },
+      "formation/condition_contrast": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "business_profit/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "criminal_case/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "education/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "education/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "employment/directed_relation": {
+        "pass": 2,
+        "total": 4
+      },
+      "employment/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "geography_environment_historical_source/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "health/directed_relation": {
+        "pass": 0,
+        "total": 5
+      },
+      "health/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "life_opportunity_book_study/directed_relation": {
+        "pass": 2,
+        "total": 2
+      },
+      "litigation/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "litigation/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "lost_property/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "marriage/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "marriage/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "military_history_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "miscellaneous_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "missing_person/directed_relation": {
+        "pass": 1,
+        "total": 5
+      },
+      "politics_elections/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "pregnancy/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "sports_competition/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "weather_historical_source/directed_relation": {
+        "pass": 2,
+        "total": 4
+      }
+    },
+    "pass_transition_from_parent": {
+      "(False, False)": 83,
+      "(True, True)": 5,
+      "(False, True)": 14,
+      "(True, False)": 4
+    }
+  },
+  "10E1": {
+    "outputs": 128,
+    "factual_pass": 19,
+    "checkable": 106,
+    "topic_macro": 0.19702380952380952,
+    "capped": 3,
+    "empty": 0,
+    "generated_tokens": 4780,
+    "relation_total": 54,
+    "relation_head_counts": {
+      "受生": 50,
+      "受克": 4
+    },
+    "strict_both_positions": 48,
+    "strict_both_positions_and_palace_elements": 48,
+    "per_topic": {
+      "foundation/scoped_rule": {
+        "pass": 1,
+        "total": 5
+      },
+      "education/condition_contrast": {
+        "pass": 4,
+        "total": 6
+      },
+      "formation/scoped_rule": {
+        "pass": 0,
+        "total": 7
+      },
+      "health/condition_contrast": {
+        "pass": 1,
+        "total": 5
+      },
+      "formation/condition_contrast": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "business_profit/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "criminal_case/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "education/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "education/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "employment/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "employment/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "geography_environment_historical_source/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "health/directed_relation": {
+        "pass": 0,
+        "total": 5
+      },
+      "health/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "life_opportunity_book_study/directed_relation": {
+        "pass": 2,
+        "total": 2
+      },
+      "litigation/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "litigation/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "lost_property/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "marriage/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "marriage/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "military_history_source/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "miscellaneous_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "missing_person/directed_relation": {
+        "pass": 1,
+        "total": 5
+      },
+      "politics_elections/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "pregnancy/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "sports_competition/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "weather_historical_source/directed_relation": {
+        "pass": 2,
+        "total": 4
+      }
+    },
+    "pass_transition_from_parent": {
+      "(False, False)": 81,
+      "(True, True)": 3,
+      "(False, True)": 16,
+      "(True, False)": 6
+    }
+  },
+  "10E2": {
+    "outputs": 128,
+    "factual_pass": 19,
+    "checkable": 106,
+    "topic_macro": 0.19702380952380952,
+    "capped": 1,
+    "empty": 0,
+    "generated_tokens": 3303,
+    "relation_total": 54,
+    "relation_head_counts": {
+      "受生": 48,
+      "受克": 6
+    },
+    "strict_both_positions": 49,
+    "strict_both_positions_and_palace_elements": 49,
+    "per_topic": {
+      "foundation/scoped_rule": {
+        "pass": 1,
+        "total": 5
+      },
+      "education/condition_contrast": {
+        "pass": 4,
+        "total": 6
+      },
+      "formation/scoped_rule": {
+        "pass": 0,
+        "total": 7
+      },
+      "health/condition_contrast": {
+        "pass": 1,
+        "total": 5
+      },
+      "formation/condition_contrast": {
+        "pass": 0,
+        "total": 4
+      },
+      "business_profit/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "business_profit/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "criminal_case/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "education/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "education/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "employment/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "employment/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "geography_environment_historical_source/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "health/directed_relation": {
+        "pass": 0,
+        "total": 5
+      },
+      "health/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "life_opportunity_book_study/directed_relation": {
+        "pass": 2,
+        "total": 2
+      },
+      "litigation/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "litigation/scoped_rule": {
+        "pass": 0,
+        "total": 5
+      },
+      "lost_property/scoped_rule": {
+        "pass": 0,
+        "total": 2
+      },
+      "marriage/directed_relation": {
+        "pass": 0,
+        "total": 4
+      },
+      "marriage/scoped_rule": {
+        "pass": 0,
+        "total": 3
+      },
+      "military_history_source/directed_relation": {
+        "pass": 1,
+        "total": 2
+      },
+      "miscellaneous_historical_source/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "missing_person/directed_relation": {
+        "pass": 1,
+        "total": 5
+      },
+      "politics_elections/directed_relation": {
+        "pass": 0,
+        "total": 2
+      },
+      "pregnancy/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "sports_competition/directed_relation": {
+        "pass": 1,
+        "total": 4
+      },
+      "weather_historical_source/directed_relation": {
+        "pass": 2,
+        "total": 4
+      }
+    },
+    "pass_transition_from_parent": {
+      "(False, False)": 81,
+      "(True, True)": 3,
+      "(False, True)": 16,
+      "(True, False)": 6
+    }
+  }
+}

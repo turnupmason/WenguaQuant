@@ -1,0 +1,44 @@
+{
+  "source_library_sha256": "d74c5f94ffc4c60cde0ac7e12069233ff5556bf6028f74b5a22d7d5353106d20",
+  "changes": [
+    {
+      "id": "rag:07a261a4f3a0ec4ece394e1c",
+      "previous_kind": "reference",
+      "kind": "rule",
+      "reason": "literal_stem_pair_definition_with_matching_explicit_source_cue",
+      "parts": [
+        {
+          "chapter": "kaiwu/25",
+          "chars": [
+            0,
+            281
+          ],
+          "lines": [
+            270,
+            270
+          ],
+          "quote_sha256": "b41db04e6c7bf6974bdb36632020676940daf47e6f848ef1b798c4d14c0a12d3",
+          "source_sha256": "ce3203902f6fa2e129d13899e19ef4a3d02e8698f38eac3dbe7383ba550a2cf4"
+        }
+      ]
+    }
+  ],
+  "original_text_and_source_selectors_changed": false,
+  "index_report": {
+    "schema": "wengua_book_rag_v1",
+    "books": 2,
+    "chapters": 43,
+    "documents": 5320,
+    "document_kinds": {
+      "rule": 2050,
+      "reference": 360,
+      "case": 2910
+    },
+    "cases": 194,
+    "unaccounted_nonblank_lines": 0,
+    "source_characters": 577780,
+    "all_chapter_hashes_and_literal_parts_verified": true,
+    "qa_answers_indexed": false,
+    "model_quality_or_predictive_accuracy_verified": false
+  }
+}

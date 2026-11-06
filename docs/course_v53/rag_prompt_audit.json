@@ -1,0 +1,606 @@
+{
+  "queries": 18,
+  "all_declared_source_spans_visible": 18,
+  "actual_official_tokenizer": true,
+  "actual_model_answers_generated": false,
+  "max_new_tokens": 1024,
+  "context": 4096,
+  "items": [
+    {
+      "key": "hetu_金",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 2309,
+        "evidence_bundles_kept": 20,
+        "whole_bundles_skipped": [],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "gui_yin_water",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 3062,
+        "evidence_bundles_kept": 17,
+        "whole_bundles_skipped": [
+          {
+            "id": "rag:c1a8dde912023c29481b242e",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:c2b026d44ae302ec64c2cd0d",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:06a142f4a2973948a61ddd04",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          }
+        ],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "exam_self",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 3027,
+        "evidence_bundles_kept": 9,
+        "whole_bundles_skipped": [
+          {
+            "id": "rag:510d63e966a1e403409363d3",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:93e50cc5a0b3a6e45cefa7fb",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:ce6a7465a8cb3c940befa1a3",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:995a409f87157122b60c7e56",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:b0946475e3a3b11b29b033df",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:07f2a0fd8a3a790da9d59ee9",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:b88e7e1d265c30dac848fe4c",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          }
+        ],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "exam_proxy",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 3062,
+        "evidence_bundles_kept": 9,
+        "whole_bundles_skipped": [
+          {
+            "id": "rag:f19930d026864fd35ce0fc7e",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:726dabd6b7e274b98e65a298",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:001a2049b3c7aff49f3e07ed",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:c606da9d2b38bbbdc9729dcc",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:9f7ba28c2bb6685024007678",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:93e50cc5a0b3a6e45cefa7fb",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:ce6a7465a8cb3c940befa1a3",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:995a409f87157122b60c7e56",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:b0946475e3a3b11b29b033df",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:5437351c47cd46830151baa8",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:07f2a0fd8a3a790da9d59ee9",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          }
+        ],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "role_6",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 2978,
+        "evidence_bundles_kept": 16,
+        "whole_bundles_skipped": [
+          {
+            "id": "rag:a4ac491e6d48d6e0120b29f1",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:6004c64c74aa2f02f42aa8f0",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:508338ae7e89c9169c826f6b",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:1a72c2179b56e284510791f3",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          }
+        ],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "role_7",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 3021,
+        "evidence_bundles_kept": 6,
+        "whole_bundles_skipped": [
+          {
+            "id": "rag:e0dc52869ae7880c33d1e1ac",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:1aa8313537fa653ae1d83940",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:f4b148445af7f4291637b72a",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:33e3767be4a160ddfa95c04e",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:75580715d321154784bb8a26",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:3fc2e676a1fb5bedc84a21f2",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:6e28457ad14e361aa9ad8cc5",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:98140fc7477481d6b413c018",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:f2f8509366ba3f2b34ad8d10",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:1acd022ec172ccf7c990adcf",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:508338ae7e89c9169c826f6b",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:8b421d3b3a200673329c54de",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:c3a327cfa9e4d856213adb73",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:7c752521d384185b4234efc3",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          }
+        ],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "role_18",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 2886,
+        "evidence_bundles_kept": 20,
+        "whole_bundles_skipped": [],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "role_20",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 2856,
+        "evidence_bundles_kept": 20,
+        "whole_bundles_skipped": [],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "role_21",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 2244,
+        "evidence_bundles_kept": 20,
+        "whole_bundles_skipped": [],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "role_22",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 2245,
+        "evidence_bundles_kept": 20,
+        "whole_bundles_skipped": [],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "role_29",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 2861,
+        "evidence_bundles_kept": 20,
+        "whole_bundles_skipped": [],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "cross_domain_liuhe",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 3,
+      "support_fragments": 3,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 3019,
+        "evidence_bundles_kept": 15,
+        "whole_bundles_skipped": [
+          {
+            "id": "rag:250903bdf81a94dcf8dc5e65",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:0a8a09aee934e073c499e16f",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:907aebb54ecb80b901f2de35",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:20e8442149a77b39b96e596e",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:9d457c611d4028980afdeb87",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          }
+        ],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "marriage_same_palace",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 2,
+      "support_fragments": 2,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 3070,
+        "evidence_bundles_kept": 15,
+        "whole_bundles_skipped": [
+          {
+            "id": "rag:8317ba17060ae10a194aeb6b",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:1a3af815e6e397e283c442c5",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:b11ad46f215202a3bb45dc45",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:9d5cc96cc680534db36ed442",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:e460873edd4b93f53a9d1067",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          }
+        ],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "named_pair_戊戊",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 3067,
+        "evidence_bundles_kept": 17,
+        "whole_bundles_skipped": [
+          {
+            "id": "rag:3b6ef506da9fa7db64cb175c",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:a858b26c50a8f65dad485fa5",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:d9571e8fad3ea8169e08d6d1",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          }
+        ],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "named_pair_丁壬",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 2826,
+        "evidence_bundles_kept": 20,
+        "whole_bundles_skipped": [],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "named_pair_庚戊",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 1,
+      "support_fragments": 1,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 2824,
+        "evidence_bundles_kept": 20,
+        "whole_bundles_skipped": [],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "health_daughter_father",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 2,
+      "support_fragments": 2,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 3056,
+        "evidence_bundles_kept": 7,
+        "whole_bundles_skipped": [
+          {
+            "id": "rag:b9e310a4444a80cdf1461b79",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:c3a327cfa9e4d856213adb73",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:4dd97c28ab879e9ce249a594",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:f4b148445af7f4291637b72a",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:33e3767be4a160ddfa95c04e",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:75580715d321154784bb8a26",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:3fc2e676a1fb5bedc84a21f2",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:6e28457ad14e361aa9ad8cc5",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:98140fc7477481d6b413c018",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:7c752521d384185b4234efc3",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:508338ae7e89c9169c826f6b",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:97b80fc2008323c842ee0e32",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:1acd022ec172ccf7c990adcf",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          }
+        ],
+        "question_chart_or_source_truncated": false
+      }
+    },
+    {
+      "key": "health_father_self",
+      "ready": true,
+      "all_declared_source_spans_visible": true,
+      "covered_fragments": 2,
+      "support_fragments": 2,
+      "budget": {
+        "context_limit": 4096,
+        "max_new_tokens": 1024,
+        "input_tokens": 3072,
+        "evidence_bundles_kept": 6,
+        "whole_bundles_skipped": [
+          {
+            "id": "rag:c3a327cfa9e4d856213adb73",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:8b421d3b3a200673329c54de",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:784aa30e3bb5b0efe0ce5aa9",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:1a72c2179b56e284510791f3",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:b9e310a4444a80cdf1461b79",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:763a4db546d4e26b9dcc36ae",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:1acd022ec172ccf7c990adcf",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:508338ae7e89c9169c826f6b",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:e0dc52869ae7880c33d1e1ac",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:1aa8313537fa653ae1d83940",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:f4b148445af7f4291637b72a",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:33e3767be4a160ddfa95c04e",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:75580715d321154784bb8a26",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          },
+          {
+            "id": "rag:3fc2e676a1fb5bedc84a21f2",
+            "reason": "whole_evidence_bundle_does_not_fit; no condition truncated"
+          }
+        ],
+        "question_chart_or_source_truncated": false
+      }
+    }
+  ]
+}

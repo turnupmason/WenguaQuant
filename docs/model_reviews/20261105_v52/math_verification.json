@@ -1,0 +1,13 @@
+{
+  "software_fixture_only": true,
+  "loss_abs_difference": 0.0,
+  "max_trainable_gradient_abs_difference": 2.2351741790771484e-08,
+  "trainer_accepts_normalization_count": true,
+  "accumulated_label_count_correct": true,
+  "real_tokenizer_first_target_masks_checked": [
+    "scoped_rule",
+    "directed_relation",
+    "condition_contrast"
+  ],
+  "real_gpu_numerical_equivalence_claimed": false
+}
