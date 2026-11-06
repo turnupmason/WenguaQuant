@@ -1,0 +1,200 @@
+[
+  {
+    "domain": "business_profit",
+    "source_cases": 24,
+    "source_author_steps": 112,
+    "explicit_reviewed_rule_specs": 16,
+    "v54_train_lessons": 343,
+    "v54_development_lessons": 27,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "competition_evaluation",
+    "source_cases": 2,
+    "source_author_steps": 10,
+    "explicit_reviewed_rule_specs": 0,
+    "v54_train_lessons": 5,
+    "v54_development_lessons": 2,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "criminal_case",
+    "source_cases": 10,
+    "source_author_steps": 64,
+    "explicit_reviewed_rule_specs": 0,
+    "v54_train_lessons": 86,
+    "v54_development_lessons": 13,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "education",
+    "source_cases": 9,
+    "source_author_steps": 29,
+    "explicit_reviewed_rule_specs": 27,
+    "v54_train_lessons": 132,
+    "v54_development_lessons": 45,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "employment",
+    "source_cases": 9,
+    "source_author_steps": 38,
+    "explicit_reviewed_rule_specs": 17,
+    "v54_train_lessons": 66,
+    "v54_development_lessons": 30,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "geography_environment_historical_source",
+    "source_cases": 4,
+    "source_author_steps": 15,
+    "explicit_reviewed_rule_specs": 1,
+    "v54_train_lessons": 18,
+    "v54_development_lessons": 5,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "health",
+    "source_cases": 12,
+    "source_author_steps": 55,
+    "explicit_reviewed_rule_specs": 14,
+    "v54_train_lessons": 99,
+    "v54_development_lessons": 35,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "industrial_safety",
+    "source_cases": 1,
+    "source_author_steps": 11,
+    "explicit_reviewed_rule_specs": 0,
+    "v54_train_lessons": 11,
+    "v54_development_lessons": 0,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "life_opportunity_book_study",
+    "source_cases": 15,
+    "source_author_steps": 141,
+    "explicit_reviewed_rule_specs": 1,
+    "v54_train_lessons": 76,
+    "v54_development_lessons": 16,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "litigation",
+    "source_cases": 11,
+    "source_author_steps": 57,
+    "explicit_reviewed_rule_specs": 12,
+    "v54_train_lessons": 110,
+    "v54_development_lessons": 27,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "lost_property",
+    "source_cases": 13,
+    "source_author_steps": 66,
+    "explicit_reviewed_rule_specs": 9,
+    "v54_train_lessons": 116,
+    "v54_development_lessons": 13,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "marriage",
+    "source_cases": 14,
+    "source_author_steps": 49,
+    "explicit_reviewed_rule_specs": 6,
+    "v54_train_lessons": 112,
+    "v54_development_lessons": 16,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "military_history_source",
+    "source_cases": 3,
+    "source_author_steps": 36,
+    "explicit_reviewed_rule_specs": 0,
+    "v54_train_lessons": 34,
+    "v54_development_lessons": 11,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "miscellaneous_historical_source",
+    "source_cases": 5,
+    "source_author_steps": 27,
+    "explicit_reviewed_rule_specs": 0,
+    "v54_train_lessons": 48,
+    "v54_development_lessons": 6,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "missing_person",
+    "source_cases": 16,
+    "source_author_steps": 87,
+    "explicit_reviewed_rule_specs": 5,
+    "v54_train_lessons": 119,
+    "v54_development_lessons": 27,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "politics_elections",
+    "source_cases": 3,
+    "source_author_steps": 14,
+    "explicit_reviewed_rule_specs": 0,
+    "v54_train_lessons": 13,
+    "v54_development_lessons": 10,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "pregnancy",
+    "source_cases": 6,
+    "source_author_steps": 23,
+    "explicit_reviewed_rule_specs": 0,
+    "v54_train_lessons": 42,
+    "v54_development_lessons": 14,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "sports_competition",
+    "source_cases": 13,
+    "source_author_steps": 77,
+    "explicit_reviewed_rule_specs": 0,
+    "v54_train_lessons": 125,
+    "v54_development_lessons": 12,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "travel_abroad",
+    "source_cases": 14,
+    "source_author_steps": 70,
+    "explicit_reviewed_rule_specs": 2,
+    "v54_train_lessons": 32,
+    "v54_development_lessons": 4,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "weather",
+    "source_cases": 1,
+    "source_author_steps": 1,
+    "explicit_reviewed_rule_specs": 0,
+    "v54_train_lessons": 0,
+    "v54_development_lessons": 0,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "weather_historical_source",
+    "source_cases": 8,
+    "source_author_steps": 26,
+    "explicit_reviewed_rule_specs": 1,
+    "v54_train_lessons": 41,
+    "v54_development_lessons": 12,
+    "workflow_step_coverage_verified": false
+  },
+  {
+    "domain": "world_affairs",
+    "source_cases": 1,
+    "source_author_steps": 0,
+    "explicit_reviewed_rule_specs": 0,
+    "v54_train_lessons": 1,
+    "v54_development_lessons": 0,
+    "workflow_step_coverage_verified": false
+  }
+]

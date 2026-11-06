@@ -1,0 +1,12 @@
+{
+  "id": "v54_review_20261106",
+  "manifest": "data/delivery/v54_review_20261106/manifest.json",
+  "destination": "local/reviews/v54_audit_delivery_20261106",
+  "files": {
+    "Wengua_V54_逐轮逐题审核.xlsx": "c34105922ef3902744383fc8025a9845e8ffaaf1f8ae536184e4f4880dfc969b",
+    "aggregate.json": "4939b71cf3d8df4f8fe936cc0444442235afcd6fbd179c1c8eb7ddb93f892619",
+    "domain_inventory.json": "c6eb3c2344e0a32c873d10ca4db10a1381b5d168293cbadbd7cb7f0345d2b582",
+    "README.txt": "3a9679534a1d76ebebf31ba4d3d553029a66579ef5a2eaf977c9a29b32b62537"
+  },
+  "not_rag_or_sft_input": true
+}

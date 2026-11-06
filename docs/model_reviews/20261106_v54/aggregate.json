@@ -1,0 +1,611 @@
+{
+  "schema": "wengua_readonly_v54_review_20261106",
+  "run_state": "complete_review_required",
+  "original_selected_for_review": "preserved_v53_parent",
+  "generation_files": 24,
+  "generation_rows": 1670,
+  "contract_and_prompt_hashes_match": true,
+  "original_final_test_used": false,
+  "original_scores_rewritten": false,
+  "trials": {
+    "source_lr_1em05": {
+      "official_base_diagnostic": {
+        "label": "validation_base",
+        "original_groups": {
+          "direction": {
+            "pass": 1,
+            "total": 25,
+            "rate": 0.04
+          },
+          "door_relation": {
+            "pass": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "identity": {
+            "pass": 4,
+            "total": 7,
+            "rate": 0.5714285714285714
+          },
+          "property": {
+            "pass": 7,
+            "total": 8,
+            "rate": 0.875
+          },
+          "source_fact": {
+            "pass": 1,
+            "total": 15,
+            "rate": 0.06666666666666667
+          },
+          "typed_pair": {
+            "pass": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "condition": {
+            "pass": 0,
+            "total": 1,
+            "rate": 0.0
+          },
+          "chart_direction": {
+            "pass": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "original_citation_check": {
+          "pass": 57,
+          "total": 110,
+          "rate": 0.5181818181818182
+        },
+        "chart_positions_matching": {
+          "pass": 3,
+          "total": 18
+        },
+        "chart_explicit_reasoning_conflicts": 12,
+        "direction_explicit_reasoning_conflicts": 4,
+        "typed_name_overlay": {
+          "expected_name_present": 14,
+          "only_expected_among_known_names": 14,
+          "total": 14,
+          "fact_name_only_not_full_semantic_approval": true
+        }
+      },
+      "parent_baseline": {
+        "label": "validation_parent",
+        "original_groups": {
+          "direction": {
+            "pass": 9,
+            "total": 25,
+            "rate": 0.36
+          },
+          "door_relation": {
+            "pass": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "identity": {
+            "pass": 4,
+            "total": 7,
+            "rate": 0.5714285714285714
+          },
+          "property": {
+            "pass": 0,
+            "total": 8,
+            "rate": 0.0
+          },
+          "source_fact": {
+            "pass": 12,
+            "total": 15,
+            "rate": 0.8
+          },
+          "typed_pair": {
+            "pass": 11,
+            "total": 14,
+            "rate": 0.7857142857142857
+          },
+          "condition": {
+            "pass": 0,
+            "total": 1,
+            "rate": 0.0
+          },
+          "chart_direction": {
+            "pass": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "original_citation_check": {
+          "pass": 59,
+          "total": 110,
+          "rate": 0.5363636363636364
+        },
+        "chart_positions_matching": {
+          "pass": 1,
+          "total": 18
+        },
+        "chart_explicit_reasoning_conflicts": 1,
+        "direction_explicit_reasoning_conflicts": 1,
+        "typed_name_overlay": {
+          "expected_name_present": 12,
+          "only_expected_among_known_names": 12,
+          "total": 14,
+          "fact_name_only_not_full_semantic_approval": true
+        }
+      },
+      "epochs": [
+        {
+          "label": "epoch_01_validation",
+          "original_groups": {
+            "direction": {
+              "pass": 9,
+              "total": 25,
+              "rate": 0.36
+            },
+            "door_relation": {
+              "pass": 4,
+              "total": 12,
+              "rate": 0.3333333333333333
+            },
+            "identity": {
+              "pass": 7,
+              "total": 7,
+              "rate": 1.0
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "source_fact": {
+              "pass": 6,
+              "total": 15,
+              "rate": 0.4
+            },
+            "typed_pair": {
+              "pass": 2,
+              "total": 14,
+              "rate": 0.14285714285714285
+            },
+            "condition": {
+              "pass": 0,
+              "total": 1,
+              "rate": 0.0
+            },
+            "chart_direction": {
+              "pass": 1,
+              "total": 18,
+              "rate": 0.05555555555555555
+            }
+          },
+          "original_citation_check": {
+            "pass": 95,
+            "total": 110,
+            "rate": 0.8636363636363636
+          },
+          "chart_positions_matching": {
+            "pass": 18,
+            "total": 18
+          },
+          "chart_explicit_reasoning_conflicts": 12,
+          "direction_explicit_reasoning_conflicts": 7,
+          "typed_name_overlay": {
+            "expected_name_present": 9,
+            "only_expected_among_known_names": 9,
+            "total": 14,
+            "fact_name_only_not_full_semantic_approval": true
+          },
+          "epoch": 1.0,
+          "steps": 134,
+          "validation_language_loss": 0.5145726539194584,
+          "original_eligible": false,
+          "original_legacy_groups": {
+            "element_direction": {
+              "pass": 18,
+              "total": 26,
+              "rate": 0.6923076923076923
+            },
+            "closed_book": {
+              "pass": 2,
+              "total": 47,
+              "rate": 0.0425531914893617
+            },
+            "provided_evidence": {
+              "pass": 16,
+              "total": 49,
+              "rate": 0.32653061224489793
+            }
+          },
+          "original_18_rag_citation_membership_pass": 18
+        },
+        {
+          "label": "epoch_02_validation",
+          "original_groups": {
+            "direction": {
+              "pass": 10,
+              "total": 25,
+              "rate": 0.4
+            },
+            "door_relation": {
+              "pass": 3,
+              "total": 12,
+              "rate": 0.25
+            },
+            "identity": {
+              "pass": 7,
+              "total": 7,
+              "rate": 1.0
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "source_fact": {
+              "pass": 8,
+              "total": 15,
+              "rate": 0.5333333333333333
+            },
+            "typed_pair": {
+              "pass": 1,
+              "total": 14,
+              "rate": 0.07142857142857142
+            },
+            "condition": {
+              "pass": 1,
+              "total": 1,
+              "rate": 1.0
+            },
+            "chart_direction": {
+              "pass": 5,
+              "total": 18,
+              "rate": 0.2777777777777778
+            }
+          },
+          "original_citation_check": {
+            "pass": 97,
+            "total": 110,
+            "rate": 0.8818181818181818
+          },
+          "chart_positions_matching": {
+            "pass": 18,
+            "total": 18
+          },
+          "chart_explicit_reasoning_conflicts": 8,
+          "direction_explicit_reasoning_conflicts": 8,
+          "typed_name_overlay": {
+            "expected_name_present": 11,
+            "only_expected_among_known_names": 11,
+            "total": 14,
+            "fact_name_only_not_full_semantic_approval": true
+          },
+          "epoch": 2.0,
+          "steps": 268,
+          "validation_language_loss": 0.4570677578449249,
+          "original_eligible": false,
+          "original_legacy_groups": {
+            "element_direction": {
+              "pass": 18,
+              "total": 26,
+              "rate": 0.6923076923076923
+            },
+            "closed_book": {
+              "pass": 2,
+              "total": 47,
+              "rate": 0.0425531914893617
+            },
+            "provided_evidence": {
+              "pass": 21,
+              "total": 49,
+              "rate": 0.42857142857142855
+            }
+          },
+          "original_18_rag_citation_membership_pass": 18
+        }
+      ],
+      "actual_formal_steps": 268,
+      "peak_reserved_gib": 15.1484375,
+      "formal_runtime_seconds": 3784.9774169921875
+    },
+    "source_lr_2em05": {
+      "official_base_diagnostic": {
+        "label": "validation_base",
+        "original_groups": {
+          "direction": {
+            "pass": 1,
+            "total": 25,
+            "rate": 0.04
+          },
+          "door_relation": {
+            "pass": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "identity": {
+            "pass": 4,
+            "total": 7,
+            "rate": 0.5714285714285714
+          },
+          "property": {
+            "pass": 7,
+            "total": 8,
+            "rate": 0.875
+          },
+          "source_fact": {
+            "pass": 1,
+            "total": 15,
+            "rate": 0.06666666666666667
+          },
+          "typed_pair": {
+            "pass": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "condition": {
+            "pass": 0,
+            "total": 1,
+            "rate": 0.0
+          },
+          "chart_direction": {
+            "pass": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "original_citation_check": {
+          "pass": 57,
+          "total": 110,
+          "rate": 0.5181818181818182
+        },
+        "chart_positions_matching": {
+          "pass": 3,
+          "total": 18
+        },
+        "chart_explicit_reasoning_conflicts": 12,
+        "direction_explicit_reasoning_conflicts": 4,
+        "typed_name_overlay": {
+          "expected_name_present": 14,
+          "only_expected_among_known_names": 14,
+          "total": 14,
+          "fact_name_only_not_full_semantic_approval": true
+        }
+      },
+      "parent_baseline": {
+        "label": "validation_parent",
+        "original_groups": {
+          "direction": {
+            "pass": 9,
+            "total": 25,
+            "rate": 0.36
+          },
+          "door_relation": {
+            "pass": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "identity": {
+            "pass": 4,
+            "total": 7,
+            "rate": 0.5714285714285714
+          },
+          "property": {
+            "pass": 0,
+            "total": 8,
+            "rate": 0.0
+          },
+          "source_fact": {
+            "pass": 12,
+            "total": 15,
+            "rate": 0.8
+          },
+          "typed_pair": {
+            "pass": 11,
+            "total": 14,
+            "rate": 0.7857142857142857
+          },
+          "condition": {
+            "pass": 0,
+            "total": 1,
+            "rate": 0.0
+          },
+          "chart_direction": {
+            "pass": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "original_citation_check": {
+          "pass": 59,
+          "total": 110,
+          "rate": 0.5363636363636364
+        },
+        "chart_positions_matching": {
+          "pass": 1,
+          "total": 18
+        },
+        "chart_explicit_reasoning_conflicts": 1,
+        "direction_explicit_reasoning_conflicts": 1,
+        "typed_name_overlay": {
+          "expected_name_present": 12,
+          "only_expected_among_known_names": 12,
+          "total": 14,
+          "fact_name_only_not_full_semantic_approval": true
+        }
+      },
+      "epochs": [
+        {
+          "label": "epoch_01_validation",
+          "original_groups": {
+            "direction": {
+              "pass": 10,
+              "total": 25,
+              "rate": 0.4
+            },
+            "door_relation": {
+              "pass": 3,
+              "total": 12,
+              "rate": 0.25
+            },
+            "identity": {
+              "pass": 7,
+              "total": 7,
+              "rate": 1.0
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "source_fact": {
+              "pass": 13,
+              "total": 15,
+              "rate": 0.8666666666666667
+            },
+            "typed_pair": {
+              "pass": 4,
+              "total": 14,
+              "rate": 0.2857142857142857
+            },
+            "condition": {
+              "pass": 1,
+              "total": 1,
+              "rate": 1.0
+            },
+            "chart_direction": {
+              "pass": 3,
+              "total": 18,
+              "rate": 0.16666666666666666
+            }
+          },
+          "original_citation_check": {
+            "pass": 103,
+            "total": 110,
+            "rate": 0.9363636363636364
+          },
+          "chart_positions_matching": {
+            "pass": 18,
+            "total": 18
+          },
+          "chart_explicit_reasoning_conflicts": 10,
+          "direction_explicit_reasoning_conflicts": 13,
+          "typed_name_overlay": {
+            "expected_name_present": 13,
+            "only_expected_among_known_names": 12,
+            "total": 14,
+            "fact_name_only_not_full_semantic_approval": true
+          },
+          "epoch": 1.0,
+          "steps": 134,
+          "validation_language_loss": 0.3905513882637024,
+          "original_eligible": false,
+          "original_legacy_groups": {
+            "element_direction": {
+              "pass": 19,
+              "total": 26,
+              "rate": 0.7307692307692307
+            },
+            "closed_book": {
+              "pass": 2,
+              "total": 47,
+              "rate": 0.0425531914893617
+            },
+            "provided_evidence": {
+              "pass": 26,
+              "total": 49,
+              "rate": 0.5306122448979592
+            }
+          },
+          "original_18_rag_citation_membership_pass": 18
+        },
+        {
+          "label": "epoch_02_validation",
+          "original_groups": {
+            "direction": {
+              "pass": 14,
+              "total": 25,
+              "rate": 0.56
+            },
+            "door_relation": {
+              "pass": 4,
+              "total": 12,
+              "rate": 0.3333333333333333
+            },
+            "identity": {
+              "pass": 7,
+              "total": 7,
+              "rate": 1.0
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "source_fact": {
+              "pass": 13,
+              "total": 15,
+              "rate": 0.8666666666666667
+            },
+            "typed_pair": {
+              "pass": 4,
+              "total": 14,
+              "rate": 0.2857142857142857
+            },
+            "condition": {
+              "pass": 0,
+              "total": 1,
+              "rate": 0.0
+            },
+            "chart_direction": {
+              "pass": 5,
+              "total": 18,
+              "rate": 0.2777777777777778
+            }
+          },
+          "original_citation_check": {
+            "pass": 104,
+            "total": 110,
+            "rate": 0.9454545454545454
+          },
+          "chart_positions_matching": {
+            "pass": 18,
+            "total": 18
+          },
+          "chart_explicit_reasoning_conflicts": 9,
+          "direction_explicit_reasoning_conflicts": 10,
+          "typed_name_overlay": {
+            "expected_name_present": 12,
+            "only_expected_among_known_names": 12,
+            "total": 14,
+            "fact_name_only_not_full_semantic_approval": true
+          },
+          "epoch": 2.0,
+          "steps": 268,
+          "validation_language_loss": 0.33620133623480797,
+          "original_eligible": false,
+          "original_legacy_groups": {
+            "element_direction": {
+              "pass": 12,
+              "total": 26,
+              "rate": 0.46153846153846156
+            },
+            "closed_book": {
+              "pass": 2,
+              "total": 47,
+              "rate": 0.0425531914893617
+            },
+            "provided_evidence": {
+              "pass": 27,
+              "total": 49,
+              "rate": 0.5510204081632653
+            }
+          },
+          "original_18_rag_citation_membership_pass": 18
+        }
+      ],
+      "actual_formal_steps": 268,
+      "peak_reserved_gib": 15.1484375,
+      "formal_runtime_seconds": 7238.8709506988525
+    }
+  },
+  "posthoc_overlays_are_not_new_blind_validation": true
+}
