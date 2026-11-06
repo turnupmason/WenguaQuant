@@ -1,0 +1,20 @@
+{
+  "material_units": 7970,
+  "source_rules": 2049,
+  "cases": 194,
+  "author_steps": 1008,
+  "rule_dispositions": {
+    "general_knowledge_in_existing_courses_or_rag": 1653,
+    "source_rule_lesson_and_workflow_component": 148,
+    "structure_or_context_requires_separate_review": 11,
+    "no_reviewed_specific_application_question": 237
+  },
+  "author_evidence_dispositions": {
+    "author_selected_evidence_to_literal_judgment": 258,
+    "missing_safe_span_or_pre_correction_analysis": 49,
+    "unresolved_correction_phase_source_review_only": 17
+  },
+  "independent_initial_forecast_task_verified": false,
+  "all_source_materials_have_disposition": true,
+  "not_all_source_materials_are_SFT_targets": true
+}
