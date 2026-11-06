@@ -1,0 +1,50 @@
+{
+  "schema": "wengua_actual_rag_worked_source_course_v54",
+  "version": "5.4",
+  "delivery_manifest": "data/delivery/course_v54/manifest.json",
+  "parent_v53_release_sha256": "25a55e870570045c92b02a812fd8b11f693eb03e25cdb0069389f283d3af7e07",
+  "parent_v53_pack_sha256": "4d44e2b5f65f901307cc07818cbf8728fde69eb0dea68bd216e4f3d11e88eb1b",
+  "source_books": [
+    "kaiwu",
+    "shenqi"
+  ],
+  "summary": {
+    "records": 2673,
+    "splits": {
+      "train": 2135,
+      "validation": 538
+    },
+    "skills": {
+      "source_fact": 153,
+      "condition": 165,
+      "identity": 82,
+      "door_relation": 192,
+      "typed_pair": 320,
+      "property": 51,
+      "direction": 75,
+      "chart_direction": 1118,
+      "case": 517
+    },
+    "actual_rag_rows": 1038,
+    "retrieval_missing_not_taught": 0,
+    "cases_preserved": 194,
+    "author_steps_preserved": 1008,
+    "known_legacy_questions": 128,
+    "original_final_test_used": false
+  },
+  "files": {
+    "README.txt": "f054a079a02adfe901981042df15217e3a6cc79223d0222c3a3a52475d57fb61",
+    "Wengua_V53_逐题检查与课程错误审核.xlsx": "d7e52d5347832e390522f584872d78dc3931ee31ef35503ea59774c377d75da2",
+    "Wengua_两书课程_V54_全量审阅.xlsx": "aa456f20542b80cca8db5eab794f9f2d95d7798b0da51b90b5a8a7c949d76d06",
+    "Wengua_两书课程_V54_增补.sqlite3": "6b815ef469c737dafd8cff439f1b5f80edb02be7de64d3ee92d4b398ceecdd1c",
+    "course_delta.json": "b4007b373f24c6a04549af53f5398012a1c69cfd43f2aa9a5c07f56d167b55e1",
+    "literal_property_sources.json": "4eaa9fdc74f118e502fb3dbf1fa51e688da83c35023e2506aa36666a4ecb39fa",
+    "source_recipe/build.py": "359e860fdce201d4b078009f7c47f199c6dd27bc8877b00c3ec822ee856b69a3",
+    "source_recipe/checks.py": "d2c921df71c1bafebd2f04238b795be12a4f9739d618f7f5a817a9509c859fab",
+    "source_recipe/compiler_hashes.json": "1eddab0a6a06cbbf40c080398b3e242dcde1f11e38d5f7cb8877530d188e7386",
+    "source_recipe/corpus.py": "cb0c09d1fab5dd7e19947666aebee54a621ea0920953f990885e05202e966277",
+    "source_recipe/data.py": "36e367838745b0f0a3d8190bf93d2c47af1cabb95e69f3915880a43cc804a2d9",
+    "summary.json": "655f3a99361c09dc0d5ae50c87939cc5bc6d56820686e8cf54c1802ae7b901fc",
+    "token_audit.json": "9fd27cb1639a5a85cd930ebce9908f6438334f4ac192e668157fd4096cbe8db6"
+  }
+}

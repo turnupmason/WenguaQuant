@@ -1,0 +1,8 @@
+{
+  "file": "data/delivery/course_v54/course_v54_9e4d0e330417.enc",
+  "ciphertext_sha256": "9e4d0e330417613e6fe4ff572379eda8e1ffac000a6c52dbb60d9a4e3bcede82",
+  "archive_sha256": "797bf630d5f3aea5bd98176e275fbf634bd52f20e4633ef386a3dabcfa46fe2d",
+  "archive_name": "Wengua_V54_source_repair.zip",
+  "private_book_materials": true,
+  "encryption": "AES-256-CBC+HMAC-SHA256"
+}

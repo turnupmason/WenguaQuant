@@ -1,0 +1,578 @@
+[
+  {
+    "id": "v53:ec979951eea9c8b11a7c7f25",
+    "stage": "foundation",
+    "split": "train",
+    "key": "exam_switch_父亲儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:1af3d0cdabe55b73a473d43f",
+    "stage": "foundation",
+    "split": "train",
+    "key": "exam_switch_父亲儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:7b1ad6422faee69c9bc01e3e",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "exam_switch_父亲儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:7a017796d01f8d8c8b1dfe31",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "exam_switch_父亲儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:9e37a04f2a4e21e46d8ea1a8",
+    "stage": "foundation",
+    "split": "train",
+    "key": "exam_switch_父亲女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:a6799375eac2357417358e25",
+    "stage": "foundation",
+    "split": "train",
+    "key": "exam_switch_父亲女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:9cdee2bafc75eb61418e0a80",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "exam_switch_父亲女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:af197aec6f58eee0f0fe7475",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "exam_switch_父亲女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:686cfbf82d3d0cc3c6d85e5f",
+    "stage": "foundation",
+    "split": "train",
+    "key": "exam_switch_母亲儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:076232cf8f61dc619c8f9fbf",
+    "stage": "foundation",
+    "split": "train",
+    "key": "exam_switch_母亲儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:71be6676c2987198a37bb2b6",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "exam_switch_母亲儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:97ae730c9f83295986d878cb",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "exam_switch_母亲儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:664e61cd8aed55d12b43f7f4",
+    "stage": "foundation",
+    "split": "train",
+    "key": "exam_switch_母亲女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:6f816a33fd7f211ce9ac386a",
+    "stage": "foundation",
+    "split": "train",
+    "key": "exam_switch_母亲女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:c5f0827784cc21ebd256bfe1",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "exam_switch_母亲女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:9dfa0436f25dde54b71bb4de",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "exam_switch_母亲女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:d232721c00b4e8be064a1518",
+    "stage": "foundation",
+    "split": "train",
+    "key": "exam_switch_父母儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:777891605627d4fb762993eb",
+    "stage": "foundation",
+    "split": "train",
+    "key": "exam_switch_父母儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:380f31509bc68cc7ae1c0753",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "exam_switch_父母儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:ccda6a71e54a1ac7d5a7802e",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "exam_switch_父母儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:00a5d95cae3fb79fdc54d070",
+    "stage": "foundation",
+    "split": "train",
+    "key": "exam_switch_父母女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:50bec0e63370ceb55003910b",
+    "stage": "foundation",
+    "split": "train",
+    "key": "exam_switch_父母女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:4fe269fcc24ae852d69fc907",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "exam_switch_父母女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:f3dfc247800d6a5f1204f55b",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "exam_switch_父母女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:ffb8c6b65776b1c1fc1c39bc",
+    "stage": "foundation",
+    "split": "train",
+    "key": "health_switch_to_self",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:1e93cd6caaf03bfac6cd2f76",
+    "stage": "foundation",
+    "split": "train",
+    "key": "health_switch_to_self",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:84a607fa9069da6d504f308c",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "health_switch_to_self",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:db6be6c2a68926f2de81bd46",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "health_switch_to_self",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:64bb72ad6941ac2490c80247",
+    "stage": "foundation",
+    "split": "train",
+    "key": "health_switch_to_father",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:56ed54c8012194e68b6f538a",
+    "stage": "foundation",
+    "split": "train",
+    "key": "health_switch_to_father",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:372ed60ba16b5d1429156315",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "health_switch_to_father",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:d0f0de8478cbe0beb21503b3",
+    "stage": "foundation",
+    "split": "validation",
+    "key": "health_switch_to_father",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:1af3d0cdabe55b73a473d43f:application",
+    "stage": "application",
+    "split": "train",
+    "key": "exam_switch_父亲儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:7a017796d01f8d8c8b1dfe31:application",
+    "stage": "application",
+    "split": "validation",
+    "key": "exam_switch_父亲儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:a6799375eac2357417358e25:application",
+    "stage": "application",
+    "split": "train",
+    "key": "exam_switch_父亲女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:af197aec6f58eee0f0fe7475:application",
+    "stage": "application",
+    "split": "validation",
+    "key": "exam_switch_父亲女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:076232cf8f61dc619c8f9fbf:application",
+    "stage": "application",
+    "split": "train",
+    "key": "exam_switch_母亲儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:97ae730c9f83295986d878cb:application",
+    "stage": "application",
+    "split": "validation",
+    "key": "exam_switch_母亲儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:6f816a33fd7f211ce9ac386a:application",
+    "stage": "application",
+    "split": "train",
+    "key": "exam_switch_母亲女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:9dfa0436f25dde54b71bb4de:application",
+    "stage": "application",
+    "split": "validation",
+    "key": "exam_switch_母亲女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:777891605627d4fb762993eb:application",
+    "stage": "application",
+    "split": "train",
+    "key": "exam_switch_父母儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:ccda6a71e54a1ac7d5a7802e:application",
+    "stage": "application",
+    "split": "validation",
+    "key": "exam_switch_父母儿子",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:50bec0e63370ceb55003910b:application",
+    "stage": "application",
+    "split": "train",
+    "key": "exam_switch_父母女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:f3dfc247800d6a5f1204f55b:application",
+    "stage": "application",
+    "split": "validation",
+    "key": "exam_switch_父母女儿",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:1e93cd6caaf03bfac6cd2f76:application",
+    "stage": "application",
+    "split": "train",
+    "key": "health_switch_to_self",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:db6be6c2a68926f2de81bd46:application",
+    "stage": "application",
+    "split": "validation",
+    "key": "health_switch_to_self",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:56ed54c8012194e68b6f538a:application",
+    "stage": "application",
+    "split": "train",
+    "key": "health_switch_to_father",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  },
+  {
+    "id": "v53:d0f0de8478cbe0beb21503b3:application",
+    "stage": "application",
+    "split": "validation",
+    "key": "health_switch_to_father",
+    "roles": [
+      "user",
+      "assistant",
+      "user",
+      "assistant"
+    ]
+  }
+]

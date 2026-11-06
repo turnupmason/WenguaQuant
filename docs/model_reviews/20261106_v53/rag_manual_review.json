@@ -1,0 +1,110 @@
+[
+  {
+    "id": "v53:actual_rag:hetu_金",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:gui_yin_water",
+    "manual_major_fact_assessment": "wrong",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:exam_self",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:exam_proxy",
+    "manual_major_fact_assessment": "wrong",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:role_6",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:role_7",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:role_18",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:role_20",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:role_21",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:role_22",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:role_29",
+    "manual_major_fact_assessment": "wrong",
+    "citation_present": true,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:cross_domain_liuhe",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:marriage_same_palace",
+    "manual_major_fact_assessment": "partial_conditions",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:named_pair_戊戊",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:named_pair_丁壬",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:named_pair_庚戊",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:health_daughter_father",
+    "manual_major_fact_assessment": "wrong",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  },
+  {
+    "id": "v53:actual_rag:health_father_self",
+    "manual_major_fact_assessment": "major_fact_correct",
+    "citation_present": false,
+    "professional_prediction_approval": false
+  }
+]

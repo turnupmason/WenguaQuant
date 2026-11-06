@@ -1,0 +1,80 @@
+{
+  "cpu_training_verification": {
+    "software_fixture_only": true,
+    "nonzero_parent_weights_reused": true,
+    "first_update_empty_new_optimizer": true,
+    "fresh_process_resume_tensor_equal": true,
+    "both_rates_two_epochs_finished": true,
+    "legacy_evaluation_transport_exercised": true,
+    "export_and_completed_rerun_verified": true,
+    "windows_native_16_mib_restore": false,
+    "actual_8b_cuda_training_verified": false,
+    "real_book_answer_quality_verified": false
+  },
+  "token_audit": {
+    "summary": {
+      "records": 2673,
+      "splits": {
+        "train": 2135,
+        "validation": 538
+      },
+      "skills": {
+        "source_fact": 153,
+        "condition": 165,
+        "identity": 82,
+        "door_relation": 192,
+        "typed_pair": 320,
+        "property": 51,
+        "direction": 75,
+        "chart_direction": 1118,
+        "case": 517
+      },
+      "actual_rag_rows": 1038,
+      "retrieval_missing_not_taught": 0,
+      "cases_preserved": 194,
+      "author_steps_preserved": 1008,
+      "known_legacy_questions": 128,
+      "original_final_test_used": false
+    },
+    "target_views": 2689,
+    "max_target_view_tokens": 3107,
+    "oversized": [],
+    "teacher_slot_failures": [],
+    "development_rows": 128,
+    "generation_skips": [],
+    "development_categories": {
+      "direction": 25,
+      "door_relation": 12,
+      "identity": 10,
+      "property": 8,
+      "source_fact": 16,
+      "typed_pair": 14,
+      "condition": 6,
+      "chart_direction": 18,
+      "case": 19
+    },
+    "real_multiturn_rows": 16,
+    "all_dialogue_role_transitions_checked": true
+  },
+  "real_preparation_audit": {
+    "training_rows": 2143,
+    "max_actual_train_tokens": 3107,
+    "whole_targets_preserved": true,
+    "original_test_used": false,
+    "legacy_actual_rag_rows": 18,
+    "actual_two_book_full_preparation": true,
+    "original_v53_18_prompt_packets_unchanged": true,
+    "source_units_rows": 7808,
+    "not_actual_8b_training": true
+  },
+  "unit_tests": {
+    "tests": 102,
+    "passed": true,
+    "not_actual_8b_cuda_fit": true
+  },
+  "baseline_preservation": {
+    "app_runtime_files": 49,
+    "original_source_database_sha256": "21362e6f0266c03dcdc4a7ef35f45954ba274ae6458de0ba341132abca7d0405",
+    "unchanged": true
+  }
+}
