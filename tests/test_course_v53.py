@@ -74,6 +74,11 @@ class SlotChecksV53(unittest.TestCase):
   s={'complete':True,'groups':{'provided_evidence':{'rate':1,'total':10},'closed_book':{'rate':1,'total':10},'element_direction':{'rate':.1,'total':25}}}
   self.assertFalse(checks.gate(s,'foundation')['passed']);s['groups']['element_direction']['rate']=.9;self.assertTrue(checks.gate(s,'foundation')['passed'])
  def test_missing_gate_category_blocks_long_training(self):self.assertFalse(checks.gate({'complete':True,'groups':{}},'foundation')['passed'])
+ def test_relative_retention_rejects_forgetting_even_above_absolute_floor(self):
+  before={'closed_book':{'rate':.9,'total':40}}
+  self.assertFalse(checks.retention({'complete':True,'groups':{'closed_book':{'rate':.6,'total':40}}},before)['passed'])
+  self.assertTrue(checks.retention({'complete':True,'groups':{'closed_book':{'rate':.85,'total':40}}},before)['passed'])
+  self.assertFalse(checks.retention({'complete':True,'groups':{'closed_book':{'rate':.95,'total':20}}},before)['passed'])
  def test_prompt_or_expected_mismatch_rejected(self):
   g=gold();r={'id':'x','answer':'天芮。','question':g['messages'][:-1],'expected':'天心'}
   with self.assertRaises(ValueError):checks.score([r],[g])
@@ -148,6 +153,15 @@ class SourceCaseChainsV53(unittest.TestCase):
   self.assertIn('更正',data.step_phase(cid,{'book_id':'shenqi','section_id':1,'lines':[3,3]},stages)[0])
 
 class WorkerStartupV53(unittest.TestCase):
+ def test_resumed_initializer_comparison_preserves_equal_short_budget(self):
+  from wengua_course_v53.runner import fixed_short_screen
+  import tempfile
+  from unittest.mock import Mock
+  with tempfile.TemporaryDirectory() as temp:
+   before={'steps':64,'last_adapter':'sealed-adapter-at64','state':'paused_training'}
+   self.assertEqual(fixed_short_screen(temp,lambda:before),before)
+   later=Mock(return_value={'steps':256,'last_adapter':'different-adapter-at256'})
+   self.assertEqual(fixed_short_screen(temp,later),before);later.assert_not_called()
  def test_missing_app_dependency_still_returns_authenticated_failure_receipt(self):
   from pathlib import Path
   import tempfile,subprocess,sys,os

@@ -100,3 +100,13 @@ def gate(summary,stage):
 def rank(summary):
  rates=[v['rate'] for v in summary['groups'].values()]
  return (min(rates,default=0),sum(rates)/len(rates) if rates else 0)
+
+def retention(summary,before,*,maximum_drop=.05):
+ """Compare the SAME declared tasks, not just a low absolute pass floor."""
+ rows={};same_tasks=bool(before) and summary['complete']
+ for key,prior in before.items():
+  after=summary['groups'].get(key,{})
+  same=bool(prior.get('total')) and after.get('total')==prior['total'];same_tasks&=same
+  rows[key]={'same_declared_task_count':same,'before':prior['rate'],'after':after.get('rate'),'drop':prior['rate']-after['rate'] if same else None}
+ passed=same_tasks and all(row['drop']<=maximum_drop+1e-12 for row in rows.values())
+ return {'passed':passed,'maximum_absolute_group_rate_drop':maximum_drop,'groups':rows,'professional_approval':False}

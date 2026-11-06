@@ -33,6 +33,16 @@ def evaluate_adapter(p,job,c,deadline,*,best,factory=None):
 def score_path(path,pack,stage,count):
  rows=list(map(json.loads,Path(path).read_text().splitlines()));result=checks.score(rows,runtime.choose_development(pack,count,stage));d.write(Path(path).with_suffix('.source_checks.json'),result);return result
 
+def fixed_short_screen(job,fit):
+ """A resumed winner may be at256; its initializer comparison stays at64."""
+ path=Path(job)/'fixed_short_screen.json'
+ if path.exists():return d.read(path)
+ result=fit()
+ if result.get('last_adapter') and result.get('steps',0)>0:
+  if result['steps']>64:raise ValueError('Initializer screen exceeded its common 64-update budget')
+  d.write(path,result)
+ return result
+
 def report(root,state):
  root=Path(root);d.write(root/'run_status.json',state)
  esc=lambda x:html.escape(str(x));parts=['<!doctype html><meta charset="utf-8"><title>Wengua V5.3</title><style>body{font:16px system-ui;max-width:1300px;margin:24px auto;padding:16px}pre{white-space:pre-wrap;overflow-wrap:anywhere}summary{cursor:pointer}</style><h1>V5.3 来源应用与初始化对照</h1><p>程序起盘；两书RAG提供依据；新LoRA与旧权重同课程短训比较。检查门槛不等于专业正确率，最终测试仍封存。</p><pre>'+esc(json.dumps(state,ensure_ascii=False,indent=2))+'</pre>']
@@ -99,7 +109,7 @@ def run(args):
      state.update(state='foundation_short_comparison',active_trial=job.name);report(root,state)
      pressure=launch(p,job,c,deadline,'fit',probe=True)
      if pressure['state']!='complete':raise TimeoutError('Pressure run paused; preserve output')
-     result=fit_until(job,c,stop)
+     result=fixed_short_screen(job,lambda:fit_until(job,c,stop))
      if not result.get('last_adapter'):raise TimeoutError('Foundation paused before first saved update')
      summary=evaluate(job,c,result['last_adapter'],'foundation_screen_'+str(result['steps']),'foundation');gate=checks.gate(summary,'foundation')
      state['foundation'][name]={'steps':result['steps'],'score':summary['groups'],'gate':gate,'adapter':result['last_adapter']};report(root,state)
@@ -135,8 +145,9 @@ def run(args):
      retained=evaluate(job,c,e['adapter'],f"epoch_{e['cycle']:02d}_foundation_regression",'foundation')
      rag_result=launch(p,job,c,deadline,'rag_probe',best={'adapter':e['adapter'],'tag':f"epoch_{e['cycle']:02d}_actual_rag"})
      if rag_result['state'] not in ('complete','software_fixture_skipped_real_book_probe'):raise TimeoutError('Actual RAG probe paused')
-     allowed=checks.gate(score,'application')['passed'] and checks.gate(retained,'foundation')['passed'] and rag_operations_ok(rag_result,software_fixture=p.testing)
-     row={'epoch':e['epoch'],'steps':e['steps'],'adapter':e['adapter'],'language_loss':e['validation_loss'],'application_checks':score['groups'],'foundation_checks':retained['groups'],'actual_rag_probe':{'state':rag_result['state'],'executed':rag_result['real_book_probe_executed'],'semantic_review_required':True},'eligible_for_review':allowed,'professional_approval':False};epochs.append(row)
+     foundation_retention=checks.retention(retained,d.read(selected)['score']);application_retention=checks.retention(score,baseline['groups'])
+     allowed=checks.gate(score,'application')['passed'] and checks.gate(retained,'foundation')['passed'] and foundation_retention['passed'] and application_retention['passed'] and rag_operations_ok(rag_result,software_fixture=p.testing)
+     row={'epoch':e['epoch'],'steps':e['steps'],'adapter':e['adapter'],'language_loss':e['validation_loss'],'application_checks':score['groups'],'foundation_checks':retained['groups'],'foundation_retention':foundation_retention,'application_retention':application_retention,'actual_rag_probe':{'state':rag_result['state'],'executed':rag_result['real_book_probe_executed'],'semantic_review_required':True},'eligible_for_review':allowed,'professional_approval':False};epochs.append(row)
      if allowed:candidates.append((checks.rank(score),tag,row))
     state['application'][tag]={'state':'complete','epochs':epochs,'foundation_before_application':baseline['groups']};report(root,state)
    if candidates:
