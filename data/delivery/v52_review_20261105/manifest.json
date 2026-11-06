@@ -1,10 +1,21 @@
 {
   "file": "data/delivery/v52_review_20261105/delivery.enc",
   "archive_name": "Wengua_V52_逐轮来源审核_20261105.zip",
-  "archive_sha256": "5b1ace40635e9224c45f9bb1330b7712ae44adf2a502d355120576c82e0382b8",
-  "ciphertext_sha256": "2a53b9a1cae9ad57ad43895a5e026195b7fbd5f73de41a122b5e41e73a4aa37b",
+  "archive_sha256": "60a25f4fd1fb39dd0f447c95cb3ba5ffe6c1f7a7a45a463c79e7a77442c9b360",
+  "ciphertext_sha256": "794322738024fbe9270f3e15088650a4b851bf9367624c39ff28cc2260dd751a",
   "private_key_published": false,
   "purpose": "review_only_never_a_classical_source_or_SFT_teacher",
   "original_upload_sha256": "c78ec5b7523f0db8918ac95c610eee16ec3d3a211dd6f994e281c5b5fecad36c",
-  "reviewed_generation_rows": 1458
+  "reviewed_generation_rows": 1458,
+  "member_sha256": {
+    "original_upload.zip": "c78ec5b7523f0db8918ac95c610eee16ec3d3a211dd6f994e281c5b5fecad36c",
+    "Wengua_V52_逐题逐轮审核.xlsx": "6b3b9a613cec07fb58f2c7e7f4fe8490e8f76a48071d0ad94f9c8356cb06f9fd",
+    "analysis/aggregate.json": "704246d0c11c29d790a5ea74b3d7a4825149537a7bc28f1f7ccd5152d4e696d6",
+    "analysis/data_quality_flags.json": "3620ae138237aab948a3ddac2cd535d4f69a253910d1c9536ca622049ca88f6e",
+    "analysis/math_verification.json": "6a799a907a9ef8135a9066ac571342b958b2bddb18ec25981f81e6b0fe295e4d",
+    "analysis/open_review_order.json": "c430480f4bc968a1159d321dd6af0488954fdfafd61e58b7abd6bf0987a3efe7",
+    "analysis/run_paths.json": "8ef6dc345ec70cb168129b6c2eb32d7718ecc00eb2ac817a274bdbe476c1a0d5",
+    "analysis/semantic_review_notes.json": "0a7530bd66d84e2cc2da7c4c0b9eabbc04e7e5d4e21f244810fb2e774c756f12",
+    "审阅说明.md": "bc64b9152637e2142b7703a01ab5f33bd450aaab57de8d77241ee8b2dec00b08"
+  }
 }

@@ -66,6 +66,14 @@ git pull --ff-only origin main
 
 默认结果：`local\course_v53\run1\results.html`。教材审阅表：`local\course_v53_data\Wengua_两书RAG课程_V53_全量审阅.xlsx`；数据库同目录 `Wengua_两书RAG课程_V53.sqlite3`，包含全部课程、来源、194案、1008分析、完整章节及RAG文档。
 
+另有V5.2逐题逐轮Excel：128题八版本对照、全部1458条原答、旧数据问题与每轮数值。它只作审阅，绝不进入RAG知识或SFT教材。需要看完整原答时恢复到独立审阅目录：
+
+```powershell
+& ..\WenguaApp\local\qwen_env\Scripts\python.exe -X utf8 -m wengua_course_v53 restore-review
+```
+
+使用同一教材口令，输出 `local\reviews\v52_semantic_audit\Wengua_V52_逐题逐轮审核.xlsx`；不加载模型、不改训练运行。
+
 中断后重复启动同一入口，自动查最后完整checkpoint并恢复优化器、scheduler与随机状态。同阶段恢复和跨教材阶段继承权重是两件事；不能用仅有adapter的目录冒充完整checkpoint。需要手工指定时，必须属于当前V5.3运行的最后完整checkpoint：
 
 ```powershell

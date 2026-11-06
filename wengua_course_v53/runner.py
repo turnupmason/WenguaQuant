@@ -159,12 +159,17 @@ def export(root,archive):
  return export_review(root,archive)
 
 def main(argv=None):
- parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('command',choices=['restore','check','run','export','search','ask']);parser.add_argument('--app-root',type=Path);parser.add_argument('--output',type=Path,default=runtime.ROOT/'local/course_v53/run1');parser.add_argument('--hours',type=float,default=48);parser.add_argument('--resume',action='store_true');parser.add_argument('--resume-from-checkpoint',type=Path);parser.add_argument('--archive',type=Path);parser.add_argument('--key-file',type=Path);parser.add_argument('--question');parser.add_argument('--domain');parser.add_argument('--book',choices=['shenqi','kaiwu']);parser.add_argument('--mode',choices=['knowledge','reading','study'],default='knowledge');parser.add_argument('--case-id');parser.add_argument('--time');parser.add_argument('--zone');parser.add_argument('--chart',type=Path);parser.add_argument('--facts',type=Path);args=parser.parse_args(argv)
- if args.command=='restore':
+ parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('command',choices=['restore','restore-review','check','run','export','search','ask']);parser.add_argument('--app-root',type=Path);parser.add_argument('--output',type=Path,default=runtime.ROOT/'local/course_v53/run1');parser.add_argument('--hours',type=float,default=48);parser.add_argument('--resume',action='store_true');parser.add_argument('--resume-from-checkpoint',type=Path);parser.add_argument('--archive',type=Path);parser.add_argument('--key-file',type=Path);parser.add_argument('--question');parser.add_argument('--domain');parser.add_argument('--book',choices=['shenqi','kaiwu']);parser.add_argument('--mode',choices=['knowledge','reading','study'],default='knowledge');parser.add_argument('--case-id');parser.add_argument('--time');parser.add_argument('--zone');parser.add_argument('--chart',type=Path);parser.add_argument('--facts',type=Path);args=parser.parse_args(argv)
+ if args.command in ('restore','restore-review'):
   from wengua_corpus.__main__ import restore
-  release=d.read(runtime.RELEASE);value=args.key_file.read_text().strip() if args.key_file else input('粘贴此前V4/V5.1教材的64位口令（输入可见）：').strip()
+  value=args.key_file.read_text(encoding='utf-8-sig').strip() if args.key_file else input('粘贴此前V4/V5.1教材的64位口令（输入可见）：').strip()
   import re
   if not re.fullmatch('[0-9a-fA-F]{64}',value):raise ValueError('Use the existing 64-character delivery key, not a ZIP path')
+  if args.command=='restore-review':
+   manifest='data/delivery/v52_review_20261105/manifest.json';m=d.read(runtime.ROOT/manifest)
+   if m['purpose']!='review_only_never_a_classical_source_or_SFT_teacher':raise ValueError('Unexpected review package purpose')
+   out=restore({'manifest':manifest,'destination':'local/reviews/v52_semantic_audit','files':m['member_sha256']},bytes.fromhex(value));print('V5.2逐题逐轮审阅表：'+str(out/'Wengua_V52_逐题逐轮审核.xlsx'));return 0
+  release=d.read(runtime.RELEASE)
   restore({'manifest':release['delivery_manifest'],'destination':runtime.DATA.relative_to(runtime.ROOT).as_posix(),'files':release['files']},bytes.fromhex(value));runtime.verify_data();print('V5.3教材、审阅表和两书RAG已恢复并校验。');return 0
  if args.command=='export':print(export(args.output,args.archive or Path.home()/'Downloads/Wengua_V53_review.zip'));return 0
  runtime.configure(args.app_root);pack=runtime.verify_data()
