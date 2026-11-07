@@ -69,12 +69,17 @@
     "professional_model_quality_verified": false
   },
   "local_unit_tests": {
-    "passed": 151,
+    "passed": 153,
     "log": "local/course_v56_build/unit_tests_final.log"
   },
   "delivery_manifest_sha256": "8a2b3b46a2be296dc5300d4077a94da54ceb3614028ba5c4afe5247dff5bd2c7",
   "release_sha256": "c8d6f03037afff8fb97f543a9e67fec0c5105810c1e6f0225fe02baa9be1357d",
   "actual_8b_cuda_training_verified": false,
   "professional_model_quality_verified": false,
-  "post_push_actions": "See actual Actions for this commit; recorded separately after completion."
+  "post_push_actions": "See actual Actions for this commit; recorded separately after completion.",
+  "generation_budgets": {
+    "repair_new_questions": 384,
+    "legacy_v55_and_actual_rag": 1024,
+    "legacy_original_allowance_retained": true
+  }
 }

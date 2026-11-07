@@ -50,6 +50,20 @@ class CourseV56(unittest.TestCase):
         self.assertEqual(checks.fact_check({'answer':'领导留用，不准退役。'},g)['status'],'pass')
         self.assertNotEqual(checks.fact_check({'answer':'领导留用，所以准退。'},g)['status'],'pass')
 
+    def test_legacy_full_answers_keep_the_original_generation_budget(self):
+        c={'eval_max_new_tokens':384}
+        self.assertEqual(runner.evaluation_config(c,'v55')['eval_max_new_tokens'],1024)
+        self.assertEqual(runner.evaluation_config(c,'legacy_rag')['eval_max_new_tokens'],1024)
+        self.assertEqual(runner.evaluation_config(c,'application')['eval_max_new_tokens'],384)
+        self.assertEqual(runner.evaluation_config(c,'v55',testing=True)['eval_max_new_tokens'],384)
+        self.assertEqual(c,{'eval_max_new_tokens':384})
+
+    def test_natural_conditional_marriage_answer_is_not_a_missing_condition(self):
+        result=runner.rag_boundaries([{'id':'v53:actual_rag:marriage_same_palace','answer':'乙庚同宫还需要临吉门、吉格，才能据此判断婚姻有利。'}])
+        self.assertTrue(result['items'][0]['passed'])
+        result=runner.rag_boundaries([{'id':'v53:actual_rag:marriage_same_palace','answer':'同宫即可，不需要吉门吉格。'}])
+        self.assertFalse(result['items'][0]['passed'])
+
     def test_empty_actual_rag_cannot_pass_acceptance(self):
         self.assertFalse(runner.rag_boundaries([])['passed'])
 

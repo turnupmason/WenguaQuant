@@ -8,8 +8,25 @@ from wengua_course_v55 import checks as old_checks
 from wengua_course_v55.runner import evaluate_adapter as _evaluate_adapter
 from . import runtime,initialization,checks
 
-evaluate_adapter=FunctionType(_evaluate_adapter.__code__,globals(),'evaluate_adapter',_evaluate_adapter.__defaults__,_evaluate_adapter.__closure__)
-evaluate_adapter.__kwdefaults__=_evaluate_adapter.__kwdefaults__
+_evaluate_bound=FunctionType(_evaluate_adapter.__code__,globals(),'_evaluate_bound',_evaluate_adapter.__defaults__,_evaluate_adapter.__closure__)
+_evaluate_bound.__kwdefaults__=_evaluate_adapter.__kwdefaults__
+
+
+def evaluation_config(c,stage,*,testing=False):
+    # The short repair questions use 384 tokens; old full-case/workflow and
+    # RAG regressions retain their original 1024-token generation allowance.
+    # Otherwise a correct long answer could fail solely on the repair cap.
+    if testing or stage not in ['v55','legacy_rag']:return c
+    return c|{'eval_max_new_tokens':1024}
+
+
+def evaluate_adapter(p,job,c,deadline,*,best,factory=None):
+    stage=best.get('eval_stage','application');inference=evaluation_config(c,stage,testing=p.testing)
+    budget=Path(job)/'generations'/(best['tag']+'.inference_budget.json')
+    proof={'eval_stage':stage,'max_new_tokens':inference['eval_max_new_tokens'],'training_config_unchanged':True,'legacy_original_budget_retained':stage in ['v55','legacy_rag'] and not p.testing}
+    if budget.exists() and d.read(budget)!=proof:raise ValueError('Evaluation generation budget changed')
+    d.write(budget,proof)
+    return _evaluate_bound(p,job,inference,deadline,best=best,factory=factory)
 
 
 def config(parent,source_run,rate,phase='full'):
@@ -47,7 +64,7 @@ def rag_boundaries(generated):
             ok=checks.fact_check(r,g)['status']=='pass';reason='patient_or_candidate_identity_and_year_boundary'
             if key=='health_daughter_father':ok=ok and '乾宫' in a
         elif key=='marriage_same_palace':
-            ok=all(w in a for w in ['吉门','吉格']) and any(w in a for w in ['不能','不一定','还须','还要求']) and not re.search(r'不(?:需要|必需|必|用)[^。；\n]{0,5}(?:吉门|吉格)',a);reason='both_missing_favorable_conditions_retained'
+            ok=all(w in a for w in ['吉门','吉格']) and any(w in a for w in ['不能','不一定','还须','还要求','需要','还要','必须','前提','且','才']) and not re.search(r'不(?:需要|必需|必|用)[^。；\n]{0,5}(?:吉门|吉格)',a);reason='both_missing_favorable_conditions_retained'
         elif key=='cross_domain_liuhe':
             ok=bool(re.search(r'婚姻[^。；\n]{0,15}媒人',a)) and bool(re.search(r'诉讼[^。；\n]{0,15}证[人据]',a)) and bool(re.search(r'(?:交易|求财)[^。；\n]{0,15}(?:中介|经纪)',a));reason='explicit_domain_to_role_mapping'
         items.append({'id':r['id'],'passed':ok,'scope':reason})
