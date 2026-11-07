@@ -1,0 +1,10 @@
+{
+  "archive_sha256": "aebddd1026c4c1e000eaedc2225027a24f49885dedc7bc6cfbc39fe24a8b0478",
+  "members": 175,
+  "uncompressed_bytes": 35850421,
+  "audit_source_sha256": "0322d7dece20947c5e6c749b7406429110fb4dffb3e31df63005dbc299a6a08a",
+  "read_without_extraction": true,
+  "uploaded_code_executed": false,
+  "original_run_and_curriculum_unchanged": true,
+  "not_rag_or_sft_input": true
+}

@@ -1,0 +1,2376 @@
+{
+  "schema": "wengua_readonly_v55_review_20261107",
+  "run_state": "complete_review_required",
+  "original_nominee": "preserved_v54_research_parent",
+  "generation_files": 32,
+  "generation_rows": 3206,
+  "code_release_prompt_hashes_match": true,
+  "reviewed_parent_adapter_sha_matches": true,
+  "completed_nonfixture_worker_receipts": 20,
+  "original_final_test_used": false,
+  "original_scores_rewritten": false,
+  "posthoc_observations_are_not_blind_validation": true,
+  "trials": {
+    "source_lr_1em05": {
+      "stages": [
+        {
+          "tag": "validation_base",
+          "original_groups": {
+            "source_fact": {
+              "pass": 0,
+              "total": 5,
+              "rate": 0.0
+            },
+            "direction": {
+              "pass": 6,
+              "total": 25,
+              "rate": 0.24
+            },
+            "positions": {
+              "pass": 3,
+              "total": 17,
+              "rate": 0.17647058823529413
+            },
+            "given_direction": {
+              "pass": 0,
+              "total": 16,
+              "rate": 0.0
+            },
+            "chart_direction": {
+              "pass": 0,
+              "total": 18,
+              "rate": 0.0
+            },
+            "door_relation": {
+              "pass": 0,
+              "total": 16,
+              "rate": 0.0
+            },
+            "property": {
+              "pass": 7,
+              "total": 8,
+              "rate": 0.875
+            },
+            "identity": {
+              "pass": 6,
+              "total": 12,
+              "rate": 0.5
+            },
+            "condition": {
+              "pass": 1,
+              "total": 13,
+              "rate": 0.07692307692307693
+            },
+            "typed_pair": {
+              "pass": 14,
+              "total": 16,
+              "rate": 0.875
+            }
+          },
+          "citation": {
+            "pass": 60,
+            "total": 129,
+            "rate": 0.46511627906976744
+          },
+          "observations": {
+            "source_fact": {
+              "total": 5,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "direction": {
+              "total": 25,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 6,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "positions": {
+              "total": 17,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 1,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 3
+            },
+            "given_direction": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 2,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "chart_direction": {
+              "total": 18,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 13,
+              "repeated": 0,
+              "output_limit": 2,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 1
+            },
+            "door_relation": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 15,
+              "repeated": 1,
+              "output_limit": 1,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "property": {
+              "total": 8,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "identity": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "condition": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "typed_pair": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "workflow": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "author_evidence": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 1,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "case": {
+              "total": 19,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 1,
+              "correct_headline_but_explicit_conflict": 0
+            }
+          }
+        },
+        {
+          "tag": "validation_parent",
+          "original_groups": {
+            "source_fact": {
+              "pass": 4,
+              "total": 5,
+              "rate": 0.8
+            },
+            "direction": {
+              "pass": 5,
+              "total": 25,
+              "rate": 0.2
+            },
+            "positions": {
+              "pass": 10,
+              "total": 17,
+              "rate": 0.5882352941176471
+            },
+            "given_direction": {
+              "pass": 0,
+              "total": 16,
+              "rate": 0.0
+            },
+            "chart_direction": {
+              "pass": 3,
+              "total": 18,
+              "rate": 0.16666666666666666
+            },
+            "door_relation": {
+              "pass": 0,
+              "total": 16,
+              "rate": 0.0
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "identity": {
+              "pass": 10,
+              "total": 12,
+              "rate": 0.8333333333333334
+            },
+            "condition": {
+              "pass": 4,
+              "total": 13,
+              "rate": 0.3076923076923077
+            },
+            "typed_pair": {
+              "pass": 12,
+              "total": 16,
+              "rate": 0.75
+            }
+          },
+          "citation": {
+            "pass": 105,
+            "total": 129,
+            "rate": 0.813953488372093
+          },
+          "observations": {
+            "source_fact": {
+              "total": 5,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "direction": {
+              "total": 25,
+              "target_content_exact": 1,
+              "explicit_reasoning_conflicts": 13,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 5
+            },
+            "positions": {
+              "total": 17,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 10
+            },
+            "given_direction": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 4,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "chart_direction": {
+              "total": 18,
+              "target_content_exact": 3,
+              "explicit_reasoning_conflicts": 12,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 18
+            },
+            "door_relation": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 11,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "property": {
+              "total": 8,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "identity": {
+              "total": 12,
+              "target_content_exact": 2,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "condition": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "typed_pair": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "workflow": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "author_evidence": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 1,
+              "output_limit": 1,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "case": {
+              "total": 19,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            }
+          }
+        },
+        {
+          "tag": "epoch_01_validation",
+          "original_groups": {
+            "source_fact": {
+              "pass": 5,
+              "total": 5,
+              "rate": 1.0
+            },
+            "direction": {
+              "pass": 9,
+              "total": 25,
+              "rate": 0.36
+            },
+            "positions": {
+              "pass": 17,
+              "total": 17,
+              "rate": 1.0
+            },
+            "given_direction": {
+              "pass": 2,
+              "total": 16,
+              "rate": 0.125
+            },
+            "chart_direction": {
+              "pass": 3,
+              "total": 18,
+              "rate": 0.16666666666666666
+            },
+            "door_relation": {
+              "pass": 3,
+              "total": 16,
+              "rate": 0.1875
+            },
+            "property": {
+              "pass": 6,
+              "total": 8,
+              "rate": 0.75
+            },
+            "identity": {
+              "pass": 12,
+              "total": 12,
+              "rate": 1.0
+            },
+            "condition": {
+              "pass": 4,
+              "total": 13,
+              "rate": 0.3076923076923077
+            },
+            "typed_pair": {
+              "pass": 11,
+              "total": 16,
+              "rate": 0.6875
+            }
+          },
+          "citation": {
+            "pass": 112,
+            "total": 129,
+            "rate": 0.8682170542635659
+          },
+          "observations": {
+            "source_fact": {
+              "total": 5,
+              "target_content_exact": 1,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "direction": {
+              "total": 25,
+              "target_content_exact": 2,
+              "explicit_reasoning_conflicts": 2,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "positions": {
+              "total": 17,
+              "target_content_exact": 17,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 17
+            },
+            "given_direction": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 8,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "chart_direction": {
+              "total": 18,
+              "target_content_exact": 3,
+              "explicit_reasoning_conflicts": 12,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 18
+            },
+            "door_relation": {
+              "total": 16,
+              "target_content_exact": 3,
+              "explicit_reasoning_conflicts": 8,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "property": {
+              "total": 8,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "identity": {
+              "total": 12,
+              "target_content_exact": 3,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "condition": {
+              "total": 16,
+              "target_content_exact": 1,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "typed_pair": {
+              "total": 16,
+              "target_content_exact": 6,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "workflow": {
+              "total": 12,
+              "target_content_exact": 7,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "author_evidence": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "case": {
+              "total": 19,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            }
+          },
+          "epoch": 1.0,
+          "steps": 397,
+          "validation_language_loss": 0.3596994299441576,
+          "original_eligible": false,
+          "original_v53_groups": {
+            "element_direction": {
+              "pass": 18,
+              "total": 26,
+              "rate": 0.6923076923076923
+            },
+            "closed_book": {
+              "pass": 2,
+              "total": 47,
+              "rate": 0.0425531914893617
+            },
+            "provided_evidence": {
+              "pass": 23,
+              "total": 49,
+              "rate": 0.46938775510204084
+            }
+          },
+          "original_v54_groups": {
+            "direction": {
+              "pass": 16,
+              "total": 25,
+              "rate": 0.64
+            },
+            "door_relation": {
+              "pass": 4,
+              "total": 12,
+              "rate": 0.3333333333333333
+            },
+            "identity": {
+              "pass": 7,
+              "total": 7,
+              "rate": 1.0
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "source_fact": {
+              "pass": 15,
+              "total": 15,
+              "rate": 1.0
+            },
+            "typed_pair": {
+              "pass": 10,
+              "total": 14,
+              "rate": 0.7142857142857143
+            },
+            "condition": {
+              "pass": 1,
+              "total": 1,
+              "rate": 1.0
+            },
+            "chart_direction": {
+              "pass": 5,
+              "total": 18,
+              "rate": 0.2777777777777778
+            }
+          },
+          "v54_with_v55_groups": {
+            "direction": {
+              "pass": 14,
+              "total": 25,
+              "rate": 0.56
+            },
+            "door_relation": {
+              "pass": 4,
+              "total": 12,
+              "rate": 0.3333333333333333
+            },
+            "identity": {
+              "pass": 7,
+              "total": 7,
+              "rate": 1.0
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "source_fact": {
+              "pass": 15,
+              "total": 15,
+              "rate": 1.0
+            },
+            "typed_pair": {
+              "pass": 11,
+              "total": 14,
+              "rate": 0.7857142857142857
+            },
+            "condition": {
+              "pass": 1,
+              "total": 1,
+              "rate": 1.0
+            },
+            "chart_direction": {
+              "pass": 5,
+              "total": 18,
+              "rate": 0.2777777777777778
+            }
+          },
+          "retention": {
+            "relative_retention": {
+              "passed": false,
+              "maximum_absolute_group_rate_drop": 0.05,
+              "groups": {
+                "source_fact": {
+                  "same_declared_task_count": true,
+                  "before": 0.8,
+                  "after": 1.0,
+                  "drop": -0.19999999999999996
+                },
+                "direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.2,
+                  "after": 0.36,
+                  "drop": -0.15999999999999998
+                },
+                "positions": {
+                  "same_declared_task_count": true,
+                  "before": 0.5882352941176471,
+                  "after": 1.0,
+                  "drop": -0.4117647058823529
+                },
+                "given_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.0,
+                  "after": 0.125,
+                  "drop": -0.125
+                },
+                "chart_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.16666666666666666,
+                  "after": 0.16666666666666666,
+                  "drop": 0.0
+                },
+                "door_relation": {
+                  "same_declared_task_count": true,
+                  "before": 0.0,
+                  "after": 0.1875,
+                  "drop": -0.1875
+                },
+                "property": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 0.75,
+                  "drop": 0.25
+                },
+                "identity": {
+                  "same_declared_task_count": true,
+                  "before": 0.8333333333333334,
+                  "after": 1.0,
+                  "drop": -0.16666666666666663
+                },
+                "condition": {
+                  "same_declared_task_count": true,
+                  "before": 0.3076923076923077,
+                  "after": 0.3076923076923077,
+                  "drop": 0.0
+                },
+                "typed_pair": {
+                  "same_declared_task_count": true,
+                  "before": 0.75,
+                  "after": 0.6875,
+                  "drop": 0.0625
+                }
+              },
+              "professional_approval": false
+            },
+            "v54_retention": {
+              "passed": false,
+              "maximum_absolute_group_rate_drop": 0.05,
+              "groups": {
+                "direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.24,
+                  "after": 0.56,
+                  "drop": -0.32000000000000006
+                },
+                "door_relation": {
+                  "same_declared_task_count": true,
+                  "before": 0.25,
+                  "after": 0.3333333333333333,
+                  "drop": -0.08333333333333331
+                },
+                "identity": {
+                  "same_declared_task_count": true,
+                  "before": 0.7142857142857143,
+                  "after": 1.0,
+                  "drop": -0.2857142857142857
+                },
+                "property": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "source_fact": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "typed_pair": {
+                  "same_declared_task_count": true,
+                  "before": 0.8571428571428571,
+                  "after": 0.7857142857142857,
+                  "drop": 0.0714285714285714
+                },
+                "condition": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "chart_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.16666666666666666,
+                  "after": 0.2777777777777778,
+                  "drop": -0.11111111111111113
+                }
+              },
+              "professional_approval": false
+            },
+            "old_direction_retention": {
+              "passed": true,
+              "maximum_absolute_group_rate_drop": 0.05,
+              "groups": {
+                "element_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.7307692307692307,
+                  "after": 0.6923076923076923,
+                  "drop": 0.038461538461538436
+                }
+              },
+              "professional_approval": false
+            }
+          },
+          "actual_rag_unknown_year_flags": [
+            "v53:actual_rag:exam_self"
+          ],
+          "actual_rag_output_limits": 0
+        },
+        {
+          "tag": "epoch_02_validation",
+          "original_groups": {
+            "source_fact": {
+              "pass": 4,
+              "total": 5,
+              "rate": 0.8
+            },
+            "direction": {
+              "pass": 13,
+              "total": 25,
+              "rate": 0.52
+            },
+            "positions": {
+              "pass": 17,
+              "total": 17,
+              "rate": 1.0
+            },
+            "given_direction": {
+              "pass": 0,
+              "total": 16,
+              "rate": 0.0
+            },
+            "chart_direction": {
+              "pass": 4,
+              "total": 18,
+              "rate": 0.2222222222222222
+            },
+            "door_relation": {
+              "pass": 5,
+              "total": 16,
+              "rate": 0.3125
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "identity": {
+              "pass": 10,
+              "total": 12,
+              "rate": 0.8333333333333334
+            },
+            "condition": {
+              "pass": 4,
+              "total": 13,
+              "rate": 0.3076923076923077
+            },
+            "typed_pair": {
+              "pass": 13,
+              "total": 16,
+              "rate": 0.8125
+            }
+          },
+          "citation": {
+            "pass": 118,
+            "total": 129,
+            "rate": 0.9147286821705426
+          },
+          "observations": {
+            "source_fact": {
+              "total": 5,
+              "target_content_exact": 3,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "direction": {
+              "total": 25,
+              "target_content_exact": 1,
+              "explicit_reasoning_conflicts": 3,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "positions": {
+              "total": 17,
+              "target_content_exact": 17,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 17
+            },
+            "given_direction": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 11,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 2
+            },
+            "chart_direction": {
+              "total": 18,
+              "target_content_exact": 4,
+              "explicit_reasoning_conflicts": 12,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 18
+            },
+            "door_relation": {
+              "total": 16,
+              "target_content_exact": 4,
+              "explicit_reasoning_conflicts": 8,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "property": {
+              "total": 8,
+              "target_content_exact": 3,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "identity": {
+              "total": 12,
+              "target_content_exact": 4,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "condition": {
+              "total": 16,
+              "target_content_exact": 3,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "typed_pair": {
+              "total": 16,
+              "target_content_exact": 5,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "workflow": {
+              "total": 12,
+              "target_content_exact": 7,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "author_evidence": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "case": {
+              "total": 19,
+              "target_content_exact": 1,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 1,
+              "correct_headline_but_explicit_conflict": 0
+            }
+          },
+          "epoch": 2.0,
+          "steps": 794,
+          "validation_language_loss": 0.3471826910972595,
+          "original_eligible": false,
+          "original_v53_groups": {
+            "element_direction": {
+              "pass": 19,
+              "total": 26,
+              "rate": 0.7307692307692307
+            },
+            "closed_book": {
+              "pass": 2,
+              "total": 47,
+              "rate": 0.0425531914893617
+            },
+            "provided_evidence": {
+              "pass": 14,
+              "total": 49,
+              "rate": 0.2857142857142857
+            }
+          },
+          "original_v54_groups": {
+            "direction": {
+              "pass": 16,
+              "total": 25,
+              "rate": 0.64
+            },
+            "door_relation": {
+              "pass": 5,
+              "total": 12,
+              "rate": 0.4166666666666667
+            },
+            "identity": {
+              "pass": 7,
+              "total": 7,
+              "rate": 1.0
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "source_fact": {
+              "pass": 14,
+              "total": 15,
+              "rate": 0.9333333333333333
+            },
+            "typed_pair": {
+              "pass": 10,
+              "total": 14,
+              "rate": 0.7142857142857143
+            },
+            "condition": {
+              "pass": 1,
+              "total": 1,
+              "rate": 1.0
+            },
+            "chart_direction": {
+              "pass": 3,
+              "total": 18,
+              "rate": 0.16666666666666666
+            }
+          },
+          "v54_with_v55_groups": {
+            "direction": {
+              "pass": 16,
+              "total": 25,
+              "rate": 0.64
+            },
+            "door_relation": {
+              "pass": 5,
+              "total": 12,
+              "rate": 0.4166666666666667
+            },
+            "identity": {
+              "pass": 5,
+              "total": 7,
+              "rate": 0.7142857142857143
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "source_fact": {
+              "pass": 15,
+              "total": 15,
+              "rate": 1.0
+            },
+            "typed_pair": {
+              "pass": 11,
+              "total": 14,
+              "rate": 0.7857142857142857
+            },
+            "condition": {
+              "pass": 1,
+              "total": 1,
+              "rate": 1.0
+            },
+            "chart_direction": {
+              "pass": 3,
+              "total": 18,
+              "rate": 0.16666666666666666
+            }
+          },
+          "retention": {
+            "relative_retention": {
+              "passed": true,
+              "maximum_absolute_group_rate_drop": 0.05,
+              "groups": {
+                "source_fact": {
+                  "same_declared_task_count": true,
+                  "before": 0.8,
+                  "after": 0.8,
+                  "drop": 0.0
+                },
+                "direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.2,
+                  "after": 0.52,
+                  "drop": -0.32
+                },
+                "positions": {
+                  "same_declared_task_count": true,
+                  "before": 0.5882352941176471,
+                  "after": 1.0,
+                  "drop": -0.4117647058823529
+                },
+                "given_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.0,
+                  "after": 0.0,
+                  "drop": 0.0
+                },
+                "chart_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.16666666666666666,
+                  "after": 0.2222222222222222,
+                  "drop": -0.05555555555555555
+                },
+                "door_relation": {
+                  "same_declared_task_count": true,
+                  "before": 0.0,
+                  "after": 0.3125,
+                  "drop": -0.3125
+                },
+                "property": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "identity": {
+                  "same_declared_task_count": true,
+                  "before": 0.8333333333333334,
+                  "after": 0.8333333333333334,
+                  "drop": 0.0
+                },
+                "condition": {
+                  "same_declared_task_count": true,
+                  "before": 0.3076923076923077,
+                  "after": 0.3076923076923077,
+                  "drop": 0.0
+                },
+                "typed_pair": {
+                  "same_declared_task_count": true,
+                  "before": 0.75,
+                  "after": 0.8125,
+                  "drop": -0.0625
+                }
+              },
+              "professional_approval": false
+            },
+            "v54_retention": {
+              "passed": false,
+              "maximum_absolute_group_rate_drop": 0.05,
+              "groups": {
+                "direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.24,
+                  "after": 0.64,
+                  "drop": -0.4
+                },
+                "door_relation": {
+                  "same_declared_task_count": true,
+                  "before": 0.25,
+                  "after": 0.4166666666666667,
+                  "drop": -0.16666666666666669
+                },
+                "identity": {
+                  "same_declared_task_count": true,
+                  "before": 0.7142857142857143,
+                  "after": 0.7142857142857143,
+                  "drop": 0.0
+                },
+                "property": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "source_fact": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "typed_pair": {
+                  "same_declared_task_count": true,
+                  "before": 0.8571428571428571,
+                  "after": 0.7857142857142857,
+                  "drop": 0.0714285714285714
+                },
+                "condition": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "chart_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.16666666666666666,
+                  "after": 0.16666666666666666,
+                  "drop": 0.0
+                }
+              },
+              "professional_approval": false
+            },
+            "old_direction_retention": {
+              "passed": true,
+              "maximum_absolute_group_rate_drop": 0.05,
+              "groups": {
+                "element_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.7307692307692307,
+                  "after": 0.7307692307692307,
+                  "drop": 0.0
+                }
+              },
+              "professional_approval": false
+            }
+          },
+          "actual_rag_unknown_year_flags": [
+            "v53:actual_rag:exam_self",
+            "v53:actual_rag:health_daughter_father"
+          ],
+          "actual_rag_output_limits": 0
+        }
+      ],
+      "formal_steps": 794,
+      "epochs": 2,
+      "parent_weights_reused": true,
+      "peak_reserved_gib": 15.146484375,
+      "runtime_seconds": 19314.07688307762,
+      "train_runtime_seconds": 17388.9181
+    },
+    "source_lr_2em05": {
+      "stages": [
+        {
+          "tag": "validation_base",
+          "original_groups": {
+            "source_fact": {
+              "pass": 0,
+              "total": 5,
+              "rate": 0.0
+            },
+            "direction": {
+              "pass": 6,
+              "total": 25,
+              "rate": 0.24
+            },
+            "positions": {
+              "pass": 3,
+              "total": 17,
+              "rate": 0.17647058823529413
+            },
+            "given_direction": {
+              "pass": 0,
+              "total": 16,
+              "rate": 0.0
+            },
+            "chart_direction": {
+              "pass": 0,
+              "total": 18,
+              "rate": 0.0
+            },
+            "door_relation": {
+              "pass": 0,
+              "total": 16,
+              "rate": 0.0
+            },
+            "property": {
+              "pass": 7,
+              "total": 8,
+              "rate": 0.875
+            },
+            "identity": {
+              "pass": 6,
+              "total": 12,
+              "rate": 0.5
+            },
+            "condition": {
+              "pass": 1,
+              "total": 13,
+              "rate": 0.07692307692307693
+            },
+            "typed_pair": {
+              "pass": 14,
+              "total": 16,
+              "rate": 0.875
+            }
+          },
+          "citation": {
+            "pass": 60,
+            "total": 129,
+            "rate": 0.46511627906976744
+          },
+          "observations": {
+            "source_fact": {
+              "total": 5,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "direction": {
+              "total": 25,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 6,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "positions": {
+              "total": 17,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 1,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 3
+            },
+            "given_direction": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 2,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "chart_direction": {
+              "total": 18,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 13,
+              "repeated": 0,
+              "output_limit": 2,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 1
+            },
+            "door_relation": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 15,
+              "repeated": 1,
+              "output_limit": 1,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "property": {
+              "total": 8,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "identity": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "condition": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "typed_pair": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "workflow": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "author_evidence": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 1,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "case": {
+              "total": 19,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 1,
+              "correct_headline_but_explicit_conflict": 0
+            }
+          }
+        },
+        {
+          "tag": "validation_parent",
+          "original_groups": {
+            "source_fact": {
+              "pass": 4,
+              "total": 5,
+              "rate": 0.8
+            },
+            "direction": {
+              "pass": 5,
+              "total": 25,
+              "rate": 0.2
+            },
+            "positions": {
+              "pass": 10,
+              "total": 17,
+              "rate": 0.5882352941176471
+            },
+            "given_direction": {
+              "pass": 0,
+              "total": 16,
+              "rate": 0.0
+            },
+            "chart_direction": {
+              "pass": 3,
+              "total": 18,
+              "rate": 0.16666666666666666
+            },
+            "door_relation": {
+              "pass": 0,
+              "total": 16,
+              "rate": 0.0
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "identity": {
+              "pass": 10,
+              "total": 12,
+              "rate": 0.8333333333333334
+            },
+            "condition": {
+              "pass": 4,
+              "total": 13,
+              "rate": 0.3076923076923077
+            },
+            "typed_pair": {
+              "pass": 12,
+              "total": 16,
+              "rate": 0.75
+            }
+          },
+          "citation": {
+            "pass": 105,
+            "total": 129,
+            "rate": 0.813953488372093
+          },
+          "observations": {
+            "source_fact": {
+              "total": 5,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "direction": {
+              "total": 25,
+              "target_content_exact": 1,
+              "explicit_reasoning_conflicts": 13,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 5
+            },
+            "positions": {
+              "total": 17,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 10
+            },
+            "given_direction": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 4,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "chart_direction": {
+              "total": 18,
+              "target_content_exact": 3,
+              "explicit_reasoning_conflicts": 12,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 18
+            },
+            "door_relation": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 11,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "property": {
+              "total": 8,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "identity": {
+              "total": 12,
+              "target_content_exact": 2,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "condition": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "typed_pair": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "workflow": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "author_evidence": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 1,
+              "output_limit": 1,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "case": {
+              "total": 19,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            }
+          }
+        },
+        {
+          "tag": "epoch_01_validation",
+          "original_groups": {
+            "source_fact": {
+              "pass": 5,
+              "total": 5,
+              "rate": 1.0
+            },
+            "direction": {
+              "pass": 14,
+              "total": 25,
+              "rate": 0.56
+            },
+            "positions": {
+              "pass": 17,
+              "total": 17,
+              "rate": 1.0
+            },
+            "given_direction": {
+              "pass": 0,
+              "total": 16,
+              "rate": 0.0
+            },
+            "chart_direction": {
+              "pass": 5,
+              "total": 18,
+              "rate": 0.2777777777777778
+            },
+            "door_relation": {
+              "pass": 3,
+              "total": 16,
+              "rate": 0.1875
+            },
+            "property": {
+              "pass": 7,
+              "total": 8,
+              "rate": 0.875
+            },
+            "identity": {
+              "pass": 9,
+              "total": 12,
+              "rate": 0.75
+            },
+            "condition": {
+              "pass": 6,
+              "total": 13,
+              "rate": 0.46153846153846156
+            },
+            "typed_pair": {
+              "pass": 10,
+              "total": 16,
+              "rate": 0.625
+            }
+          },
+          "citation": {
+            "pass": 117,
+            "total": 129,
+            "rate": 0.9069767441860465
+          },
+          "observations": {
+            "source_fact": {
+              "total": 5,
+              "target_content_exact": 1,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "direction": {
+              "total": 25,
+              "target_content_exact": 3,
+              "explicit_reasoning_conflicts": 3,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "positions": {
+              "total": 17,
+              "target_content_exact": 17,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 17
+            },
+            "given_direction": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 11,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "chart_direction": {
+              "total": 18,
+              "target_content_exact": 5,
+              "explicit_reasoning_conflicts": 10,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 18
+            },
+            "door_relation": {
+              "total": 16,
+              "target_content_exact": 2,
+              "explicit_reasoning_conflicts": 5,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "property": {
+              "total": 8,
+              "target_content_exact": 2,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "identity": {
+              "total": 12,
+              "target_content_exact": 4,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "condition": {
+              "total": 16,
+              "target_content_exact": 4,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "typed_pair": {
+              "total": 16,
+              "target_content_exact": 5,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "workflow": {
+              "total": 12,
+              "target_content_exact": 9,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 1,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "author_evidence": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "case": {
+              "total": 19,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            }
+          },
+          "epoch": 1.0,
+          "steps": 397,
+          "validation_language_loss": 0.3195783905684948,
+          "original_eligible": false,
+          "original_v53_groups": {
+            "element_direction": {
+              "pass": 21,
+              "total": 26,
+              "rate": 0.8076923076923077
+            },
+            "closed_book": {
+              "pass": 2,
+              "total": 47,
+              "rate": 0.0425531914893617
+            },
+            "provided_evidence": {
+              "pass": 22,
+              "total": 49,
+              "rate": 0.4489795918367347
+            }
+          },
+          "original_v54_groups": {
+            "direction": {
+              "pass": 16,
+              "total": 25,
+              "rate": 0.64
+            },
+            "door_relation": {
+              "pass": 5,
+              "total": 12,
+              "rate": 0.4166666666666667
+            },
+            "identity": {
+              "pass": 6,
+              "total": 7,
+              "rate": 0.8571428571428571
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "source_fact": {
+              "pass": 15,
+              "total": 15,
+              "rate": 1.0
+            },
+            "typed_pair": {
+              "pass": 7,
+              "total": 14,
+              "rate": 0.5
+            },
+            "condition": {
+              "pass": 1,
+              "total": 1,
+              "rate": 1.0
+            },
+            "chart_direction": {
+              "pass": 5,
+              "total": 18,
+              "rate": 0.2777777777777778
+            }
+          },
+          "v54_with_v55_groups": {
+            "direction": {
+              "pass": 13,
+              "total": 25,
+              "rate": 0.52
+            },
+            "door_relation": {
+              "pass": 5,
+              "total": 12,
+              "rate": 0.4166666666666667
+            },
+            "identity": {
+              "pass": 5,
+              "total": 7,
+              "rate": 0.7142857142857143
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "source_fact": {
+              "pass": 15,
+              "total": 15,
+              "rate": 1.0
+            },
+            "typed_pair": {
+              "pass": 8,
+              "total": 14,
+              "rate": 0.5714285714285714
+            },
+            "condition": {
+              "pass": 1,
+              "total": 1,
+              "rate": 1.0
+            },
+            "chart_direction": {
+              "pass": 5,
+              "total": 18,
+              "rate": 0.2777777777777778
+            }
+          },
+          "retention": {
+            "relative_retention": {
+              "passed": false,
+              "maximum_absolute_group_rate_drop": 0.05,
+              "groups": {
+                "source_fact": {
+                  "same_declared_task_count": true,
+                  "before": 0.8,
+                  "after": 1.0,
+                  "drop": -0.19999999999999996
+                },
+                "direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.2,
+                  "after": 0.56,
+                  "drop": -0.36000000000000004
+                },
+                "positions": {
+                  "same_declared_task_count": true,
+                  "before": 0.5882352941176471,
+                  "after": 1.0,
+                  "drop": -0.4117647058823529
+                },
+                "given_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.0,
+                  "after": 0.0,
+                  "drop": 0.0
+                },
+                "chart_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.16666666666666666,
+                  "after": 0.2777777777777778,
+                  "drop": -0.11111111111111113
+                },
+                "door_relation": {
+                  "same_declared_task_count": true,
+                  "before": 0.0,
+                  "after": 0.1875,
+                  "drop": -0.1875
+                },
+                "property": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 0.875,
+                  "drop": 0.125
+                },
+                "identity": {
+                  "same_declared_task_count": true,
+                  "before": 0.8333333333333334,
+                  "after": 0.75,
+                  "drop": 0.08333333333333337
+                },
+                "condition": {
+                  "same_declared_task_count": true,
+                  "before": 0.3076923076923077,
+                  "after": 0.46153846153846156,
+                  "drop": -0.15384615384615385
+                },
+                "typed_pair": {
+                  "same_declared_task_count": true,
+                  "before": 0.75,
+                  "after": 0.625,
+                  "drop": 0.125
+                }
+              },
+              "professional_approval": false
+            },
+            "v54_retention": {
+              "passed": false,
+              "maximum_absolute_group_rate_drop": 0.05,
+              "groups": {
+                "direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.24,
+                  "after": 0.52,
+                  "drop": -0.28
+                },
+                "door_relation": {
+                  "same_declared_task_count": true,
+                  "before": 0.25,
+                  "after": 0.4166666666666667,
+                  "drop": -0.16666666666666669
+                },
+                "identity": {
+                  "same_declared_task_count": true,
+                  "before": 0.7142857142857143,
+                  "after": 0.7142857142857143,
+                  "drop": 0.0
+                },
+                "property": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "source_fact": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "typed_pair": {
+                  "same_declared_task_count": true,
+                  "before": 0.8571428571428571,
+                  "after": 0.5714285714285714,
+                  "drop": 0.2857142857142857
+                },
+                "condition": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "chart_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.16666666666666666,
+                  "after": 0.2777777777777778,
+                  "drop": -0.11111111111111113
+                }
+              },
+              "professional_approval": false
+            },
+            "old_direction_retention": {
+              "passed": true,
+              "maximum_absolute_group_rate_drop": 0.05,
+              "groups": {
+                "element_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.7307692307692307,
+                  "after": 0.8076923076923077,
+                  "drop": -0.07692307692307698
+                }
+              },
+              "professional_approval": false
+            }
+          },
+          "actual_rag_unknown_year_flags": [],
+          "actual_rag_output_limits": 0
+        },
+        {
+          "tag": "epoch_02_validation",
+          "original_groups": {
+            "source_fact": {
+              "pass": 5,
+              "total": 5,
+              "rate": 1.0
+            },
+            "direction": {
+              "pass": 13,
+              "total": 25,
+              "rate": 0.52
+            },
+            "positions": {
+              "pass": 17,
+              "total": 17,
+              "rate": 1.0
+            },
+            "given_direction": {
+              "pass": 3,
+              "total": 16,
+              "rate": 0.1875
+            },
+            "chart_direction": {
+              "pass": 5,
+              "total": 18,
+              "rate": 0.2777777777777778
+            },
+            "door_relation": {
+              "pass": 7,
+              "total": 16,
+              "rate": 0.4375
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "identity": {
+              "pass": 12,
+              "total": 12,
+              "rate": 1.0
+            },
+            "condition": {
+              "pass": 6,
+              "total": 13,
+              "rate": 0.46153846153846156
+            },
+            "typed_pair": {
+              "pass": 12,
+              "total": 16,
+              "rate": 0.75
+            }
+          },
+          "citation": {
+            "pass": 121,
+            "total": 129,
+            "rate": 0.937984496124031
+          },
+          "observations": {
+            "source_fact": {
+              "total": 5,
+              "target_content_exact": 4,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "direction": {
+              "total": 25,
+              "target_content_exact": 3,
+              "explicit_reasoning_conflicts": 6,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 3
+            },
+            "positions": {
+              "total": 17,
+              "target_content_exact": 17,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 17
+            },
+            "given_direction": {
+              "total": 16,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 11,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 1
+            },
+            "chart_direction": {
+              "total": 18,
+              "target_content_exact": 5,
+              "explicit_reasoning_conflicts": 9,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0,
+              "positions_matching": 18
+            },
+            "door_relation": {
+              "total": 16,
+              "target_content_exact": 7,
+              "explicit_reasoning_conflicts": 2,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "property": {
+              "total": 8,
+              "target_content_exact": 4,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "identity": {
+              "total": 12,
+              "target_content_exact": 6,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "condition": {
+              "total": 16,
+              "target_content_exact": 6,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "typed_pair": {
+              "total": 16,
+              "target_content_exact": 1,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "workflow": {
+              "total": 12,
+              "target_content_exact": 11,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "author_evidence": {
+              "total": 12,
+              "target_content_exact": 0,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 1,
+              "output_limit": 1,
+              "correct_headline_but_explicit_conflict": 0
+            },
+            "case": {
+              "total": 19,
+              "target_content_exact": 1,
+              "explicit_reasoning_conflicts": 0,
+              "repeated": 0,
+              "output_limit": 0,
+              "correct_headline_but_explicit_conflict": 0
+            }
+          },
+          "epoch": 2.0,
+          "steps": 794,
+          "validation_language_loss": 0.30622173100709915,
+          "original_eligible": false,
+          "original_v53_groups": {
+            "element_direction": {
+              "pass": 23,
+              "total": 26,
+              "rate": 0.8846153846153846
+            },
+            "closed_book": {
+              "pass": 2,
+              "total": 47,
+              "rate": 0.0425531914893617
+            },
+            "provided_evidence": {
+              "pass": 22,
+              "total": 49,
+              "rate": 0.4489795918367347
+            }
+          },
+          "original_v54_groups": {
+            "direction": {
+              "pass": 19,
+              "total": 25,
+              "rate": 0.76
+            },
+            "door_relation": {
+              "pass": 6,
+              "total": 12,
+              "rate": 0.5
+            },
+            "identity": {
+              "pass": 7,
+              "total": 7,
+              "rate": 1.0
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "source_fact": {
+              "pass": 14,
+              "total": 15,
+              "rate": 0.9333333333333333
+            },
+            "typed_pair": {
+              "pass": 4,
+              "total": 14,
+              "rate": 0.2857142857142857
+            },
+            "condition": {
+              "pass": 1,
+              "total": 1,
+              "rate": 1.0
+            },
+            "chart_direction": {
+              "pass": 4,
+              "total": 18,
+              "rate": 0.2222222222222222
+            }
+          },
+          "v54_with_v55_groups": {
+            "direction": {
+              "pass": 15,
+              "total": 25,
+              "rate": 0.6
+            },
+            "door_relation": {
+              "pass": 6,
+              "total": 12,
+              "rate": 0.5
+            },
+            "identity": {
+              "pass": 7,
+              "total": 7,
+              "rate": 1.0
+            },
+            "property": {
+              "pass": 8,
+              "total": 8,
+              "rate": 1.0
+            },
+            "source_fact": {
+              "pass": 15,
+              "total": 15,
+              "rate": 1.0
+            },
+            "typed_pair": {
+              "pass": 6,
+              "total": 14,
+              "rate": 0.42857142857142855
+            },
+            "condition": {
+              "pass": 1,
+              "total": 1,
+              "rate": 1.0
+            },
+            "chart_direction": {
+              "pass": 4,
+              "total": 18,
+              "rate": 0.2222222222222222
+            }
+          },
+          "retention": {
+            "relative_retention": {
+              "passed": true,
+              "maximum_absolute_group_rate_drop": 0.05,
+              "groups": {
+                "source_fact": {
+                  "same_declared_task_count": true,
+                  "before": 0.8,
+                  "after": 1.0,
+                  "drop": -0.19999999999999996
+                },
+                "direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.2,
+                  "after": 0.52,
+                  "drop": -0.32
+                },
+                "positions": {
+                  "same_declared_task_count": true,
+                  "before": 0.5882352941176471,
+                  "after": 1.0,
+                  "drop": -0.4117647058823529
+                },
+                "given_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.0,
+                  "after": 0.1875,
+                  "drop": -0.1875
+                },
+                "chart_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.16666666666666666,
+                  "after": 0.2777777777777778,
+                  "drop": -0.11111111111111113
+                },
+                "door_relation": {
+                  "same_declared_task_count": true,
+                  "before": 0.0,
+                  "after": 0.4375,
+                  "drop": -0.4375
+                },
+                "property": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "identity": {
+                  "same_declared_task_count": true,
+                  "before": 0.8333333333333334,
+                  "after": 1.0,
+                  "drop": -0.16666666666666663
+                },
+                "condition": {
+                  "same_declared_task_count": true,
+                  "before": 0.3076923076923077,
+                  "after": 0.46153846153846156,
+                  "drop": -0.15384615384615385
+                },
+                "typed_pair": {
+                  "same_declared_task_count": true,
+                  "before": 0.75,
+                  "after": 0.75,
+                  "drop": 0.0
+                }
+              },
+              "professional_approval": false
+            },
+            "v54_retention": {
+              "passed": false,
+              "maximum_absolute_group_rate_drop": 0.05,
+              "groups": {
+                "direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.24,
+                  "after": 0.6,
+                  "drop": -0.36
+                },
+                "door_relation": {
+                  "same_declared_task_count": true,
+                  "before": 0.25,
+                  "after": 0.5,
+                  "drop": -0.25
+                },
+                "identity": {
+                  "same_declared_task_count": true,
+                  "before": 0.7142857142857143,
+                  "after": 1.0,
+                  "drop": -0.2857142857142857
+                },
+                "property": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "source_fact": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "typed_pair": {
+                  "same_declared_task_count": true,
+                  "before": 0.8571428571428571,
+                  "after": 0.42857142857142855,
+                  "drop": 0.42857142857142855
+                },
+                "condition": {
+                  "same_declared_task_count": true,
+                  "before": 1.0,
+                  "after": 1.0,
+                  "drop": 0.0
+                },
+                "chart_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.16666666666666666,
+                  "after": 0.2222222222222222,
+                  "drop": -0.05555555555555555
+                }
+              },
+              "professional_approval": false
+            },
+            "old_direction_retention": {
+              "passed": true,
+              "maximum_absolute_group_rate_drop": 0.05,
+              "groups": {
+                "element_direction": {
+                  "same_declared_task_count": true,
+                  "before": 0.7307692307692307,
+                  "after": 0.8846153846153846,
+                  "drop": -0.15384615384615385
+                }
+              },
+              "professional_approval": false
+            }
+          },
+          "actual_rag_unknown_year_flags": [],
+          "actual_rag_output_limits": 1
+        }
+      ],
+      "formal_steps": 794,
+      "epochs": 2,
+      "parent_weights_reused": true,
+      "peak_reserved_gib": 15.146484375,
+      "runtime_seconds": 8784.94704079628,
+      "train_runtime_seconds": 7867.4189
+    }
+  },
+  "teacher_boundary_screen": {
+    "examined_author_evidence_cores": 258,
+    "candidate_rows": 13,
+    "scope": "finite literal patterns only; candidates require source review, not complete semantic approval"
+  },
+  "workflow_teacher_screen": {
+    "duplicate_paragraph_rows": 36,
+    "duplicate_paragraph_groups": 9,
+    "split_counts": {
+      "train": 18,
+      "validation": 18
+    },
+    "selected_development_workflows": 12,
+    "selected_workflow_target_content_also_in_training": 12,
+    "scope": "same-rule extraction retention, not unseen-rule or independent-board reasoning"
+  }
+}

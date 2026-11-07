@@ -1,0 +1,15 @@
+{
+  "id": "v55_review_20261107",
+  "manifest": "data/delivery/v55_review_20261107/manifest.json",
+  "destination": "local/reviews/v55_audit_delivery_20261107",
+  "files": {
+    "Wengua_V55_逐轮逐题审核.xlsx": "027a4b1ea905dbc37e300fb4f6e7c69eb330f51698b0631fc35f045856177415",
+    "aggregate.json": "6b7d33c7b4b26c7742249b51cd6d3971f9d389157acc01c62d5e65efe265e9b1",
+    "upload_receipt.json": "db49420d508ed70af83aa014c691fa2b8706d6c603fd31827565dd5c43b565d3",
+    "teacher_boundary_candidates.json": "68e3c50796d5f4718d436024d4ab6c90f5fa214d0debf1c9a47869576c00f4eb",
+    "workflow_duplicate_candidates.json": "281414c95f2c67db636b818117860ba7f62e295f525206a4ee8fd90df619244b",
+    "semantic_review.json": "c63905acb6f3b0b3b176ea0bc39d60848179295dd80c008abc0a15fba4d21c2a",
+    "README.txt": "d13176482199daf6cc5efea6b924eb0e247747e0446e4771a860628b1a477eb3"
+  },
+  "not_rag_or_sft_input": true
+}
