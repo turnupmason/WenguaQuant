@@ -1,0 +1,36 @@
+{
+  "records": 6566,
+  "splits": {
+    "train": 5186,
+    "validation": 1380
+  },
+  "skills": {
+    "source_fact": 255,
+    "condition": 365,
+    "identity": 174,
+    "door_relation": 192,
+    "typed_pair": 320,
+    "property": 51,
+    "direction": 375,
+    "chart_direction": 1118,
+    "case": 517,
+    "positions": 1118,
+    "given_direction": 1320,
+    "domain_rule": 296,
+    "workflow": 184,
+    "author_reading": 256,
+    "author_context": 2,
+    "author_local": 23
+  },
+  "cases_preserved": 194,
+  "author_steps_preserved": 1008,
+  "complete_author_reading": 256,
+  "author_context_without_conclusion": 2,
+  "all_258_author_inputs_restored": true,
+  "reviewed_local_judgment_tasks": 23,
+  "actual_new_rag_teachers": 64,
+  "actual_rag_missing_sources": 0,
+  "final_test_used": false,
+  "old_manual_scores_used": false,
+  "no_whole_source_or_target_truncated": true
+}

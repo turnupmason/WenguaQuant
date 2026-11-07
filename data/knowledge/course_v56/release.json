@@ -1,0 +1,63 @@
+{
+  "schema": "wengua_premise_complete_source_course_v56",
+  "version": "5.6",
+  "parent_v55_release_sha256": "080e1d6313c74615c818d00edfa3028f4614400dd7451856736477f0d2b0b615",
+  "delivery_manifest": "data/delivery/course_v56/manifest.json",
+  "reviewed_parents": {
+    "v54": {
+      "path": "local/course_v54/run1/trials/source_lr_2em05/cycle_01/adapters/step-134",
+      "adapter_sha256": "9052361fc7e72a34610fb8e2ca45f9c71c821dacdbedaf4b92773e639bf74f88"
+    },
+    "v55": {
+      "path": "local/course_v55/run1/trials/source_lr_2em05/cycle_01/adapters/step-397",
+      "adapter_sha256": "fe22c4ba1efbf6aba198eb3f68725e4f2d155387f3de619f138578db99ce93f5"
+    }
+  },
+  "summary": {
+    "records": 6566,
+    "splits": {
+      "train": 5186,
+      "validation": 1380
+    },
+    "skills": {
+      "source_fact": 255,
+      "condition": 365,
+      "identity": 174,
+      "door_relation": 192,
+      "typed_pair": 320,
+      "property": 51,
+      "direction": 375,
+      "chart_direction": 1118,
+      "case": 517,
+      "positions": 1118,
+      "given_direction": 1320,
+      "domain_rule": 296,
+      "workflow": 184,
+      "author_reading": 256,
+      "author_context": 2,
+      "author_local": 23
+    },
+    "cases_preserved": 194,
+    "author_steps_preserved": 1008,
+    "complete_author_reading": 256,
+    "author_context_without_conclusion": 2,
+    "all_258_author_inputs_restored": true,
+    "reviewed_local_judgment_tasks": 23,
+    "actual_new_rag_teachers": 64,
+    "actual_rag_missing_sources": 0,
+    "final_test_used": false,
+    "old_manual_scores_used": false,
+    "no_whole_source_or_target_truncated": true
+  },
+  "files": {
+    "README.txt": "544956d910efab0470b86df83087760224f3094b1bf306537ba2e737e5103192",
+    "Wengua_两书课程_V56_全量审阅.xlsx": "912b123a3a4173505b05ecaed05afbe4a0dda993164cd3d9d28ec2f79220a177",
+    "Wengua_两书课程_V56_完整对照.sqlite3": "690e40b74d8f8d77e1b8bf9d373bee38203a9875da9415b78abab246d618e0ee",
+    "course_delta.json.gz": "bc7d3432d95fc4b20e826be0d7d1290f6ff892d43b43a03dded58457c4b1135a",
+    "source_recipe/build.py": "365e427f9e56a5ebc0b577f6674345a43630a2931c01a9133248a9f2360a2b4b",
+    "source_recipe/checks.py": "6d2a6f193eba2c5636f7cf028feff919e57ab8299854448a4f4947805ed14192",
+    "source_recipe/data.py": "ba07ce0a3641a8d268f7350a6db1d0e641a6442b42bc9c4dfdf1705c2f130bd2",
+    "summary.json": "a30d917853fde0dc527b112a547d2cd9e0fdf3efb3817dcfd32c6ea032ce84c1",
+    "token_audit.json": "28162526832b3d8a119a7ac1a51b743a1bdf3ad1435a88d0fef3197041db2ece"
+  }
+}

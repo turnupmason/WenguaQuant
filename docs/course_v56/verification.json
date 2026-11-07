@@ -1,0 +1,80 @@
+{
+  "dataset": {
+    "records": 6566,
+    "splits": {
+      "train": 5186,
+      "validation": 1380
+    },
+    "skills": {
+      "source_fact": 255,
+      "condition": 365,
+      "identity": 174,
+      "door_relation": 192,
+      "typed_pair": 320,
+      "property": 51,
+      "direction": 375,
+      "chart_direction": 1118,
+      "case": 517,
+      "positions": 1118,
+      "given_direction": 1320,
+      "domain_rule": 296,
+      "workflow": 184,
+      "author_reading": 256,
+      "author_context": 2,
+      "author_local": 23
+    },
+    "cases_preserved": 194,
+    "author_steps_preserved": 1008,
+    "complete_author_reading": 256,
+    "author_context_without_conclusion": 2,
+    "all_258_author_inputs_restored": true,
+    "reviewed_local_judgment_tasks": 23,
+    "actual_new_rag_teachers": 64,
+    "actual_rag_missing_sources": 0,
+    "final_test_used": false,
+    "old_manual_scores_used": false,
+    "no_whole_source_or_target_truncated": true
+  },
+  "full_text_readback": {
+    "sqlite_and_excel_records_equal": 6566,
+    "cases_equal": 194,
+    "author_steps_equal": 1008,
+    "materials_equal": 7970,
+    "rule_index_preserved": 2049,
+    "teacher_source_links_equal": 45511,
+    "source_db_sha256": "21362e6f0266c03dcdc4a7ef35f45954ba274ae6458de0ba341132abca7d0405",
+    "frozen_app_files_sha256_unchanged": 49
+  },
+  "tokenization": {
+    "teacher_views": 6582,
+    "max_tokens": 2914,
+    "target_or_context_truncated": false,
+    "teacher_slot_failures": 0,
+    "oversized": 0,
+    "rag_missing_sources": 0
+  },
+  "cpu_software_fixture": {
+    "software_fixture_only": true,
+    "nonzero_v55_weights_inherited": true,
+    "new_phase_optimizer_empty_at_start": true,
+    "separate_process_exact_resume_tensor_equal": true,
+    "two_parent_comparison_then_two_full_rates_exercised": true,
+    "acceptance_injected_only_for_random_tiny_fixture": true,
+    "production_acceptance_not_bypassed": true,
+    "completed_rerun_and_export_verified": true,
+    "windows_delivery_and_launcher": {
+      "native_windows": false
+    },
+    "actual_8b_cuda_training_verified": false,
+    "professional_model_quality_verified": false
+  },
+  "local_unit_tests": {
+    "passed": 151,
+    "log": "local/course_v56_build/unit_tests_final.log"
+  },
+  "delivery_manifest_sha256": "8a2b3b46a2be296dc5300d4077a94da54ceb3614028ba5c4afe5247dff5bd2c7",
+  "release_sha256": "c8d6f03037afff8fb97f543a9e67fec0c5105810c1e6f0225fe02baa9be1357d",
+  "actual_8b_cuda_training_verified": false,
+  "professional_model_quality_verified": false,
+  "post_push_actions": "See actual Actions for this commit; recorded separately after completion."
+}
