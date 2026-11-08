@@ -13,7 +13,7 @@ class V56Review(unittest.TestCase):
 
     def test_wrong_headline_is_not_excused_by_correct_tail(self):
         result=wording_observation({'answer':'施克。前者属土，后者属金；土生金。结论：施生。'},self.gold())
-        self.assertFalse(result['alias_chain_passes']);self.assertFalse(result.get('bounded_chain_with_question_facts',False))
+        self.assertTrue(result['explicit_relation_label_conflict']);self.assertFalse(result.get('alias_chain_passes',False));self.assertFalse(result.get('bounded_chain_with_question_facts',False))
 
     def test_correct_law_does_not_excuse_reversed_subjects(self):
         result=wording_observation({'answer':'土生金，是后者生前者。结论：生。'},self.gold())
@@ -36,6 +36,18 @@ class V56Review(unittest.TestCase):
         a={'source_id':'fixture','quote':'fixture A'};b={'source_id':'fixture','quote':'fixture B'}
         self.assertEqual(collapsed_selectors([a,b]),[a])
         self.assertEqual(collapsed_selectors([a,a]),[])
+
+    def test_correct_law_with_wrong_tail_is_not_a_wording_miss(self):
+        for answer in ['前者属木，后者属土；木克土，是前者克后者。这里称为受克。',
+                       '前者属土，后者属水；水克火，火克金，金克木，木克土，土克水：这里受克。']:
+            elements=('木','土') if '前者属木' in answer else ('土','水')
+            result=wording_observation({'answer':answer},self.gold('克',elements))
+            self.assertTrue(result['explicit_relation_label_conflict'])
+            self.assertFalse(result.get('bounded_chain_with_question_facts',False))
+
+    def test_same_palace_can_answer_bihe_without_repeating_its_element(self):
+        result=wording_observation({'answer':'比和；两者都是离九宫。'},self.gold('比和',('火','火')))
+        self.assertTrue(result['explicit_same_element_relation'])
 
 
 if __name__=='__main__':unittest.main()

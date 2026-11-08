@@ -41,6 +41,23 @@ def strip_citations(text):
     return re.sub(r'\[S\d+\]', '', text).strip()
 
 
+def explicit_relation_labels(text):
+    """All unqualified relationship labels, including contradictory tails.
+
+    A law can be right while 'here it is received-control' is wrong. Do not
+    infer an unspoken correct conclusion over an explicitly wrong one.
+    """
+    normalized=text.replace('施生','生').replace('施克','克')
+    labels=[]
+    head=re.match(r'^\s*(受生|受克|比和|生|克)(?=[。；，,\s]|$)',normalized)
+    if head:labels.append(head[1])
+    for m in re.finditer(r'(?:(?:结论|关系)(?:为|是)?[：:为是\s]*|这里(?:称为|为|是)?|称为|改为|是|为)(受生|受克|比和|生|克)(?=[。；，,：:\s]|$)',normalized):
+        before=normalized[max(0,m.start()-5):m.start()]
+        if re.search(r'(?:不|不是|并非|不能|不应)$',before):continue
+        labels.append(m[1])
+    return labels
+
+
 def wording_observation(row, gold):
     """Observe bounded fact chains and short properties without semantic claims.
 
@@ -60,6 +77,9 @@ def wording_observation(row, gold):
         short = re.sub(r'[。；;\s]', '', strip_citations(text))
         result['unambiguous_short_property'] = short in [c['element'], '属'+c['element'], '属于'+c['element']]
     if c.get('elements') and c.get('kind') in ['reasoning_chain', 'relation', 'joint_relation']:
+        claims=explicit_relation_labels(text)
+        result['explicit_relation_label_conflict']=any(x!=c['answer'] for x in claims)
+        if result['explicit_relation_label_conflict']:return result
         normalized = text.replace('施生', '生').replace('施克', '克')
         cc = c | {'require_positions': c.get('kind') == 'joint_relation' or c.get('require_positions', False)}
         result['alias_chain_passes'] = checks.relation_chain_ok(normalized, cc)
@@ -79,6 +99,11 @@ def wording_observation(row, gold):
             with_facts='前者属'+a+'，后者属'+b+'。'+normalized
             if not has_label:with_facts+='结论：'+c['answer']+'。'
             result['bounded_chain_with_question_facts'] = checks.relation_chain_ok(with_facts,cc)
+        # For two identical elements/palaces, an explicit consistent 比和
+        # answer need not repeat the same given attribute twice.
+        if c['elements'][0]==c['elements'][1] and claims and set(claims)=={'比和'}:
+            pos_ok=not cc.get('require_positions') or checks.legacy.positions_ok(text,cc['positions'])
+            result['explicit_same_element_relation']=pos_ok
     return result
 
 
@@ -183,10 +208,10 @@ def audit(archive, output, *, workbook=False):
                     g=byid[r['id']];obs=wording_observation(r,g);fact=checks.fact_check(r,g)
                     details.append({'trial':trial,'tag':tag,'gold':g,'row':r,'original':fact,'observation':obs})
                     b=buckets[g['skill']];b['total']+=1;b['original_pass']+=fact['status']=='pass'
-                    for key in ['positions_match','uses_explicit_alias','alias_chain_passes','complete_chain_without_canonical_label','bounded_chain_with_question_facts','unambiguous_short_property','output_limit','repeated']:
+                    for key in ['positions_match','uses_explicit_alias','alias_chain_passes','complete_chain_without_canonical_label','bounded_chain_with_question_facts','explicit_same_element_relation','explicit_relation_label_conflict','unambiguous_short_property','output_limit','repeated']:
                         b[key]+=bool(obs.get(key))
                     b['explicit_conflicts']+=bool(obs['explicit_conflicts'])
-                    b['supplementary_wording_only_misses']+=fact['status']!='pass' and any(obs.get(k) for k in ['alias_chain_passes','complete_chain_without_canonical_label','bounded_chain_with_question_facts','unambiguous_short_property'])
+                    b['supplementary_wording_only_misses']+=fact['status']!='pass' and any(obs.get(k) for k in ['alias_chain_passes','complete_chain_without_canonical_label','bounded_chain_with_question_facts','explicit_same_element_relation','unambiguous_short_property'])
                 observed[tag]={k:dict(v) for k,v in buckets.items()}
             summary['trials'][trial]={'parent_groups':baseline['groups'],'old_parent_groups':oldbase['groups'],'epochs':stages,
                                       'formal_updates':stage['steps'],'parent_weights_reused':stage['parent_weights_reused'],

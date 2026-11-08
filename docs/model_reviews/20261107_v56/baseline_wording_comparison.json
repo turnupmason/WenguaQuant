@@ -1,23 +1,33 @@
 {
-  "scope": "Same exposed 96 questions, explicit posthoc bounded facts/wording only; no original scores changed or expert approval",
+  "review_revision": "r2",
+  "scope": "Same exposed questions; bounded posthoc candidates; correct law with wrong relationship label rejected; no original scores changed",
+  "manual_given_palace_reading": {
+    "v55_parent_main_relation_correct": 12,
+    "v55_based_v56_epoch4_main_relation_correct": 13,
+    "each_total": 16,
+    "not_independent_or_expert_prediction_validation": true
+  },
   "comparisons": {
     "repair_v54": {
       "validation_base": {
         "direction": {
           "original_pass": 0,
-          "additional_bounded_wording_observations": 8,
+          "additional_bounded_wording_candidates": 8,
+          "explicit_label_conflicts": 0,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "given_direction": {
           "original_pass": 0,
-          "additional_bounded_wording_observations": 9,
+          "additional_bounded_wording_candidates": 9,
+          "explicit_label_conflicts": 1,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "chart_direction": {
           "original_pass": 0,
-          "additional_bounded_wording_observations": 1,
+          "additional_bounded_wording_candidates": 1,
+          "explicit_label_conflicts": 0,
           "total": 12,
           "not_a_new_accuracy_score": true
         }
@@ -25,19 +35,22 @@
       "validation_parent": {
         "direction": {
           "original_pass": 0,
-          "additional_bounded_wording_observations": 2,
+          "additional_bounded_wording_candidates": 2,
+          "explicit_label_conflicts": 1,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "given_direction": {
           "original_pass": 0,
-          "additional_bounded_wording_observations": 6,
+          "additional_bounded_wording_candidates": 7,
+          "explicit_label_conflicts": 4,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "chart_direction": {
           "original_pass": 0,
-          "additional_bounded_wording_observations": 7,
+          "additional_bounded_wording_candidates": 6,
+          "explicit_label_conflicts": 1,
           "total": 12,
           "not_a_new_accuracy_score": true
         }
@@ -45,19 +58,22 @@
       "epoch_01_validation": {
         "direction": {
           "original_pass": 10,
-          "additional_bounded_wording_observations": 0,
+          "additional_bounded_wording_candidates": 1,
+          "explicit_label_conflicts": 1,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "given_direction": {
           "original_pass": 4,
-          "additional_bounded_wording_observations": 4,
+          "additional_bounded_wording_candidates": 6,
+          "explicit_label_conflicts": 5,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "chart_direction": {
           "original_pass": 12,
-          "additional_bounded_wording_observations": 0,
+          "additional_bounded_wording_candidates": 0,
+          "explicit_label_conflicts": 0,
           "total": 12,
           "not_a_new_accuracy_score": true
         }
@@ -65,19 +81,22 @@
       "epoch_02_validation": {
         "direction": {
           "original_pass": 9,
-          "additional_bounded_wording_observations": 1,
+          "additional_bounded_wording_candidates": 1,
+          "explicit_label_conflicts": 3,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "given_direction": {
           "original_pass": 8,
-          "additional_bounded_wording_observations": 5,
+          "additional_bounded_wording_candidates": 5,
+          "explicit_label_conflicts": 4,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "chart_direction": {
           "original_pass": 12,
-          "additional_bounded_wording_observations": 0,
+          "additional_bounded_wording_candidates": 0,
+          "explicit_label_conflicts": 0,
           "total": 12,
           "not_a_new_accuracy_score": true
         }
@@ -85,19 +104,22 @@
       "epoch_03_validation": {
         "direction": {
           "original_pass": 10,
-          "additional_bounded_wording_observations": 1,
+          "additional_bounded_wording_candidates": 1,
+          "explicit_label_conflicts": 5,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "given_direction": {
           "original_pass": 4,
-          "additional_bounded_wording_observations": 7,
+          "additional_bounded_wording_candidates": 8,
+          "explicit_label_conflicts": 4,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "chart_direction": {
           "original_pass": 12,
-          "additional_bounded_wording_observations": 0,
+          "additional_bounded_wording_candidates": 0,
+          "explicit_label_conflicts": 0,
           "total": 12,
           "not_a_new_accuracy_score": true
         }
@@ -105,19 +127,22 @@
       "epoch_04_validation": {
         "direction": {
           "original_pass": 12,
-          "additional_bounded_wording_observations": 0,
+          "additional_bounded_wording_candidates": 0,
+          "explicit_label_conflicts": 4,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "given_direction": {
           "original_pass": 6,
-          "additional_bounded_wording_observations": 7,
+          "additional_bounded_wording_candidates": 8,
+          "explicit_label_conflicts": 3,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "chart_direction": {
           "original_pass": 12,
-          "additional_bounded_wording_observations": 0,
+          "additional_bounded_wording_candidates": 0,
+          "explicit_label_conflicts": 0,
           "total": 12,
           "not_a_new_accuracy_score": true
         }
@@ -127,19 +152,22 @@
       "validation_base": {
         "direction": {
           "original_pass": 0,
-          "additional_bounded_wording_observations": 8,
+          "additional_bounded_wording_candidates": 8,
+          "explicit_label_conflicts": 0,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "given_direction": {
           "original_pass": 0,
-          "additional_bounded_wording_observations": 9,
+          "additional_bounded_wording_candidates": 9,
+          "explicit_label_conflicts": 1,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "chart_direction": {
           "original_pass": 0,
-          "additional_bounded_wording_observations": 1,
+          "additional_bounded_wording_candidates": 1,
+          "explicit_label_conflicts": 0,
           "total": 12,
           "not_a_new_accuracy_score": true
         }
@@ -147,19 +175,22 @@
       "validation_parent": {
         "direction": {
           "original_pass": 0,
-          "additional_bounded_wording_observations": 6,
+          "additional_bounded_wording_candidates": 6,
+          "explicit_label_conflicts": 0,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "given_direction": {
           "original_pass": 1,
-          "additional_bounded_wording_observations": 13,
+          "additional_bounded_wording_candidates": 11,
+          "explicit_label_conflicts": 3,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "chart_direction": {
           "original_pass": 4,
-          "additional_bounded_wording_observations": 0,
+          "additional_bounded_wording_candidates": 0,
+          "explicit_label_conflicts": 3,
           "total": 12,
           "not_a_new_accuracy_score": true
         }
@@ -167,19 +198,22 @@
       "epoch_01_validation": {
         "direction": {
           "original_pass": 12,
-          "additional_bounded_wording_observations": 1,
+          "additional_bounded_wording_candidates": 1,
+          "explicit_label_conflicts": 1,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "given_direction": {
           "original_pass": 8,
-          "additional_bounded_wording_observations": 3,
+          "additional_bounded_wording_candidates": 3,
+          "explicit_label_conflicts": 2,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "chart_direction": {
           "original_pass": 12,
-          "additional_bounded_wording_observations": 0,
+          "additional_bounded_wording_candidates": 0,
+          "explicit_label_conflicts": 0,
           "total": 12,
           "not_a_new_accuracy_score": true
         }
@@ -187,19 +221,22 @@
       "epoch_02_validation": {
         "direction": {
           "original_pass": 11,
-          "additional_bounded_wording_observations": 2,
+          "additional_bounded_wording_candidates": 2,
+          "explicit_label_conflicts": 1,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "given_direction": {
           "original_pass": 6,
-          "additional_bounded_wording_observations": 7,
+          "additional_bounded_wording_candidates": 8,
+          "explicit_label_conflicts": 1,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "chart_direction": {
           "original_pass": 12,
-          "additional_bounded_wording_observations": 0,
+          "additional_bounded_wording_candidates": 0,
+          "explicit_label_conflicts": 0,
           "total": 12,
           "not_a_new_accuracy_score": true
         }
@@ -207,19 +244,22 @@
       "epoch_03_validation": {
         "direction": {
           "original_pass": 11,
-          "additional_bounded_wording_observations": 2,
+          "additional_bounded_wording_candidates": 2,
+          "explicit_label_conflicts": 1,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "given_direction": {
           "original_pass": 4,
-          "additional_bounded_wording_observations": 7,
+          "additional_bounded_wording_candidates": 9,
+          "explicit_label_conflicts": 0,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "chart_direction": {
           "original_pass": 12,
-          "additional_bounded_wording_observations": 0,
+          "additional_bounded_wording_candidates": 0,
+          "explicit_label_conflicts": 0,
           "total": 12,
           "not_a_new_accuracy_score": true
         }
@@ -227,19 +267,22 @@
       "epoch_04_validation": {
         "direction": {
           "original_pass": 12,
-          "additional_bounded_wording_observations": 2,
+          "additional_bounded_wording_candidates": 2,
+          "explicit_label_conflicts": 1,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "given_direction": {
           "original_pass": 4,
-          "additional_bounded_wording_observations": 7,
+          "additional_bounded_wording_candidates": 9,
+          "explicit_label_conflicts": 1,
           "total": 16,
           "not_a_new_accuracy_score": true
         },
         "chart_direction": {
           "original_pass": 12,
-          "additional_bounded_wording_observations": 0,
+          "additional_bounded_wording_candidates": 0,
+          "explicit_label_conflicts": 0,
           "total": 12,
           "not_a_new_accuracy_score": true
         }
