@@ -32,7 +32,9 @@
     "all_member_hashes_verified": 13,
     "actual_restore_roundtrip": true,
     "archive_bytes": 30251085,
-    "source_recipe_matches_final_code": true
+    "source_recipe_is_frozen_compilation_snapshot": true,
+    "evaluator_is_separately_bound_by_run_code_sha": true,
+    "training_inputs_answers_and_token_contracts_unchanged_after_scope_check": true
   },
   "frozen_app": {
     "runtime_files_unchanged": 49,
@@ -58,8 +60,9 @@
     "professional_model_quality_verified": false
   },
   "version": "5.8",
-  "local_unit_tests_passed": 213,
+  "local_unit_tests_passed": 215,
   "actual_cloud_8b_cuda_training_verified": false,
   "professional_answer_improvement_verified": false,
-  "actual_github_actions_checked_after_push_by_commit": true
+  "actual_github_actions_checked_after_push_by_commit": true,
+  "requested_domain_subset_contradiction_regression_verified": true
 }

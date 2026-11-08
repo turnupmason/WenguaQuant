@@ -134,6 +134,9 @@ def source_slots(answer,c):
 
 def fact_check(record,gold):
     a=record['answer'];c=gold.get('checks') or {};kind=c.get('kind');detail={};complete=True
+    prov=gold.get('provenance',{})
+    if kind=='literal_slots' and prov.get('kind')=='domain_scope_contrast':
+        c={'kind':'domain_map','requested_domains':prov['contrast_group'].split(':',1)[1].split(',')};kind='domain_map'
     if not a.strip() or record.get('empty'):return {'status':'fail','reason':'empty','complete':False}
     if record.get('reached_token_limit'):return {'status':'fail','reason':'output_limit','complete':False}
     if max(Counter(x.strip() for x in re.split('[。\n]',a) if len(x.strip())>=20).values(),default=0)>=5 or re.search(r'(.{2,24})\1{7,}',re.sub(r'\s+','',a)):return {'status':'fail','reason':'repeated_output','complete':False}
@@ -174,17 +177,17 @@ def fact_check(record,gold):
         pair_ok=set(values)==set(c['answer']);inverted=bool(re.search(r'天[二四六八十][生生成]|地[一三五七九][成生成]',clean));ok=pair_ok and not inverted;complete=ok;detail={'pair_correct':pair_ok,'inverted_heaven_earth':inverted}
     elif kind=='literal_slots':ok=source_slots(a,c)
     elif kind=='domain_map':
-        mappings={'婚姻':['媒人'],'诉讼':['证人','证据','证物'],'交易':['经纪人','中介']};found={};mentions=list(re.finditer(r'婚姻|诉讼|交易|求财',a));ok=True
+        mappings={'婚姻':['媒人'],'诉讼':['证人','证据','证物'],'交易':['经纪人','中介']};wanted={'交易' if x in ['交易求财','求财'] else x for x in c.get('requested_domains',mappings)};found={};mentions=list(re.finditer(r'婚姻|诉讼|交易|求财',a));ok=True
         for i,m in enumerate(mentions):
             domain='交易' if m[0]=='求财' else m[0];end=mentions[i+1].start() if i+1<len(mentions) else len(a);segment=a[m.end():end]
             roles=[r[0] for r in re.finditer(r'媒人|证人|证据|证物|经纪人|中介',segment) if asserted(segment,r.start(),r.end())]
             if roles:
                 if any(role not in mappings[domain] for role in roles):ok=False
                 found[domain]=True
-        ok=ok and set(found)==set(mappings)
+        ok=ok and wanted.issubset(found)
         if not ok and '分别' in a:
             domains=re.findall(r'婚姻|诉讼|交易|求财',a);roles=re.findall(r'媒人|证人|证据|证物|经纪人|中介',a)
-            if len(domains)==len(roles)==3:ok=all(role in mappings['交易' if domain=='求财' else domain] for domain,role in zip(domains,roles))
+            if len(domains)==len(roles)==len(wanted):ok=wanted.issubset({'交易' if x=='求财' else x for x in domains}) and all(role in mappings['交易' if domain=='求财' else domain] for domain,role in zip(domains,roles))
     elif kind=='timing_scope':
         ok=any(w in a for w in ['不能','不足','不够']) and any(w in a for w in ['日期','应期','时间']) and any(w in a for w in ['实际盘面','实际局','盘面'])
     elif kind=='marriage_conditions':

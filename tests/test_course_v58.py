@@ -104,3 +104,13 @@ class V58ExplicitJointClaims(unittest.TestCase):
     def test_both_subject_bihe_is_checked_in_both_directions(self):
         self.assertEqual(checks.fact_check({'answer':'两者比和。'},{'checks':{'kind':'relation_facts','answer':'比和','elements':['金','金']}})['status'],'pass')
         self.assertNotEqual(checks.fact_check({'answer':'两者比和。金克木。'},{'checks':{'kind':'relation_facts','answer':'克','elements':['金','木']}})['status'],'pass')
+
+class V58PartialDomainScope(unittest.TestCase):
+    def test_two_requested_domains_cannot_swap_correct_keywords(self):
+        g={'checks':{'kind':'literal_slots','required':[['婚姻'],['诉讼'],['媒人'],['证人']]},'provenance':{'kind':'domain_scope_contrast','contrast_group':'liuhe:婚姻,诉讼'}}
+        self.assertEqual(checks.fact_check({'answer':'婚姻为媒人；诉讼为证人证据。'},g)['status'],'pass')
+        self.assertNotEqual(checks.fact_check({'answer':'婚姻为证人；诉讼为媒人。'},g)['status'],'pass')
+        self.assertNotEqual(checks.fact_check({'answer':'婚姻为媒人。'},g)['status'],'pass')
+    def test_single_requested_domain_is_not_required_to_answer_three(self):
+        g={'checks':{'kind':'domain_map','requested_domains':['婚姻']}}
+        self.assertTrue(checks.fact_check({'answer':'婚姻中六合为媒人。'},g)['complete'])
