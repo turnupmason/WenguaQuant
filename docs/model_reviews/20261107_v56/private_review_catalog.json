@@ -1,0 +1,17 @@
+{
+  "id": "v56_review_20261107",
+  "manifest": "data/delivery/v56_review_20261107/manifest.json",
+  "destination": "local/reviews/v56_audit_delivery_20261107",
+  "files": {
+    "README.txt": "1c69e254621ec2a5df9bdd8d2405b606e1437711f4dd06292a1ffcb2059d6701",
+    "Wengua_V56_逐轮逐题审核.xlsx": "cf73c7158cb12acce37abf95b3a269b55a6ad00f94ff42d84feca752fbafab2c",
+    "aggregate.json": "374b5debd6cddf77d5455a83cfd21e764f9727e07bcb59e965e213d84aa044b2",
+    "answer_observations.jsonl.gz": "68355aa080f96b1e097f812d06f3451a55f34fe30f270b2d4d1af9b5c10b5e0c",
+    "semantic_review.json": "4a3531a9408c96cb9d4dbc8c6fe438cbbc80e809b0277f5ee18a6f648ecab49b",
+    "source_selector_observation.json": "1866c98672a86d1bc3a60d488a60843ed63ca24bb4a6251057ae0ca5043e6bc8",
+    "upload_receipt.json": "4728d97bac3d0c9ca0267b8ee3798f148319b83b438175b0bd8deaa5bb21063f",
+    "workbook_verification.json": "2f4d2d1fe5c10332d3bb093f18125531166ebde9739e03e045b47a73ec29d2eb",
+    "worker_timings.json": "1762e5c06ca7a2dba5d42e6df57a310eee703bf6194c3ebbc24c2fd41b6c755e"
+  },
+  "not_rag_or_sft_input": true
+}
