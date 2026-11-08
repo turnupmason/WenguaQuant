@@ -1,0 +1,21 @@
+{
+  "id": "v57_review",
+  "manifest": "data/delivery/v57_review_20261108/manifest.json",
+  "destination": "local/reviews/v57_audit_delivery_20261108",
+  "files": {
+    "Wengua_V57_全部原答及逐题复核.xlsx": "13064bbf5c85a614dc06152ef726e97e34d65d62fc3b4ddea37a7c400b33d183",
+    "aggregate.json": "d0bd2c5d12fa1b7579e795cb013341b371b0831845aea4f8792045c050c730bc",
+    "all_answer_observations.jsonl.gz": "08c17cd9c5caf08f8c4aac0bad1e509f06b092a7ec4d32bc0ba05aeb8a6df564",
+    "create_annotations_recipe.py": "8d923ac9106ac1a8a10d31b4f302353e334249522461584ac4f56a92c2385106",
+    "original_upload.zip": "84db863383f43baaccd52307577b093a25c9116c8541b2a630f323ee13f97333",
+    "read_answer_annotations.json": "a731a4c315433b38627fbe2feda78aaf5b327f0d2e94a2865185b7692ee6ae3a",
+    "source_recipe/v57_review.py": "82fa8855059c895e19780d3fb1acf1b1b8b953dae14f499ecad3e6ba61287e2e",
+    "upload_receipt.json": "cbabe8ea858127db880860388582417e3ef8deb352c52f8daf2aabf7b8094257",
+    "verified_workers.json": "aa67bd8eae75db17bcb6273c6647e0824a2f929ca40c33465bb0e07b789259af",
+    "wording_transfer.json": "c2e0fc294e4b823242d8d0f5f36499808ad7910ce4595c5d751c0306c8c9afab",
+    "审核说明.md": "23e7fe6eb2b3c833ad5e12e4ce26d2c37c181241ae5421b909ad05d37683d244"
+  },
+  "library": null,
+  "optional": true,
+  "purpose": "evaluation_only_exclude_from_knowledge_and_training"
+}

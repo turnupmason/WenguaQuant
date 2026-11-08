@@ -1,0 +1,159 @@
+{
+  "upload_sha256": "84db863383f43baaccd52307577b093a25c9116c8541b2a630f323ee13f97333",
+  "formal_steps": 65,
+  "full_phase_started": false,
+  "raw_rows_including_smoke": 165,
+  "compared_rows": 164,
+  "actual_successful_workers": 4,
+  "parent_language_loss": 1.735440969467163,
+  "epoch_language_loss": 0.6014961451292038,
+  "limited_read_answer_facets_not_general_accuracy": {
+    "parent_micro": {
+      "bounded_relation_main_correct": 10,
+      "door_relation_and_name_complete": 2,
+      "property_fact_correct": 5,
+      "hetu_number_pair_correct": 5,
+      "rag_main_question_correct": 0
+    },
+    "epoch_micro": {
+      "bounded_relation_main_correct": 19,
+      "door_relation_and_name_complete": 1,
+      "property_fact_correct": 5,
+      "hetu_number_pair_correct": 5,
+      "rag_main_question_correct": 0
+    },
+    "parent_rag": {
+      "bounded_relation_main_correct": 0,
+      "door_relation_and_name_complete": 0,
+      "property_fact_correct": 0,
+      "hetu_number_pair_correct": 0,
+      "rag_main_question_correct": 17
+    },
+    "epoch_rag": {
+      "bounded_relation_main_correct": 0,
+      "door_relation_and_name_complete": 0,
+      "property_fact_correct": 0,
+      "hetu_number_pair_correct": 0,
+      "rag_main_question_correct": 16
+    }
+  },
+  "wording_transfer": {
+    "parent_micro": {
+      "某方面对某方": {
+        "total": 6,
+        "bounded_main_correct": 2
+      },
+      "纠错": {
+        "total": 5,
+        "bounded_main_correct": 0
+      },
+      "前者后者": {
+        "total": 6,
+        "bounded_main_correct": 2
+      },
+      "对象A/B": {
+        "total": 8,
+        "bounded_main_correct": 3
+      }
+    },
+    "epoch_micro": {
+      "某方面对某方": {
+        "total": 6,
+        "bounded_main_correct": 2
+      },
+      "纠错": {
+        "total": 5,
+        "bounded_main_correct": 3
+      },
+      "前者后者": {
+        "total": 6,
+        "bounded_main_correct": 4
+      },
+      "对象A/B": {
+        "total": 8,
+        "bounded_main_correct": 7
+      }
+    }
+  },
+  "frozen_scores_preserved": true,
+  "not_training_or_rag_input": true,
+  "professional_approval": false,
+  "question_specific_facets_by_skill_not_overall_accuracy": {
+    "parent_micro": {
+      "direction": {
+        "reviewed_questions": 25,
+        "bounded_relation_main_correct": 7
+      },
+      "given_direction": {
+        "reviewed_questions": 6,
+        "bounded_relation_main_correct": 2
+      },
+      "chart_direction": {
+        "reviewed_questions": 6,
+        "bounded_relation_main_correct": 1
+      },
+      "door_relation": {
+        "reviewed_questions": 5,
+        "door_relation_and_name_complete": 2
+      },
+      "property": {
+        "reviewed_questions": 5,
+        "property_fact_correct": 5
+      },
+      "identity": {
+        "reviewed_questions": 8
+      },
+      "typed_pair": {
+        "reviewed_questions": 4
+      },
+      "source_fact": {
+        "reviewed_questions": 5,
+        "hetu_number_pair_correct": 5
+      }
+    },
+    "epoch_micro": {
+      "direction": {
+        "reviewed_questions": 25,
+        "bounded_relation_main_correct": 16
+      },
+      "given_direction": {
+        "reviewed_questions": 6,
+        "bounded_relation_main_correct": 1
+      },
+      "chart_direction": {
+        "reviewed_questions": 6,
+        "bounded_relation_main_correct": 2
+      },
+      "door_relation": {
+        "reviewed_questions": 5,
+        "door_relation_and_name_complete": 1
+      },
+      "property": {
+        "reviewed_questions": 5,
+        "property_fact_correct": 5
+      },
+      "identity": {
+        "reviewed_questions": 8
+      },
+      "typed_pair": {
+        "reviewed_questions": 4
+      },
+      "source_fact": {
+        "reviewed_questions": 5,
+        "hetu_number_pair_correct": 5
+      }
+    },
+    "parent_rag": {
+      "actual_rag": {
+        "reviewed_questions": 18,
+        "rag_main_question_correct": 17
+      }
+    },
+    "epoch_rag": {
+      "actual_rag": {
+        "reviewed_questions": 18,
+        "rag_main_question_correct": 16
+      }
+    }
+  }
+}
