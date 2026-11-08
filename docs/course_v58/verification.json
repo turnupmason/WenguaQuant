@@ -1,0 +1,65 @@
+{
+  "teacher_contracts": {
+    "records": 7541,
+    "typed_teacher_answers": 5593,
+    "exact_dialogue_duplicates": 0,
+    "failures": [],
+    "source_contract_and_whole_token_audit": true,
+    "actual_rag_rule_groups": 18,
+    "open_case_expert_approval": false
+  },
+  "storage": {
+    "lessons_equal": 7541,
+    "materials_equal": 7970,
+    "cases_equal": 194,
+    "author_steps_equal": 1008,
+    "sqlite_payload_encoding": "zlib UTF-8 JSON; lossless; query metadata uncompressed",
+    "foreign_key_errors": 0,
+    "workbook_full_dialogues_answers_sources_cases_steps_equal": true
+  },
+  "real_preparation": {
+    "actual_train_views": 1550,
+    "unique_cores": 1536,
+    "max_tokens": 3135,
+    "fixed_micro_questions": 80,
+    "actual_rag_questions": 18,
+    "legacy_full_1024_budget_fits": 192,
+    "reading_archive_absent_from_application_training": true,
+    "actual_model_loaded": false
+  },
+  "delivery": {
+    "authenticated_archive_sha256": "b2f6976372e942a96972d05dac90f870309bcd2ec00ac76e1eaa5a9b6e0e7f06",
+    "all_member_hashes_verified": 13,
+    "actual_restore_roundtrip": true,
+    "archive_bytes": 30251085,
+    "source_recipe_matches_final_code": true
+  },
+  "frozen_app": {
+    "runtime_files_unchanged": 49,
+    "changed": [],
+    "source_db_sha256": "21362e6f0266c03dcdc4a7ef35f45954ba274ae6458de0ba341132abca7d0405"
+  },
+  "tiny_cpu_training": {
+    "software_fixture_only": true,
+    "nonzero_v55_weights_inherited": true,
+    "new_phase_optimizer_empty_at_start": true,
+    "separate_process_exact_resume_tensor_equal": true,
+    "one_mixed_pilot_then_two_full_epochs_exercised": true,
+    "failed_pilot_blocks_full_phase": true,
+    "failed_pilot_gets_full_review": true,
+    "official_answer_baseline_not_generated": true,
+    "acceptance_injected_only_for_random_tiny_fixture": true,
+    "production_acceptance_not_bypassed": true,
+    "completed_rerun_and_export_verified": true,
+    "windows_delivery_and_launcher": {
+      "native_windows": false
+    },
+    "actual_8b_cuda_training_verified": false,
+    "professional_model_quality_verified": false
+  },
+  "version": "5.8",
+  "local_unit_tests_passed": 213,
+  "actual_cloud_8b_cuda_training_verified": false,
+  "professional_answer_improvement_verified": false,
+  "actual_github_actions_checked_after_push_by_commit": true
+}
