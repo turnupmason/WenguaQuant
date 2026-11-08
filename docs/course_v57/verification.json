@@ -1,0 +1,97 @@
+{
+  "source_and_tokens": {
+    "teacher_views": 7065,
+    "maximum_tokens": 3158,
+    "checked_kinds": {
+      "number_pair": 25,
+      "mentions": 170,
+      "role": 86,
+      "exact_name": 430,
+      "open": 1757,
+      "state": 25,
+      "door_facts": 192,
+      "identity_swap": 10,
+      "insufficient": 84,
+      "property": 85,
+      "relation_facts": 2813,
+      "positions": 1118,
+      "birth_boundary": 8,
+      "condition_boundary": 2,
+      "role_boundary": 48,
+      "condition_slots": 80,
+      "person_contract": 92,
+      "clarification": 6,
+      "scope_clarification": 3,
+      "literal_slots": 3
+    },
+    "open_source_readings_not_expert_verified": true
+  },
+  "database_and_workbook": {
+    "lessons_readback_equal": 7037,
+    "materials_readback_equal": 7970,
+    "cases_readback_equal": 194,
+    "author_steps_readback_equal": 1008,
+    "foreign_key_errors": 0,
+    "workbook_complete_messages_answers_provenance_readback_equal": true,
+    "workbook_full_cases_and_author_steps_readback_equal": true
+  },
+  "real_preparation": {
+    "pilot": {
+      "training_rows": 1034,
+      "unique_training_cores": 1024,
+      "max_actual_train_tokens": 3158,
+      "whole_targets_preserved": true,
+      "prepared_files": 18
+    },
+    "full": {
+      "training_rows": 5582,
+      "unique_training_cores": 5568,
+      "max_actual_train_tokens": 3158,
+      "whole_targets_preserved": true,
+      "prepared_files": 18
+    }
+  },
+  "legacy_budget": {
+    "legacy_rows": 192,
+    "whole_legacy_budget": 1024,
+    "skipped_rows": [],
+    "max_prompt_tokens": null
+  },
+  "private_delivery": {
+    "authenticated_envelope": true,
+    "archive_sha256": "3cf74695c303441b64c1bbf979804ffd93a29164610f001b379c5c66aaeea241",
+    "all_member_hashes_verified": 13,
+    "actual_restore_roundtrip_verified": true,
+    "private_zip_bytes": 14316495,
+    "decrypted_sources_public": false
+  },
+  "frozen_app": {
+    "frozen_runtime_files": 49,
+    "changed_runtime_files": [],
+    "source_sha256": "21362e6f0266c03dcdc4a7ef35f45954ba274ae6458de0ba341132abca7d0405"
+  },
+  "tiny_cpu_training": {
+    "software_fixture_only": true,
+    "nonzero_v55_weights_inherited": true,
+    "new_phase_optimizer_empty_at_start": true,
+    "separate_process_exact_resume_tensor_equal": true,
+    "one_mixed_pilot_then_two_full_epochs_exercised": true,
+    "failed_pilot_blocks_full_phase": true,
+    "official_answer_baseline_not_generated": true,
+    "acceptance_injected_only_for_random_tiny_fixture": true,
+    "production_acceptance_not_bypassed": true,
+    "completed_rerun_and_export_verified": true,
+    "windows_delivery_and_launcher": {
+      "native_windows": false
+    },
+    "actual_8b_cuda_training_verified": false,
+    "professional_model_quality_verified": false
+  },
+  "version": "5.7",
+  "local_unit_tests_passed": 186,
+  "all_automatic_teacher_explanations_complete": true,
+  "whole_teacher_tokenization_views": 7065,
+  "local_cuda_8b_training_verified": false,
+  "open_case_expert_approval": false,
+  "new_github_actions_status": "recorded_after_push_by_commit_not_simulated"
+}

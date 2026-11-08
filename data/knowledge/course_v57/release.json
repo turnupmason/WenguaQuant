@@ -1,0 +1,92 @@
+{
+  "schema": "wengua_source_contract_course_v57",
+  "version": "5.7",
+  "parent_v56_release_sha256": "c8d6f03037afff8fb97f543a9e67fec0c5105810c1e6f0225fe02baa9be1357d",
+  "delivery_manifest": "data/delivery/course_v57/manifest.json",
+  "reviewed_parent": {
+    "path": "local/course_v55/run1/trials/source_lr_2em05/cycle_01/adapters/step-397",
+    "adapter_sha256": "fe22c4ba1efbf6aba198eb3f68725e4f2d155387f3de619f138578db99ce93f5"
+  },
+  "reusable_v55_baseline": {
+    "path": "local/course_v56/run1/trials/repair_v55/generations/parent_v55_unchanged.jsonl",
+    "sha256": "1ab8d1616e83ec55485ed0118db0d8459af74264dcbbd56d05861149224804d9",
+    "adapter_sha256": "fe22c4ba1efbf6aba198eb3f68725e4f2d155387f3de619f138578db99ce93f5",
+    "max_new_tokens": 1024,
+    "source_upload_sha256": "aa042c22c14fe4d7caf10efdadfc2fd12caddaacee01f0b2bc0ecadd54fa0ac4",
+    "not_training_input": true
+  },
+  "summary": {
+    "records": 7037,
+    "splits": {
+      "train": 5568,
+      "validation": 1469
+    },
+    "skills": {
+      "source_fact": 255,
+      "condition": 368,
+      "identity": 275,
+      "door_relation": 192,
+      "typed_pair": 324,
+      "property": 85,
+      "direction": 375,
+      "chart_direction": 1118,
+      "case": 193,
+      "positions": 1118,
+      "given_direction": 1320,
+      "domain_rule": 296,
+      "workflow": 184,
+      "author_local": 23,
+      "author_reading": 903,
+      "author_context": 8
+    },
+    "materials_preserved": 7970,
+    "cases_preserved": 194,
+    "author_steps_preserved": 1008,
+    "complete_author_reading_courses": 903,
+    "actual_new_rag_teachers": 40,
+    "actual_rag_probes": 18,
+    "micro_questions": 64,
+    "final_questions": 192,
+    "pilot_unique_cores": 1024,
+    "pilot_assistant_views": 1034,
+    "pilot_updates": 65,
+    "pilot_skills": {
+      "positions": 65,
+      "direction": 80,
+      "given_direction": 98,
+      "chart_direction": 97,
+      "door_relation": 64,
+      "typed_pair": 64,
+      "property": 48,
+      "source_fact": 48,
+      "identity": 120,
+      "condition": 121,
+      "case": 96,
+      "workflow": 48,
+      "domain_rule": 48,
+      "author_reading": 17,
+      "author_local": 10
+    },
+    "full_assistant_views_per_epoch": 5582,
+    "full_updates_two_epochs": 698,
+    "old_manual_scores_used": false,
+    "final_test_used": false,
+    "model_answers_as_teachers": false,
+    "whole_source_and_target_preserved": true
+  },
+  "files": {
+    "README.txt": "e8c4d3ed6eb6948a04337cae67888c906eba50e742f3d3ae5eefc1d084d262fb",
+    "Wengua_两书课程_V57_全量审阅.xlsx": "0a9e7361099b24710ff5bf29d4f69ad2527c06a7cb73ad22473fb7a2f4c6c515",
+    "Wengua_两书课程_V57_完整对照.sqlite3": "51d8fc3eeda6e8384e57b04cabe522f10ef79e285ee03dceb7327405219c0d80",
+    "build_failures.json": "8ebc3cf4158c947cc994f472375f3d1e3efed1d9d17f6a6d0055b14a8fb62bc6",
+    "course_delta.json.gz": "c64f9a701894b7cea1d29afa01963c594c442abefa24ed97ae2dc71a9e7a1454",
+    "database_workbook_audit.json": "3a24abb95f4ec862c0a1511ca878f083f164ce2be997c891cda4e83c24eccfae",
+    "source_contracts.jsonl.gz": "6855ba7d6dd5b19f97c18c5d87897bf89ae7fc96fb2bc673f0bef344b57997ad",
+    "source_recipe/build.py": "42ac097789d8e59283091dfde25c14f27a9438464c06906dc42e359732a376e0",
+    "source_recipe/checks.py": "9f98ce31d67aaaeadeec240de284511bc8c81d2e4cb43cba5cb004ad94cffb1e",
+    "source_recipe/data.py": "1540e86f34b18ded6c1757b8affb6737e7a6c26a313a7b9cc3fc707c55159634",
+    "source_recipe/evaluation.py": "c528fa15260c5a8a61c8e17ca891438e935f302439bc30f19078573667bc1231",
+    "summary.json": "9a9d5b3e560be9a541864b9de6fbc278748b57ea69bc3eee816f652f1d2b7767",
+    "token_audit.json": "56e00a1ca69cbef6b34c85e1444ccd8b982bff9c397e73087e3385840e193ba6"
+  }
+}
