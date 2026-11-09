@@ -43,7 +43,7 @@ class RecoveryTests(unittest.TestCase):
             request.write_text('{}'); request.with_suffix('.dump_requested').touch()
             stopped = Mock(); stopped.wait.side_effect = [False, True]
             diagnostics(request, stopped)
-            self.assertIn('Recovery diagnostic', request.with_suffix('.stack.log').read_text())
+            self.assertIn('Recovery diagnostic', request.with_suffix('.stack.log').read_text(encoding='utf8'))
             self.assertFalse(request.with_suffix('.heartbeat.json').exists())
             self.assertFalse(request.with_suffix('.dump_requested').exists())
             with zipfile.ZipFile(export_review(root, Path(td)/'review.zip')) as archive:
@@ -82,12 +82,12 @@ class RecoveryTests(unittest.TestCase):
         self.assertEqual(torch.cuda.mock_calls, [])
 
     def test_manifest_pins_original_v59_files_and_existing_dataset(self):
-        manifest = json.loads(recovery.MANIFEST.read_text())
+        manifest = json.loads(recovery.MANIFEST.read_text(encoding='utf8'))
         self.assertEqual(manifest['policy'], recovery.POLICY)
         self.assertEqual(manifest['frozen_commit'], '277047d8489edf8c3db48f95eb9cf7f5cd5b376a')
         for name, sha in manifest['frozen_v59_code_sha256'].items():
             if name.startswith('wengua_course_v59/') or name in ['configs/course_v59.json', 'train_wengua_v59.cmd', 'run_course_v59_worker.py']:
-                self.assertEqual(recovery.digest((recovery.ROOT/name).read_text()), sha, name)
+                self.assertEqual(recovery.digest((recovery.ROOT/name).read_text(encoding='utf8')), sha, name)
         self.assertFalse(recovery.POLICY['training_config_changed'])
 
 
