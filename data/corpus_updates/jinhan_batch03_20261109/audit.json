@@ -14,7 +14,7 @@
   "full_Excel_cells_readback_equal": true,
   "full_SQLite_objects_readback_equal": true,
   "actual_source_retrieval_checks_passed": 8,
-  "full_software_unit_tests_passed": 304,
+  "full_software_unit_tests_passed": 305,
   "V60_frozen_files_unchanged": 202,
   "App_frozen_training_files_unchanged": 49,
   "V59_frozen_contract_verified": true,

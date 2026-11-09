@@ -38,6 +38,19 @@ class IntakeTests(unittest.TestCase):
         self.assertNotEqual(i.exact_key('甲生乙'),i.exact_key('乙生甲'))
         self.assertNotEqual(i.exact_key('缺一不可'),i.exact_key('缺一可'))
         self.assertEqual(i.exact_key('Ａ 乙'),i.exact_key('A乙'))
+    def test_identical_text_is_groupable_without_promoting_case_to_rule(self):
+        pack=self.compile('占升迁\n同样文字在规则与案例内出现，不能合并适用范围。\n')
+        prior=self.compile('占升迁\n同样文字在规则与案例内出现，不能合并适用范围。\n')['library']
+        case_doc=next(d for d in prior['documents'] if d['kind']=='rule')
+        prior['documents']=[d for d in prior['documents'] if d['kind']!='rule' or d is case_doc]
+        case_doc.update(kind='case',phase='author_reasoning',case_ids=['synthetic.event'])
+        prior['cases']={'synthetic.event':{'spans':case_doc['parts'],'event_family_id':'synthetic.event'}}
+        r.validate_library(prior)
+        _,links=i.compare_sources(pack,[prior]);exact=[x for x in links if x['relation']=='exact_normalized_source_repetition']
+        self.assertTrue(exact)
+        self.assertTrue(all(x['automatically_text_groupable'] for x in exact))
+        self.assertTrue(all(not x['automatically_mergeable'] for x in exact))
+        self.assertIn('case',{x['prior_document_kind'] for x in exact})
     def test_invented_literal_target_or_premise_rejected(self):
         with self.assertRaisesRegex(ValueError,'literal target'):
             self.compile(courses=[{'id':'x','format':'conditional_qa','source_lines':[3],'literal_targets':['保证提升']}])

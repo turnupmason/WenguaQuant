@@ -221,8 +221,9 @@ def compare_sources(new,priors,max_near=3):
         if len(key)<12:continue
         for i in exact.get(key,[]):
             links.append(dict(new_unit_id=u['id'],prior_document_id=old[i]['id'],prior_book_ids=old[i]['book_ids'],
-                              relation='exact_normalized_source_repetition',automatically_mergeable=True,
-                              all_source_occurrences_retained=True))
+                              relation='exact_normalized_source_repetition',prior_document_kind=old[i]['kind'],
+                              automatically_text_groupable=True,automatically_mergeable=False,
+                              requires_condition_direction_and_scope_review=True,all_source_occurrences_retained=True))
         ng=grams(u['text']);counts=Counter(i for gram in ng for i in inverted.get(gram,()))
         candidates=[]
         for i,count in counts.most_common(40):
