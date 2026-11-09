@@ -34,15 +34,20 @@ def ensure_index(release):
         if actual!=[r.digest(r.dumps(lib)) for lib in libs]:raise ValueError('Index belongs to another source release')
         return index.coverage
 
-def query(index,question,*,study=False,section=None,book=None,limit=6):
+def query(index,question,*,study=False,section=None,book=None,chapter=None,limit=6):
     # Validate via the existing read-only retrieval API, including book and size.
     mode='study' if study else 'knowledge'
     result=index.search(question,mode=mode,book=book,limit=limit)
-    if section:
+    if chapter:
+        if chapter not in index.chapters:raise ValueError('Unknown source chapter')
+        if book and index.chapters[chapter]['book_id']!=book:raise ValueError('Book and chapter scopes disagree')
+    if section or chapter:
         terms=set(r.terms(question));pool=[]
         for row in index.db.execute('SELECT payload FROM documents'):
             doc=json.loads(row[0])
-            if doc.get('source_section')!=section or (not study and doc['kind']!='rule'):continue
+            if section and doc.get('source_section')!=section:continue
+            if not study and doc['kind']!='rule':continue
+            if chapter and any(p['chapter']!=chapter for p in doc['parts']):continue
             if doc.get('material_scope')=='structure':continue
             if book and any(index.chapters[p['chapter']]['book_id']!=book for p in doc['parts']):continue
             expanded=index.expand(doc)
@@ -62,6 +67,7 @@ def query(index,question,*,study=False,section=None,book=None,limit=6):
             if len(result['documents'])==limit:break
         result['retrieval_method']='explicit chapter scope + CPU Chinese-bigram overlap; literal evidence only'
         result['section']=section
+        if chapter:result['chapter']=chapter
     result.update(active_training_changed=False,automatic_training_inclusion=False,
                   source_truth_status='received_book_text_not_facsimile_or_predictive_verification')
     return result
@@ -83,7 +89,7 @@ def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--release',type=Path,default=RELEASE);s=p.add_subparsers(dest='command',required=True)
     q=s.add_parser('restore');q.add_argument('--key-file',type=Path)
     s.add_parser('verify')
-    q=s.add_parser('search');q.add_argument('--question',required=True);q.add_argument('--book');q.add_argument('--section');q.add_argument('--study',action='store_true');q.add_argument('--limit',type=int,default=6)
+    q=s.add_parser('search');q.add_argument('--question',required=True);q.add_argument('--book');q.add_argument('--section');q.add_argument('--chapter');q.add_argument('--study',action='store_true');q.add_argument('--limit',type=int,default=6)
     a=p.parse_args(argv);release=load_release(a.release)
     if a.command=='restore':
         keytext=a.key_file.read_text().strip() if a.key_file else input('输入此前教材64位口令（可见）：').strip()
@@ -105,7 +111,7 @@ def main(argv=None):
         print(json.dumps({'coverage':report,'active_training_changed':False,'current_training_eligible':False},ensure_ascii=False,indent=2))
     else:
         ensure_index(release)
-        with r.Index(r.ROOT/release['index']) as index:result=query(index,a.question,study=a.study,section=a.section,book=a.book,limit=a.limit)
+        with r.Index(r.ROOT/release['index']) as index:result=query(index,a.question,study=a.study,section=a.section,book=a.book,chapter=a.chapter,limit=a.limit)
         result['source_comparisons']=related_comparisons(release,result['documents'],study=a.study)
         print(json.dumps(result,ensure_ascii=False,indent=2))
     return 0

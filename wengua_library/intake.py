@@ -26,7 +26,7 @@ DOMAINS={
 
 def heading(line,profile=None):
     profile=profile or {}
-    return (line in profile.get('main_headings',MAIN) or line in profile.get('subheadings',SUB) or line in profile.get('domains',DOMAINS) or line in ['【白话译释】','【整理注】']
+    return (line in profile.get('main_headings',MAIN) or line in profile.get('subheadings',SUB) or line in profile.get('domains',DOMAINS) or line in profile.get('structural_headings',[]) or line in ['【白话译释】','【整理注】']
             or bool(re.fullmatch(r'【卷[一二三四五六七八九十]+】',line))
             or bool(profile.get('separator_volumes') and re.fullmatch(r'=+\s*(卷[一二三四五六七八九十]+末?|整理标记说明)\s*=+',line))
             or line.startswith('《金函奇门遁甲秘笈全书》') or line.startswith('范围：'))
@@ -34,10 +34,11 @@ def heading(line,profile=None):
 
 def paragraphs(text,profile=None):
     """Separate headings even when a translation follows without a blank line."""
-    lines=text.splitlines();out=[];start=None
+    lines=text.splitlines();out=[];start=None;profile=profile or {}
+    breaks={int(n) for n in profile.get('heading_contexts',{})}|set(profile.get('break_before_lines',[]))
     for number,line in enumerate(lines+[''],1):
         is_head=heading(line.strip(),profile)
-        if (not line.strip() or is_head) and start is not None:
+        if (not line.strip() or is_head or number in breaks) and start is not None:
             out.append((start,number-1));start=None
         if is_head:out.append((number,number))
         elif line.strip() and start is None:start=number
@@ -62,7 +63,10 @@ def text_units(raw,chapter,spec):
     for i,(lo,hi) in enumerate(paragraphs(raw,profile),1):
         text='\n'.join(lines[lo-1:hi]);title=text.strip();is_head=lo==hi and heading(title,profile)
         separator=re.fullmatch(r'=+\s*(卷[一二三四五六七八九十]+末?|整理标记说明)\s*=+',title) if profile.get('separator_volumes') else None
-        if separator:
+        override=profile.get('heading_contexts',{}).get(str(lo))
+        if override:
+            section=override['section'];mode=override.get('source_mode',mode);sub=override.get('subsection','')
+        elif separator:
             if separator[1]=='整理标记说明':section='整理注';mode='supplied_editorial_note'
             else:volume=separator[1];section='卷标题';mode='original';sub=''
         elif re.fullmatch(r'【卷[一二三四五六七八九十]+】',title):volume=title.strip('【】');section='卷标题';mode='original';sub=''
@@ -91,7 +95,7 @@ def text_units(raw,chapter,spec):
         units.append(u)
     assigned=Counter(n for u in units for n in range(u['source_lines'][0],u['source_lines'][1]+1))
     if any(assigned[n]!=1 for n,line in enumerate(lines,1) if line.strip()):raise ValueError('Nonblank source not assigned exactly once')
-    unknown=(set(explicit)|set(scopes))-{str(u['source_lines'][0]) for u in units}
+    unknown=(set(explicit)|set(scopes)|set(profile.get('heading_contexts',{})))-{str(u['source_lines'][0]) for u in units}
     if unknown:raise ValueError('Finding does not start a material unit: '+','.join(sorted(unknown)))
     return units
 
