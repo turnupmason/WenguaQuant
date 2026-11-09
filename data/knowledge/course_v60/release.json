@@ -1,0 +1,257 @@
+{
+  "schema": "wengua_grounded_multidomain_v60",
+  "version": "6.0",
+  "parent_v59_release_sha256": "deef476e0b2f6df17ae122cd6d73db8985a3ccd2282827905dfb95d4ffaa593a",
+  "reviewed_parent": {
+    "path": "local/course_v58/run1/trials/mixed_pilot/cycle_01/adapters/step-97",
+    "steps": 97,
+    "adapter_sha256": "b602cce40d593d4109b50985032e348579ea578976787059e4f25cc524d404bd",
+    "ancestor_v57_sha256": "16b72e78e94875e9fd18dfa8d80d1ad585aa9dfd6e22db243dd08f9a064030ec",
+    "research_continuation_not_professional_approval": true
+  },
+  "delivery_manifest": "data/delivery/course_v60/manifest.json",
+  "summary": {
+    "schema": "wengua_grounded_multidomain_v60",
+    "registered": 8951,
+    "active_train": 5947,
+    "materials": 7970,
+    "cases": 194,
+    "author_steps": 1008,
+    "original_rules": 2049,
+    "source_workflows": 46,
+    "pilot_cores": 768,
+    "pilot_supervised_views": 786,
+    "pilot_updates": 50,
+    "full_supervised_views": 5981,
+    "full_updates_one_epoch": 374,
+    "pilot_rates": [
+      1e-06,
+      3e-06,
+      1e-05
+    ],
+    "pilot_epochs": 1,
+    "full_epochs": 1,
+    "closed_micro": 112,
+    "actual_rag": 36,
+    "final_review": 192,
+    "official_base_control": 24,
+    "masked_inference_active": 0,
+    "whole_over_budget_archived": 0,
+    "multi_turn_contracts_checked": 120,
+    "condition_decision_pairs": 20,
+    "case_replay_train": 149,
+    "coverage": {
+      "health": {
+        "cases": 12,
+        "source_steps": 55,
+        "train": 401,
+        "validation": 158,
+        "sealed_cases": 3,
+        "replay_train": 27
+      },
+      "marriage": {
+        "cases": 14,
+        "source_steps": 49,
+        "train": 315,
+        "validation": 59,
+        "sealed_cases": 3,
+        "replay_train": 27
+      },
+      "pregnancy": {
+        "cases": 6,
+        "source_steps": 23,
+        "train": 120,
+        "validation": 43,
+        "sealed_cases": 1,
+        "replay_train": 11
+      },
+      "education": {
+        "cases": 9,
+        "source_steps": 29,
+        "train": 349,
+        "validation": 131,
+        "sealed_cases": 1,
+        "replay_train": 19
+      },
+      "employment": {
+        "cases": 9,
+        "source_steps": 38,
+        "train": 163,
+        "validation": 83,
+        "sealed_cases": 2,
+        "replay_train": 18
+      },
+      "business_profit": {
+        "cases": 24,
+        "source_steps": 112,
+        "train": 951,
+        "validation": 121,
+        "sealed_cases": 0,
+        "replay_train": 99
+      },
+      "travel_abroad": {
+        "cases": 14,
+        "source_steps": 70,
+        "train": 86,
+        "validation": 23,
+        "sealed_cases": 1,
+        "replay_train": 58
+      },
+      "missing_person": {
+        "cases": 16,
+        "source_steps": 87,
+        "train": 305,
+        "validation": 78,
+        "sealed_cases": 1,
+        "replay_train": 58
+      },
+      "lost_property": {
+        "cases": 13,
+        "source_steps": 66,
+        "train": 316,
+        "validation": 41,
+        "sealed_cases": 2,
+        "replay_train": 48
+      },
+      "criminal_case": {
+        "cases": 10,
+        "source_steps": 64,
+        "train": 258,
+        "validation": 43,
+        "sealed_cases": 1,
+        "replay_train": 42
+      },
+      "litigation": {
+        "cases": 11,
+        "source_steps": 57,
+        "train": 294,
+        "validation": 76,
+        "sealed_cases": 0,
+        "replay_train": 48
+      },
+      "sports_competition": {
+        "cases": 13,
+        "source_steps": 77,
+        "train": 358,
+        "validation": 34,
+        "sealed_cases": 1,
+        "replay_train": 62
+      },
+      "military_history_source": {
+        "cases": 3,
+        "source_steps": 36,
+        "train": 99,
+        "validation": 32,
+        "sealed_cases": 0,
+        "replay_train": 26
+      },
+      "weather_historical_source": {
+        "cases": 8,
+        "source_steps": 26,
+        "train": 111,
+        "validation": 31,
+        "sealed_cases": 1,
+        "replay_train": 14
+      },
+      "geography_environment_historical_source": {
+        "cases": 4,
+        "source_steps": 15,
+        "train": 49,
+        "validation": 18,
+        "sealed_cases": 0,
+        "replay_train": 11
+      },
+      "life_opportunity_book_study": {
+        "cases": 15,
+        "source_steps": 141,
+        "train": 279,
+        "validation": 98,
+        "sealed_cases": 1,
+        "replay_train": 86
+      },
+      "miscellaneous_historical_source": {
+        "cases": 5,
+        "source_steps": 27,
+        "train": 121,
+        "validation": 16,
+        "sealed_cases": 1,
+        "replay_train": 16
+      },
+      "world_affairs": {
+        "cases": 1,
+        "source_steps": 0,
+        "train": 0,
+        "validation": 0,
+        "sealed_cases": 0,
+        "replay_train": 0
+      },
+      "politics_elections": {
+        "cases": 3,
+        "source_steps": 14,
+        "train": 40,
+        "validation": 21,
+        "sealed_cases": 1,
+        "replay_train": 3
+      },
+      "industrial_safety": {
+        "cases": 1,
+        "source_steps": 11,
+        "train": 38,
+        "validation": 0,
+        "sealed_cases": 0,
+        "replay_train": 7
+      },
+      "competition_evaluation": {
+        "cases": 2,
+        "source_steps": 10,
+        "train": 8,
+        "validation": 4,
+        "sealed_cases": 0,
+        "replay_train": 7
+      },
+      "weather": {
+        "cases": 1,
+        "source_steps": 1,
+        "train": 10,
+        "validation": 10,
+        "sealed_cases": 1,
+        "replay_train": 0
+      },
+      "foundation": {
+        "cases": 0,
+        "source_steps": 0,
+        "train": 858,
+        "validation": 349,
+        "sealed_cases": 0,
+        "replay_train": 0
+      },
+      "mixed_domain": {
+        "cases": 0,
+        "source_steps": 0,
+        "train": 20,
+        "validation": 11,
+        "sealed_cases": 0,
+        "replay_train": 0
+      },
+      "formation": {
+        "cases": 0,
+        "source_steps": 0,
+        "train": 398,
+        "validation": 168,
+        "sealed_cases": 0,
+        "replay_train": 0
+      }
+    },
+    "source_only": true,
+    "professional_semantics_certified": false,
+    "production_enabled": false
+  },
+  "files": {
+    "Wengua_V60_课程与领域审阅.xlsx": "44faf638f0d4e8138d62abc86e2fed0f3de58344324ca0deadf5b0e42bf7c825",
+    "Wengua_两书课程_V60_来源对照.sqlite3": "9a1bd76368da1e36a748fd87d733bdc52ab0590e8b66aa851f70f5430935efe6",
+    "course_delta.json.gz": "8391d1c42f9f8117c45f383dd3a4155501c908e66fe716c143613591f892a42d",
+    "source_token_audit.json": "362a8ea5f08f0131c942b0b4ba8e026eee636fbf172caeba082ae1566e7b90dd",
+    "storage_audit.json": "cd635008139afbce2c3352916828428fbd02ded8de3c5e0324ae9b0c32d5925e",
+    "summary.json": "391449f41347721ba3966fd9b9fdacd26055d2755b82b75e67b2f454be226c87"
+  }
+}
