@@ -1,0 +1,18 @@
+{
+  "upload_zip_crc_verified": true,
+  "all_seven_frozen_scores_replayed": true,
+  "both_gate_decisions_replayed": true,
+  "full_650_training_started": false,
+  "actual_nonfixture_workers": 6,
+  "annotations_answer_sha_bound": 486,
+  "distinct_formal_answers": 406,
+  "all_workbook_original_questions_targets_answers_read_back": 487,
+  "encrypted_review_authenticated_and_all_members_restored_sha_verified": true,
+  "frozen_app_dependency_sha_unchanged": 49,
+  "frozen_v58_runtime_and_course_unchanged": true,
+  "original_final_test_used": false,
+  "local_software_tests": 220,
+  "tests_not_model_performance": true,
+  "not_rag_or_sft_input": true,
+  "no_v59_training_launched": true
+}

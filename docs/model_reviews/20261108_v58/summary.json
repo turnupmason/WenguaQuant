@@ -1,0 +1,556 @@
+{
+  "schema": "wengua_readonly_v58_review_20261108",
+  "upload_sha256": "f07188e336c9f01a4a59466c82e4d32710358cb81c45b402a89d7447a08c0495",
+  "members": 74,
+  "state": "needs_course_review",
+  "formal_updates": 194,
+  "full_650_started": false,
+  "generation_rows_stored": 487,
+  "reused_micro_copies": 80,
+  "distinct_generated_answer_records_including_smoke": 407,
+  "verified_actual_workers": [
+    {
+      "operation": "fit",
+      "probe": true,
+      "tag": null,
+      "seconds": 714.359000000055,
+      "steps": 8
+    },
+    {
+      "operation": "fit",
+      "probe": false,
+      "tag": null,
+      "seconds": 20742.157000000007,
+      "steps": 194
+    },
+    {
+      "operation": "evaluate",
+      "probe": false,
+      "tag": "parent_actual_rag",
+      "seconds": 86.15700000000652,
+      "steps": null
+    },
+    {
+      "operation": "evaluate",
+      "probe": false,
+      "tag": "epoch_01_actual_rag",
+      "seconds": 87.81200000003446,
+      "steps": null
+    },
+    {
+      "operation": "evaluate",
+      "probe": false,
+      "tag": "epoch_02_actual_rag",
+      "seconds": 88.125,
+      "steps": null
+    },
+    {
+      "operation": "evaluate",
+      "probe": false,
+      "tag": "final_review",
+      "seconds": 1445.6560000000754,
+      "steps": null
+    }
+  ],
+  "parent_recorded_model_sha256": "16b72e78e94875e9fd18dfa8d80d1ad585aa9dfd6e22db243dd08f9a064030ec",
+  "weights_not_uploaded_hash_not_independently_recomputed": true,
+  "trainer_runtime_seconds": 19158.4536,
+  "fit_stage_seconds": 19717.615141391754,
+  "peak_reserved_gib": 15.15234375,
+  "parent_language_loss": 0.7541432032982508,
+  "final_case_reading_scope": {
+    "direction": 32,
+    "given_direction": 16,
+    "chart_direction": 7,
+    "door_relation": 7,
+    "property": 5,
+    "identity": 19,
+    "typed_pair": 12,
+    "source_fact": 11,
+    "condition": 16,
+    "case": 3,
+    "positions": 9,
+    "domain_rule": 13,
+    "workflow": 14,
+    "author_local": 8,
+    "author_reading": 20
+  },
+  "not_rag_or_sft_input": true,
+  "production_enabled": false,
+  "posthoc_read_answer_review_not_new_blind_validation": true,
+  "epochs": [
+    {
+      "epoch": 1.0,
+      "steps": 97,
+      "language_loss": 0.457534521818161,
+      "training_retention_gate": {
+        "passed": false,
+        "failed": [
+          "chart_direction:fact_retention"
+        ],
+        "scope": "training_path_and_retention_only",
+        "professional_approval": false
+      }
+    },
+    {
+      "epoch": 2.0,
+      "steps": 194,
+      "language_loss": 0.4231799269715945,
+      "training_retention_gate": {
+        "passed": false,
+        "failed": [
+          "source_fact:fact_retention",
+          "v58:actual_rag:marriage_same_palace:fact_regression",
+          "v58:actual_rag:marriage_same_palace:condition_regression",
+          "v58:actual_rag:health_father_self:fact_regression",
+          "v58:actual_rag:health_father_self:condition_regression"
+        ],
+        "scope": "training_path_and_retention_only",
+        "professional_approval": false
+      }
+    }
+  ],
+  "frozen_scores": {
+    "parent_micro": {
+      "complete": true,
+      "groups": {
+        "direction": {
+          "pass": 15,
+          "complete": 13,
+          "total": 27,
+          "rate": 0.5555555555555556,
+          "complete_rate": 0.48148148148148145
+        },
+        "given_direction": {
+          "pass": 1,
+          "complete": 1,
+          "total": 8,
+          "rate": 0.125,
+          "complete_rate": 0.125
+        },
+        "chart_direction": {
+          "pass": 4,
+          "complete": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "complete_rate": 0.6666666666666666
+        },
+        "door_relation": {
+          "pass": 1,
+          "complete": 1,
+          "total": 5,
+          "rate": 0.2,
+          "complete_rate": 0.2
+        },
+        "property": {
+          "pass": 4,
+          "complete": 4,
+          "total": 5,
+          "rate": 0.8,
+          "complete_rate": 0.8
+        },
+        "identity": {
+          "pass": 3,
+          "complete": 0,
+          "total": 16,
+          "rate": 0.1875,
+          "complete_rate": 0.0
+        },
+        "typed_pair": {
+          "pass": 4,
+          "complete": 4,
+          "total": 4,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "source_fact": {
+          "pass": 5,
+          "complete": 5,
+          "total": 5,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "condition": {
+          "pass": 1,
+          "complete": 1,
+          "total": 4,
+          "rate": 0.25,
+          "complete_rate": 0.25
+        }
+      },
+      "citation": {
+        "pass": 79,
+        "total": 80,
+        "rate": 0.9875
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "parent_rag": {
+      "complete": true,
+      "groups": {
+        "source_fact": {
+          "pass": 14,
+          "complete": 14,
+          "total": 14,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "identity": {
+          "pass": 4,
+          "complete": 4,
+          "total": 4,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        }
+      },
+      "citation": {
+        "pass": 18,
+        "total": 18,
+        "rate": 1.0
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "epoch_01_micro": {
+      "complete": true,
+      "groups": {
+        "direction": {
+          "pass": 14,
+          "complete": 11,
+          "total": 27,
+          "rate": 0.5185185185185185,
+          "complete_rate": 0.4074074074074074
+        },
+        "given_direction": {
+          "pass": 3,
+          "complete": 3,
+          "total": 8,
+          "rate": 0.375,
+          "complete_rate": 0.375
+        },
+        "chart_direction": {
+          "pass": 3,
+          "complete": 3,
+          "total": 6,
+          "rate": 0.5,
+          "complete_rate": 0.5
+        },
+        "door_relation": {
+          "pass": 2,
+          "complete": 2,
+          "total": 5,
+          "rate": 0.4,
+          "complete_rate": 0.4
+        },
+        "property": {
+          "pass": 5,
+          "complete": 5,
+          "total": 5,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "identity": {
+          "pass": 10,
+          "complete": 1,
+          "total": 16,
+          "rate": 0.625,
+          "complete_rate": 0.0625
+        },
+        "typed_pair": {
+          "pass": 4,
+          "complete": 4,
+          "total": 4,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "source_fact": {
+          "pass": 5,
+          "complete": 5,
+          "total": 5,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "condition": {
+          "pass": 2,
+          "complete": 2,
+          "total": 4,
+          "rate": 0.5,
+          "complete_rate": 0.5
+        }
+      },
+      "citation": {
+        "pass": 80,
+        "total": 80,
+        "rate": 1.0
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "epoch_01_rag": {
+      "complete": true,
+      "groups": {
+        "source_fact": {
+          "pass": 14,
+          "complete": 14,
+          "total": 14,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "identity": {
+          "pass": 4,
+          "complete": 4,
+          "total": 4,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        }
+      },
+      "citation": {
+        "pass": 18,
+        "total": 18,
+        "rate": 1.0
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "epoch_02_micro": {
+      "complete": true,
+      "groups": {
+        "direction": {
+          "pass": 16,
+          "complete": 13,
+          "total": 27,
+          "rate": 0.5925925925925926,
+          "complete_rate": 0.48148148148148145
+        },
+        "given_direction": {
+          "pass": 4,
+          "complete": 4,
+          "total": 8,
+          "rate": 0.5,
+          "complete_rate": 0.5
+        },
+        "chart_direction": {
+          "pass": 4,
+          "complete": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "complete_rate": 0.6666666666666666
+        },
+        "door_relation": {
+          "pass": 2,
+          "complete": 2,
+          "total": 5,
+          "rate": 0.4,
+          "complete_rate": 0.4
+        },
+        "property": {
+          "pass": 5,
+          "complete": 5,
+          "total": 5,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "identity": {
+          "pass": 12,
+          "complete": 3,
+          "total": 16,
+          "rate": 0.75,
+          "complete_rate": 0.1875
+        },
+        "typed_pair": {
+          "pass": 4,
+          "complete": 4,
+          "total": 4,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "source_fact": {
+          "pass": 4,
+          "complete": 4,
+          "total": 5,
+          "rate": 0.8,
+          "complete_rate": 0.8
+        },
+        "condition": {
+          "pass": 2,
+          "complete": 2,
+          "total": 4,
+          "rate": 0.5,
+          "complete_rate": 0.5
+        }
+      },
+      "citation": {
+        "pass": 80,
+        "total": 80,
+        "rate": 1.0
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "epoch_02_rag": {
+      "complete": true,
+      "groups": {
+        "source_fact": {
+          "pass": 13,
+          "complete": 13,
+          "total": 14,
+          "rate": 0.9285714285714286,
+          "complete_rate": 0.9285714285714286
+        },
+        "identity": {
+          "pass": 3,
+          "complete": 3,
+          "total": 4,
+          "rate": 0.75,
+          "complete_rate": 0.75
+        }
+      },
+      "citation": {
+        "pass": 18,
+        "total": 18,
+        "rate": 1.0
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "final": {
+      "complete": true,
+      "groups": {
+        "direction": {
+          "pass": 20,
+          "complete": 17,
+          "total": 32,
+          "rate": 0.625,
+          "complete_rate": 0.53125
+        },
+        "given_direction": {
+          "pass": 6,
+          "complete": 6,
+          "total": 16,
+          "rate": 0.375,
+          "complete_rate": 0.375
+        },
+        "chart_direction": {
+          "pass": 4,
+          "complete": 4,
+          "total": 7,
+          "rate": 0.5714285714285714,
+          "complete_rate": 0.5714285714285714
+        },
+        "door_relation": {
+          "pass": 3,
+          "complete": 3,
+          "total": 7,
+          "rate": 0.42857142857142855,
+          "complete_rate": 0.42857142857142855
+        },
+        "property": {
+          "pass": 5,
+          "complete": 5,
+          "total": 5,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "identity": {
+          "pass": 13,
+          "complete": 4,
+          "total": 18,
+          "rate": 0.7222222222222222,
+          "complete_rate": 0.2222222222222222
+        },
+        "typed_pair": {
+          "pass": 11,
+          "complete": 11,
+          "total": 12,
+          "rate": 0.9166666666666666,
+          "complete_rate": 0.9166666666666666
+        },
+        "source_fact": {
+          "pass": 9,
+          "complete": 9,
+          "total": 10,
+          "rate": 0.9,
+          "complete_rate": 0.9
+        },
+        "condition": {
+          "pass": 3,
+          "complete": 3,
+          "total": 8,
+          "rate": 0.375,
+          "complete_rate": 0.375
+        },
+        "positions": {
+          "pass": 9,
+          "complete": 9,
+          "total": 9,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        }
+      },
+      "citation": {
+        "pass": 175,
+        "total": 175,
+        "rate": 1.0
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    }
+  },
+  "pilot_profile": {
+    "pilot_cores": 1536,
+    "active_full_cores": 5173,
+    "skill_counts": {
+      "positions": 70,
+      "direction": 145,
+      "given_direction": 198,
+      "chart_direction": 167,
+      "door_relation": 96,
+      "typed_pair": 66,
+      "property": 64,
+      "source_fact": 64,
+      "identity": 254,
+      "condition": 224,
+      "case": 65,
+      "workflow": 48,
+      "domain_rule": 65,
+      "author_local": 10
+    },
+    "target_tokens_by_skill": {
+      "source_fact": 1220,
+      "condition": 7454,
+      "identity": 9622,
+      "door_relation": 6457,
+      "typed_pair": 1793,
+      "property": 905,
+      "direction": 5023,
+      "chart_direction": 14578,
+      "case": 14614,
+      "positions": 1680,
+      "given_direction": 14082,
+      "domain_rule": 10676,
+      "workflow": 14106,
+      "author_local": 629
+    },
+    "total_target_tokens": 102839,
+    "no_causal_attribution_from_scan_only": true
+  },
+  "overlap_candidates": {
+    "active": 14,
+    "in_pilot": 7,
+    "not_all_automatic_source_errors": true
+  },
+  "memory_samples": {
+    "sample_count": 502,
+    "training_samples": 493,
+    "training_free_zero_samples": 491,
+    "training_allocated_range_gib": [
+      5.724035263061523,
+      5.903842926025391
+    ],
+    "max_reserved_gib_sample": 15.138671875,
+    "shared_memory_power_temperature_process_telemetry_missing": true,
+    "causal_diagnosis_not_verified": true
+  },
+  "annotation_records_including_reuse": 486
+}

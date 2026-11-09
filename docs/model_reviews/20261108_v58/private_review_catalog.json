@@ -1,0 +1,24 @@
+{
+  "id": "v58_review",
+  "manifest": "data/delivery/v58_review_20261108/manifest.json",
+  "destination": "local/reviews/v58_audit_delivery_20261108",
+  "files": {
+    "Wengua_V58_逐轮逐题审核.xlsx": "a508e7be9ca14fc6f540be7dfab444d03bd68658c0574a08c19914e86867daf2",
+    "active_literal_law_scan.json": "19deb581710b9eee2a3a59dc78ff13ba4f8373cf36e7ae9ff5b0241a8c07a06a",
+    "aggregate.json": "aafa4d2470063f189c18df6c22dbe78cea17aae7b437c15f3254a8492060223c",
+    "answer_observations.jsonl.gz": "0da1dee2f6f498988311dd5ef77a47f72dd19090b7fb211ef2e9686e201354a4",
+    "course_profile.json": "37bfec0441b5cc4caef4b8675535ef5b089fa42e719b73564199a5df495241ad",
+    "create_notes_recipe.py": "30f810cc2dd78e3a24133a25b98ec4569be252fdc1f9ecfd305217ffef8b95c9",
+    "memory_analysis.json": "09a23cfa946f29f80b504853c44dd3bd4a529c328d24d481d7fa434358cffa2f",
+    "original_upload.zip": "f07188e336c9f01a4a59466c82e4d32710358cb81c45b402a89d7447a08c0495",
+    "profile_recipe.py": "d991847dd78a0b9b3af3be1095e1fdcc5f6ee376719a4a3bd8612a1834a1d3f7",
+    "read_answer_notes.json": "9caf464ad8b80a6abfbeee7e00c27390e241e8e681b1520265acdf691fa28ca5",
+    "seal_review_recipe.py": "755f440dd509b4fe731dedebe2e474203a3da99b0641ff09be3a773edadfe5ee",
+    "source_recipe/v58_review.py": "e042bbacdde20562575274d330fc3446b7474d72257bb6dc0b76b35dbf2c6e31",
+    "upload_receipt.json": "d724da67a00dfef6adfabdafb0e98a5112b92ff7e25d042bbdef74b3fa5622c4",
+    "审核说明.md": "48c802a3beabf67d261b747098ac772a75b2b2d13e27104e3bb046a5df6a3b13"
+  },
+  "library": null,
+  "optional": true,
+  "purpose": "evaluation_only_exclude_from_knowledge_and_training"
+}
