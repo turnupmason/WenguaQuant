@@ -532,7 +532,7 @@
     "wengua_course_v60/__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
     "wengua_course_v60/build.py": "76dd093b4e4f5a9297161af20ac5de8c8f0f033f6b331d28d723a6afbbc3eb4a",
     "wengua_course_v60/check_training.py": "eed2be5cdf5618ae1a809b6210043ded3fcf6280e5f3b1812fed0fb1622c489a",
-    "wengua_course_v60/checks.py": "1270b4d2e173177c6f1bc24cf80e7fb2db6eb13a7632b359764c6cae1fc233d4",
+    "wengua_course_v60/checks.py": "34693097c1c2be48d9d4c1222efea0affab7f5445544e5a6d45f46b130fc1ada",
     "wengua_course_v60/cli.py": "70f752e4dc3abf9f8407e4e279289873d94c77503179421a4687c1abf9f5166c",
     "wengua_course_v60/corpus.py": "2667fe6de2fae26637b2428d8a4d6806fb46e33844a73b88cdf93fa75909f791",
     "wengua_course_v60/data.py": "65797e7792b60933bb2cdb60cb7260410def051bdca5d32b0d0698a8f90b1785",

@@ -47,6 +47,9 @@ class V60ContractTests(unittest.TestCase):
     def test_self_proxy_choice_contract_is_question_specific(self):
         gold=self.gold('person_contract',answer='日干');gold['question']='应先按本人求测还是代问父亲的规则取用？'
         self.assertTrue(checks.fact_check({'answer':'按本人求测，患者就是求测人。'},gold)['complete'])
+        self.assertTrue(checks.fact_check({'answer':'本人求测取日干；代问父亲取年干。'},gold)['complete'])
+        self.assertNotEqual(checks.fact_check({'answer':'本人求测取年干。'},gold)['status'],'pass')
+        self.assertNotEqual(checks.fact_check({'answer':'本人。年干。'},gold)['status'],'pass')
         gold['question']='本人求测具体取哪个天干类别？'
         self.assertNotEqual(checks.fact_check({'answer':'按本人。'},gold)['status'],'pass')
 

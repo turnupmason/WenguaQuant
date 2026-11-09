@@ -171,8 +171,10 @@ def fact_check(record,gold):
     elif kind in ['person_contract','role_boundary','birth_boundary','role'] and c.get('answer') in ['年干','月干','日干','时干']:
         q=gold.get('question','')
         if '先按本人求测还是代问父亲' in q and c['answer']=='日干':
-            ok=bool(re.search(r'本人|患者自己',a)) and not re.search(r'(?:取|看|以|用)(?:本次起局)?年干',a)
-            detail={'scope':'asked_self_vs_proxy_choice_only'};complete=ok
+            detail=person_facts(a,c)
+            mentions_roles=bool(re.search(r'年干|月干|日干|时干',a))
+            ok=bool(re.search(r'本人|患者自己',a)) and not detail['conflicts'] and (detail['correct'] or not mentions_roles)
+            detail['scope']='asked_self_vs_proxy_choice_only';complete=ok
         else:detail=person_facts(a,c);ok=detail['correct'];complete=detail['complete']
     elif kind=='condition_slots':
         # Predeclared source-compatible equivalents, applied to every variant
