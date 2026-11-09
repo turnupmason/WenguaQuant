@@ -12,7 +12,7 @@ git pull --ff-only origin main
 
 [课程、全部案例审阅表与恢复说明](docs/course_v60/README.md) · [V5.9实际结果审阅](docs/model_reviews/20261109_v59/README.md)。完成后执行 `.\export_wengua_v60.cmd` 导出结果。
 
-2026-11-09资料更新：[《金函》第三批的查重、条件课程、SQLite、Excel与独立RAG](docs/corpus_audits/20261109_jinhan_batch03.md)。五假三诈、九遁及26占事专题已收；237材料、61逻辑、71课程候选单独保存，不改正在运行的V6.0教材或检索快照。
+2026-11-09资料更新：[《金函》第四批卷七卷八](docs/corpus_audits/20261109_jinhan_batch04.md)，52占事流程、237材料、75课程候选和跨章证据已入SQLite、Excel及独立RAG；[第三批五假三诈九遁](docs/corpus_audits/20261109_jinhan_batch03.md)继续保留。新增资料不改正在运行的V6.0课程与检索版本。
 
 下面为历史版本记录与资料仓库说明，保留用于复现。
 

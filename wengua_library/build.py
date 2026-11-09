@@ -6,6 +6,28 @@ from . import intake
 from wengua_corpus import book_rag as r,delivery
 
 
+def bind_external_evidence(pack,old):
+    """Make every cross-source teaching claim visible; never import case outcomes."""
+    available={p['id']:p for p in old}
+    for course in pack['courses']:
+        ids=course.pop('prior_document_ids',[])
+        allow_reference=course.pop('allow_reference_sources',False)
+        if not ids:continue
+        evidence=[]
+        for id in ids:
+            prior=available[id]
+            if prior['kind'] not in ({'rule','reference'} if allow_reference else {'rule'}) or prior.get('case_ids'):
+                raise ValueError('Historical cases or unapproved reference text cannot become external course evidence')
+            evidence.append({k:v for k,v in prior.items() if k!='grams'})
+        course['external_source_document_ids']=ids;course['external_source_documents']=evidence
+        known={r.dumps(p) for p in course['source_parts']}
+        for e in evidence:
+            for part in e['parts']:
+                if r.dumps(part) not in known:course['source_parts'].append(part);known.add(r.dumps(part))
+        course['source_family_ids']=sorted(set(course.get('source_family_ids',[]))|{'source_document:'+id for id in ids})
+        course['external_evidence_is_source_study_not_outcome']=True
+
+
 def build(source,annotations,output,prior_entries):
     output=r.private(output);output.mkdir(parents=True,exist_ok=True)
     original=Path(source).read_bytes();raw=original.decode('utf-8-sig')
@@ -13,10 +35,13 @@ def build(source,annotations,output,prior_entries):
     book=next(lib['books']['jinhan'] for lib in prior if 'jinhan' in lib['books'])
     spec=r.read(annotations);pack=intake.compile_source(raw,book,spec)
     old,duplicates=intake.compare_sources(pack,prior);comparisons=intake.curated_comparisons(pack,old,spec)
-    pack.update(comparisons=comparisons,duplicate_links=duplicates)
+    bind_external_evidence(pack,old)
+    pack.update(comparisons=comparisons,duplicate_links=duplicates,output_profile=spec.get('output_profile',{}))
+    for name in pack['output_profile'].values():
+        if not isinstance(name,str) or Path(name).name!=name or '\\' in name:raise ValueError('Unsafe output filename')
     pack['alignment']=[dict(material_unit_id=u['id'],source_lines=u['source_lines'],state=u['course_state'],
         course_candidate_ids=[c['id'] for c in pack['courses'] if u['id'] in c['source_unit_ids']],
-        logic_rule_ids=[x['id'] for x in pack['logic_rules'] if x['source_unit_id']==u['id']],
+        logic_rule_ids=[x['id'] for x in pack['logic_rules'] if u['id'] in x.get('source_unit_ids',[x['source_unit_id']])],
         workflow_ids=[x['id'] for x in pack['workflows'] if u['id'] in x['source_unit_ids']],
         rag_document_ids=[x['id'] for x in pack['library']['documents'] if x['id']==u['rag_document_id'] or x.get('parent_material_id')==u['id'] or u['id'] in x.get('source_unit_ids',[])],
         case_ids=[],author_case_analysis_ids=[],current_training_eligible=False) for u in pack['units']]
@@ -50,13 +75,14 @@ def build(source,annotations,output,prior_entries):
              'old_manual_scores_used':False,'model_answers_used_as_sources':False,'current_v60_training_changed':False,
              'all_new_courses_current_training_eligible':False,'v60_release_unchanged':True,
              'source_comparison_is_not_observed_predictive_validation':True}
+    if spec.get('source_profile'):report['courses_with_visible_external_source_evidence']=sum(bool(c.get('external_source_documents')) for c in pack['courses'])
     r.write(output/'coverage.json',report)
     write_database(output,pack,prior);write_excel(output,pack)
     return pack,report
 
 
 def write_database(output,pack,prior):
-    path=output/'Wengua_金函第三批_材料规则课程对照.sqlite3'
+    path=output/pack.get('output_profile',{}).get('database','Wengua_金函第三批_材料规则课程对照.sqlite3')
     if path.exists():raise FileExistsError('Existing source snapshot preserved')
     con=sqlite3.connect(path)
     con.executescript('CREATE TABLE source_sections(id TEXT PRIMARY KEY,original_text TEXT,sha256 TEXT,payload TEXT);'
@@ -129,8 +155,9 @@ def write_excel(output,pack):
     for x in pack['logic_rules']:add(ws,[x['id'],x['source_section'],r.dumps(x['conditions']),x['conclusion'],'\n'.join(x['literal_fragments']),r.dumps(x)])
     ws=sheet('全部占事流程',['流程ID','篇目','领域','按来源顺序的材料','对应逻辑规则','疑点限制'],[40,24,30,80,80,100])
     for x in pack['workflows']:add(ws,[x['id'],x['title'],r.dumps(x['domains']),r.dumps(x['source_unit_ids']),r.dumps(x['logic_rule_ids']),r.dumps(x['restrictions'])])
-    ws=sheet('核心课程候选',['课程ID','类型','问题或对话','参考答案','完整来源材料','状态','当前训练可用'],[40,24,100,100,70,45,15])
-    for x in pack['courses']:add(ws,[x['id'],x['format'],x.get('question',r.dumps(x.get('messages',[]))),x.get('answer',''),r.dumps(x['source_unit_ids']),x['status'],False])
+    external=any(x.get('external_source_documents') for x in pack['courses'])
+    ws=sheet('核心课程候选',['课程ID','类型','问题或对话','参考答案','完整来源材料','状态','当前训练可用']+(['跨来源完整证据JSON'] if external else []),[40,24,100,100,70,45,15]+([120] if external else []))
+    for x in pack['courses']:add(ws,[x['id'],x['format'],x.get('question',r.dumps(x.get('messages',[]))),x.get('answer',''),r.dumps(x['source_unit_ids']),x['status'],False]+([r.dumps(x.get('external_source_documents',[]))] if external else []))
     ws=sheet('新旧来源对照',['组ID','关系','专题发现','新增来源','旧来源完整对照','合并限制'],[40,30,90,70,120,90])
     for x in pack['comparisons']:add(ws,[x['id'],x['relation'],x['finding'],r.dumps(x['new_unit_ids']),r.dumps(x['prior_evidence']),x['merge_policy']])
     ws=sheet('查重候选',['新材料','旧材料','关系','相似度','可自动合并','说明'],[40,55,50,15,18,90])
@@ -139,7 +166,7 @@ def write_excel(output,pack):
     for x in pack['gaps']:add(ws,[x['id'],x.get('scope',''),x['status'],r.dumps(x)])
     ws=sheet('结构表与论例',['ID','类型','完整结构JSON'],[40,40,150])
     for x in pack['source_structures']+pack['illustrations']:add(ws,[x['id'],x.get('type',x.get('example_type','')),r.dumps(x)])
-    path=output/'金函第三批_全材料断案逻辑课程RAG对照.xlsx';wb.save(path)
+    path=output/pack.get('output_profile',{}).get('workbook','金函第三批_全材料断案逻辑课程RAG对照.xlsx');wb.save(path)
     restored=load_workbook(path,read_only=True,data_only=False)
     for title,values in expected.items():
         rows=list(restored[title].values)[1:]
@@ -149,7 +176,7 @@ def write_excel(output,pack):
     restored.close();r.write(output/'excel_audit.json',{'all_full_cells_read_back_equal':True,'sheets':{k:len(v) for k,v in expected.items()},'truncated_cells':0,'formula_cells_created':0})
 
 
-def seal(output,key_file,release_path,prior_entries):
+def seal(output,key_file,release_path,prior_entries,*,batch_id='jinhan_batch03',version='jinhan_batch03_20261109',source_scope='partial_juan04_06_not_complete_book',archive_name='Wengua_金函第三批_五假三诈九遁与占事.zip'):
     from cryptography.hazmat.primitives import padding
     from cryptography.hazmat.primitives.ciphers import Cipher,algorithms,modes
     output=Path(output);release_path=Path(release_path)
@@ -160,13 +187,14 @@ def seal(output,key_file,release_path,prior_entries):
     plain=mem.getvalue();master=bytes.fromhex(Path(key_file).read_text().strip());key,mac=delivery.derive_keys(master);iv=os.urandom(16)
     pad=padding.PKCS7(128).padder();padded=pad.update(plain)+pad.finalize();enc=Cipher(algorithms.AES(key),modes.CBC(iv)).encryptor()
     body=delivery.MAGIC+iv+enc.update(padded)+enc.finalize();blob=body+hmac.new(mac,body,hashlib.sha256).digest()
-    folder=r.ROOT/'data/delivery/jinhan_batch03';folder.mkdir(parents=True,exist_ok=True)
-    target=folder/('jinhan_batch03_'+r.digest(blob)[:12]+'.enc');target.write_bytes(blob)
-    manifest=dict(file=target.relative_to(r.ROOT).as_posix(),ciphertext_sha256=r.digest(blob),archive_name='Wengua_金函第三批_五假三诈九遁与占事.zip',archive_sha256=r.digest(plain))
+    if not batch_id.replace('_','').isalnum() or not version.replace('_','').isalnum():raise ValueError('Unsafe release identifier')
+    folder=r.ROOT/'data/delivery'/batch_id;folder.mkdir(parents=True,exist_ok=True)
+    target=folder/(batch_id+'_'+r.digest(blob)[:12]+'.enc');target.write_bytes(blob)
+    manifest=dict(file=target.relative_to(r.ROOT).as_posix(),ciphertext_sha256=r.digest(blob),archive_name=archive_name,archive_sha256=r.digest(plain))
     r.write(folder/'manifest.json',manifest)
-    entry=dict(id='jinhan_batch03',manifest='data/delivery/jinhan_batch03/manifest.json',destination=output.relative_to(r.ROOT).as_posix(),files=files,library='sources.json.gz')
-    release=dict(schema=intake.SCHEMA,version='jinhan_batch03_20261109',data_owner='WenguaQuant',source_scope='partial_juan04_06_not_complete_book',
-                 entries=[*prior_entries,entry],new_entry_id=entry['id'],index='local/rag/jinhan_batch03_20261109.sqlite3',
+    entry=dict(id=batch_id,manifest=(folder/'manifest.json').relative_to(r.ROOT).as_posix(),destination=output.relative_to(r.ROOT).as_posix(),files=files,library='sources.json.gz')
+    release=dict(schema=intake.SCHEMA,version=version,data_owner='WenguaQuant',source_scope=source_scope,
+                 entries=[*prior_entries,entry],new_entry_id=entry['id'],index='local/rag/'+version+'.sqlite3',
                  current_v60_training_changed=False,automatic_training_inclusion=False,coverage=r.read(output/'coverage.json'))
     r.write(release_path,release)
     k,iv,cipher=delivery.authenticate(blob,master);dec=Cipher(algorithms.AES(k),modes.CBC(iv)).decryptor();unpad=padding.PKCS7(128).unpadder()
