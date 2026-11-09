@@ -7,7 +7,7 @@ from wengua_course_v53 import runtime as kernels
 from wengua_course_v60 import runtime as previous
 from . import dataset as data
 from wengua_course_v60 import checks
-ROOT=previous.ROOT;DATA=ROOT/'local/course_v61_data';RELEASE=ROOT/'data/knowledge/course_v61/release.json';CONFIG=ROOT/'configs/course_v61.json';SCHEMA=SWEEP_SCHEMA=data.SCHEMA
+ROOT=previous.ROOT;DATA=ROOT/'local/course_v61_data_r2';RELEASE=ROOT/'data/knowledge/course_v61/release.json';CONFIG=ROOT/'configs/course_v61.json';SCHEMA=SWEEP_SCHEMA=data.SCHEMA
 FINAL_TOKENS=768
 configure=previous.configure;app_root=previous.app_root;verify_snapshot=previous.verify_snapshot;ALLOCATOR=previous.ALLOCATOR
 

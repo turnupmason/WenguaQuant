@@ -1,7 +1,7 @@
 {
-  "file": "data/delivery/course_v61/course_v61_0d980735b4c6.enc",
-  "ciphertext_sha256": "0d980735b4c6e093c76303a2114f9bd844bbe146bc7942b8245bd2e69f214804",
-  "archive_name": "Wengua_V61_normal_dialogue_course.zip",
-  "archive_sha256": "3aacf4aeb2501afc1fbad7586d908ee3e3b662a46548e07ca09885b8443bfb53",
+  "file": "data/delivery/course_v61/course_v61_77e40669a41e.enc",
+  "ciphertext_sha256": "77e40669a41e5b383b0e1a7cb8354e192c6bd344e476191be5955dcfb1feff78",
+  "archive_name": "Wengua_V61_normal_dialogue_course_r2.zip",
+  "archive_sha256": "bc0f341539f1e38e483e02f8e3c1219f0a1f1fdfdca52d72566839dc28befec8",
   "private_book_materials": true
 }

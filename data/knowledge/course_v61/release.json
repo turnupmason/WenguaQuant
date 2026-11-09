@@ -11,14 +11,14 @@
   },
   "delivery_manifest": "data/delivery/course_v61/manifest.json",
   "files": {
+    "course.sqlite3": "14f8e459ea43ffc8ddd8f88e9bd2dd07553d794f55707634380776f3a5b5a310",
     "readback_verification.json": "cbfe0155c5ec2d70e3933c4b28b716940f73a1c7d9fbb63f3da79d9518e1fb1a",
     "v61_manual_teachers.json": "9a5c03f3603af67cb69e9035c117070366dc8dbb4172a60f88e755ee5a6c8921",
-    "build_recipe.py": "7e042460551d6e781a5f4d31d817e9d387ba3215d242a1a6ed36517ed6066a7b",
-    "course.sqlite3": "3267e04161ae06fd1f25faeb4e1d747c33187f3d50315ce0d5fea3831d3178f5",
-    "Wengua_V61_正常对话与条件应用.xlsx": "81061cd492a94028ceaafddb69fc4c5b544fbec392b231680e0dc043df89b037",
-    "token_audit.json": "b9e4915787a841d466fe5103068c033142c7fa1f7967db569e6d320f5797fd54",
+    "build_recipe.py": "f1d17afe592b32c1c595b9acde54e0c0a06d5e9126b86efbc51bf343baa59d17",
+    "Wengua_V61_正常对话与条件应用.xlsx": "adcd4538162d89f91aa52fca31bac0b5b4a6ed2e025cb1140f9abee4e32a22e8",
+    "token_audit.json": "ed90fc87d6a485839ccccf23126b45c0b926d3cdfc088d1a193634a27b0c46a2",
     "summary.json": "dac449ebda188e80fcb6f97a6944df57d991b0442edd38a3de69937691c229a6",
-    "pack.json.gz": "cf77125a78512aed8d029de78378a5d7638502e4c07750ed8b76f3f5bfded123"
+    "pack.json.gz": "a9b6b51ffb20a55abbcbdf2478937ab7961b1345b0497f968ea14925431ac01c"
   },
   "summary": {
     "train_cores": 320,
@@ -49,5 +49,6 @@
     "all_books_retrained": false,
     "model_quality_verified": false
   },
-  "purpose": "targeted_direct_dialogue_and_condition_continuation_not_full_book_rebuild"
+  "purpose": "targeted_direct_dialogue_and_condition_continuation_not_full_book_rebuild",
+  "delivery_revision": 2
 }
