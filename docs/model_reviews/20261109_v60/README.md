@@ -95,7 +95,7 @@ WenguaApp原有历法、起盘与可确定计算继续保留为事实来源；RA
 
 例如同样问时干克日干，先说明交易段的日干为买主、时干为卖主，与卖货段的日干为卖方、时干为货物是不同取用，再分别解释对应结果；不会只见一个生克词就套结论。租店作者例则明确解释：有木克土关系，还须保留戌月与乙奇休囚条件，不能把有克制关系直接说成克得住。
 
-32组全部使用原train锚点及逐字可定位的证据，不使用本次模型错答作教师，不移动旧validation/test家族。对话、必须回答的要点、适用条件、对照项和完整证据均另存Excel并逐格读回；34个回合在完整参考资料下最长1078tokens，没有截断条件。
+32组全部使用原train锚点及逐字可定位的证据，不使用本次模型错答作教师，不移动旧validation/test家族。对话、必须回答的要点、适用条件、对照项和完整证据均另存Excel并逐格读回；34个回合在完整参考资料下最长1108tokens，没有截断条件。
 
 **这些是具体教师候选，不是已经完成重做的全量教材，也没有训练或证明模型已改善。** 它们均标为`review_only`、`training_enabled=false`，与原832条模型结果分开；后者仍只能用于评估。下一轮训练入口须等全量课程重编和验收完成，不能把这32组当作又一版完整课程让用户直接跑。
 
@@ -107,10 +107,10 @@ WenguaApp原有历法、起盘与可确定计算继续保留为事实来源；RA
 Set-Location "$env:USERPROFILE\WenguaQuant"
 git pull --ff-only origin main
 & "$env:USERPROFILE\WenguaApp\local\qwen_env\Scripts\python.exe" -X utf8 -m research_audits.v60_review --restore
-Invoke-Item '.\local\reviews\v60_audit_delivery_20261109\Wengua_V60_逐组逐题审核.xlsx'
+Invoke-Item '.\local\reviews\v60_audit_delivery_20261109_r2\Wengua_V60_逐组逐题审核.xlsx'
 
 # 新写的正常对话教师候选，独立于原模型回答。
-Invoke-Item '.\local\reviews\v60_audit_delivery_20261109\Wengua_正常对话教师候选32组.xlsx'
+Invoke-Item '.\local\reviews\v60_audit_delivery_20261109_r2\Wengua_正常对话教师候选32组.xlsx'
 ```
 
 独立审核器、327项本地软件测试与Excel逐格读回核对，均不替代实际模型质量验收；实际新提交的GitHub Actions另行验证。

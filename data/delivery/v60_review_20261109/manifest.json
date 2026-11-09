@@ -1,7 +1,7 @@
 {
-  "file": "data/delivery/v60_review_20261109/review_5531b24cfcc4.enc",
-  "ciphertext_sha256": "5531b24cfcc41fe30b2498c262d32ee9f9eaa4558155f2f61ba6bc275381de67",
-  "archive_name": "Wengua_V60_private_review.zip",
-  "archive_sha256": "8613ea5fa6429e719b536ecfe5861c86df2b84ee18a7edc2f730af46daa6b5f2",
+  "file": "data/delivery/v60_review_20261109/review_c0c0fc73f5f4.enc",
+  "ciphertext_sha256": "c0c0fc73f5f4cbfcc1eb3df1f264b36df359e50545bb4b39a49942ead26adf05",
+  "archive_name": "Wengua_V60_private_review_r2.zip",
+  "archive_sha256": "56b9a754a53db260c655982bf73b190be4424d64ca94abad7cd2de9637ae6f07",
   "private_review_not_corpus": true
 }

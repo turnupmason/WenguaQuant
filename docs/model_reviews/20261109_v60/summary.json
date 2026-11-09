@@ -840,7 +840,7 @@
   "normal_teacher_preview": {
     "groups": 32,
     "assistant_turns": 34,
-    "max_complete_tokens": 1078,
+    "max_complete_tokens": 1108,
     "all_anchors_from_existing_train": true,
     "review_only": true,
     "training_enabled": false,
