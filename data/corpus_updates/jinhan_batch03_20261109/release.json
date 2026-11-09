@@ -1,0 +1,159 @@
+{
+  "schema": "wengua_source_extension_v1",
+  "version": "jinhan_batch03_20261109",
+  "data_owner": "WenguaQuant",
+  "source_scope": "partial_juan04_06_not_complete_book",
+  "entries": [
+    {
+      "id": "base",
+      "manifest": "data/delivery/book_rag_v1/manifest.json",
+      "destination": "local/corpus/two_books",
+      "files": {
+        "README.txt": "1dc3544ed160854d53c0e20bdcd7dae0221ff1f0bbb14183796581590fee6cbc",
+        "Wengua_两书RAG索引审阅.html": "24627fd864e24914cc47583f1b82bc1d1b333c92a39a4cea6041bb7baccd0c52",
+        "Wengua_两书RAG索引审阅.xlsx": "f49f1671901de3d11702acfe00eaf8bf178d20a58b409dc7e681cebf7b573ffc",
+        "coverage.json": "555eef43c308265a7db81951bacd28a9b5e840149cb42b1c8a5430f0727a4b6f",
+        "prompt_budget_audit.json": "629f994386e1aa7a017d1635230beefbac14134400021c1aebdfe0b109d713b8",
+        "rag_excel_audit.json": "9c26f292487a1d224d54fddac60dfe9c3f514f8b64ce1b9c22fea673bf69641d",
+        "retrieval_audit.json": "49b72c39ba931f37048a14b486eccd9eb1b119227b1e439a0df8ade0f54de8ab",
+        "retrieval_checks.json": "19722fd6ce6a542cd69bd5f4836b59b014833118553db97a0aa83c44550041c0",
+        "retrieval_gold_review.json": "c7b8ef9e80deb203fcf8676ca9b1efe4e233729ed18594b04f2f0c1cbefede43",
+        "reviewed_case_links.json": "a8e83b0aee335326b08d23257e6bcba8b0b587f74ac80e662c9f6b823b5e4167",
+        "source_recipe/case_links.json": "a8e83b0aee335326b08d23257e6bcba8b0b587f74ac80e662c9f6b823b5e4167",
+        "source_recipe/fragments.json": "daf0c613e5ebee45ddca4490c3592cfb1e9e9b3401cdc2c1fc1b268f8e77ff0c",
+        "source_recipe/inventory.json": "bf560886e22775f27a404d3bee5aa830f84c4eefc9e63d4cbd1b74a61c228ab1",
+        "source_recipe/step_reviews.json": "e8a3f23145bbbf8830060a572abdec8fca0174c9aeaafc62d55acf0993b8917a",
+        "sources.json.gz": "3c84495c70f0e37e3c745a3e4ef347d2867d58fffddb8fd6cfe8175159c473e5"
+      },
+      "library": "sources.json.gz",
+      "optional": false
+    },
+    {
+      "id": "preface",
+      "manifest": "data/delivery/book_chapters/jinhan_zongxu_20261105/manifest.json",
+      "destination": "local/corpus/jinhan_preface",
+      "files": {
+        "README.txt": "3b3f42d1fe44dc3b0eb1ab032b51c4f2a49f6f7200ae164e8c05a2c8ca1b8cff",
+        "book_metadata.json": "031d7984e467211ccfa5419e7f9e1f7ff57b555b0fbef533d996b85fba158015",
+        "cleaned_reading.txt": "248f473cc3441fa66ac5caea5dd028df8f93d512234341ade31e9ca6b8fd6b12",
+        "corrections.json": "e758630d55da6ebdb29ac21b3f7cd49d0075479f33953b601b00196e65337211",
+        "coverage.json": "84c4c67feffd400f224068f2a281eac1666f4add23847c035351f854efdb7984",
+        "editorial_edition.json": "5bf4e2d96dce1af3ebaf63a78e84b3f2650826ac7eae9eef3f3bd5de9a09210a",
+        "excel_audit.json": "d5064a9e06a5e98744a38f63a26a11649b95d5f69c3406d30141cbcfe4db4c49",
+        "original_paste.txt": "b02ec3be7f56054f8605ebe5255ffc4283300f0da06df69eab9ff3dba59a236d",
+        "review_units.json": "f6ef21804d6f7c2320433a4e5ff0e5cd77b8e4ebe54a3d983a19248f1612493a",
+        "source_recipe/build_editorial.py": "ac4527acfc37ad8849b55b2547557c3a13a764e2132d64911e1350cc78ea106d",
+        "source_recipe/build_review.py": "5347bf29907a565540c8e00cf534538c4f38feacfdcd68ba25cb29c4d88059de",
+        "sources.json.gz": "824c5841be17034137cd71fce8701ae54edcf5fae966e80b7d3a05a664e9cf16",
+        "金函_总序首批_原文校订与知识审阅.html": "971aea9f33127331f946f32d44d6e3176d402937880cfffc0c8b97ad17413ac8",
+        "金函_总序首批_原文校订与知识审阅.xlsx": "f5035934a2833541794463fd5fad31e074b7fa0c00f6883621bfd49e61fea199"
+      },
+      "library": "sources.json.gz",
+      "optional": false
+    },
+    {
+      "id": "batch02",
+      "manifest": "data/delivery/jinhan_batch02/manifest.json",
+      "destination": "local/corpus/jinhan_batch02_review3",
+      "files": {
+        "excel_audit.json": "e307a36d339250caba9d27de89179803ee001558964ba8d8de48b4d3614b1a3f",
+        "original.txt": "61f4409aa5b2d4d3ebad71d7394eef7ede7c96a5bb6bb66d918c818949b584a8",
+        "prior_issue_links.json": "782b36c7b26f61f65190da4689a3715ec0ac639ac5f80b5c38b4e91991164a4a",
+        "source_recipe.py": "269d7d33949f88ff625fee7e6ba94c9e22f1be6c558a68a731a5663870097762",
+        "sources.json.gz": "f346be5d277ae1161e7af7bcba8f93ef80cf0dcdd3653a64b71dda7b8296087e",
+        "review_units.json": "671f5033aac5dd26cd148323f03bf4f083447da5926206c4f9244e3640ddb7ad",
+        "金函卷一至四_全材料核心课程RAG对照.xlsx": "21f279c244ec4f287f262aa9ba1f673d653b2394145d0e3e9ed080433e6fcbf4",
+        "core_course.json": "23490a50f4eba3a3345e2e05146c730e353bbdfc1fda8cce070c4fc399c70eac",
+        "coverage.json": "5101523b49a750caf84ddc420a950e24152a407b700a74dabda0fea38acff3bb"
+      },
+      "library": "sources.json.gz"
+    },
+    {
+      "id": "jinhan_batch03",
+      "manifest": "data/delivery/jinhan_batch03/manifest.json",
+      "destination": "local/corpus/jinhan_batch03_release_20261109",
+      "files": {
+        "worked_examples.json": "9783dfaec4c2f38f36412a802c0c055dd7ced2430ab2313ea677c1d079302dbf",
+        "materials.json": "babdae58e792401398807b38f360e10bfe1b9ea3e756f6ebaa68c68d611dfe20",
+        "source_structures.json": "6bb528631032ff91b131f2c34452e278968de2ee34f9e0c4f828d01941b9f8b0",
+        "excel_audit.json": "5e037c4eebfb85e8a913c58eee1ff289ff96beb93f85a04b9f0b1f58f358b677",
+        "database_audit.json": "54a041f30d9794831bec54d64f47a119b7d19f788017dfd153f4a72362b3e200",
+        "original.txt": "4bdcdc38069ae8928f74dfdf1955e5dd5bc0f1e3ca3189733fca1984906b744c",
+        "Wengua_金函第三批_材料规则课程对照.sqlite3": "1a278eaad54fe46d6baf4b5b27ea99ac963fe948656dce622eb3a58dfc3c0318",
+        "gaps.json": "6f22679e2814edac7ba3873bc41a76eca02fb0df7f8fe3abe4a143d4f2bda5d2",
+        "reviewed_comparisons.json": "3e59266df2d86e280de22b52a4398283f81987fb90af2d05eed7a85577208f19",
+        "reading.txt": "4bdcdc38069ae8928f74dfdf1955e5dd5bc0f1e3ca3189733fca1984906b744c",
+        "workflows.json": "7a4bb486b48b87b6539e3968509a269bac42ae739bd45a19724fb3358fd09d68",
+        "editorial_audit.json": "88b9ff45308d6e35e7668fec14828fab06a8f2082dbe398bb921663cf02fc96f",
+        "frozen_runtime_audit.json": "8227cf92c7aac83979f7f65a2942e503f329c9afe457d4d664731d4bd78e1d46",
+        "material_alignment.json": "200c1e49b523495dcf0d3e15712340447b5858b0b4fd7138d1cc7db9d14324ca",
+        "course_candidates.json": "053261903b8fe7326907b755955ec610b656b1d6d58d9c49e697512ee4454d01",
+        "duplicate_links.json": "736b0f8db9a27b12af70d66b149572e016002a36293387e969199a43093b7873",
+        "sources.json.gz": "23631134c20ecccf0837750ee7bb6a4afbdf90f7b611633da4534ac348f7b65f",
+        "logic_rules.json": "cdf7b99d65696161d43bddcf675feaaa8f80dec428c399881c7b578de92fa5b9",
+        "金函第三批_全材料断案逻辑课程RAG对照.xlsx": "fe4a22f70e9a4b1820b026dfaa52890fc8c8da5cacefde75d6ec31fa1ac048e1",
+        "curation_recipe.json": "4363944cc0f398c85da8f18fccd276e0f62500d010f78c20854ca19a6bb7105b",
+        "coverage.json": "be87e27f1078eed1329b416a606ead65a9f464d293a7fa85a14544ebf0a036fe",
+        "retrieval_audit.json": "6333ed8f0d0b4d183a146c1e3e10639f19af1edde0746713a360326e932ecef1"
+      },
+      "library": "sources.json.gz"
+    }
+  ],
+  "new_entry_id": "jinhan_batch03",
+  "index": "local/rag/jinhan_batch03_20261109.sqlite3",
+  "current_v60_training_changed": false,
+  "automatic_training_inclusion": false,
+  "coverage": {
+    "schema": "wengua_source_extension_v1",
+    "books": 1,
+    "chapters": 1,
+    "documents": 275,
+    "document_kinds": {
+      "reference": 188,
+      "rule": 87
+    },
+    "cases": 0,
+    "unaccounted_nonblank_lines": 0,
+    "source_characters": 15107,
+    "all_chapter_hashes_and_literal_parts_verified": true,
+    "qa_answers_indexed": false,
+    "model_quality_or_predictive_accuracy_verified": false,
+    "source_bytes": 44273,
+    "source_lines": 443,
+    "source_file_sha256": "4bdcdc38069ae8928f74dfdf1955e5dd5bc0f1e3ca3189733fca1984906b744c",
+    "book_complete": false,
+    "material_units": 237,
+    "course_candidates": 71,
+    "course_formats": {
+      "conditional_qa": 34,
+      "source_audit_qa": 1,
+      "multi_turn_condition_switch": 5,
+      "source_reading": 31
+    },
+    "logic_rules": 61,
+    "source_workflows": 26,
+    "worked_illustrations": 1,
+    "observed_cases_added": 0,
+    "observed_author_case_analyses_added": 0,
+    "quarantined_materials": 74,
+    "material_dispositions": {
+      "context_only": 101,
+      "quarantined_source_issue": 51,
+      "source_grounded_candidate": 62,
+      "quarantined_context_dependency": 20,
+      "historical_source_study_only": 3
+    },
+    "duplicate_relation_counts": {
+      "near_source_candidate_not_semantic_equivalence": 9,
+      "same_upload_original_translation_alignment_candidate": 46
+    },
+    "reviewed_comparison_groups": 14,
+    "gap_items": 21,
+    "old_manual_scores_used": false,
+    "model_answers_used_as_sources": false,
+    "current_v60_training_changed": false,
+    "all_new_courses_current_training_eligible": false,
+    "v60_release_unchanged": true,
+    "source_comparison_is_not_observed_predictive_validation": true
+  }
+}
