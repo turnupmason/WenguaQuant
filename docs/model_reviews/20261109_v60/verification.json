@@ -1,0 +1,21 @@
+{
+  "upload_crc_verified": true,
+  "all_eleven_frozen_scores_replayed": true,
+  "all_three_gate_decisions_replayed": true,
+  "actual_successful_workers": 14,
+  "frozen_v60_code_release_entries_unchanged": 202,
+  "app_dependencies_unchanged": 49,
+  "model_weights_not_uploaded": true,
+  "raw_prepared_training_data_not_uploaded": true,
+  "original_final_test_used": false,
+  "all_832_notes_bound_to_answer_sha": true,
+  "workbook_full_cells_readback_verified": true,
+  "delivery_authenticated_and_standard_restore_verified": true,
+  "delivery_members": 17,
+  "local_software_tests": 327,
+  "tests_not_model_performance": true,
+  "old_scores_and_sources_not_rewritten": true,
+  "next_training_launched": false,
+  "normal_teacher_preview_only": true,
+  "review_excluded_from_rag_and_sft": true
+}

@@ -1,0 +1,850 @@
+{
+  "schema": "wengua_readonly_v60_review_20261109",
+  "upload_sha256": "b040663d9e7bde5e5e3b566f63c97cae2dfe31cbc6c499e5cc0ee0e42931ffef",
+  "members": 214,
+  "state": "needs_course_review",
+  "formal_updates_per_trial": 50,
+  "formal_updates_total": 150,
+  "full_training_started": false,
+  "same_parent_recorded_sha256": "b602cce40d593d4109b50985032e348579ea578976787059e4f25cc524d404bd",
+  "weights_not_uploaded": true,
+  "generation_rows_stored": 1171,
+  "reused_parent_copies": 336,
+  "distinct_generated_records_including_smoke": 835,
+  "formal_generated_records": 832,
+  "read_answer_notes": 832,
+  "final_scope": {
+    "condition": 18,
+    "source_fact": 7,
+    "identity": 13,
+    "door_relation": 3,
+    "typed_pair": 11,
+    "property": 2,
+    "direction": 14,
+    "chart_direction": 8,
+    "case_replay": 21,
+    "positions": 16,
+    "given_direction": 21,
+    "domain_rule": 10,
+    "workflow": 8,
+    "author_replay": 40
+  },
+  "not_rag_or_sft_input": true,
+  "production_enabled": false,
+  "posthoc_review_not_new_blind_validation": true,
+  "worker_count": 14,
+  "all_worker_receipts_successful": true,
+  "frozen_scores": {
+    "official": {
+      "complete": true,
+      "groups": {
+        "chart_direction": {
+          "pass": 0,
+          "complete": 0,
+          "total": 3,
+          "rate": 0.0,
+          "complete_rate": 0.0
+        },
+        "condition": {
+          "pass": 2,
+          "complete": 2,
+          "total": 3,
+          "rate": 0.6666666666666666,
+          "complete_rate": 0.6666666666666666
+        },
+        "direction": {
+          "pass": 1,
+          "complete": 1,
+          "total": 3,
+          "rate": 0.3333333333333333,
+          "complete_rate": 0.3333333333333333
+        },
+        "door_relation": {
+          "pass": 0,
+          "complete": 0,
+          "total": 3,
+          "rate": 0.0,
+          "complete_rate": 0.0
+        },
+        "given_direction": {
+          "pass": 1,
+          "complete": 1,
+          "total": 3,
+          "rate": 0.3333333333333333,
+          "complete_rate": 0.3333333333333333
+        },
+        "identity": {
+          "pass": 1,
+          "complete": 0,
+          "total": 3,
+          "rate": 0.3333333333333333,
+          "complete_rate": 0.0
+        },
+        "property": {
+          "pass": 2,
+          "complete": 2,
+          "total": 3,
+          "rate": 0.6666666666666666,
+          "complete_rate": 0.6666666666666666
+        },
+        "source_fact": {
+          "pass": 0,
+          "complete": 0,
+          "total": 3,
+          "rate": 0.0,
+          "complete_rate": 0.0
+        }
+      },
+      "citation": {
+        "pass": 20,
+        "total": 24,
+        "rate": 0.8333333333333334
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "control_parent": {
+      "complete": true,
+      "groups": {
+        "chart_direction": {
+          "pass": 0,
+          "complete": 0,
+          "total": 3,
+          "rate": 0.0,
+          "complete_rate": 0.0
+        },
+        "condition": {
+          "pass": 2,
+          "complete": 2,
+          "total": 3,
+          "rate": 0.6666666666666666,
+          "complete_rate": 0.6666666666666666
+        },
+        "direction": {
+          "pass": 1,
+          "complete": 1,
+          "total": 3,
+          "rate": 0.3333333333333333,
+          "complete_rate": 0.3333333333333333
+        },
+        "door_relation": {
+          "pass": 1,
+          "complete": 1,
+          "total": 3,
+          "rate": 0.3333333333333333,
+          "complete_rate": 0.3333333333333333
+        },
+        "given_direction": {
+          "pass": 0,
+          "complete": 0,
+          "total": 3,
+          "rate": 0.0,
+          "complete_rate": 0.0
+        },
+        "identity": {
+          "pass": 3,
+          "complete": 0,
+          "total": 3,
+          "rate": 1.0,
+          "complete_rate": 0.0
+        },
+        "property": {
+          "pass": 3,
+          "complete": 3,
+          "total": 3,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "source_fact": {
+          "pass": 3,
+          "complete": 3,
+          "total": 3,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        }
+      },
+      "citation": {
+        "pass": 24,
+        "total": 24,
+        "rate": 1.0
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "parent_micro": {
+      "complete": true,
+      "groups": {
+        "direction": {
+          "pass": 13,
+          "complete": 11,
+          "total": 27,
+          "rate": 0.48148148148148145,
+          "complete_rate": 0.4074074074074074
+        },
+        "given_direction": {
+          "pass": 4,
+          "complete": 4,
+          "total": 8,
+          "rate": 0.5,
+          "complete_rate": 0.5
+        },
+        "chart_direction": {
+          "pass": 3,
+          "complete": 3,
+          "total": 6,
+          "rate": 0.5,
+          "complete_rate": 0.5
+        },
+        "door_relation": {
+          "pass": 2,
+          "complete": 2,
+          "total": 5,
+          "rate": 0.4,
+          "complete_rate": 0.4
+        },
+        "property": {
+          "pass": 5,
+          "complete": 5,
+          "total": 5,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "identity": {
+          "pass": 13,
+          "complete": 5,
+          "total": 23,
+          "rate": 0.5652173913043478,
+          "complete_rate": 0.21739130434782608
+        },
+        "typed_pair": {
+          "pass": 6,
+          "complete": 6,
+          "total": 7,
+          "rate": 0.8571428571428571,
+          "complete_rate": 0.8571428571428571
+        },
+        "source_fact": {
+          "pass": 18,
+          "complete": 18,
+          "total": 18,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "condition": {
+          "pass": 9,
+          "complete": 9,
+          "total": 13,
+          "rate": 0.6923076923076923,
+          "complete_rate": 0.6923076923076923
+        }
+      },
+      "citation": {
+        "pass": 112,
+        "total": 112,
+        "rate": 1.0
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "parent_rag": {
+      "complete": true,
+      "groups": {
+        "source_fact": {
+          "pass": 27,
+          "complete": 27,
+          "total": 28,
+          "rate": 0.9642857142857143,
+          "complete_rate": 0.9642857142857143
+        },
+        "identity": {
+          "pass": 8,
+          "complete": 8,
+          "total": 8,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        }
+      },
+      "citation": {
+        "pass": 36,
+        "total": 36,
+        "rate": 1.0
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "lr_1em06_micro": {
+      "complete": true,
+      "groups": {
+        "direction": {
+          "pass": 14,
+          "complete": 10,
+          "total": 27,
+          "rate": 0.5185185185185185,
+          "complete_rate": 0.37037037037037035
+        },
+        "given_direction": {
+          "pass": 3,
+          "complete": 3,
+          "total": 8,
+          "rate": 0.375,
+          "complete_rate": 0.375
+        },
+        "chart_direction": {
+          "pass": 2,
+          "complete": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "complete_rate": 0.3333333333333333
+        },
+        "door_relation": {
+          "pass": 3,
+          "complete": 3,
+          "total": 5,
+          "rate": 0.6,
+          "complete_rate": 0.6
+        },
+        "property": {
+          "pass": 4,
+          "complete": 4,
+          "total": 5,
+          "rate": 0.8,
+          "complete_rate": 0.8
+        },
+        "identity": {
+          "pass": 10,
+          "complete": 3,
+          "total": 23,
+          "rate": 0.43478260869565216,
+          "complete_rate": 0.13043478260869565
+        },
+        "typed_pair": {
+          "pass": 5,
+          "complete": 5,
+          "total": 7,
+          "rate": 0.7142857142857143,
+          "complete_rate": 0.7142857142857143
+        },
+        "source_fact": {
+          "pass": 18,
+          "complete": 18,
+          "total": 18,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "condition": {
+          "pass": 8,
+          "complete": 8,
+          "total": 13,
+          "rate": 0.6153846153846154,
+          "complete_rate": 0.6153846153846154
+        }
+      },
+      "citation": {
+        "pass": 112,
+        "total": 112,
+        "rate": 1.0
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "lr_1em06_rag": {
+      "complete": true,
+      "groups": {
+        "source_fact": {
+          "pass": 26,
+          "complete": 26,
+          "total": 28,
+          "rate": 0.9285714285714286,
+          "complete_rate": 0.9285714285714286
+        },
+        "identity": {
+          "pass": 8,
+          "complete": 8,
+          "total": 8,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        }
+      },
+      "citation": {
+        "pass": 35,
+        "total": 36,
+        "rate": 0.9722222222222222
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "lr_3em06_micro": {
+      "complete": true,
+      "groups": {
+        "direction": {
+          "pass": 16,
+          "complete": 10,
+          "total": 27,
+          "rate": 0.5925925925925926,
+          "complete_rate": 0.37037037037037035
+        },
+        "given_direction": {
+          "pass": 2,
+          "complete": 2,
+          "total": 8,
+          "rate": 0.25,
+          "complete_rate": 0.25
+        },
+        "chart_direction": {
+          "pass": 2,
+          "complete": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "complete_rate": 0.3333333333333333
+        },
+        "door_relation": {
+          "pass": 2,
+          "complete": 2,
+          "total": 5,
+          "rate": 0.4,
+          "complete_rate": 0.4
+        },
+        "property": {
+          "pass": 5,
+          "complete": 5,
+          "total": 5,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "identity": {
+          "pass": 10,
+          "complete": 6,
+          "total": 23,
+          "rate": 0.43478260869565216,
+          "complete_rate": 0.2608695652173913
+        },
+        "typed_pair": {
+          "pass": 6,
+          "complete": 6,
+          "total": 7,
+          "rate": 0.8571428571428571,
+          "complete_rate": 0.8571428571428571
+        },
+        "source_fact": {
+          "pass": 17,
+          "complete": 17,
+          "total": 18,
+          "rate": 0.9444444444444444,
+          "complete_rate": 0.9444444444444444
+        },
+        "condition": {
+          "pass": 7,
+          "complete": 7,
+          "total": 13,
+          "rate": 0.5384615384615384,
+          "complete_rate": 0.5384615384615384
+        }
+      },
+      "citation": {
+        "pass": 110,
+        "total": 112,
+        "rate": 0.9821428571428571
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "lr_3em06_rag": {
+      "complete": true,
+      "groups": {
+        "source_fact": {
+          "pass": 24,
+          "complete": 24,
+          "total": 28,
+          "rate": 0.8571428571428571,
+          "complete_rate": 0.8571428571428571
+        },
+        "identity": {
+          "pass": 8,
+          "complete": 8,
+          "total": 8,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        }
+      },
+      "citation": {
+        "pass": 34,
+        "total": 36,
+        "rate": 0.9444444444444444
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "lr_1em05_micro": {
+      "complete": true,
+      "groups": {
+        "direction": {
+          "pass": 21,
+          "complete": 15,
+          "total": 27,
+          "rate": 0.7777777777777778,
+          "complete_rate": 0.5555555555555556
+        },
+        "given_direction": {
+          "pass": 3,
+          "complete": 3,
+          "total": 8,
+          "rate": 0.375,
+          "complete_rate": 0.375
+        },
+        "chart_direction": {
+          "pass": 2,
+          "complete": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "complete_rate": 0.3333333333333333
+        },
+        "door_relation": {
+          "pass": 2,
+          "complete": 0,
+          "total": 5,
+          "rate": 0.4,
+          "complete_rate": 0.0
+        },
+        "property": {
+          "pass": 5,
+          "complete": 5,
+          "total": 5,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "identity": {
+          "pass": 12,
+          "complete": 5,
+          "total": 23,
+          "rate": 0.5217391304347826,
+          "complete_rate": 0.21739130434782608
+        },
+        "typed_pair": {
+          "pass": 5,
+          "complete": 5,
+          "total": 7,
+          "rate": 0.7142857142857143,
+          "complete_rate": 0.7142857142857143
+        },
+        "source_fact": {
+          "pass": 17,
+          "complete": 17,
+          "total": 18,
+          "rate": 0.9444444444444444,
+          "complete_rate": 0.9444444444444444
+        },
+        "condition": {
+          "pass": 8,
+          "complete": 8,
+          "total": 13,
+          "rate": 0.6153846153846154,
+          "complete_rate": 0.6153846153846154
+        }
+      },
+      "citation": {
+        "pass": 112,
+        "total": 112,
+        "rate": 1.0
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "lr_1em05_rag": {
+      "complete": true,
+      "groups": {
+        "source_fact": {
+          "pass": 24,
+          "complete": 24,
+          "total": 28,
+          "rate": 0.8571428571428571,
+          "complete_rate": 0.8571428571428571
+        },
+        "identity": {
+          "pass": 8,
+          "complete": 8,
+          "total": 8,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        }
+      },
+      "citation": {
+        "pass": 34,
+        "total": 36,
+        "rate": 0.9444444444444444
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    },
+    "final": {
+      "complete": true,
+      "groups": {
+        "source_fact": {
+          "pass": 7,
+          "complete": 7,
+          "total": 7,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "door_relation": {
+          "pass": 1,
+          "complete": 1,
+          "total": 3,
+          "rate": 0.3333333333333333,
+          "complete_rate": 0.3333333333333333
+        },
+        "identity": {
+          "pass": 4,
+          "complete": 3,
+          "total": 11,
+          "rate": 0.36363636363636365,
+          "complete_rate": 0.2727272727272727
+        },
+        "typed_pair": {
+          "pass": 9,
+          "complete": 9,
+          "total": 11,
+          "rate": 0.8181818181818182,
+          "complete_rate": 0.8181818181818182
+        },
+        "property": {
+          "pass": 0,
+          "complete": 0,
+          "total": 2,
+          "rate": 0.0,
+          "complete_rate": 0.0
+        },
+        "direction": {
+          "pass": 8,
+          "complete": 7,
+          "total": 14,
+          "rate": 0.5714285714285714,
+          "complete_rate": 0.5
+        },
+        "chart_direction": {
+          "pass": 2,
+          "complete": 2,
+          "total": 8,
+          "rate": 0.25,
+          "complete_rate": 0.25
+        },
+        "positions": {
+          "pass": 16,
+          "complete": 16,
+          "total": 16,
+          "rate": 1.0,
+          "complete_rate": 1.0
+        },
+        "given_direction": {
+          "pass": 12,
+          "complete": 10,
+          "total": 21,
+          "rate": 0.5714285714285714,
+          "complete_rate": 0.47619047619047616
+        },
+        "condition": {
+          "pass": 4,
+          "complete": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "complete_rate": 0.6666666666666666
+        }
+      },
+      "citation": {
+        "pass": 174,
+        "total": 176,
+        "rate": 0.9886363636363636
+      },
+      "professional_approval": false,
+      "real_prediction_accuracy": null
+    }
+  },
+  "trials": {
+    "lr_1em06": {
+      "steps": 50,
+      "epoch": 1,
+      "language_loss": 0.4844345822930336,
+      "train_runtime_seconds": 765.2924,
+      "peak_reserved_gib": 12.73828125,
+      "retention_passed": false,
+      "failed_components": 25,
+      "affected_questions": 15,
+      "new_complete_items": 3
+    },
+    "lr_3em06": {
+      "steps": 50,
+      "epoch": 1,
+      "language_loss": 0.4789151797691981,
+      "train_runtime_seconds": 818.335,
+      "peak_reserved_gib": 12.73828125,
+      "retention_passed": false,
+      "failed_components": 45,
+      "affected_questions": 26,
+      "new_complete_items": 8
+    },
+    "lr_1em05": {
+      "steps": 50,
+      "epoch": 1,
+      "language_loss": 0.43914950142304104,
+      "train_runtime_seconds": 822.7002,
+      "peak_reserved_gib": 12.73828125,
+      "retention_passed": false,
+      "failed_components": 36,
+      "affected_questions": 22,
+      "new_complete_items": 11
+    }
+  },
+  "pilot_token_profile": {
+    "pilot_cores": 768,
+    "pilot_views": 786,
+    "by_skill": {
+      "condition": {
+        "cores": 108,
+        "views": 121,
+        "supervised_tokens": 3715,
+        "all_tokens": 106244
+      },
+      "author_replay": {
+        "cores": 228,
+        "views": 228,
+        "supervised_tokens": 14006,
+        "all_tokens": 76262
+      },
+      "case_replay": {
+        "cores": 35,
+        "views": 35,
+        "supervised_tokens": 9177,
+        "all_tokens": 39225
+      },
+      "source_fact": {
+        "cores": 40,
+        "views": 40,
+        "supervised_tokens": 931,
+        "all_tokens": 51741
+      },
+      "workflow": {
+        "cores": 38,
+        "views": 38,
+        "supervised_tokens": 10840,
+        "all_tokens": 53448
+      },
+      "domain_rule": {
+        "cores": 36,
+        "views": 36,
+        "supervised_tokens": 6302,
+        "all_tokens": 19540
+      },
+      "identity": {
+        "cores": 64,
+        "views": 69,
+        "supervised_tokens": 2961,
+        "all_tokens": 116832
+      },
+      "direction": {
+        "cores": 40,
+        "views": 40,
+        "supervised_tokens": 1336,
+        "all_tokens": 14418
+      },
+      "given_direction": {
+        "cores": 42,
+        "views": 42,
+        "supervised_tokens": 3428,
+        "all_tokens": 19379
+      },
+      "chart_direction": {
+        "cores": 40,
+        "views": 40,
+        "supervised_tokens": 3531,
+        "all_tokens": 24415
+      },
+      "door_relation": {
+        "cores": 24,
+        "views": 24,
+        "supervised_tokens": 1639,
+        "all_tokens": 17855
+      },
+      "typed_pair": {
+        "cores": 24,
+        "views": 24,
+        "supervised_tokens": 654,
+        "all_tokens": 41846
+      },
+      "property": {
+        "cores": 16,
+        "views": 16,
+        "supervised_tokens": 236,
+        "all_tokens": 2949
+      },
+      "positions": {
+        "cores": 33,
+        "views": 33,
+        "supervised_tokens": 792,
+        "all_tokens": 11569
+      }
+    },
+    "by_format": {
+      "conditional_dialogue": {
+        "views": 190,
+        "supervised_tokens": 6676
+      },
+      "foundation_qa": {
+        "views": 446,
+        "supervised_tokens": 35944
+      },
+      "complete_case": {
+        "views": 35,
+        "supervised_tokens": 9177
+      },
+      "chart_application": {
+        "views": 115,
+        "supervised_tokens": 7751
+      }
+    },
+    "language_validation_by_format": {
+      "foundation_qa": {
+        "cores": 62,
+        "supervised_tokens": 1918,
+        "skills": {
+          "direction": 27,
+          "door_relation": 5,
+          "property": 5,
+          "typed_pair": 7,
+          "source_fact": 18
+        }
+      },
+      "chart_application": {
+        "cores": 14,
+        "supervised_tokens": 1039,
+        "skills": {
+          "given_direction": 8,
+          "chart_direction": 6
+        }
+      },
+      "conditional_dialogue": {
+        "cores": 40,
+        "supervised_tokens": 1643,
+        "skills": {
+          "identity": 25,
+          "condition": 15
+        }
+      }
+    },
+    "pilot_source_condition_pair_cores": 10,
+    "all_author_replay": 852,
+    "author_replay_train": 687,
+    "target_equals_complete_visible_step": 613,
+    "case_replay_records": 193,
+    "case_replay_train": 149,
+    "token_mix_is_not_exact_gradient_contribution": true
+  },
+  "normal_teacher_preview": {
+    "groups": 32,
+    "assistant_turns": 34,
+    "max_complete_tokens": 1078,
+    "all_anchors_from_existing_train": true,
+    "review_only": true,
+    "training_enabled": false,
+    "not_full_training_dataset": true,
+    "not_evidence_of_actual_model_improvement": true
+  }
+}
