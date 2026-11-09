@@ -1,0 +1,53 @@
+{
+  "schema": "wengua_natural_dialogue_v61",
+  "version": "6.1",
+  "parent_v60_release_sha256": "20548a027daeb5387633e8461c7b98a9f65d7bd796582d63aa7771c9d3e2dfbd",
+  "reviewed_parent": {
+    "path": "local/course_v58/run1/trials/mixed_pilot/cycle_01/adapters/step-97",
+    "steps": 97,
+    "adapter_sha256": "b602cce40d593d4109b50985032e348579ea578976787059e4f25cc524d404bd",
+    "ancestor_v57_sha256": "16b72e78e94875e9fd18dfa8d80d1ad585aa9dfd6e22db243dd08f9a064030ec",
+    "research_continuation_not_professional_approval": true
+  },
+  "delivery_manifest": "data/delivery/course_v61/manifest.json",
+  "files": {
+    "readback_verification.json": "cbfe0155c5ec2d70e3933c4b28b716940f73a1c7d9fbb63f3da79d9518e1fb1a",
+    "v61_manual_teachers.json": "9a5c03f3603af67cb69e9035c117070366dc8dbb4172a60f88e755ee5a6c8921",
+    "build_recipe.py": "7e042460551d6e781a5f4d31d817e9d387ba3215d242a1a6ed36517ed6066a7b",
+    "course.sqlite3": "3267e04161ae06fd1f25faeb4e1d747c33187f3d50315ce0d5fea3831d3178f5",
+    "Wengua_V61_正常对话与条件应用.xlsx": "81061cd492a94028ceaafddb69fc4c5b544fbec392b231680e0dc043df89b037",
+    "token_audit.json": "b9e4915787a841d466fe5103068c033142c7fa1f7967db569e6d320f5797fd54",
+    "summary.json": "dac449ebda188e80fcb6f97a6944df57d991b0442edd38a3de69937691c229a6",
+    "pack.json.gz": "cf77125a78512aed8d029de78378a5d7638502e4c07750ed8b76f3f5bfded123"
+  },
+  "summary": {
+    "train_cores": 320,
+    "train_supervised_views": 324,
+    "train_skills": {
+      "natural_dialogue": 60,
+      "direction": 50,
+      "door_relation": 64,
+      "given_direction": 32,
+      "chart_direction": 32,
+      "positions": 16,
+      "identity": 34,
+      "typed_pair": 32
+    },
+    "epochs_per_trial": 2,
+    "updates_per_trial": 62,
+    "weighted_views_per_epoch": 486,
+    "explicit_teacher_replay": {
+      "natural_dialogue": 3,
+      "identity": 2
+    },
+    "rates": [
+      3e-06,
+      1e-05
+    ],
+    "development_rows": 40,
+    "actual_rag_rows": 18,
+    "all_books_retrained": false,
+    "model_quality_verified": false
+  },
+  "purpose": "targeted_direct_dialogue_and_condition_continuation_not_full_book_rebuild"
+}
