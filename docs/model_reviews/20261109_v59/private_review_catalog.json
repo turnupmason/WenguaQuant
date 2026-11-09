@@ -1,0 +1,22 @@
+{
+  "id": "v59_review",
+  "manifest": "data/delivery/v59_review_20261109/manifest.json",
+  "destination": "local/reviews/v59_audit_delivery_20261109",
+  "files": {
+    "Wengua_V59_逐轮逐题审核.xlsx": "130e84ea252440433c3c8487d24a986ee1e3aca816fafc10c459e76e8bf6bf7c",
+    "aggregate.json": "2b8ef47d8fa9b68f0269b66959f6c58fb1f812e23643a03a0f2bd8f39797e6f7",
+    "answer_observations.jsonl.gz": "32121b7e74e86c0ed8ada0b89615b103348a534e5f6b021bc63e07626aa55b13",
+    "course_profile.json": "4c0c85b124ccc61c66278ece09c69d3c0db236400aa36e615cbe2c4af842af73",
+    "course_profile_recipe.py": "3eb16fd2057085e17b26edf1b048800fe6d103020e221a31331b1273c9cad545",
+    "create_review_notes.py": "0bb4a377c063992af83e8098bb8d933bc6d8736373c34731fd03f0e54e6b7e7a",
+    "original_upload.zip": "5e097ef89e920b7746305718145041b80496b3d9eb1d5226fc3f89ed3bc06ffd",
+    "read_answer_notes.json": "603b6056a02f5b2ca35b9d553aa1c4707165469ee30dc90b5948c2731de5f255",
+    "seal_review_recipe.py": "729c22b3f666afe3f6df0f15752824690c2285c237503c752109c8b134cb9e55",
+    "source_recipe/v59_review.py": "f27f2d94a9dc0f2c75453682e40f7ff7d2755b3c8f0a7c3323c150021180dfe7",
+    "upload_receipt.json": "b74294599081f019297b4cef17a316ae4ad5bd9151587445d5ba8857d8606f94",
+    "审核说明.md": "25945002ae391786bff1a44b0228b4fd7bf762a4e8110495f16fe6f8c8b337d7"
+  },
+  "library": null,
+  "optional": true,
+  "purpose": "evaluation_only_exclude_from_knowledge_and_training"
+}

@@ -1,0 +1,23 @@
+{
+  "upload_zip_crc_verified": true,
+  "all_seven_frozen_scores_replayed": true,
+  "both_itemwise_gate_decisions_replayed": true,
+  "full_346_training_started": false,
+  "actual_worker_receipts_including_original_failure": 7,
+  "successful_worker_receipts": 6,
+  "recovery_optimizer_step": 150,
+  "optimizer_state_entries_at_step150": 288,
+  "annotations_bound_to_original_answer_sha": 636,
+  "all_workbook_original_records_read_back": 637,
+  "exact_same_parent_80_inputs_targets_answers_as_v58_epoch1": true,
+  "encrypted_review_authenticated_and_all_members_restored_sha_verified": true,
+  "frozen_v59_code_release_entries_unchanged": 180,
+  "frozen_app_dependency_sha_unchanged": 49,
+  "original_final_test_used": false,
+  "local_software_tests": 275,
+  "tests_not_model_performance": true,
+  "post_resume_real_4080_run_completed_without_oom": true,
+  "future_gpu_load_stability_not_guaranteed": true,
+  "review_excluded_from_rag_and_sft": true,
+  "next_training_launched": false
+}
