@@ -9,7 +9,7 @@ def main():
     runtime.configure()
     from wengua_course.fixtures import fixture_factory
     from wengua_course_v53 import runtime as old,initialization as oi
-    tok,_,_=fixture_factory();ROOT=runtime.ROOT
+    tok,_,_=fixture_factory();ROOT=runtime.ROOT;(ROOT/'local').mkdir(parents=True,exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='v61_probe_cpu_',dir=ROOT/'local') as tmp:
         root=Path(tmp);p=old.profile(testing=True);c=d.read(old.CONFIG)|{'initialization_only':True}
         job=p.engine.open_job(root/'seed/trials/init',c,resume=True);created=oi.create(p,job,c,factory=fixture_factory);source=Path(created['adapter']);sha=d.digest((source/'adapter_model.safetensors').read_bytes());original={p.name:d.digest(p.read_bytes()) for p in source.iterdir() if p.is_file()}
