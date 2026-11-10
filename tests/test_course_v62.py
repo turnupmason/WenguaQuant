@@ -1,4 +1,5 @@
 import unittest
+from unittest.mock import patch
 from copy import deepcopy
 from wengua_course_v62 import dataset as ds
 from wengua_course_v62.runner import RATES
@@ -37,5 +38,10 @@ class FreshSourceContracts(unittest.TestCase):
             self.assertEqual(len(review.NOTES[label]),24)
             self.assertFalse(set(review.CORRECT[label]) & set(review.PARTIAL[label]))
             self.assertTrue(all(0<=i<24 for i in review.CORRECT[label]+review.PARTIAL[label]))
+    def test_default_result_export_has_current_version_name(self):
+        from wengua_course_v62.cli import main
+        with patch('wengua_course.runner.export_review',return_value='fixture_archive') as export,patch('builtins.print'):
+            self.assertEqual(main(['export']),0)
+        self.assertTrue(export.call_args.args[1].name.startswith('Wengua_V62_review_'))
 
 if __name__=='__main__':unittest.main()

@@ -23,7 +23,7 @@ def main(argv=None):
     if a.command=='restore':restore(a.key_file);return 0
     if a.command=='export':
         from wengua_course.runner import export_review
-        path=a.archive or Path.home()/'Downloads'/('Wengua_V61_review_'+time.strftime('%Y%m%d_%H%M%S')+'.zip')
+        path=a.archive or Path.home()/'Downloads'/('Wengua_V62_review_'+time.strftime('%Y%m%d_%H%M%S')+'.zip')
         print(export_review(a.output,path));return 0
     runtime.configure(a.app_root)
     if a.command=='check':print(d.dumps(runtime.verify_data()['summary']));return 0

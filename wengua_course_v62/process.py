@@ -81,7 +81,7 @@ def launch(p,job,c,deadline,operation,*,probe=False,checkpoint=None,best=None,st
                 b.atomic_json(request.with_suffix('.stall_diagnostic.json'),{'quiet_seconds':quiet,'gpu':{} if p.testing else gpu_snapshot()})
             if quiet>=1800 or time.time()>deadline+60:
                 stop_child(child)
-                raise TimeoutError('V61 worker paused after bounded stall/deadline; checkpoints and diagnostics preserved: '+str(request))
+                raise TimeoutError('V62 worker paused after bounded stall/deadline; checkpoints and diagnostics preserved: '+str(request))
             time.sleep(0.5)
         code=child.wait()
     except BaseException:stop_child(child);raise
