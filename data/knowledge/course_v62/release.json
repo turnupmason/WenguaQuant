@@ -1,0 +1,63 @@
+{
+  "schema": "wengua_typed_source_application_v62",
+  "version": "6.2",
+  "initialization": "official_fresh_lora",
+  "delivery_manifest": "data/delivery/course_v62/manifest.json",
+  "files": {
+    "course.sqlite3": "61bc082684fec9340dace0c32e47f96ce8a276f38621edcbe0959634b282dfa8",
+    "readback_verification.json": "c11df88b90f9857d591b67686a61b53e83927a07446084f66c45a9b3dc28126c",
+    "Wengua_V62_课程审阅.xlsx": "ae738feafe37f47110ba27b2cfc1ec763cf3a77895a78e7a6802e5eaae79ef87",
+    "build_recipe.py": "25a8d42df61c3e7a280ff2b746ce9c381e4d6031563192164443b5c8a90d667a",
+    "token_audit.json": "220e2381398607ea9f399902a99fd51a4fc76d2508ee918c62678929b48f6371",
+    "summary.json": "5f9608c854d1d39bf3f684534c0cf3596febb83f01c2f1d8c5682e1528f56ef5",
+    "pack.json.gz": "ce6225a887b0c070885d494487f78c7ba56d40994bfe6451b2c92038932bcd90"
+  },
+  "summary": {
+    "actual_rag_rows": 18,
+    "development_rows": 20,
+    "explicit_replay": false,
+    "full_two_book_coverage_claimed": false,
+    "initialization": "official_fresh_lora",
+    "known_regression_only": 24,
+    "max_train_tokens": 1173,
+    "model_quality_verified": false,
+    "new_outcome_observations": 0,
+    "ordinary_eval_only": 4,
+    "rates": [
+      1e-05,
+      2e-05
+    ],
+    "source_units": 216,
+    "supervised_tokens_by_skill": {
+      "source_dialogue": 3157,
+      "direction": 1335,
+      "door_relation": 4474,
+      "identity": 2362,
+      "identity_switch": 897,
+      "symbol_types": 536,
+      "typed_palace": 856,
+      "branch_conditions": 834,
+      "domain_branch": 732,
+      "domain_roles": 520
+    },
+    "train_cores": 405,
+    "train_skills": {
+      "branch_conditions": 18,
+      "direction": 75,
+      "domain_branch": 22,
+      "domain_roles": 15,
+      "door_relation": 128,
+      "identity": 48,
+      "identity_switch": 15,
+      "source_dialogue": 60,
+      "symbol_types": 8,
+      "typed_palace": 16
+    },
+    "train_supervised_views": 424,
+    "updates_per_epoch": 27,
+    "updates_per_trial": 54
+  },
+  "old_weight_chain_required": false,
+  "old_data_and_weights_modified": false,
+  "original_final_test_used": false
+}

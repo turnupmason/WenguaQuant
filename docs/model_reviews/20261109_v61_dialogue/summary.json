@@ -1,0 +1,36 @@
+{
+  "answers": 96,
+  "actual_workers": 4,
+  "bounded_manual_counts": {
+    "official_base": {
+      "W": 11,
+      "C": 11,
+      "P": 2
+    },
+    "retained_v58": {
+      "W": 12,
+      "P": 3,
+      "C": 9
+    },
+    "v61_low31": {
+      "W": 10,
+      "P": 5,
+      "C": 9
+    },
+    "v61_high31": {
+      "W": 12,
+      "P": 3,
+      "C": 9
+    }
+  },
+  "weight_updates": 0,
+  "evaluation_only": true,
+  "independent_case_accuracy": false,
+  "old_weights_preserved": true,
+  "base_is_professionally_qualified": false,
+  "next_initialization": "official_fresh_lora",
+  "input_archive_sha256": "1c3268d02f17ea6e8b1cbf8725bf2bb879a5c8dd179c99c11af3b5141aecbfba",
+  "delivery_manifest": "data/delivery/v61_dialogue_review/manifest.json",
+  "grading": "post_hoc_limited_C_P_W_not_professional_accuracy",
+  "not_training_or_rag": true
+}

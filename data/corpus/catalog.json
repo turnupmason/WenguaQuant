@@ -132,6 +132,35 @@
       "library": null,
       "optional": true,
       "purpose": "evaluation_only_exclude_from_knowledge_and_training"
+    },
+    {
+      "id": "course_v62",
+      "manifest": "data/delivery/course_v62/manifest.json",
+      "destination": "local/course_v62_data",
+      "files": {
+        "Wengua_V62_课程审阅.xlsx": "ae738feafe37f47110ba27b2cfc1ec763cf3a77895a78e7a6802e5eaae79ef87",
+        "build_recipe.py": "25a8d42df61c3e7a280ff2b746ce9c381e4d6031563192164443b5c8a90d667a",
+        "course.sqlite3": "61bc082684fec9340dace0c32e47f96ce8a276f38621edcbe0959634b282dfa8",
+        "pack.json.gz": "ce6225a887b0c070885d494487f78c7ba56d40994bfe6451b2c92038932bcd90",
+        "readback_verification.json": "c11df88b90f9857d591b67686a61b53e83927a07446084f66c45a9b3dc28126c",
+        "summary.json": "5f9608c854d1d39bf3f684534c0cf3596febb83f01c2f1d8c5682e1528f56ef5",
+        "token_audit.json": "220e2381398607ea9f399902a99fd51a4fc76d2508ee918c62678929b48f6371"
+      },
+      "library": null,
+      "optional": true,
+      "purpose": "private_source_curriculum_fresh_official_lora_not_full_two_book_claim"
+    },
+    {
+      "id": "v61_dialogue_review",
+      "manifest": "data/delivery/v61_dialogue_review/manifest.json",
+      "destination": "local/model_reviews/v61_dialogue",
+      "files": {
+        "96回答逐题审阅.xlsx": "29d86f36dbfd632154904c887d23c752a60950b1c008e5788fc9023f65abfbbe",
+        "review.json": "66d8ff9a0b8bf869921cf7de522c4a27eb518c9c67d2c00050c5fd3143df2365"
+      },
+      "library": null,
+      "optional": true,
+      "purpose": "evaluation_only_exclude_from_knowledge_and_training"
     }
   ]
 }
