@@ -1,0 +1,71 @@
+{
+  "schema": "wengua_actual_v62_learning_probe_review_v1",
+  "upload_sha256": "9685b496af836a4e14f47f8827b4c6c9bb9b6d612cb062684c5e47a6ffda13d1",
+  "archive_members": 24,
+  "frozen_runtime_files": 235,
+  "actual_answers": 108,
+  "weight_updates": 0,
+  "workers": [
+    {
+      "label": "official_base",
+      "completed": 48,
+      "request_sha256": "711c4c7b5e989263633150b4fd0bbb742c7bdc49026bebdaab6ba31f3331e11d",
+      "weight_updates": 0
+    },
+    {
+      "label": "v62_low54",
+      "completed": 30,
+      "request_sha256": "240b6d694eb79eb135e4ba2d023988d273432a2f65039b5e5b6e6fd4ff4f1590",
+      "weight_updates": 0
+    },
+    {
+      "label": "v62_high54",
+      "completed": 30,
+      "request_sha256": "6cc64a904f05c2f9429865429b0b279524b53d75ae2d1f645bb24a7e8cf397b4",
+      "weight_updates": 0
+    }
+  ],
+  "activation": {
+    "v62_low54": {
+      "software_fixture": false,
+      "lora_B_matrices": 144,
+      "nonzero_lora_B_matrices": 144,
+      "max_last_position_logit_delta": 14.75,
+      "next_token_changed": false,
+      "parameters_frozen": true,
+      "weight_updates": 0,
+      "adapter_sha256": "4472f943c6efac2802e57c768e28c9f6a2049f4c90837d6537ed54520c303a72"
+    },
+    "v62_high54": {
+      "software_fixture": false,
+      "lora_B_matrices": 144,
+      "nonzero_lora_B_matrices": 144,
+      "max_last_position_logit_delta": 24.125,
+      "next_token_changed": false,
+      "parameters_frozen": true,
+      "weight_updates": 0,
+      "adapter_sha256": "84d62205af930d24e74780d858ced36d76f1ccc4a245c5379db135d50dcbc58c"
+    }
+  },
+  "answer_lengths": {
+    "official_base": {
+      "answers": 48,
+      "token_limit_hits": 4
+    },
+    "v62_low54": {
+      "answers": 30,
+      "token_limit_hits": 3
+    },
+    "v62_high54": {
+      "answers": 30,
+      "token_limit_hits": 1
+    }
+  },
+  "notes_bound_to_answers": 108,
+  "official_same_prompt_rag_baseline_answers": 18,
+  "original_training_questions_per_model": 6,
+  "unseen_case_benchmark": false,
+  "unuploaded_weights_independently_rehashed": false,
+  "professional_promotion": false,
+  "model_answers_allowed_as_teachers": false
+}

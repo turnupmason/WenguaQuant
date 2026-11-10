@@ -1,0 +1,18 @@
+{
+  "software_fixture_only": false,
+  "actual_8b_cuda_training": false,
+  "actual_8b_quality_verified": false,
+  "real_book_preparation": true,
+  "training_views": 424,
+  "train_cores": 405,
+  "source_units": 216,
+  "development_loss_rows": 20,
+  "training_recall_rows": 12,
+  "known_diagnostics_only": 24,
+  "actual_rag_only": 18,
+  "maximum_train_tokens": 1135,
+  "user_and_teacher_content_preserved": true,
+  "all_reference_and_target_content_truncated": false,
+  "source_case_splits_preserved": true,
+  "release_sha256": "dab048b7a145d76b00d06382f5e07c433b85a4148989a7cd920306fcca9b9efa"
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "wengua_source_learning_repair_v63",
+  "version": "6.3",
+  "source_release": "data/knowledge/course_v62/release.json",
+  "source_release_sha256": "84e84ab0a43933a9d35367abe04e57fa1e10ceddadf51cb34f64391c3d484222",
+  "pack_sha256": "8ee3092879b1ef642e6fe78e5aaf975e50a7d1d5d752a15b6a1d3aad78f94640",
+  "initialization": "official_fresh_all_seven_projections",
+  "summary": {
+    "actual_rag_rows": 18,
+    "development_rows": 20,
+    "explicit_replay": false,
+    "full_two_book_coverage_claimed": false,
+    "initialization": "official_fresh_all_seven_projections",
+    "known_regression_only": 24,
+    "max_train_tokens": null,
+    "model_quality_verified": false,
+    "new_outcome_observations": 0,
+    "ordinary_eval_only": 4,
+    "rates": [
+      5e-05,
+      0.0001
+    ],
+    "source_units": 216,
+    "supervised_tokens_by_skill": {
+      "branch_conditions": 834,
+      "direction": 1335,
+      "domain_branch": 732,
+      "domain_roles": 520,
+      "door_relation": 4474,
+      "identity": 2362,
+      "identity_switch": 897,
+      "source_dialogue": 3157,
+      "symbol_types": 536,
+      "typed_palace": 856
+    },
+    "train_cores": 405,
+    "train_skills": {
+      "branch_conditions": 18,
+      "direction": 75,
+      "domain_branch": 22,
+      "domain_roles": 15,
+      "door_relation": 128,
+      "identity": 48,
+      "identity_switch": 15,
+      "source_dialogue": 60,
+      "symbol_types": 8,
+      "typed_palace": 16
+    },
+    "train_supervised_views": 424,
+    "updates_per_epoch": 53,
+    "updates_per_trial": 424,
+    "epochs": 8,
+    "max_tokens_recomputed_before_training": true,
+    "source_users_and_teachers_changed": false,
+    "one_system_in_training_loss_generation_and_rag": true,
+    "training_recall_prompts": 12,
+    "free_generation_epochs": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  "source_users_and_teachers_modified": false,
+  "original_final_test_used": false,
+  "no_extra_private_archive_required": true
+}
