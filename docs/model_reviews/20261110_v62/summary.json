@@ -1,0 +1,47 @@
+{
+  "schema": "wengua_actual_v62_review_v1",
+  "upload_sha256": "2eb43e103aa832548e7862b634cd1a4b6b9bae02eb0a48a0442c4aca3b55901d",
+  "archive_members": 121,
+  "state": "complete_review_required",
+  "formal_generations": 300,
+  "smoke_generations": 2,
+  "distinct_formal_responses_excluding_identical_baseline_copy": 256,
+  "formal_updates_total": 108,
+  "pressure_updates_total": 8,
+  "both_official_baselines_identical": true,
+  "zero_update_initializer_checked_from_receipts": true,
+  "unuploaded_weight_tensors_independently_rehashed": false,
+  "old_learned_adapters_loaded": false,
+  "actual_rag_official_baseline_present": false,
+  "notes_bound_to_answers": 300,
+  "final_test_used": false,
+  "professional_promotion": false,
+  "model_answers_are_not_rag_or_sft_teachers": true,
+  "private_review_manifest": "data/delivery/v62_review/manifest.json",
+  "source_runtime_contract_items": 231,
+  "verified_worker_count": 7,
+  "source_adapter_sha256": {
+    "lr_1em05": "4472f943c6efac2802e57c768e28c9f6a2049f4c90837d6537ed54520c303a72",
+    "lr_2em05": "84d62205af930d24e74780d858ced36d76f1ccc4a245c5379db135d50dcbc58c"
+  },
+  "semantic_scope": "post_hoc_primary_answer_observations_C_does_not_certify_added_claims",
+  "not_independent_prediction_accuracy": true,
+  "whole_archive_restore_checked": true,
+  "workbook_whole_cell_readback_checked": true,
+  "old_training_entry_and_source_hashes_unchanged": true,
+  "software_probe_verification": {
+    "normalization_fixture": {
+      "gas": 16,
+      "unequal_length_samples": 16,
+      "relative_gradient_error": 1.598517087586515e-07,
+      "software_fixture_only": true
+    },
+    "software_fixture_only": true,
+    "three_variants_actual_tiny_inference": true,
+    "all_source_adapter_bytes_unchanged": true,
+    "cache_rerun_without_model_load": true,
+    "export_complete": true,
+    "weight_updates": 0,
+    "actual_8b_cuda_quality_claimed": false
+  }
+}
