@@ -133,6 +133,9 @@ def activation_check(model,tok,row,book,*,testing=False):
         enabled=model(input_ids=prompt,attention_mask=torch.ones_like(prompt),use_cache=False,logits_to_keep=1).logits.float()
         with model.disable_adapter():
             disabled=model(input_ids=prompt,attention_mask=torch.ones_like(prompt),use_cache=False,logits_to_keep=1).logits.float()
+    # PEFT 0.17.1 re-enables adapter gradients when leaving disable_adapter(),
+    # including adapters originally loaded as inference-only. Restore freezing.
+    model.requires_grad_(False)
     delta=float((enabled-disabled).abs().max())
     if not torch.isfinite(enabled).all() or not torch.isfinite(disabled).all():raise RuntimeError('Nonfinite probe logits')
     if not testing and (not matrices or not nonzero or delta<=0):raise RuntimeError('Trained adapter has zero numerical effect; no training is started')

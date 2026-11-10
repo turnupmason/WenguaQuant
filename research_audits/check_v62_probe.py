@@ -75,7 +75,7 @@ def main():
             r=subprocess.run(['cmd.exe','/d','/c',str(ROOT/'check_wengua_v62_learning.cmd'),'--help'],cwd=ROOT,env=env,capture_output=True,text=True,encoding='utf8',errors='replace',timeout=60)
             assert r.returncode==0 and 'export' in r.stdout and 'run' in r.stdout
         for label in probe.LABELS[1:]:
-            activation=d.read(out/'answers'/(label+'.activation.json'));assert activation['nonzero_lora_B_matrices']>0 and activation['max_last_position_logit_delta']>0 and activation['weight_updates']==0
+            activation=d.read(out/'answers'/(label+'.activation.json'));assert activation['nonzero_lora_B_matrices']>0 and activation['max_last_position_logit_delta']>0 and activation['weight_updates']==0 and activation['parameters_frozen']
         result={'normalization_fixture':normalization,'software_fixture_only':True,'three_variants_actual_tiny_inference':True,'all_source_adapter_bytes_unchanged':True,'cache_rerun_without_model_load':True,'export_complete':True,'weight_updates':0,'actual_8b_cuda_quality_claimed':False}
         d.write(ROOT/'local/v62_probe_cpu_verification.json',result);print(d.dumps(result))
 if __name__=='__main__':main()
