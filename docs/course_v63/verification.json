@@ -12,7 +12,9 @@
   "actual_rag_only": 18,
   "maximum_train_tokens": 1135,
   "user_and_teacher_content_preserved": true,
-  "all_reference_and_target_content_truncated": false,
   "source_case_splits_preserved": true,
-  "release_sha256": "dab048b7a145d76b00d06382f5e07c433b85a4148989a7cd920306fcca9b9efa"
+  "release_sha256": "c69165e3c7d4a675708ae6dfd86ccaf894d94f4970e13613e7c04c02232dca6d",
+  "whole_sources_and_targets_preserved": true,
+  "cross_platform_contract": "canonical_utf8_json_sha256",
+  "gzip_os_headers_0_3_255_tested": true
 }

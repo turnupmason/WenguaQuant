@@ -3,7 +3,6 @@
   "version": "6.3",
   "source_release": "data/knowledge/course_v62/release.json",
   "source_release_sha256": "84e84ab0a43933a9d35367abe04e57fa1e10ceddadf51cb34f64391c3d484222",
-  "pack_sha256": "8ee3092879b1ef642e6fe78e5aaf975e50a7d1d5d752a15b6a1d3aad78f94640",
   "initialization": "official_fresh_all_seven_projections",
   "summary": {
     "actual_rag_rows": 18,
@@ -63,5 +62,7 @@
   },
   "source_users_and_teachers_modified": false,
   "original_final_test_used": false,
-  "no_extra_private_archive_required": true
+  "no_extra_private_archive_required": true,
+  "pack_json_sha256": "39cb5b0c7bf6e74ed2830b7ee39dd136ea476e617271466b38407f7e72e3e13a",
+  "compression_stream_is_not_the_content_contract": true
 }

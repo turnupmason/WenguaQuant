@@ -67,6 +67,26 @@ class V63SourceRepair(unittest.TestCase):
         self.assertEqual(RATES, (5e-5, 1e-4))
         self.assertFalse(c['production_enabled']); self.assertFalse(c['non_book_teachers_allowed'])
 
+    def test_cross_platform_gzip_headers_do_not_change_the_content_contract(self):
+        import gzip, tempfile
+        from wengua_course_v63 import runtime
+        before, after = self.derive(); canonical = d.dumps(after).encode('utf8')
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp); release = root / 'release.json'; cache = root / 'cache'
+            d.write(release, {'source_release_sha256': d.digest(runtime.frozen.RELEASE.read_bytes()),
+                              'pack_json_sha256': d.digest(canonical)})
+            cache.mkdir(); path = cache / 'pack.json.gz'
+            with patch.object(runtime, 'RELEASE', release), patch.object(runtime, 'DATA', cache), \
+                    patch.object(runtime.frozen, 'verify_data', return_value=before), \
+                    patch.object(data.source, 'validate_pack'):
+                for os_header in [0, 3, 255]:
+                    compressed = bytearray(gzip.compress(canonical, mtime=0)); compressed[9] = os_header
+                    path.write_bytes(compressed)
+                    self.assertEqual(runtime.verify_data(), after)
+                changed = gzip.compress(b'changed teacher', mtime=0); path.write_bytes(changed)
+                with self.assertRaises(ValueError): runtime.verify_data()
+                self.assertEqual(path.read_bytes(), changed)
+
     def test_new_review_refuses_unrelated_archive(self):
         import tempfile
         with tempfile.TemporaryDirectory() as tmp:

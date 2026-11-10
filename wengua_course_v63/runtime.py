@@ -36,10 +36,13 @@ def verify_data():
     release=d.read(RELEASE)
     if release['source_release_sha256']!=d.digest(frozen.RELEASE.read_bytes()):raise ValueError('V62 source release changed')
     source=frozen.verify_data();pack=data.derive(source)
-    payload=gzip.compress(d.dumps(pack).encode('utf8'),mtime=0)
-    if d.digest(payload)!=release['pack_sha256']:raise ValueError('Derived V63 source pack changed')
+    # Python 3.12's gzip.compress(mtime=0) writes a platform-dependent OS byte.
+    # Freeze the complete canonical JSON, not a platform's compression stream.
+    canonical=d.dumps(pack).encode('utf8')
+    if d.digest(canonical)!=release['pack_json_sha256']:raise ValueError('Derived V63 source pack changed')
+    payload=gzip.compress(canonical,mtime=0)
     DATA.mkdir(parents=True,exist_ok=True);path=DATA/'pack.json.gz'
-    if path.exists() and path.read_bytes()!=payload:raise ValueError('Existing V63 source pack differs; preserved')
+    if path.exists() and gzip.decompress(path.read_bytes())!=canonical:raise ValueError('Existing V63 source pack differs; preserved')
     if not path.exists():
         pending=path.with_name(path.name+'.pending-'+str(time.time_ns()))
         pending.write_bytes(payload)
