@@ -1,0 +1,70 @@
+{
+  "schema": "wengua_readonly_v61_review_20261109",
+  "upload_sha256": "4a34aa3db67d9ef299388fbb6178705233ca7643e742d46409926c700b3b06a9",
+  "members": 122,
+  "state": "complete_review_required",
+  "formal_updates_total": 124,
+  "updates_per_trial": 62,
+  "formal_generations": 294,
+  "smoke_generations": 2,
+  "same_parent_generated_twice_identical": true,
+  "same_parent_recorded_sha256": "b602cce40d593d4109b50985032e348579ea578976787059e4f25cc524d404bd",
+  "unuploaded_weights_independently_rehashed": false,
+  "score_totals": {
+    "lr_3em06:parent": {
+      "pass": 26,
+      "complete": 23,
+      "total": 40
+    },
+    "lr_3em06:epoch_01": {
+      "pass": 26,
+      "complete": 22,
+      "total": 40
+    },
+    "lr_3em06:epoch_02": {
+      "pass": 24,
+      "complete": 23,
+      "total": 40
+    },
+    "lr_1em05:parent": {
+      "pass": 26,
+      "complete": 23,
+      "total": 40
+    },
+    "lr_1em05:epoch_01": {
+      "pass": 23,
+      "complete": 21,
+      "total": 40
+    },
+    "lr_1em05:epoch_02": {
+      "pass": 17,
+      "complete": 16,
+      "total": 40
+    },
+    "parent_rag": {
+      "pass": 18,
+      "complete": 18,
+      "total": 18
+    },
+    "low_rag": {
+      "pass": 18,
+      "complete": 18,
+      "total": 18
+    },
+    "high_rag": {
+      "pass": 17,
+      "complete": 17,
+      "total": 18
+    }
+  },
+  "stored_scores_replayed": 6,
+  "additional_rag_summaries": 3,
+  "limited_semantic_annotations": 294,
+  "original_retained_unchanged": true,
+  "automatic_professional_promotion": false,
+  "natural_conversation_suite_present": false,
+  "complete_case_evaluation_present": false,
+  "not_rag_or_sft_input": true,
+  "production_enabled": false,
+  "read_answer_notes_scope": "posthoc_limited_reading_not_new_blind_or_independent_expert_scores"
+}

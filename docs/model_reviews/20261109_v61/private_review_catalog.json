@@ -1,0 +1,19 @@
+{
+  "id": "actual_v61_review_20261109",
+  "manifest": "data/delivery/v61_review_20261109/manifest.json",
+  "destination": "local/reviews/v61_delivery_20261109",
+  "files": {
+    "verification.json": "4becf5cf74ffd94160222e65c12ecfb47c70287aa78313becd979fa909242012",
+    "create_notes_recipe.py": "82807d9bff647e74a3e69e3c7016af35377eec81a37bd7afe71a9822fb881296",
+    "answer_notes.json": "8f2f057def2bdfb983dc94ff630e7381ec95ce91a7f555b68857d3d25c83d44d",
+    "Wengua_V61_review_20261109_221239.zip": "4a34aa3db67d9ef299388fbb6178705233ca7643e742d46409926c700b3b06a9",
+    "probe_token_verification.json": "9f5c9ddb91eb614f7c611ffc2cbb0a36934e775813a5b8c0f491dc4f04f4d06b",
+    "normal_dialogue_probe.json": "697da474a06d15c89dcd4e7568588c45c5a5cfa6f8d0371166004d7fc0d02e69",
+    "Wengua_V61_逐组逐题审核.xlsx": "6aaf3422e63e18b19ba34c5959af6aabc80b290544f2374c8fe4e36613de01bd",
+    "answer_observations.jsonl.gz": "58c0e7171868853da0cff8f2fe47b90c5b43b835aa8303008c71044d8d9c482f",
+    "summary.json": "0e0d06898db98a1a72e239d8716c801206c30df716c8f2a9866c1c81b610c7bc"
+  },
+  "library": null,
+  "purpose": "evaluation_only_never_sft_or_book_rag",
+  "model_outputs_are_not_teachers": true
+}

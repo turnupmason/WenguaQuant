@@ -1,0 +1,17 @@
+{
+  "upload_sha256": "4a34aa3db67d9ef299388fbb6178705233ca7643e742d46409926c700b3b06a9",
+  "frozen_v61_paths_verified": 216,
+  "actual_workers_verified": 7,
+  "formal_raw_generations": 294,
+  "smoke_generations": 2,
+  "all_formal_answer_notes_bound_to_raw_sha256": true,
+  "original_scores_replayed": 6,
+  "whole_excel_cells_readback": true,
+  "all_previous_v60_hashes_unchanged": true,
+  "new_probe_inference_only": true,
+  "new_probe_questions": 24,
+  "new_probe_generation_budget": 384,
+  "new_probe_max_complete_input_tokens": 338,
+  "no_new_training_started": true,
+  "no_weight_updates_or_promotion": true
+}
