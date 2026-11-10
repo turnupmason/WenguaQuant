@@ -24,7 +24,7 @@ def normalization_fixture():
      grads=[]
      class Audit(TrainerCallback):
       def on_pre_optimizer_step(self,args,state,control,**kw):grads.append(torch.cat([p.grad.detach().reshape(-1).cpu() for p in kw['model'].parameters() if p.requires_grad and p.grad is not None]))
-     with tempfile.TemporaryDirectory(dir='/dev/shm') as tmp:
+     with tempfile.TemporaryDirectory() as tmp:
       args=TrainingArguments(output_dir=tmp,use_cpu=True,max_steps=1,per_device_train_batch_size=batch,gradient_accumulation_steps=gas,max_grad_norm=0,save_strategy='no',report_to='none',seed=3407,remove_unused_columns=False)
       trainer=Trainer(model=model,args=args,train_dataset=samples,data_collator=collator(tok.pad_token_id),processing_class=tok,callbacks=[Audit()])
       print('gas',gas,'accepts_loss_kwargs',trainer.model_accepts_loss_kwargs,'accelerator_gas',trainer.accelerator.gradient_accumulation_steps)
