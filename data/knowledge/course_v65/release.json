@@ -1,0 +1,71 @@
+{
+  "schema": "wengua_binding_and_goal_course_v65",
+  "source_v64_release_sha256": "3723781094dca9736656876c70a8587eaeed9809c19fb15a02a73104eae3c360",
+  "physical_star_boards_sha256": "1d6a68733dcbd00020e7f38f8f3f77320384ba7fc52353f71f93f392c48138fa",
+  "pack_json_sha256": "52e42ad8983836b5dfe7f203bde9a824d34b552f84412e3d99d2763459ad264c",
+  "summary": {
+    "schema": "wengua_binding_and_goal_course_v65",
+    "train": 1780,
+    "development": 24,
+    "skills": {
+      "attribute": 63,
+      "relation": 100,
+      "verify": 200,
+      "repair": 50,
+      "objects": 472,
+      "door": 192,
+      "locations": 24,
+      "board": 128,
+      "identity": 257,
+      "identity_verify": 42,
+      "identity_ambiguous": 3,
+      "exam": 12,
+      "marriage": 42,
+      "loan": 24,
+      "sale": 24,
+      "retirement": 18,
+      "formation": 36,
+      "literal_fact": 16,
+      "types": 8,
+      "liuhe": 9,
+      "source_dialogue": 60
+    },
+    "original_source_units": 216,
+    "used_source_units": 44,
+    "source_case_registry_entries": 194,
+    "case_linked_cores": 4,
+    "all_old_case_splits_preserved": true,
+    "full_two_book_case_training": false,
+    "new_blind_benchmark": false,
+    "source_models_used_as_teachers": false
+  },
+  "original_stack": {
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "accelerate": "1.10.1",
+    "bitsandbytes": "0.48.1"
+  },
+  "sources": {
+    "v63_trained": {
+      "relative_path": "local/course_v63/run1/trials/lr_1em04/cycle_01/adapters/step-371",
+      "sha256": "c12e455e0ba7ef3b923c48f23321f0da624b75de3f4eb88c0800aace24a2457d"
+    },
+    "official_zero": {
+      "relative_path": "local/course_v63/run1/trials/official_step_zero/cycle_01/adapters/step-0",
+      "sha256": "d93789e33371099b17f7bd85651f2c798300280c406fa4f39a5800cb8986ed74"
+    }
+  },
+  "model_outputs_as_teachers": false,
+  "production_enabled": false,
+  "baseline_sources": {
+    "v63_trained": {
+      "relative_path": "local/course_v64/run1/trials/parent_baseline/generations/parent_review.jsonl",
+      "sha256": "4bd3e1e0e2d491fff01ec89560f2b13aa8b9e0d690a270b8a5ce6a9d14616f44"
+    },
+    "official_zero": {
+      "relative_path": "local/v63_checkpoint_probe/run1/answers/official_base.jsonl",
+      "sha256": "64d7659b05dc5fccf1be755f09da2eab5886c3700a3e60f4fb3b7e48bf0197ac"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "software_fixture_only": true,
+  "matched_trained_and_official_sources_verified": true,
+  "old_source_tensors_unchanged": true,
+  "two_epochs_each_source": true,
+  "all_epoch_answers_saved": true,
+  "exact_optimizer_rng_resume_tensors_equal": true,
+  "training_generation_prefix_masks_verified": true,
+  "cached_vs_full_prefix_numerics_verified": true,
+  "native_windows_cmd_verified": false,
+  "actual_8b_cuda_semantic_improvement_verified": false
+}

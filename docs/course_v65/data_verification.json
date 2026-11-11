@@ -1,0 +1,20 @@
+{
+  "complete_supervised_views": 1832,
+  "supervised_tokens": 58708,
+  "all_non_thinking_prefixes_equal": true,
+  "all_prompt_tokens_masked": true,
+  "whole_assistant_targets_preserved": true,
+  "view_receipts_sha256": "e82d1c3166966fa07cbc0355585bf51336d02c830d73cce8101dc8d3ba558595",
+  "software_only_no_model_loaded": true,
+  "training_cores": 1780,
+  "development_cores": 24,
+  "max_actual_train_tokens": 1135,
+  "review_prompts": 58,
+  "independent_openpyxl_full_cells_equal": true,
+  "sqlite_all_boundaries_and_dispositions_equal": true,
+  "actual_baseline_reuse_counts": {
+    "v63_trained": 34,
+    "official_zero": 18
+  },
+  "actual_8b_semantic_improvement_verified": false
+}
