@@ -1,0 +1,13 @@
+{
+  "source_upload_sha256": "ae32ff3d8c17954d23ad01bdcc8370210a9fd5a4e9705519aed2ce450dd71a7c",
+  "frozen_original_runtime_files": 247,
+  "original_runtime_unchanged": true,
+  "whole_prompt_and_target_budget_rows": 38,
+  "dropped_source_or_target_rows": 0,
+  "reused_original_answers": 54,
+  "additional_answers_planned": 288,
+  "stored_answers_planned": 342,
+  "weight_updates": 0,
+  "all_development_and_rag_records_are_known_not_blind": true,
+  "actual_additional_8b_inference_run_here": false
+}

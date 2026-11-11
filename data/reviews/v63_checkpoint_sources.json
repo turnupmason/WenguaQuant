@@ -1,0 +1,40 @@
+{
+  "source_upload_sha256": "ae32ff3d8c17954d23ad01bdcc8370210a9fd5a4e9705519aed2ce450dd71a7c",
+  "trials": {
+    "lr_5em05": {
+      "job_contract.json": "23981c4071fa2d348791f3a8f757b458bce25052f178345868965ef311b3910e",
+      "cycle_01/stage_status.json": "b74263cdb73c8b634ebfdcf385d3ca773de52482b1b6ca8f5ddc3138388c58ee"
+    },
+    "lr_1em04": {
+      "job_contract.json": "334d6baead901f024c948897e7e95a23115321e9f86c8c62ed5a27b4786bdecf",
+      "cycle_01/stage_status.json": "3efffb8f6bb66c7fc6afc8b29d942d8658e237efdf9739125c54c1afab9f4919"
+    }
+  },
+  "reuse": {
+    "official_base": {
+      "file": "trials/lr_5em05/generations/official_actual_rag.jsonl",
+      "file_sha256": "2d6f7fde0b30567e71eef3f5b2e0143630c47a249885d31644c43ae7da9506c6",
+      "provenance": "trials/lr_5em05/generations/official_actual_rag.provenance.json",
+      "provenance_sha256": "b42950a17e3bbac6946e8fb0a3eb63add1a902456efc049bc3f883b28423981d"
+    },
+    "low_e02": {
+      "file": "trials/lr_5em05/generations/language_nominee_actual_rag.jsonl",
+      "file_sha256": "ed429c6b75ee4ee9110f24d4b5c32385c6ab6b145ec58453cc9ecb8f3ef57b17",
+      "provenance": "trials/lr_5em05/generations/language_nominee_actual_rag.provenance.json",
+      "provenance_sha256": "1ddc93ed970e3e4cda653a0df9711ac8185a43f9c6ffb58d253b4886bd226ef2"
+    },
+    "high_e01": {
+      "file": "trials/lr_1em04/generations/language_nominee_actual_rag.jsonl",
+      "file_sha256": "ce2c983a67614cc7d58a9d804f8d716e6cff7d30e0a789046e63723cb5ebe408",
+      "provenance": "trials/lr_1em04/generations/language_nominee_actual_rag.provenance.json",
+      "provenance_sha256": "5da19eb62a07b37ff9a18493e1ca5a8bb6f82349f0779d3b1f827dac6333aa5f"
+    }
+  },
+  "original_stack": {
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "accelerate": "1.10.1",
+    "bitsandbytes": "0.48.1"
+  }
+}
