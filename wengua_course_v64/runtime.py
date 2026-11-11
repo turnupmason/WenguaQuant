@@ -99,17 +99,22 @@ def resume_generation_file(path,rows):
     path=Path(path)
     if not path.exists():return
     from research_audits.v63_checkpoint_probe import verify_cached
-    raw=path.read_bytes();valid=[];lines=raw.splitlines();damaged=False
+    raw=path.read_bytes();valid=[];lines=raw.splitlines(keepends=True);damaged=False;kept=[]
     for i,line in enumerate(lines):
-        if not line.strip():continue
+        if not line.strip():kept.append(line);continue
         try:valid.append(json.loads(line))
         except ValueError:
             if i!=len(lines)-1:raise ValueError('Corrupt answer before final line')
             damaged=True
+        else:kept.append(line)
     verify_cached(valid,rows)
-    if damaged:
+    prefix=b''.join(kept)
+    # Keep the original bytes, including CRLF and JSON whitespace. A complete
+    # last object without its delimiter also needs a newline before appending.
+    if prefix and not prefix.endswith(b'\n'):prefix+=b'\n'
+    if damaged or prefix!=raw:
         path.rename(path.with_name(path.name+'.partial-'+str(time.time_ns())))
-        path.write_text(''.join(json.dumps(r,ensure_ascii=False,separators=(',',':'))+'\n' for r in valid),encoding='utf8')
+        path.write_bytes(prefix)
 
 
 def profile(*,testing=False):

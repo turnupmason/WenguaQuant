@@ -102,11 +102,12 @@ class V64EvidenceAndResume(unittest.TestCase):
         row={'id':'fixture','messages':[{'role':'user','content':'question'},{'role':'assistant','content':'gold'}],'answer':'gold'}
         reply={'id':row['id'],'question':row['messages'][:-1],'expected':'gold','answer':'original full answer',
                'prompt_sha256':d.digest(json.dumps(row['messages'][:-1],ensure_ascii=False,separators=(',',':')))}
-        raw=(json.dumps(reply,ensure_ascii=False,separators=(',',':'))+'\n').encode()
         with tempfile.TemporaryDirectory() as tmp:
-            p=Path(tmp)/'answers.jsonl';p.write_bytes(raw+b'{"cut":"\xff')
-            runtime.resume_generation_file(p,[row]);self.assertEqual(p.read_bytes(),raw)
-            self.assertEqual(len(list(Path(tmp).glob('*.partial-*'))),1)
+            for i,ending in enumerate(['\n','\r\n','']):
+                raw=(json.dumps(reply,ensure_ascii=False)+ending).encode()
+                p=Path(tmp)/('answers'+str(i)+'.jsonl');p.write_bytes(raw+(b'{"cut":"\xff' if ending else b''))
+                runtime.resume_generation_file(p,[row]);self.assertEqual(p.read_bytes(),raw if ending else raw+b'\n')
+                self.assertEqual(len(list(Path(tmp).glob(p.name+'.partial-*'))),1)
             with self.assertRaises(ValueError):runtime.resume_generation_file(p,[row|{'answer':'changed teacher'}])
 
     def test_xlsx_preserves_full_text_and_never_writes_a_formula(self):
@@ -121,7 +122,7 @@ class V64EvidenceAndResume(unittest.TestCase):
     def test_explicit_checkpoint_is_never_silently_ignored_from_another_stage(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);valid=root/'trials/lr_1em05/cycle_01/trainer/checkpoint-10';valid.mkdir(parents=True)
-            self.assertEqual(checkpoint_scope(root,valid),valid)
+            self.assertEqual(checkpoint_scope(root,valid),valid.resolve())
             for wrong in [root/'trials/unknown/cycle_01/trainer/checkpoint-10',root/'trials/lr_1em05/smoke/trainer/checkpoint-2']:
                 wrong.mkdir(parents=True)
                 with self.assertRaises(ValueError):checkpoint_scope(root,wrong)
