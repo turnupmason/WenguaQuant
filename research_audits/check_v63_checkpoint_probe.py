@@ -12,6 +12,7 @@ def main():
     from wengua_course.fixtures import fixture_factory
     from src.wengua.qwen_finetune import prepare_frozen_base
     torch.set_num_threads(2)
+    (runtime.ROOT/'local').mkdir(parents=True,exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='v63_readonly_',dir=runtime.ROOT/'local') as tmp:
         root=Path(tmp);tok,base,_=fixture_factory();base=prepare_frozen_base(base,gradient_checkpointing=False)
         model=get_peft_model(base,LoraConfig(r=16,lora_alpha=32,lora_dropout=.05,target_modules=runtime.data.MODULES,bias='none',task_type='CAUSAL_LM'))
