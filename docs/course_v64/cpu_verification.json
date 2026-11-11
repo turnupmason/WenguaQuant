@@ -1,0 +1,17 @@
+{
+  "software_fixture_only": true,
+  "trained_parent_nonzero_and_unchanged": true,
+  "loaded_parent_tensors_equal_before_update": true,
+  "new_optimizer_empty": true,
+  "gas_two_fresh_process_exact_resume_tensors_equal": true,
+  "two_rates_two_epochs_complete": true,
+  "parent_answers_reused_verbatim": true,
+  "no_repeated_parent_free_generation_per_trial": true,
+  "all_epoch_reviews_saved": true,
+  "partial_gradient_accumulation_tail_verified": true,
+  "literal_1080_locations_only_verified": true,
+  "native_windows_cmd_help_verified": false,
+  "export_verified": true,
+  "actual_8b_cuda_quality_verified": false,
+  "stdlib_tests_passed": 382
+}

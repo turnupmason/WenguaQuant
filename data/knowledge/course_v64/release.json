@@ -1,0 +1,62 @@
+{
+  "schema": "wengua_source_conditional_repair_v64",
+  "source_v63_release_sha256": "c69165e3c7d4a675708ae6dfd86ccaf894d94f4970e13613e7c04c02232dca6d",
+  "literal_placement_sha256": "26f0af224795c289dc36024b2a059d2ad67ca7fe647fc74effae4740c477017b",
+  "pack_json_sha256": "1ad85af866239399a85a1bb80d34ccb2b09e434afa2c8ddf73e1ea26946637ef",
+  "reviewed_parent": {
+    "label": "high_e07",
+    "relative_path": "local/course_v63/run1/trials/lr_1em04/cycle_01/adapters/step-371",
+    "adapter_sha256": "c12e455e0ba7ef3b923c48f23321f0da624b75de3f4eb88c0800aace24a2457d",
+    "production_approved": false,
+    "source_upload_sha256": "970a63c80fbec89a01e3576aad7f6cb20092514c880a8f1d0cd7109f4a192af5"
+  },
+  "original_stack": {
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "accelerate": "1.10.1",
+    "bitsandbytes": "0.48.1"
+  },
+  "summary": {
+    "schema": "wengua_source_conditional_repair_v64",
+    "cores": 607,
+    "train": 567,
+    "new_development": 40,
+    "training_skills": {
+      "identity": 143,
+      "identity_verify": 14,
+      "identity_ambiguous": 4,
+      "direction": 25,
+      "verify_direction": 50,
+      "consistent_direction": 10,
+      "door": 86,
+      "objects": 54,
+      "marriage": 24,
+      "loan": 12,
+      "sale": 12,
+      "retirement": 9,
+      "liuhe": 14,
+      "types": 8,
+      "exam": 6,
+      "source_fact": 32,
+      "source_absence": 4,
+      "source_dialogue": 60
+    },
+    "original_source_units": 216,
+    "original_case_registry_entries": 194,
+    "training_source_unit_count": 41,
+    "case_linked_training_cores": 4,
+    "true_generated_identity_changes": 24,
+    "same_identity_birth_updates": 7,
+    "generated_comparison_layer_changes": 6,
+    "physical_layouts_used": 8,
+    "physical_layouts_are_not_outcome_cases": true,
+    "source_dialogues_replayed": 60,
+    "original_training_cores_dispositioned": 405,
+    "full_two_book_case_training_claimed": false,
+    "new_blind_benchmark": false
+  },
+  "model_outputs_as_teachers": false,
+  "original_test_used": false,
+  "course_is_complete_two_book_curriculum": false
+}

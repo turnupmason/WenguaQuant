@@ -1,0 +1,17 @@
+{
+  "old_recall": {
+    "path": "local/course_v63/run1/trials/lr_1em04/generations/epoch_07_training_recall.jsonl",
+    "sha256": "116cd11e42918d7965c50000e626776c91cf1db862e74dee4e1e5e7a290fe3ad",
+    "count": 12
+  },
+  "old_diagnostic": {
+    "path": "local/course_v63/run1/trials/lr_1em04/generations/epoch_07_seen_diagnostics.jsonl",
+    "sha256": "fea0f193cc9a7460bcca0a68b895fe02e6bad9a01126093939daf7235ce55f3b",
+    "count": 24
+  },
+  "new_review": {
+    "path": "local/v63_checkpoint_probe/run1/answers/high_e07.jsonl",
+    "sha256": "7ffa719b907d7bd874d37609a425e1061c5f46c02ca53499fdaaea8e8c116f38",
+    "count": 38
+  }
+}
