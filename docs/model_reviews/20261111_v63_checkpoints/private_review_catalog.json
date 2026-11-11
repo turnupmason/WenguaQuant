@@ -1,0 +1,18 @@
+{
+  "id": "v63_checkpoint_review",
+  "manifest": "data/delivery/v63_checkpoint_review/manifest.json",
+  "destination": "local/model_reviews/v63_checkpoints",
+  "files": {
+    "original/current_probe.zip": "970a63c80fbec89a01e3576aad7f6cb20092514c880a8f1d0cd7109f4a192af5",
+    "original/previous_v63_training.zip": "ae32ff3d8c17954d23ad01bdcc8370210a9fd5a4e9705519aed2ce450dd71a7c",
+    "review/summary.json": "8cd245b5729ce538e6a3b69eceacc69fa8bf022ae5ac2839b2a9044bf89d03bb",
+    "review/Wengua_V63_九模型逐答审阅.xlsx": "1893f791dc0d2c62a07006acf2221b585cb910e26336c4f1b5655cc6b43ce4cb",
+    "source_recipe/reading_notes.json": "e16e1e4842c49996aa7508316c69bc44b841e5fc9f50a7d4a7a79bec0b614c13",
+    "source_recipe/make_notes.py": "d9f945b337ba224e126092e4b57dcc76f593f8c6abfbea4539a9b3a43f70e8cb",
+    "source_recipe/source_pack.json.gz": "8ee3092879b1ef642e6fe78e5aaf975e50a7d1d5d752a15b6a1d3aad78f94640",
+    "source_recipe/v63_checkpoint_review.py": "1dc5ce8ba4d4179c7c2ba9c26cdee9cfdf3a0f1dd4e87ef19b1f1e0f75828af8"
+  },
+  "library": null,
+  "optional": true,
+  "purpose": "evaluation_only_exclude_from_knowledge_and_training"
+}

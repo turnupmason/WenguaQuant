@@ -1,0 +1,13 @@
+{
+  "label": "high_e07",
+  "relative_path": "local/course_v63/run1/trials/lr_1em04/cycle_01/adapters/step-371",
+  "adapter_sha256": "c12e455e0ba7ef3b923c48f23321f0da624b75de3f4eb88c0800aace24a2457d",
+  "production_approved": false,
+  "not_uniformly_best_on_known_tasks": true,
+  "source_upload_sha256": "970a63c80fbec89a01e3576aad7f6cb20092514c880a8f1d0cd7109f4a192af5",
+  "requires_revised_source_courses_before_further_training": true,
+  "old_optimizer_to_be_reused": false,
+  "all_old_weights_preserved": true,
+  "curriculum_ready": false,
+  "new_training_command_published": false
+}

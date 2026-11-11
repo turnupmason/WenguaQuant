@@ -1,0 +1,179 @@
+{
+  "schema": "wengua_actual_v63_checkpoint_review_v1",
+  "upload_sha256": "970a63c80fbec89a01e3576aad7f6cb20092514c880a8f1d0cd7109f4a192af5",
+  "archive_members": 69,
+  "frozen_runtime_files": 252,
+  "stored_answers": 342,
+  "reused_answers": 54,
+  "new_answers": 288,
+  "weight_updates": 0,
+  "reused_answers_match_earlier_upload": true,
+  "answer_lengths": {
+    "official_base": {
+      "stored_answers": 38,
+      "token_limit_ids": [],
+      "generated_tokens": 5219,
+      "mean_answer_characters": 190.8421052631579
+    },
+    "low_e01": {
+      "stored_answers": 38,
+      "token_limit_ids": [],
+      "generated_tokens": 1089,
+      "mean_answer_characters": 34.78947368421053
+    },
+    "low_e02": {
+      "stored_answers": 38,
+      "token_limit_ids": [
+        "v62:dev_condition_1"
+      ],
+      "generated_tokens": 1868,
+      "mean_answer_characters": 58.73684210526316
+    },
+    "low_e04": {
+      "stored_answers": 38,
+      "token_limit_ids": [
+        "v58:actual_rag:health_father_self"
+      ],
+      "generated_tokens": 2002,
+      "mean_answer_characters": 63.55263157894737
+    },
+    "low_e08": {
+      "stored_answers": 38,
+      "token_limit_ids": [],
+      "generated_tokens": 1494,
+      "mean_answer_characters": 50.18421052631579
+    },
+    "high_e01": {
+      "stored_answers": 38,
+      "token_limit_ids": [],
+      "generated_tokens": 1155,
+      "mean_answer_characters": 37.078947368421055
+    },
+    "high_e02": {
+      "stored_answers": 38,
+      "token_limit_ids": [],
+      "generated_tokens": 1335,
+      "mean_answer_characters": 44.68421052631579
+    },
+    "high_e04": {
+      "stored_answers": 38,
+      "token_limit_ids": [],
+      "generated_tokens": 1439,
+      "mean_answer_characters": 48.526315789473685
+    },
+    "high_e07": {
+      "stored_answers": 38,
+      "token_limit_ids": [],
+      "generated_tokens": 1351,
+      "mean_answer_characters": 45.026315789473685
+    }
+  },
+  "source_curriculum": {
+    "training_cores": 405,
+    "distinct_teacher_texts": 213,
+    "skills": {
+      "source_dialogue": 60,
+      "direction": 75,
+      "door_relation": 128,
+      "identity": 48,
+      "identity_switch": 15,
+      "symbol_types": 8,
+      "typed_palace": 16,
+      "branch_conditions": 18,
+      "domain_branch": 22,
+      "domain_roles": 15
+    },
+    "case_linked_cores": 4,
+    "distinct_linked_case_ids": [
+      "shenqi.business.lease_restaurant",
+      "shenqi.employment.military_officer_removed",
+      "shenqi.health.19960316.self_surgery",
+      "shenqi.lost_property.case01"
+    ],
+    "same_scope_tail_occurrences": 128,
+    "identity_switch_cores": 15,
+    "same_self_to_self_cores": 5,
+    "same_self_to_self_is_not_a_role_change": true,
+    "all_original_sources_and_case_splits_preserved": true,
+    "not_a_full_two_book_case_curriculum": true
+  },
+  "notes_bound_to_actual_answers": 342,
+  "research_continuation_candidate": {
+    "label": "high_e07",
+    "relative_path": "local/course_v63/run1/trials/lr_1em04/cycle_01/adapters/step-371",
+    "adapter_sha256": "c12e455e0ba7ef3b923c48f23321f0da624b75de3f4eb88c0800aace24a2457d",
+    "production_approved": false,
+    "not_uniformly_best_on_known_tasks": true
+  },
+  "all_questions_are_known_development_not_blind": true,
+  "professional_promotion": false,
+  "unuploaded_weight_tensors_independently_rehashed": false,
+  "model_answers_allowed_as_teachers": false,
+  "actual_workers_verified": 9,
+  "activation": {
+    "low_e01": {
+      "lora_B_matrices": 252,
+      "nonzero_lora_B_matrices": 252,
+      "max_last_position_logit_delta": 28.5,
+      "next_token_changed": false,
+      "parameters_frozen": true,
+      "weight_updates": 0
+    },
+    "low_e02": {
+      "lora_B_matrices": 252,
+      "nonzero_lora_B_matrices": 252,
+      "max_last_position_logit_delta": 28.375,
+      "next_token_changed": false,
+      "parameters_frozen": true,
+      "weight_updates": 0
+    },
+    "low_e04": {
+      "lora_B_matrices": 252,
+      "nonzero_lora_B_matrices": 252,
+      "max_last_position_logit_delta": 24.875,
+      "next_token_changed": false,
+      "parameters_frozen": true,
+      "weight_updates": 0
+    },
+    "low_e08": {
+      "lora_B_matrices": 252,
+      "nonzero_lora_B_matrices": 252,
+      "max_last_position_logit_delta": 25.875,
+      "next_token_changed": false,
+      "parameters_frozen": true,
+      "weight_updates": 0
+    },
+    "high_e01": {
+      "lora_B_matrices": 252,
+      "nonzero_lora_B_matrices": 252,
+      "max_last_position_logit_delta": 30.625,
+      "next_token_changed": false,
+      "parameters_frozen": true,
+      "weight_updates": 0
+    },
+    "high_e02": {
+      "lora_B_matrices": 252,
+      "nonzero_lora_B_matrices": 252,
+      "max_last_position_logit_delta": 26.625,
+      "next_token_changed": false,
+      "parameters_frozen": true,
+      "weight_updates": 0
+    },
+    "high_e04": {
+      "lora_B_matrices": 252,
+      "nonzero_lora_B_matrices": 252,
+      "max_last_position_logit_delta": 22.875,
+      "next_token_changed": false,
+      "parameters_frozen": true,
+      "weight_updates": 0
+    },
+    "high_e07": {
+      "lora_B_matrices": 252,
+      "nonzero_lora_B_matrices": 252,
+      "max_last_position_logit_delta": 22.9375,
+      "next_token_changed": false,
+      "parameters_frozen": true,
+      "weight_updates": 0
+    }
+  }
+}
