@@ -1,0 +1,212 @@
+{
+  "schema": "wengua_actual_v64_readonly_review_v1",
+  "upload_sha256": "2173d2226bd0c66c828726c61ba23b324ea8e65f39d835b74b411c50434622f7",
+  "archive_members": 93,
+  "frozen_runtime_files": 264,
+  "formal_answers_stored": 570,
+  "smoke_answers": 2,
+  "parent_old_answers_reused_unchanged": 74,
+  "formal_new_answers": 496,
+  "new_answers_including_smoke": 498,
+  "formal_updates": 304,
+  "pressure_updates": 4,
+  "source_curriculum": {
+    "train_cores": 567,
+    "distinct_final_teacher_texts": 394,
+    "same_initial_identity_phrase_count": 143,
+    "family_label_without_explicit_proxy_train_ids": [
+      "v64:05b8c24ee59f013ecea1d51d",
+      "v64:7669f156e226757c51572203",
+      "v64:ec518f5dfa4bd156d5812008",
+      "v64:d44971b27e0a4d5a37fd3288",
+      "v64:cf5422c9c589a7f3ddd495bf",
+      "v64:1079bb246d09dc53523ea40d"
+    ],
+    "family_label_without_explicit_proxy_development_ids": [
+      "v64:6255e33e0bacfa676b8798f9",
+      "v64:ca4ed6bfd5676077341af8a0",
+      "v64:f44c25228496a2b627dfb4b8",
+      "v64:758093505eb43927824fe9fa",
+      "v64:81fbf06265bd66d31c4bd06d",
+      "v64:634844e8777594e0dd0b0e74"
+    ],
+    "ambiguity_requires_clarification_not_posthoc_teacher_relabel": true,
+    "source_units": 216,
+    "actually_used_training_source_units": 41,
+    "case_linked_cores": 4,
+    "full_two_book_case_training": false
+  },
+  "notes_bound_to_answers": 570,
+  "answer_shapes": {
+    "P": {
+      "answers": 114,
+      "token_limit_hits": 0,
+      "mean_characters": 44.64912280701754
+    },
+    "L1": {
+      "answers": 114,
+      "token_limit_hits": 0,
+      "mean_characters": 29.30701754385965
+    },
+    "L2": {
+      "answers": 114,
+      "token_limit_hits": 0,
+      "mean_characters": 28.649122807017545
+    },
+    "H1": {
+      "answers": 114,
+      "token_limit_hits": 0,
+      "mean_characters": 27.67543859649123
+    },
+    "H2": {
+      "answers": 114,
+      "token_limit_hits": 0,
+      "mean_characters": 27.57017543859649
+    }
+  },
+  "all_questions_are_known_development": true,
+  "original_test_used": false,
+  "professional_promotion": false,
+  "per_update_training_loss_uploaded": false,
+  "fresh_retrieval_retested": false,
+  "known_rag_replays_per_stage": 18,
+  "unuploaded_weight_tensors_independently_rehashed": false,
+  "responses_allowed_as_sft_or_rag_teachers": false,
+  "limited_observation_counts": {
+    "explicit_role_fields": {
+      "total": 5,
+      "not_accuracy": true,
+      "known_development_only": true,
+      "models": {
+        "P": 2,
+        "L1": 3,
+        "L2": 3,
+        "H1": 4,
+        "H2": 5
+      }
+    },
+    "direct_elements": {
+      "total": 5,
+      "not_accuracy": true,
+      "known_development_only": true,
+      "models": {
+        "P": 5,
+        "L1": 5,
+        "L2": 5,
+        "H1": 5,
+        "H2": 5
+      }
+    },
+    "new_location_whole_answer": {
+      "total": 4,
+      "not_accuracy": true,
+      "known_development_only": true,
+      "models": {
+        "P": 1,
+        "L1": 4,
+        "L2": 4,
+        "H1": 4,
+        "H2": 4
+      }
+    },
+    "new_object_relation_whole_answer": {
+      "total": 12,
+      "not_accuracy": true,
+      "known_development_only": true,
+      "models": {
+        "P": 5,
+        "L1": 3,
+        "L2": 3,
+        "H1": 0,
+        "H2": 1
+      }
+    },
+    "new_relation_verification": {
+      "total": 5,
+      "not_accuracy": true,
+      "known_development_only": true,
+      "models": {
+        "P": 1,
+        "L1": 1,
+        "L2": 1,
+        "H1": 1,
+        "H2": 1
+      }
+    },
+    "ordinary": {
+      "total": 4,
+      "not_accuracy": true,
+      "known_development_only": true,
+      "models": {
+        "P": 4,
+        "L1": 4,
+        "L2": 4,
+        "H1": 4,
+        "H2": 4
+      }
+    },
+    "old_training_recall": {
+      "total": 12,
+      "not_accuracy": true,
+      "known_development_only": true,
+      "models": {
+        "P": 12,
+        "L1": 12,
+        "L2": 12,
+        "H1": 12,
+        "H2": 12
+      }
+    }
+  },
+  "trials": {
+    "lr_1em05": {
+      "steps": 152,
+      "epoch_losses": [
+        0.4058764576911926,
+        0.31175854802131653
+      ],
+      "parent_validation_loss": 2.424700975418091,
+      "trainable_parameters": 43646976,
+      "peak_reserved_gib": 7.892578125
+    },
+    "lr_3em05": {
+      "steps": 152,
+      "epoch_losses": [
+        0.1570330560207367,
+        0.14797475934028625
+      ],
+      "parent_validation_loss": 2.424700975418091,
+      "trainable_parameters": 43646976,
+      "peak_reserved_gib": 7.892578125
+    }
+  },
+  "worker_receipts_verified": 5,
+  "formal_training_memory": [
+    {
+      "train_samples": 38,
+      "zero_free_samples": 0,
+      "minimum_free_gib": 6.763671875,
+      "max_sampled_reserved_gib": 7.892578125,
+      "max_reported_peak_allocated_gib": 7.478734970092773,
+      "max_allocator_ooms": 0,
+      "first_step": 0,
+      "last_sampled_step": 150
+    },
+    {
+      "train_samples": 37,
+      "zero_free_samples": 0,
+      "minimum_free_gib": 6.763671875,
+      "max_sampled_reserved_gib": 7.892578125,
+      "max_reported_peak_allocated_gib": 7.478734970092773,
+      "max_allocator_ooms": 0,
+      "first_step": 0,
+      "last_sampled_step": 148
+    }
+  ],
+  "selection": {
+    "automatic_promotion": false,
+    "all_existing_weights_preserved": true,
+    "sole_next_parent_selected": false,
+    "new_training_started": false
+  }
+}
