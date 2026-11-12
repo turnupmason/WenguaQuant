@@ -1,0 +1,13 @@
+{
+  "schema": "wengua_v67_reviewed_v66_source_pins",
+  "files": {
+    "run_status.json": "d53089b7cb86fe00637b97f450b76384bf91f85295b6b29d03bb942ff53ab152",
+    "sweep_contract.json": "f867ea38be9c7207b8105d9fbd72ce6f4ce4287536a4717b5b507d6f833f218b",
+    "trials/ordinary_ce/job_contract.json": "e160a0a7b873cb35d8328a23406d31d8c339bc3a81959f7363fddb6a07851422",
+    "trials/ordinary_ce/cycle_01/stage_contract.json": "a9db5363c2bcdbd3bfa0bb326707345a2277265c198fb431b98cd780da4ee45e",
+    "trials/ordinary_ce/cycle_01/stage_status.json": "83b35f27c42138f2630d1d1579bb635ffc7e5d0c7596b05a639baef004962d02",
+    "trials/ordinary_ce/generations/ordinary_ce.complete.json": "d2ccf8a99ce8d643ab7f20a7eb25b36b94822d25049deccc4ece64f7c56b8250",
+    "trials/ordinary_ce/generations/ordinary_ce.jsonl": "6723733d05d9a97040e924082aba3533fd6f7f3c85b0df05c58d1cbe838ca4a9"
+  },
+  "evaluation_answers_not_sft_teachers": true
+}

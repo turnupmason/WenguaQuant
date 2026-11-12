@@ -1,0 +1,60 @@
+{
+  "schema": "wengua_typed_objects_independent_conditions_v67",
+  "source_v66_release_sha256": "09c184caf45ec7bb3ee57d47049cb8758a81f0665d161e083980723f7e225724",
+  "pack_json_sha256": "bb4fab185d466de0782772e09a58dcf6a5c471c8e3e4fad8f24dc8263425f87c",
+  "summary": {
+    "schema": "wengua_typed_objects_independent_conditions_v67",
+    "train_cores": 841,
+    "development": 44,
+    "training_skills": {
+      "attribute": 18,
+      "verify": 50,
+      "relation": 25,
+      "repair": 25,
+      "objects": 72,
+      "door": 64,
+      "locations": 16,
+      "identity": 56,
+      "identity_verify": 16,
+      "identity_ambiguous": 3,
+      "exam": 12,
+      "loan": 16,
+      "sale": 16,
+      "retirement": 16,
+      "formation": 16,
+      "literal_fact": 16,
+      "types": 8,
+      "liuhe": 9,
+      "source_dialogue": 60,
+      "typed_objects": 136,
+      "star_claim": 32,
+      "independent_conditions": 99,
+      "condition_claim": 24,
+      "source_scope": 8,
+      "identity_referent": 28
+    },
+    "unchanged_v66_replays": 514,
+    "preserved_v66_cores": 1804,
+    "source_units": 216,
+    "original_case_registry": 194,
+    "first_and_second_conditions_independently_varied": true,
+    "model_outputs_are_teachers": false,
+    "old_manual_scores_used": false,
+    "new_blind_benchmark": false,
+    "full_case_training_claimed": false
+  },
+  "evaluation_pack_sha256": "60e9153c34bd3b7cf3e5d72b7048ea4c886372cd8d9ae1e4ab54e5bbe21c0db2",
+  "parent": {
+    "relative_path": "local/course_v66/run1/trials/ordinary_ce/cycle_01/adapters/step-77",
+    "sha256": "e551090a87e6798fdf0cc3387cbca05c2118842149fe511cb692f61ff48917a6"
+  },
+  "original_stack": {
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "accelerate": "1.10.1",
+    "bitsandbytes": "0.48.1"
+  },
+  "old_code_or_weights_changed": false,
+  "actual_8b_improvement_verified": false
+}
