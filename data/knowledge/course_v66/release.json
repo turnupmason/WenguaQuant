@@ -1,0 +1,55 @@
+{
+  "schema": "wengua_visible_scope_decision_loss_v66",
+  "source_v65_release_sha256": "0ac73208f3b738203b41dd9ea42c5f5aee2e13b0a85dbb2f90f9b207cad82c45",
+  "pack_json_sha256": "a8e44ff7b50f381dd5ffca635d2f7f87b4e57b9684505e3c0566400ca0af0061",
+  "summary": {
+    "schema": "wengua_visible_scope_decision_loss_v66",
+    "preserved_train_cores": 1780,
+    "pilot_train_cores": 586,
+    "pilot_skills": {
+      "attribute": 18,
+      "verify": 50,
+      "relation": 25,
+      "repair": 25,
+      "objects": 72,
+      "door": 64,
+      "locations": 16,
+      "board": 48,
+      "identity": 56,
+      "identity_verify": 16,
+      "identity_ambiguous": 3,
+      "exam": 12,
+      "marriage": 24,
+      "loan": 16,
+      "sale": 16,
+      "retirement": 16,
+      "formation": 16,
+      "literal_fact": 16,
+      "types": 8,
+      "liuhe": 9,
+      "source_dialogue": 60
+    },
+    "development": 24,
+    "source_units": 216,
+    "original_case_registry": 194,
+    "new_books": false,
+    "old_manual_scores": false,
+    "full_case_training_claimed": false,
+    "new_blind_benchmark": false,
+    "ordinary_vs_decision_weighted_control": true
+  },
+  "parent": {
+    "relative_path": "local/course_v65/run1/trials/v63_trained/cycle_01/adapters/step-458",
+    "sha256": "d5fa4783d63f360303862757075458b2658aad46a310d058c14c2f891ccac063"
+  },
+  "original_stack": {
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "accelerate": "1.10.1",
+    "bitsandbytes": "0.48.1"
+  },
+  "no_new_book_bytes_published": true,
+  "old_code_or_weights_changed": false,
+  "professional_improvement_verified": false
+}
