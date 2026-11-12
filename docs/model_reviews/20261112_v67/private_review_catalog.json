@@ -1,0 +1,18 @@
+{
+  "id": "v67_partial_review",
+  "manifest": "data/delivery/v67_review/manifest.json",
+  "destination": "local/model_reviews/v67",
+  "files": {
+    "original/current_review.zip": "97e9fd953946abe4c7379db5646af0bbf104b8c2b8adec6a33d02ff3d41f9591",
+    "review/summary.json": "2da826e10b6a21e65b57f4d0789abf23f577f117393431172fc63cc1159de40b",
+    "review/Wengua_V67_中断前逐答审阅.xlsx": "7918975884be5c7acfbf0b30f68968915b9ec94fc5f42258d444ab5a56774e08",
+    "review/answer_observations.jsonl.gz": "3d6e19e62dbdea437ba8eb042cc7889c9fce3c8597ab4dbf3e7d0e96a66270dc",
+    "source_recipe/reading_notes.json": "d543dbfc9bbf417e5db6a220d6a9806df13b55d96456b514eef87b55fe97747e",
+    "source_recipe/make_notes.py": "d2968f93af67ff4ea0446ab20a4015c0f770e2294c35028a53979223fd3861b2",
+    "source_recipe/prior_v66_reading_notes.json": "05baed633e2e3359104ea3c559bc4bbb6ce96e46498df922cebafc9e96b4e502",
+    "source_recipe/v67_review.py": "d10ccae43a4d14f96d2a976dc31cf8c3ac842145be3d630b0b1e5c376ed923ac"
+  },
+  "library": null,
+  "optional": true,
+  "purpose": "evaluation_only_exclude_from_knowledge_and_training"
+}
