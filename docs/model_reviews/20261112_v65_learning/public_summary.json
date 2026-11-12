@@ -1,0 +1,246 @@
+{
+  "schema": "wengua_actual_v65_learning_review_v1",
+  "upload_sha256": "50f72a268430142dbfa8e39c8b0db24f8af51589ca4e4cfa933041aebd1b1cc4",
+  "archive_members": 26,
+  "frozen_runtime_files": 289,
+  "actual_workers": [
+    {
+      "label": "v63_parent",
+      "pid": 86932,
+      "request_sha256": "2b0eba1d8eee3d6e0874834d21004daa5e23e760a61d32e6f682d036910c2657",
+      "weight_updates": 0
+    },
+    {
+      "label": "v65_epoch2",
+      "pid": 56156,
+      "request_sha256": "7298c1ed0b46dda480b120afaf2f2f6a512bd6ef55914478d6abe6e92e2a2894",
+      "weight_updates": 0
+    }
+  ],
+  "free_answers": 162,
+  "teacher_forced_targets": 76,
+  "weight_updates": 0,
+  "source_adapter_sha256": {
+    "v63_parent": "c12e455e0ba7ef3b923c48f23321f0da624b75de3f4eb88c0800aace24a2457d",
+    "v65_epoch2": "d5fa4783d63f360303862757075458b2658aad46a310d058c14c2f891ccac063"
+  },
+  "activations": {
+    "v63_parent": {
+      "software_fixture": false,
+      "lora_B_matrices": 252,
+      "nonzero_lora_B_matrices": 252,
+      "max_last_position_logit_delta": 17.125,
+      "next_token_changed": false,
+      "parameters_frozen": true,
+      "weight_updates": 0,
+      "adapter_sha256": "c12e455e0ba7ef3b923c48f23321f0da624b75de3f4eb88c0800aace24a2457d"
+    },
+    "v65_epoch2": {
+      "software_fixture": false,
+      "lora_B_matrices": 252,
+      "nonzero_lora_B_matrices": 252,
+      "max_last_position_logit_delta": 17.0,
+      "next_token_changed": false,
+      "parameters_frozen": true,
+      "weight_updates": 0,
+      "adapter_sha256": "d5fa4783d63f360303862757075458b2658aad46a310d058c14c2f891ccac063"
+    }
+  },
+  "all_target_ids_offsets_segments_and_aggregates_verified": true,
+  "actual_logits_independently_recomputed": false,
+  "raw_source_weight_tensors_uploaded": false,
+  "all_questions_known_development": true,
+  "independent_case_accuracy_claimed": false,
+  "whole_board_prediction_evaluated": false,
+  "source_models_used_as_teachers": false,
+  "original_test_used": false,
+  "professional_promotion": false,
+  "summary": {
+    "static_questions": 70,
+    "pairs": 19,
+    "teacher_forced_targets": 38,
+    "interactive_turns": 11,
+    "episodes": 4,
+    "per_model_answers": 81,
+    "categories": {
+      "training_original": 19,
+      "same_facts_paraphrase": 19,
+      "atomic_property": 6,
+      "given_property_control": 6,
+      "physical_star_reading": 16,
+      "latest_facts_without_history": 4
+    }
+  },
+  "notes_bound_to_answers": 162,
+  "token_diagnostics": {
+    "v63_parent": {
+      "original": {
+        "targets": 19,
+        "supervised_tokens": 604,
+        "gold_prefix_top1_errors": 260,
+        "targets_with_any_gold_prefix_top1_error": 19,
+        "token_weighted_mean_nll": 4.796940486242737,
+        "unweighted_target_mean_nll": 4.842786599740563,
+        "decision_token_mean_nll": 5.900375692052243,
+        "conditional_on_gold_prefix_not_free_generation_accuracy": true
+      },
+      "paraphrase": {
+        "targets": 19,
+        "supervised_tokens": 604,
+        "gold_prefix_top1_errors": 253,
+        "targets_with_any_gold_prefix_top1_error": 19,
+        "token_weighted_mean_nll": 4.712936046759766,
+        "unweighted_target_mean_nll": 4.79941056610644,
+        "decision_token_mean_nll": 4.656096796110542,
+        "conditional_on_gold_prefix_not_free_generation_accuracy": true
+      }
+    },
+    "v65_epoch2": {
+      "original": {
+        "targets": 19,
+        "supervised_tokens": 604,
+        "gold_prefix_top1_errors": 7,
+        "targets_with_any_gold_prefix_top1_error": 6,
+        "token_weighted_mean_nll": 0.026907352765032415,
+        "unweighted_target_mean_nll": 0.029500283193129983,
+        "decision_token_mean_nll": 0.07237870752012565,
+        "conditional_on_gold_prefix_not_free_generation_accuracy": true
+      },
+      "paraphrase": {
+        "targets": 19,
+        "supervised_tokens": 604,
+        "gold_prefix_top1_errors": 40,
+        "targets_with_any_gold_prefix_top1_error": 17,
+        "token_weighted_mean_nll": 0.23705872142037276,
+        "unweighted_target_mean_nll": 0.23821813039690665,
+        "decision_token_mean_nll": 0.42498758638245077,
+        "conditional_on_gold_prefix_not_free_generation_accuracy": true
+      }
+    }
+  },
+  "original_after_first_missed_token_examples": [
+    {
+      "pair_id": "palace:艮乾",
+      "supervised_tokens": 27,
+      "mean_nll": 0.05498580333875093,
+      "first_missed_top1_matches_actual_free_prefix": true,
+      "missed_targets": [
+        {
+          "target": "生",
+          "top1": "受",
+          "nll": 1.4792218208312988
+        }
+      ]
+    },
+    {
+      "pair_id": "palace:坎震",
+      "supervised_tokens": 27,
+      "mean_nll": 0.04109976209358761,
+      "first_missed_top1_matches_actual_free_prefix": true,
+      "missed_targets": [
+        {
+          "target": "生",
+          "top1": "受",
+          "nll": 1.1040668487548828
+        }
+      ]
+    },
+    {
+      "pair_id": "palace:离兑",
+      "supervised_tokens": 27,
+      "mean_nll": 0.04134783033983517,
+      "first_missed_top1_matches_actual_free_prefix": true,
+      "missed_targets": [
+        {
+          "target": "克",
+          "top1": "受",
+          "nll": 1.1115167140960693
+        }
+      ]
+    },
+    {
+      "pair_id": "palace:兑离",
+      "supervised_tokens": 29,
+      "mean_nll": 0.05958155651049865,
+      "first_missed_top1_matches_actual_free_prefix": true,
+      "missed_targets": [
+        {
+          "target": "克",
+          "top1": "生",
+          "nll": 1.4066784381866455
+        }
+      ]
+    },
+    {
+      "pair_id": "verify:金木",
+      "supervised_tokens": 28,
+      "mean_nll": 0.052843490344299075,
+      "first_missed_top1_matches_actual_free_prefix": true,
+      "missed_targets": [
+        {
+          "target": "需要",
+          "top1": "成立",
+          "nll": 1.1408106088638306
+        }
+      ]
+    },
+    {
+      "pair_id": "verify:土火",
+      "supervised_tokens": 30,
+      "mean_nll": 0.17688383870763574,
+      "first_missed_top1_matches_actual_free_prefix": true,
+      "missed_targets": [
+        {
+          "target": "需要",
+          "top1": "成立",
+          "nll": 1.5055086612701416
+        },
+        {
+          "target": "生",
+          "top1": "克",
+          "nll": 3.2881624698638916
+        }
+      ]
+    }
+  ],
+  "free_answer_shapes": {
+    "v63_parent": {
+      "answers": 81,
+      "empty": 0,
+      "token_limit_hits": 0,
+      "literal_original_matches": 0
+    },
+    "v65_epoch2": {
+      "answers": 81,
+      "empty": 0,
+      "token_limit_hits": 0,
+      "literal_original_matches": 13
+    }
+  },
+  "bounded_reading_observations": {
+    "v63_parent": {
+      "star_positions": 15,
+      "star_palace_directions": 16,
+      "star_position_and_direction_joint": 15,
+      "dialogue_goal_and_current_state": 3,
+      "bank_main_result": 4,
+      "known_development_manual_component_observation_only": true
+    },
+    "v65_epoch2": {
+      "star_positions": 16,
+      "star_palace_directions": 5,
+      "star_position_and_direction_joint": 5,
+      "dialogue_goal_and_current_state": 11,
+      "bank_main_result": 4,
+      "known_development_manual_component_observation_only": true
+    }
+  },
+  "source_scope_candidates": {
+    "marriage_supervised_views_without_explicit_visible_domain": 18,
+    "static_probe_marriage_questions_without_explicit_visible_domain": 7,
+    "flags_are_review_candidates_not_silent_target_relabels": true,
+    "metadata_domain_is_not_model_visible_context": true
+  },
+  "uploaded_workbooks_full_cell_readback_verified": true,
+  "all_162_answer_notes_reproduced_byte_equal": true
+}

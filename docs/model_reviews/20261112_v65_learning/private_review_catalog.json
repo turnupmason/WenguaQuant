@@ -1,0 +1,17 @@
+{
+  "id": "v65_learning_review",
+  "manifest": "data/delivery/v65_learning_review/manifest.json",
+  "destination": "local/model_reviews/v65_learning",
+  "files": {
+    "original/current_probe.zip": "50f72a268430142dbfa8e39c8b0db24f8af51589ca4e4cfa933041aebd1b1cc4",
+    "review/summary.json": "bb5544ad124c58fa78ce0cb5c32db2b22ed6f646099e3540b8be5a580badc589",
+    "review/Wengua_V65_学习定位逐答审阅.xlsx": "f72ad74f766e34cdf799d83d9e91f6365b7d3bc326689dcdd2ffd958cded197f",
+    "review/answer_observations.jsonl.gz": "7a6a86d93670140fb5b87616eae107e5ad94eed2787b62315075fff058a9f1bc",
+    "source_recipe/reading_notes.json": "f0d503161c42c4eee061d07d3a68e9b0514ea85b04921b1af21a08ea5ce495b9",
+    "source_recipe/make_notes.py": "e816027d30e8accacf31656d1cb0697bb7e7fcc5de81280322c62d4a71652c87",
+    "source_recipe/v65_learning_review.py": "78ad75fe1a18acbabedd216d316d806164e2ee5fe91a1f2953590a3b409d72c1"
+  },
+  "library": null,
+  "optional": true,
+  "purpose": "evaluation_only_exclude_from_knowledge_and_training"
+}
