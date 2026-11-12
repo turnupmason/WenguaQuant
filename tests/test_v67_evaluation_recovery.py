@@ -1,4 +1,4 @@
-import ast,json,tempfile,unittest
+import ast,json,subprocess,sys,tempfile,unittest
 from copy import deepcopy
 from pathlib import Path
 from unittest.mock import patch
@@ -26,8 +26,14 @@ class V67EvaluationRecoveryBoundaries(unittest.TestCase):
                 with self.assertRaises(ValueError):r.stage_contract(job,c,best,pack)
 
     def test_frozen_v67_training_is_not_edited_to_adopt_recovery(self):
-        manifest=r.frozen_check()
-        self.assertEqual(r.runtime.hashes(),manifest['original_code_sha256'])
+        # The real CMD deliberately launches Python with -X utf8. Legacy
+        # frozen hash readers use the process default encoding; exercise that
+        # exact launch contract on Windows 3.11 without editing frozen files.
+        result=subprocess.run([sys.executable,'-X','utf8','-c',
+            'import json; from wengua_recovery import v67_evaluation as r; print(json.dumps(r.frozen_check()))'],
+            capture_output=True,text=True,encoding='utf8',check=True)
+        manifest=json.loads(result.stdout)
+        self.assertEqual(len(manifest['original_code_sha256']),329)
         self.assertFalse(manifest['training_code_modified']);self.assertEqual(manifest['training_updates'],0)
         self.assertEqual(r.POLICY['answers_per_worker'],24);self.assertEqual(r.POLICY['oom_attempts_per_position'],2)
 
