@@ -1,0 +1,17 @@
+{
+  "actual_8b_improvement_verified": false,
+  "actual_qwen_tokenizer_used": true,
+  "all_11_dialogue_turns_fit_with_reference_history": true,
+  "all_38_teacher_prefixes_and_offsets_equal": true,
+  "inference_only": true,
+  "max_static_prompt_tokens": 266,
+  "max_teacher_forced_full_tokens": 295,
+  "model_own_actual_history_budget_checked_at_runtime": true,
+  "pairs": 19,
+  "schema": "wengua_v65_paired_learning_probe_v1",
+  "static_questions": 70,
+  "teacher_history_budget_check_only": true,
+  "weight_updates": 0,
+  "six_actual_uploaded_source_receipts_verified": true,
+  "frozen_v65_code_items_unchanged": 283
+}

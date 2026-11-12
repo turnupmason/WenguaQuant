@@ -1,0 +1,15 @@
+{
+  "software_fixture_only": true,
+  "two_sources_forward_only": true,
+  "source_files_unchanged": true,
+  "teacher_forced_nll_equals_native_ce": true,
+  "no_parameter_gradients_created": true,
+  "model_own_history_verified": true,
+  "invalid_utf8_tail_repaired_without_losing_complete_answers": true,
+  "completed_resume_without_model_load": true,
+  "excel_and_export_verified": true,
+  "source_mutation_rejected_before_cache_hit": true,
+  "native_windows_cmd_verified": false,
+  "weight_updates": 0,
+  "actual_8b_improvement_verified": false
+}

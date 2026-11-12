@@ -1,0 +1,15 @@
+{
+  "schema": "wengua_v65_learning_source_pins_v1",
+  "uploaded_v65_review_sha256": "b5d8f4cd7cf3a2a4fc722ead8bfd7480049e74c9fe5e88883a7197a5cc8d27a2",
+  "files": {
+    "run_status.json": "fc96666cc87efe269d4132f4684d7fb83aed6f91ac808c2f6da83bfcb998e063",
+    "sweep_contract.json": "3a73175312711a480c10446594709113854b61c96556c7195a3ea6fa4afecb18",
+    "initializations/v63_trained/parent_provenance.json": "24e78097d1e6d4cbdedaa56004ccfb7d6add8771c785795e29b064a564d8ea7e",
+    "trials/v63_trained/job_contract.json": "44e3cdf8a22b4177ca1becf69ffd7919352217421e84a3122e124130dc805e6c",
+    "trials/v63_trained/cycle_01/stage_contract.json": "ee27a3350d427ec2b9925d0b4120809d90f82cf9f4c1c07d6a46763ab09574c1",
+    "trials/v63_trained/cycle_01/stage_status.json": "8adb8fd49795b7cd6a9ba71f1fa5b3d5b7798b8c6f25c56a4f7c129d51746edc"
+  },
+  "selected_adapter_sha_obtained_from_local_sealed_receipt": true,
+  "independently_uploaded_v65_weight_tensors": false,
+  "diagnostic_pack_sha256": "450b1e7d5f3e2b9c898e7656ebece8217e8950d9bd89936d10c10b8e3abdc5a2"
+}
