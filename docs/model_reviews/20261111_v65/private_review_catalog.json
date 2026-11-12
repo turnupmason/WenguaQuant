@@ -1,0 +1,19 @@
+{
+  "id": "v65_review",
+  "manifest": "data/delivery/v65_review/manifest.json",
+  "destination": "local/model_reviews/v65",
+  "files": {
+    "original/current_v65.zip": "b5d8f4cd7cf3a2a4fc722ead8bfd7480049e74c9fe5e88883a7197a5cc8d27a2",
+    "review/summary.json": "374df30022fddcbc84dd170480cc16f53c3be878998f32af355e10fd8a9ffc1d",
+    "review/Wengua_V65_逐组逐答审阅.xlsx": "404e8c46c3097f139db914565217966c0b855d87d43ac9d5198cc35aaf8a1c79",
+    "review/answer_observations.jsonl.gz": "7d0afeb08d0936ba64eafb058a48cc461ebe1b5b26fe451c39658fd092481330",
+    "source_recipe/reading_notes.json": "4e481c785381be6b3e3ed17e52f4d2172c6b0023d4dbc0b1e5b55f469ff5a0bd",
+    "source_recipe/make_notes.py": "7b00cb9d64f9fee478cfb5f8b38d3be5390d6916e46f51be8ac52884e76ad53d",
+    "source_recipe/v65_review.py": "5e57ecfc8503742a6d3af7ae874c66adeb71a68dd4e3f73099fa3907ae49c65d",
+    "source_recipe/prior_answers/local/v63_checkpoint_probe/run1/answers/official_base.jsonl": "64d7659b05dc5fccf1be755f09da2eab5886c3700a3e60f4fb3b7e48bf0197ac",
+    "source_recipe/prior_answers/local/course_v64/run1/trials/parent_baseline/generations/parent_review.jsonl": "4bd3e1e0e2d491fff01ec89560f2b13aa8b9e0d690a270b8a5ce6a9d14616f44"
+  },
+  "library": null,
+  "optional": true,
+  "purpose": "evaluation_only_exclude_from_knowledge_and_training"
+}
