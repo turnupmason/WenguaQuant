@@ -1,0 +1,17 @@
+{
+  "id": "v66_review",
+  "manifest": "data/delivery/v66_review/manifest.json",
+  "destination": "local/model_reviews/v66",
+  "files": {
+    "original/current_review.zip": "5a91edaf4432f75a97759b314a9091bc2adcc12e6aa6015b720438a83cbfb6d5",
+    "review/summary.json": "1e54c89603b40367640a0dad29ff70f6cb858ab8344efa24b0230d44b0612eef",
+    "review/Wengua_V66_两路训练逐答审阅.xlsx": "677f980084eed2dfdbec8f0bec6145f6798ee8c818b1552dee4e489a9d5ab89f",
+    "review/answer_observations.jsonl.gz": "c03b7112a15d1e3a01e70ff6e595d7d69fecaaf477625cf35ffb26fabd7b90b8",
+    "source_recipe/reading_notes.json": "05baed633e2e3359104ea3c559bc4bbb6ce96e46498df922cebafc9e96b4e502",
+    "source_recipe/make_notes.py": "e9a1581f79a44b3aa6d3f91841502cb18bdeb7279bccee71b209c131e25b40ee",
+    "source_recipe/v66_review.py": "6d5ad32652350e10ff87fbf136889d37b587b7b07ae3bea6d60a7a44d95d6896"
+  },
+  "library": null,
+  "optional": true,
+  "purpose": "evaluation_only_exclude_from_knowledge_and_training"
+}

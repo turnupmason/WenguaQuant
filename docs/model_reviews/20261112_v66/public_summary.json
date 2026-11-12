@@ -1,0 +1,549 @@
+{
+  "schema": "wengua_actual_v66_review_v1",
+  "upload_sha256": "5a91edaf4432f75a97759b314a9091bc2adcc12e6aa6015b720438a83cbfb6d5",
+  "archive_members": 121,
+  "frozen_runtime_files": 308,
+  "formal_updates": 154,
+  "pressure_updates": 4,
+  "free_answers": 309,
+  "teacher_forced_targets": 114,
+  "notes_bound_to_answers": 309,
+  "bounded_reading_observations": {
+    "parent": {
+      "groups": {
+        "palace_original": {
+          "questions": 6,
+          "whole_answer_supported": 2,
+          "annotation_verdicts": {
+            "contradictory_whole_answer": 4,
+            "supported_for_asked_fact": 2
+          }
+        },
+        "palace_paraphrase": {
+          "questions": 6,
+          "whole_answer_supported": 6,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 6
+          }
+        },
+        "verify_original": {
+          "questions": 5,
+          "whole_answer_supported": 3,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 3,
+            "contradictory_whole_answer": 2
+          }
+        },
+        "verify_paraphrase": {
+          "questions": 5,
+          "whole_answer_supported": 1,
+          "annotation_verdicts": {
+            "unsupported_or_irrelevant_addition": 1,
+            "supported_for_asked_fact": 1,
+            "contradictory_whole_answer": 3
+          }
+        },
+        "marriage_static": {
+          "questions": 6,
+          "whole_answer_supported": 6,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 6
+          }
+        },
+        "loan": {
+          "questions": 4,
+          "whole_answer_supported": 3,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 3,
+            "unsupported_or_irrelevant_addition": 1
+          }
+        },
+        "identity": {
+          "questions": 6,
+          "whole_answer_supported": 6,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 6
+          }
+        },
+        "attributes": {
+          "questions": 6,
+          "whole_answer_supported": 6,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 6
+          }
+        },
+        "given_elements": {
+          "questions": 6,
+          "whole_answer_supported": 5,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 5,
+            "contradictory_whole_answer": 1
+          }
+        },
+        "star_composition": {
+          "questions": 16,
+          "whole_answer_supported": 5,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 5,
+            "contradictory_whole_answer": 11
+          }
+        },
+        "flat_latest": {
+          "questions": 4,
+          "whole_answer_supported": 3,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 3,
+            "contradictory_whole_answer": 1
+          }
+        },
+        "rag_context": {
+          "questions": 18,
+          "whole_answer_supported": 16,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 16,
+            "contradictory_whole_answer": 1,
+            "partial_coverage": 1
+          }
+        },
+        "ordinary": {
+          "questions": 4,
+          "whole_answer_supported": 4,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 4
+          }
+        },
+        "own_history": {
+          "questions": 11,
+          "whole_answer_supported": 11,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 11
+          }
+        }
+      },
+      "palace_directions": 8,
+      "verification_verdict_and_direction": 5,
+      "marriage_branch_verdict": 6,
+      "marriage_branch_and_reason": 6,
+      "bank_main_result": 4,
+      "identity_main_field": 6,
+      "star_positions": 16,
+      "star_palace_directions": 5,
+      "star_intrinsic_attribute_errors": 0,
+      "own_history_main_goal": 11,
+      "own_history_explicit_condition_contradictions": 0,
+      "condition_wording_ambiguity_ids": [
+        "v65learn:marriage:未提供:original",
+        "v65learn:dialogue:marriage_update:0"
+      ],
+      "bounded_known_question_observations_not_case_accuracy": true
+    },
+    "ordinary_ce": {
+      "groups": {
+        "palace_original": {
+          "questions": 6,
+          "whole_answer_supported": 6,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 6
+          }
+        },
+        "palace_paraphrase": {
+          "questions": 6,
+          "whole_answer_supported": 6,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 6
+          }
+        },
+        "verify_original": {
+          "questions": 5,
+          "whole_answer_supported": 5,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 5
+          }
+        },
+        "verify_paraphrase": {
+          "questions": 5,
+          "whole_answer_supported": 5,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 5
+          }
+        },
+        "marriage_static": {
+          "questions": 6,
+          "whole_answer_supported": 5,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 5,
+            "contradictory_whole_answer": 1
+          }
+        },
+        "loan": {
+          "questions": 4,
+          "whole_answer_supported": 4,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 4
+          }
+        },
+        "identity": {
+          "questions": 6,
+          "whole_answer_supported": 5,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 5,
+            "unsupported_or_irrelevant_addition": 1
+          }
+        },
+        "attributes": {
+          "questions": 6,
+          "whole_answer_supported": 6,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 6
+          }
+        },
+        "given_elements": {
+          "questions": 6,
+          "whole_answer_supported": 6,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 6
+          }
+        },
+        "star_composition": {
+          "questions": 16,
+          "whole_answer_supported": 11,
+          "annotation_verdicts": {
+            "wrong_target_or_fact": 3,
+            "supported_for_asked_fact": 11,
+            "unsupported_or_irrelevant_addition": 2
+          }
+        },
+        "flat_latest": {
+          "questions": 4,
+          "whole_answer_supported": 4,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 4
+          }
+        },
+        "rag_context": {
+          "questions": 18,
+          "whole_answer_supported": 16,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 16,
+            "unsupported_or_irrelevant_addition": 1,
+            "partial_coverage": 1
+          }
+        },
+        "ordinary": {
+          "questions": 4,
+          "whole_answer_supported": 3,
+          "annotation_verdicts": {
+            "contradictory_whole_answer": 1,
+            "supported_for_asked_fact": 3
+          }
+        },
+        "own_history": {
+          "questions": 11,
+          "whole_answer_supported": 11,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 11
+          }
+        }
+      },
+      "palace_directions": 12,
+      "verification_verdict_and_direction": 10,
+      "marriage_branch_verdict": 6,
+      "marriage_branch_and_reason": 5,
+      "bank_main_result": 4,
+      "identity_main_field": 6,
+      "star_positions": 16,
+      "star_palace_directions": 13,
+      "star_intrinsic_attribute_errors": 5,
+      "own_history_main_goal": 11,
+      "own_history_explicit_condition_contradictions": 0,
+      "condition_wording_ambiguity_ids": [
+        "v65learn:dialogue:marriage_update:1"
+      ],
+      "bounded_known_question_observations_not_case_accuracy": true
+    },
+    "decision_ce": {
+      "groups": {
+        "palace_original": {
+          "questions": 6,
+          "whole_answer_supported": 6,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 6
+          }
+        },
+        "palace_paraphrase": {
+          "questions": 6,
+          "whole_answer_supported": 6,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 6
+          }
+        },
+        "verify_original": {
+          "questions": 5,
+          "whole_answer_supported": 4,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 4,
+            "contradictory_whole_answer": 1
+          }
+        },
+        "verify_paraphrase": {
+          "questions": 5,
+          "whole_answer_supported": 3,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 3,
+            "contradictory_whole_answer": 2
+          }
+        },
+        "marriage_static": {
+          "questions": 6,
+          "whole_answer_supported": 4,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 4,
+            "contradictory_whole_answer": 2
+          }
+        },
+        "loan": {
+          "questions": 4,
+          "whole_answer_supported": 3,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 3,
+            "contradictory_whole_answer": 1
+          }
+        },
+        "identity": {
+          "questions": 6,
+          "whole_answer_supported": 5,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 5,
+            "unsupported_or_irrelevant_addition": 1
+          }
+        },
+        "attributes": {
+          "questions": 6,
+          "whole_answer_supported": 6,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 6
+          }
+        },
+        "given_elements": {
+          "questions": 6,
+          "whole_answer_supported": 6,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 6
+          }
+        },
+        "star_composition": {
+          "questions": 16,
+          "whole_answer_supported": 12,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 12,
+            "wrong_target_or_fact": 1,
+            "unsupported_or_irrelevant_addition": 3
+          }
+        },
+        "flat_latest": {
+          "questions": 4,
+          "whole_answer_supported": 4,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 4
+          }
+        },
+        "rag_context": {
+          "questions": 18,
+          "whole_answer_supported": 14,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 14,
+            "partial_coverage": 2,
+            "unsupported_or_irrelevant_addition": 2
+          }
+        },
+        "ordinary": {
+          "questions": 4,
+          "whole_answer_supported": 3,
+          "annotation_verdicts": {
+            "contradictory_whole_answer": 1,
+            "supported_for_asked_fact": 3
+          }
+        },
+        "own_history": {
+          "questions": 11,
+          "whole_answer_supported": 9,
+          "annotation_verdicts": {
+            "supported_for_asked_fact": 9,
+            "contradictory_whole_answer": 1,
+            "wrong_target_or_fact": 1
+          }
+        }
+      },
+      "palace_directions": 12,
+      "verification_verdict_and_direction": 7,
+      "marriage_branch_verdict": 6,
+      "marriage_branch_and_reason": 4,
+      "bank_main_result": 4,
+      "identity_main_field": 6,
+      "star_positions": 16,
+      "star_palace_directions": 15,
+      "star_intrinsic_attribute_errors": 4,
+      "own_history_main_goal": 10,
+      "own_history_explicit_condition_contradictions": 2,
+      "condition_wording_ambiguity_ids": [],
+      "bounded_known_question_observations_not_case_accuracy": true
+    }
+  },
+  "token_diagnostics": {
+    "parent": {
+      "original": {
+        "targets": 19,
+        "supervised_tokens": 572,
+        "token_mean_nll": 1.4396068212519821,
+        "gold_prefix_top1_misses": 118,
+        "critical_tokens": 99,
+        "critical_mean_nll": 2.342721138556665,
+        "critical_gold_prefix_misses": 33,
+        "direction_predicate_tokens_excluding_bihe_and_verdict_style": 20,
+        "direction_predicate_gold_prefix_misses": 0,
+        "direction_predicate_mean_nll": 0.006377160022992712,
+        "is_free_answer_accuracy": false
+      },
+      "paraphrase": {
+        "targets": 19,
+        "supervised_tokens": 572,
+        "token_mean_nll": 1.1864124562148546,
+        "gold_prefix_top1_misses": 108,
+        "critical_tokens": 99,
+        "critical_mean_nll": 1.7115273590607711,
+        "critical_gold_prefix_misses": 27,
+        "direction_predicate_tokens_excluding_bihe_and_verdict_style": 20,
+        "direction_predicate_gold_prefix_misses": 0,
+        "direction_predicate_mean_nll": 0.0011637144319763594,
+        "is_free_answer_accuracy": false
+      },
+      "all": {
+        "targets": 38,
+        "supervised_tokens": 1144,
+        "token_mean_nll": 1.3130096387334185,
+        "gold_prefix_top1_misses": 226,
+        "critical_tokens": 198,
+        "critical_mean_nll": 2.0271242488087178,
+        "critical_gold_prefix_misses": 60,
+        "direction_predicate_tokens_excluding_bihe_and_verdict_style": 40,
+        "direction_predicate_gold_prefix_misses": 0,
+        "direction_predicate_mean_nll": 0.0037704372274845353,
+        "is_free_answer_accuracy": false
+      }
+    },
+    "ordinary_ce": {
+      "original": {
+        "targets": 19,
+        "supervised_tokens": 572,
+        "token_mean_nll": 0.30508688693909314,
+        "gold_prefix_top1_misses": 38,
+        "critical_tokens": 99,
+        "critical_mean_nll": 0.49694255945096616,
+        "critical_gold_prefix_misses": 10,
+        "direction_predicate_tokens_excluding_bihe_and_verdict_style": 20,
+        "direction_predicate_gold_prefix_misses": 0,
+        "direction_predicate_mean_nll": 0.023069985636595902,
+        "is_free_answer_accuracy": false
+      },
+      "paraphrase": {
+        "targets": 19,
+        "supervised_tokens": 572,
+        "token_mean_nll": 0.3656907424386665,
+        "gold_prefix_top1_misses": 56,
+        "critical_tokens": 99,
+        "critical_mean_nll": 0.6216889464320384,
+        "critical_gold_prefix_misses": 15,
+        "direction_predicate_tokens_excluding_bihe_and_verdict_style": 20,
+        "direction_predicate_gold_prefix_misses": 0,
+        "direction_predicate_mean_nll": 0.01165662019702154,
+        "is_free_answer_accuracy": false
+      },
+      "all": {
+        "targets": 38,
+        "supervised_tokens": 1144,
+        "token_mean_nll": 0.3353888146888798,
+        "gold_prefix_top1_misses": 94,
+        "critical_tokens": 198,
+        "critical_mean_nll": 0.5593157529415023,
+        "critical_gold_prefix_misses": 25,
+        "direction_predicate_tokens_excluding_bihe_and_verdict_style": 40,
+        "direction_predicate_gold_prefix_misses": 0,
+        "direction_predicate_mean_nll": 0.01736330291680872,
+        "is_free_answer_accuracy": false
+      }
+    },
+    "decision_ce": {
+      "original": {
+        "targets": 19,
+        "supervised_tokens": 572,
+        "token_mean_nll": 0.3832696568148856,
+        "gold_prefix_top1_misses": 50,
+        "critical_tokens": 99,
+        "critical_mean_nll": 0.3227317465656711,
+        "critical_gold_prefix_misses": 8,
+        "direction_predicate_tokens_excluding_bihe_and_verdict_style": 20,
+        "direction_predicate_gold_prefix_misses": 0,
+        "direction_predicate_mean_nll": 0.008300919491597369,
+        "is_free_answer_accuracy": false
+      },
+      "paraphrase": {
+        "targets": 19,
+        "supervised_tokens": 572,
+        "token_mean_nll": 0.443968438711077,
+        "gold_prefix_top1_misses": 69,
+        "critical_tokens": 99,
+        "critical_mean_nll": 0.4563355892281589,
+        "critical_gold_prefix_misses": 12,
+        "direction_predicate_tokens_excluding_bihe_and_verdict_style": 20,
+        "direction_predicate_gold_prefix_misses": 0,
+        "direction_predicate_mean_nll": 0.005732901833651738,
+        "is_free_answer_accuracy": false
+      },
+      "all": {
+        "targets": 38,
+        "supervised_tokens": 1144,
+        "token_mean_nll": 0.41361904776298125,
+        "gold_prefix_top1_misses": 119,
+        "critical_tokens": 198,
+        "critical_mean_nll": 0.389533667896915,
+        "critical_gold_prefix_misses": 20,
+        "direction_predicate_tokens_excluding_bihe_and_verdict_style": 40,
+        "direction_predicate_gold_prefix_misses": 0,
+        "direction_predicate_mean_nll": 0.007016910662624554,
+        "is_free_answer_accuracy": false
+      }
+    }
+  },
+  "source_curriculum": {
+    "preserved_train_cores": 1780,
+    "short_training_cores": 586,
+    "source_units": 216,
+    "original_case_registry": 194,
+    "marriage_cores": 24,
+    "marriage_views": 29,
+    "marriage_first_condition": {
+      "相生": 9,
+      "比和": 15
+    },
+    "marriage_second_condition": {
+      "已具备": 10,
+      "未提供": 5,
+      "明确不具备": 9
+    },
+    "marriage_multiturn_cores": 5,
+    "first_condition_always_known_satisfied": true,
+    "no_first_condition_false_or_unknown_contrast": true,
+    "coverage_gap_is_not_proven_unique_failure_cause": true,
+    "non_book_teachers_or_new_books_used": false,
+    "full_194_case_training_claimed": false
+  },
+  "all_token_ids_offsets_masks_and_means_verified": true,
+  "unuploaded_weight_tensors_independently_rehashed": false,
+  "actual_gpu_logits_independently_recomputed": false,
+  "original_test_used": false,
+  "new_blind_case_accuracy_claimed": false,
+  "professional_promotion": false,
+  "fresh_rag_retrieval_retested": false,
+  "responses_allowed_as_sft_or_rag_teachers": false,
+  "conclusion": "Ordinary CE is the next repair candidate; no global promotion. Direction improves, intrinsic-star binding, conditions and one ordinary rewrite still regress."
+}
