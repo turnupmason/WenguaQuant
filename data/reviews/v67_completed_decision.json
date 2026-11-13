@@ -1,0 +1,72 @@
+{
+  "schema": "wengua_completed_v67_review_decision",
+  "upload_sha256": "bf3108a2b376246bd05ee92b5dc3fe9fc3c298a2a55cc3b2aed7b7aa07069104",
+  "formal_answers": 483,
+  "new_training_updates": 0,
+  "global_model_promotion": false,
+  "old_models_preserved": true,
+  "next_training_started": false,
+  "model_answers_allowed_as_sft_or_rag": false,
+  "next_research_parent": {
+    "relative_path": "local/course_v67/run1/trials/object_condition_repair/cycle_01/adapters/step-113",
+    "sha256": "06ae23d3a9130f062da400eab67bf280c425705f5771f5596d203b42ccd6d38a",
+    "status": "bounded_research_candidate_only_not_global_best"
+  },
+  "language_loss_nominee_not_promoted": {
+    "relative_path": "local/course_v67/run1/trials/object_condition_repair/cycle_01/adapters/step-226",
+    "sha256": "f2422d2d68308bafdd3f53ee16a4113c0a8d1213aca1c757e3beb81967c22468"
+  },
+  "bounded_clear_whole_answers": {
+    "parent": 143,
+    "epoch_01": 142,
+    "epoch_02": 140
+  },
+  "counts_are_not_blind_case_accuracy": true,
+  "original_final_test_used": false,
+  "next_repair_priorities": [
+    {
+      "task": "identify_the_actual_question_before_explaining",
+      "evidence_ids": [
+        "v65learn:verify:木金:paraphrase",
+        "v65learn:verify:水水:paraphrase",
+        "v67:bc9c2e82414928c1e7a04cc7"
+      ],
+      "requirement": "Check whether an existing record is right; do not substitute an unasked star-palace comparison. Derive claims and teachers from book rules, never copy the saved model error."
+    },
+    {
+      "task": "retain_known_birth_and_current_chart_fields",
+      "evidence_ids": [
+        "v67:f3679add528478640bc434d9",
+        "v61_probe:ordinary_extract"
+      ],
+      "requirement": "Reliable patient birth and current year/day/month/hour stems are separate known slots; unknown birth may not erase a known current chart stem and a known birth may not become unknown."
+    },
+    {
+      "task": "independent_premises_in_natural_questions",
+      "evidence_ids": [
+        "v65learn:marriage:明确不具备:original",
+        "v65learn:marriage:明确不具备:paraphrase"
+      ],
+      "requirement": "Cover natural wording without requiring an automatic current-state prefix; keep each known/unknown/false premise separate."
+    },
+    {
+      "task": "consistent_domain_role_and_reason_with_sources",
+      "evidence_ids": [
+        "v58:actual_rag:exam_proxy",
+        "v58:actual_rag:health_daughter_father",
+        "v58:actual_rag:named_pair_丁壬"
+      ],
+      "requirement": "Chosen role, cited domain rule, known value and final wording must agree; exclude unsupported afterthoughts."
+    }
+  ],
+  "next_development_policy": {
+    "freeze_new_question_forms_before_training": true,
+    "separate_raw_board_compact_board_and_fact_cards": true,
+    "preserve_actual_own_history": true,
+    "old_correct_answer_retention_is_required": true,
+    "short_acceptance_before_long_training": true,
+    "no_new_books_or_manual_fortune_scores": true,
+    "case_feedback_not_query_time_input": true,
+    "full_194_case_training_not_yet_claimed": true
+  }
+}

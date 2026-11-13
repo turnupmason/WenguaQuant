@@ -1,0 +1,20 @@
+{
+  "id": "v67_complete_review",
+  "manifest": "data/delivery/v67_complete_review/manifest.json",
+  "destination": "local/model_reviews/v67_complete",
+  "files": {
+    "original/completed_review.zip": "bf3108a2b376246bd05ee92b5dc3fe9fc3c298a2a55cc3b2aed7b7aa07069104",
+    "original/partial_review.zip": "97e9fd953946abe4c7379db5646af0bbf104b8c2b8adec6a33d02ff3d41f9591",
+    "review/summary.json": "ba32649ad7ae6fadfc5227d195fd108e927a5a13cd02e772e91a21a400499661",
+    "review/answer_observations.jsonl.gz": "55897ace1eab4eeb60c5b7654c2fb60f41bd35dc5cae87522b7e1bc78b0d2600",
+    "review/Wengua_V67_三阶段483答完整审阅.xlsx": "c2836180b56d5dc58f8780f80648b5f2905b98d80ace26cc782935e72dbc0cfe",
+    "source_recipe/reading_notes.json": "7040b42bc850f88f1a9554ab1cc259595d9986a973f586221697a226a0ffcb22",
+    "source_recipe/partial_reading_notes.json": "d543dbfc9bbf417e5db6a220d6a9806df13b55d96456b514eef87b55fe97747e",
+    "source_recipe/make_notes.py": "38c58d29302938ec35420b5d5ea65bd9eb55bbe0b173b357968a6db261870203",
+    "source_recipe/v67_complete_review.py": "6c1fecee15a52fdee0ef9b07ffc3f19e2f27e41bb7d5fc7de2d45b60b2e0af12",
+    "source_recipe/v67_review.py": "d10ccae43a4d14f96d2a976dc31cf8c3ac842145be3d630b0b1e5c376ed923ac"
+  },
+  "library": null,
+  "optional": true,
+  "purpose": "evaluation_only_exclude_from_knowledge_and_training"
+}
