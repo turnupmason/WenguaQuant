@@ -39,6 +39,7 @@ def main():
     from wengua_course.fixtures import fixture_factory
     tok, _, _ = fixture_factory()
     if len(sys.argv) == 3 and sys.argv[1] == '--worker': return cpu_reply(sys.argv[2])
+    (g.ROOT / 'local').mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='assistant_cpu_', dir=g.ROOT / 'local') as temp:
         root = Path(temp); launches = []
         def launch(path):
