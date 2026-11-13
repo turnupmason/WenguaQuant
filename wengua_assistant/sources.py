@@ -28,11 +28,20 @@ STAGES = {
 def checked_index():
     # Existing read-only index validates chapter/selector hashes. No answers,
     # teacher summaries, old scoring tables or new books are added to it.
+    archive = corpus.prior.DATA / 'rag_sources.json.gz'
+    expected = d.read(corpus.prior.RELEASE)['files']['rag_sources.json.gz']
+    if d.digest(archive.read_bytes()) != expected:
+        raise ValueError('两书来源文件与已审阅版本不同，请保留原文件并检查来源')
     library = corpus.source_library()
     corpus.r.validate_library(library)
     if set(library['books']) != {'shenqi', 'kaiwu'}:
         raise ValueError('只使用已经整理的两本书')
-    return corpus.ensure_index()
+    path = corpus.ensure_index()
+    with corpus.r.Index(path) as index:
+        wanted = {corpus.r.chapter_key(c): c['source_sha256'] for c in library['chapters']}
+        actual = {key: c['source_sha256'] for key, c in index.chapters.items()}
+        if wanted != actual: raise ValueError('检索索引与两书原文版本不同')
+    return path
 
 
 def _bibliography(index, doc):

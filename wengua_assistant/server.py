@@ -19,7 +19,11 @@ def handler(service, token):
             self.send_header('Content-Length', str(len(raw))); self.send_header('Cache-Control', 'no-store')
             self.send_header('X-Content-Type-Options', 'nosniff')
             self.send_header('Content-Security-Policy', "default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; frame-ancestors 'none'")
-            self.end_headers(); self.wfile.write(raw)
+            try:
+                self.end_headers(); self.wfile.write(raw)
+            except (BrokenPipeError, ConnectionResetError):
+                # Navigating away closes an HTTP client, not the model job.
+                pass
 
         def valid_host(self):
             return self.headers.get('Host') in {f'127.0.0.1:{self.server.server_port}', f'localhost:{self.server.server_port}'}
