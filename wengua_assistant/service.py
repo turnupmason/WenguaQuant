@@ -3,7 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 import io, json, os, subprocess, sys, threading, uuid, zipfile
 from . import inference as g
-from .prompt import build, cast, chart_fields, validate_facts
+from .prompt import build, build_dialogue, cast, chart_fields, validate_facts
 
 
 class Service:
@@ -29,11 +29,12 @@ class Service:
             raise ValueError('请输入问题，最多4000字')
         facts = validate_facts(payload.get('facts', {}))
         config = {k: payload.get(k) for k in ('variant', 'mode', 'time', 'zone')}
-        if config['variant'] not in {'official', 'v67_e1'} or config['mode'] not in {'knowledge', 'reading'}:
+        if config['variant'] not in {'official', 'v67_e1'} or config['mode'] not in {'chat', 'knowledge', 'reading'}:
             raise ValueError('请选择模型与问答类型')
         domain = payload.get('domain') or None
-        from .sources import corpus
-        if domain is not None and domain not in corpus.r.DOMAINS: raise ValueError('领域不正确')
+        if config['mode'] != 'chat':
+            from .sources import corpus
+            if domain is not None and domain not in corpus.r.DOMAINS: raise ValueError('领域不正确')
         with self.lock:
             sid = payload.get('session')
             if sid:
@@ -56,13 +57,16 @@ class Service:
         folder.mkdir(parents=True)
         try:
             if self.stopping.is_set(): raise RuntimeError('本地服务已停止，原始记录保留')
-            self.jobs[jid].update(state='running', phase='检索原书规则与领域流程')
             config = session['config']
+            self.jobs[jid].update(state='running', phase='准备直接对话' if config['mode'] == 'chat' else '检索原书规则与领域流程')
             if session['packet'] is None and config['mode'] == 'reading':
                 session['packet'] = cast(config['time'] or '', config['zone'] or '')
             receipt = g.adapter_receipt(config['variant'])
-            prompt = build(question, self._tokenizer(), domain=domain, packet=session['packet'], facts=facts,
-                           history=session['history'], previous_refs=session['references'])
+            if config['mode'] == 'chat':
+                prompt = build_dialogue(question, self._tokenizer(), facts=facts, history=session['history'])
+            else:
+                prompt = build(question, self._tokenizer(), domain=domain, packet=session['packet'], facts=facts,
+                               history=session['history'], previous_refs=session['references'])
             preview = {'chart': session['packet'], 'pillar_positions': chart_fields(session['packet']) if session['packet'] else None,
                        'references': prompt['current_references'], 'budget': prompt['prompt_budget'],
                        'retrieval_plan': prompt['retrieval_plan']}

@@ -2,6 +2,7 @@
 const $ = id => document.getElementById(id);
 const token = document.querySelector('meta[name=wengua-token]').content;
 let session = null, busy = false;
+$('variant').value='official';$('mode').value='chat';
 const localZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 const civil = new Date(Date.now() - new Date().getTimezoneOffset()*60000).toISOString().slice(0,16);
 $('time').value = civil;
@@ -29,7 +30,14 @@ $('export').onclick=async()=>{
     link.href=url;link.download='Wengua_问卦对话_'+new Date().toISOString().replace(/[:.]/g,'-')+'.zip';link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);
   }catch(error){$('status').textContent=error.message;}
 };
-$('mode').onchange=()=>{ const reading=$('mode').value==='reading'; $('timeLabel').hidden=!reading; $('zoneLabel').hidden=!reading; };
+function modeControls(){
+  const mode=$('mode').value,reading=mode==='reading',chat=mode==='chat';
+  $('timeLabel').hidden=!reading;$('zoneLabel').hidden=!reading;$('domainLabel').hidden=chat;
+  $('factsPanel').hidden=chat;$('evidencePanel').hidden=chat;document.querySelector('.layout').classList.toggle('plain-chat',chat);
+  $('subtitle').textContent=chat?'直接对话 · 同一句问题对照':'现有模型 · 程序排盘 · 两书依据';
+  $('question').placeholder=chat?'直接输入问题，或测试改写、理解和连续追问。':'例如：我是女儿，替父亲问病。他的出生年干是癸。先看取用和治疗关系。';
+}
+$('mode').onchange=modeControls;modeControls();
 function preview(p) {
   if(p.chart) {
     const packet=p.chart, c=packet.chart, pillars=packet.calendar.four_pillars;
@@ -60,7 +68,7 @@ $('form').onsubmit=async event=>{
   for(const id of ['variant','mode','time','zone','newChat']) $(id).disabled=true;
   $('status').className='';
   const user=text($('messages'),'div','', 'message user');text(user,'b','你');text(user,'div',question);
-  $('question').value='';$('status').textContent='准备本局与原书依据…';
+  $('question').value='';$('status').textContent=$('mode').value==='chat'?'准备直接对话…':'准备本局与原书依据…';
   try {
     const start=await api('/api/ask',{session,question,variant:$('variant').value,mode:$('mode').value,domain:$('domain').value,
       time:$('mode').value==='reading'?$('time').value:null,zone:$('mode').value==='reading'?($('zone').value==='local'?localZone:$('zone').value):null,
@@ -75,7 +83,7 @@ $('form').onsubmit=async event=>{
         const answer=text($('messages'),'div','', 'message');text(answer,'b',$('variant').selectedOptions[0].textContent);
         text(answer,'div',job.result.raw_answer||'模型没有生成可显示的文字。');
         const check=job.result.checks;
-        if(check.status!=='citations_checked_semantics_unverified')text(answer,'p','核对提示：'+check.status+'。原始回答已保留，请展开下面记录查看。','check');
+        if(!['citations_checked_semantics_unverified','dialogue_completed'].includes(check.status))text(answer,'p','核对提示：'+check.status+'。原始回答已保留，请展开下面记录查看。','check');
         if(job.result.reached_token_limit)text(answer,'p','回答达到本轮长度上限，可以继续追问。','check');
         const detail=document.createElement('details');text(detail,'summary','原始答复核对与保存位置');text(detail,'pre',JSON.stringify({核对:check,保存:job.trace},null,2));answer.append(detail);
         $('status').textContent='回答完成。当前对话可以继续追问。';break;

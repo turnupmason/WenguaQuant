@@ -11,6 +11,31 @@ EXTRA_SYSTEM = ('按用户现在的问题回答。用正常对话长度先说判
                 '不能由一个吉凶符号推出确诊、确定寿命或精确应期。')
 
 
+def build_dialogue(question, tokenizer, *, history=(), facts=None, max_new_tokens=768):
+    """Plain same-prompt base/adapter control. No RAG, chart or teacher text."""
+    if not isinstance(question, str) or not question.strip() or len(question) > 4000:
+        raise ValueError('请输入问题，最多4000字')
+    if len(history) % 2 or any(x.get('role') != ('user' if i % 2 == 0 else 'assistant')
+                              or not isinstance(x.get('content'), str) for i, x in enumerate(history)):
+        raise ValueError('对话历史必须是真实的用户问题和本模型回答')
+    if type(max_new_tokens) is not int or not 1 <= max_new_tokens < 4096:
+        raise ValueError('回答长度必须小于4096上下文')
+    facts = validate_facts(facts or {})
+    content = question.strip() + ('\n用户明确资料：' + json.dumps(facts, ensure_ascii=False) if facts else '')
+    messages = [{'role': 'system', 'content': '你是一个乐于助人的中文助手。请自然、清楚地回答用户，遵循用户要求。'},
+                *deepcopy(list(history)), {'role': 'user', 'content': content}]
+    count = len(tokenizer.apply_chat_template(messages, tokenize=True, add_generation_prompt=True, enable_thinking=False))
+    if count + max_new_tokens > 4096:
+        raise ValueError('完整对话超过4096上下文，请新开对话；没有截掉已有内容')
+    return {'messages': messages, 'references': [], 'current_references': [], 'chart_receipt': None,
+            'state': 'ready', 'mode': 'chat', 'question': question.strip(), 'index_sha256': None,
+            'prompt_budget': {'context_limit': 4096, 'max_new_tokens': max_new_tokens, 'input_tokens': count,
+                              'evidence_bundles_kept': 0, 'whole_bundles_skipped': [], 'question_chart_or_source_truncated': False},
+            'retrieval_plan': {'domain_candidates': [], 'workflow_candidates': [], 'rag_used': False},
+            'history_turns': len(history) // 2, 'history_source': 'actual_same_model_answers',
+            'training_updates': 0, 'professional_correctness_verified': False}
+
+
 def aware_time(value, zone):
     """Attach a real timezone to local input; DST gaps/folds need an offset."""
     clock = datetime.fromisoformat(value.strip())

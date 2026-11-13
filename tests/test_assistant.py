@@ -16,6 +16,19 @@ class CharacterTokenizer:
 
 
 class AssistantTimeAndFacts(unittest.TestCase):
+    def test_default_is_official_plain_chat_not_an_unapproved_adapter(self):
+        from html.parser import HTMLParser
+        class Options(HTMLParser):
+            def __init__(self): super().__init__(); self.select=None; self.options={}
+            def handle_starttag(self, tag, attrs):
+                attrs=dict(attrs)
+                if tag=='select': self.select=attrs.get('id')
+                if tag=='option' and self.select: self.options.setdefault(self.select,[]).append(attrs.get('value'))
+            def handle_endtag(self, tag):
+                if tag=='select': self.select=None
+        parsed=Options();parsed.feed((server.STATIC/'index.html').read_text(encoding='utf8'))
+        self.assertEqual(parsed.options['variant'][0], 'official')
+        self.assertEqual(parsed.options['mode'][0], 'chat')
     def test_naive_beijing_time_becomes_aware_and_existing_offset_is_checked(self):
         self.assertEqual(p.aware_time('2009-07-18T09:45', 'Asia/Shanghai'), '2009-07-18T09:45:00+08:00')
         self.assertEqual(p.aware_time('2009-07-18T09:45+08:00', 'Asia/Shanghai'), '2009-07-18T09:45:00+08:00')
@@ -95,6 +108,25 @@ class AssistantWebBoundaries(unittest.TestCase):
 
 
 class AssistantHistoryAndBudget(unittest.TestCase):
+    def test_plain_chat_does_not_retrieve_cast_or_impose_source_answer_templates(self):
+        tok = CharacterTokenizer()
+        with patch.object(p, 'cast', side_effect=AssertionError('Chat must not cast')):
+            reply = p.build_dialogue('你好，我想先正常聊几句。', tok)
+        self.assertEqual(reply['mode'], 'chat');self.assertEqual(reply['state'], 'ready')
+        self.assertEqual(reply['messages'][-1], {'role':'user','content':'你好，我想先正常聊几句。'})
+        self.assertEqual(reply['references'], []);self.assertIsNone(reply['chart_receipt'])
+        self.assertNotIn('原书证据',reply['messages'][0]['content'])
+        self.assertEqual(reply['prompt_budget']['input_tokens'],len(tok.apply_chat_template(reply['messages'])))
+        check = g.assess('你好，我们可以直接聊。', reply)
+        self.assertEqual(check['status'], 'dialogue_completed')
+        self.assertFalse(check['citation_membership_applicable'])
+
+    def test_plain_chat_preserves_real_history_and_rejects_over_budget_without_cutting(self):
+        history=[{'role':'user','content':'我叫小李。'},{'role':'assistant','content':'你好，小李。'}]
+        reply=p.build_dialogue('我刚才说叫什么？',CharacterTokenizer(),history=history)
+        self.assertEqual(reply['messages'][1:3],history)
+        huge=[{'role':'user','content':'x'*4000},{'role':'assistant','content':'actual answer'}]
+        with self.assertRaises(ValueError):p.build_dialogue('继续',CharacterTokenizer(),history=huge,max_new_tokens=128)
     def _old_prompt_module(self):
         # The frozen App source is an optional read-only dependency in CI.
         from wengua_course.runtime import configure

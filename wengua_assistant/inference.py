@@ -61,6 +61,10 @@ def decode(model, tokenizer, prompt, *, testing=False):
 
 
 def assess(answer, prompt):
+    if prompt['mode'] == 'chat':
+        return {'status': 'dialogue_completed' if answer.strip() else 'empty_answer',
+                'citation_membership_applicable': False, 'semantic_support_verified': False,
+                'professional_correctness_verified': False, 'whole_answer_checked_by_expert': False}
     from src.wengua.book_rag_query import check_answer
     check = check_answer(answer, prompt)
     # This limited check does not certify full domain reasoning or medical

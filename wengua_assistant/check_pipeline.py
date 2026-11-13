@@ -51,7 +51,9 @@ def main():
         def fixture_receipt(variant):
             return {'variant': variant, 'software_fixture_only': True}
         original = prompt.build
+        dialogue = prompt.build_dialogue
         def short(*args, **kwargs): return original(*args, **kwargs, max_new_tokens=4)
+        def short_dialogue(*args, **kwargs): return dialogue(*args, **kwargs, max_new_tokens=4)
         app = service.Service(tokenizer=tok, launch=launch); app.root = root / 'assistant'
         def retrieved(*args, **kwargs):
             found = deepcopy(fixture_sources())
@@ -59,9 +61,10 @@ def main():
             if mode == 'reading': found.update(mode='reading', domain_candidates=['health'])
             return found
         with patch.object(sources, 'retrieve', retrieved), \
-             patch.object(g, 'adapter_receipt', fixture_receipt), patch.object(service, 'build', short):
-            def ask(variant, session=None, reading=False):
-                job = app.submit({'variant': variant, 'mode': 'reading' if reading else 'knowledge',
+             patch.object(g, 'adapter_receipt', fixture_receipt), patch.object(service, 'build', short), \
+             patch.object(service, 'build_dialogue', short_dialogue):
+            def ask(variant, session=None, reading=False, chat=False):
+                job = app.submit({'variant': variant, 'mode': 'reading' if reading else 'chat' if chat else 'knowledge',
                                   'time': '2000-09-21T23:45' if reading else None,
                                   'zone': 'Asia/Shanghai' if reading else None, 'domain': 'health' if reading else None,
                                   'question': 'question one answer', 'session': session})
@@ -88,15 +91,27 @@ def main():
             assert final_prompt['chart_receipt']['calendar']['four_pillars']['day'] == '癸未'
             assert final_prompt['chart_receipt']['time'] == '2000-09-21T23:45:00+08:00'
             assert '子初23点换日' in final_prompt['messages'][-1]['content']
+            with patch.object(sources, 'retrieve', side_effect=AssertionError('Plain dialogue must not retrieve books')), \
+                 patch.object(service, 'cast', side_effect=AssertionError('Plain dialogue must not cast')):
+                plain_a, pa=ask('official',chat=True)
+                plain_b, pb=ask('official',plain_a['session'],chat=True)
+                plain_c, pc=ask('v67_e1',chat=True)
+            prompts=[json.loads(path.read_text(encoding='utf8'))['prompt'] for path in launches[-3:]]
+            assert prompts[0]['messages']==prompts[2]['messages']
+            assert prompts[1]['messages'][2]['content']==pa['result']['raw_answer']
+            assert all(not x['references'] and x['chart_receipt'] is None for x in prompts)
+            assert all(x['result']['checks']['status'] in {'dialogue_completed','empty_answer'} for x in [pa,pb,pc])
+            assert all(x['result']['all_parameters_frozen'] and x['result']['training_updates']==0 for x in [pa,pb,pc])
         app.close()
     if os.name == 'nt':
         command = subprocess.run(['cmd.exe', '/d', '/c', str(g.ROOT / 'start_wengua_assistant.cmd'), '--help'],
                                  env=os.environ | {'WENGUA_PY': sys.executable}, capture_output=True,
                                  text=True, encoding='utf8', timeout=60)
         assert command.returncode == 0 and '--no-browser' in command.stdout, command.stdout + command.stderr
-    proof = {'software_fixture_only': True, 'actual_tiny_qwen_generations': 4, 'separate_cpu_processes': 4,
+    proof = {'software_fixture_only': True, 'actual_tiny_qwen_generations': 7, 'separate_cpu_processes': 7,
              'actual_own_history': True, 'stable_source_identity': True, 'official_and_peft_paths': True,
              'actual_23h_chart_through_reading_prompt_and_generation': True,
+             'plain_base_adapter_same_prompt_control': True, 'plain_chat_did_not_call_rag_or_calendar': True,
              'parameters_unchanged': True, 'training_updates': 0, 'actual_8b_quality_verified': False,
              'native_windows_cmd_help': os.name == 'nt'}
     g.write(g.ROOT / 'local/assistant_cpu_verification.json', proof)
