@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="wengua-token" content="__TOKEN__"><title>Wengua 本地问卦</title><link rel="stylesheet" href="/style.css"></head>
+<body><header><h1>Wengua 本地问卦</h1><p>现有模型 · 程序排盘 · 两书依据</p></header>
+<nav><button id="chatTab">问问题</button><button id="caseTab">原书案例</button></nav>
+<main id="chatPanel"><section class="controls">
+<label>模型<select id="variant"><option value="v67_e1">V6.7 第一轮候选</option><option value="official">Qwen3-8B 原模型</option></select></label>
+<label>问题类型<select id="mode"><option value="reading">按时间问事</option><option value="knowledge">知识问答</option></select></label>
+<label>领域<select id="domain"><option value="">自动识别</option></select></label>
+<label id="timeLabel">起局时间<input type="datetime-local" id="time"></label>
+<label id="zoneLabel">时间地点<select id="zone"><option value="local">电脑所在地</option><option value="Asia/Shanghai">北京</option></select></label>
+<button id="newChat">新开对话</button><button id="export">下载对话结果 ZIP</button></section>
+<details><summary>补充已知资料</summary><div class="controls">
+<label>谁替谁问<input id="relation" placeholder="例如：女儿代问父亲；父亲本人来问"></label>
+<label>出生年干<select id="birthStatus"><option value="not_entered">未单独填写</option><option value="known">明确知道</option><option value="unknown">明确不知道</option></select></label>
+<label>年干<input id="birthStem" maxlength="1" placeholder="如癸"></label></div>
+<label>问事背景<textarea id="background" rows="2" placeholder="只填已经知道的情况；可以直接写在问题里"></textarea></label></details>
+<div class="layout"><section><div id="messages" aria-live="polite"><p class="hint">输入自己的问题。连续追问会沿用同一模型的真实回答；更换模型或起局时间请新开对话。</p></div>
+<form id="form"><textarea id="question" rows="4" required placeholder="例如：我是女儿，替父亲问病。他的出生年干是癸。先看取用和治疗关系；信息不够的地方指出缺什么。"></textarea><button id="send">发送</button></form>
+<p id="status" role="status"></p></section><aside>
+<h2>本局盘面</h2><p id="clock" class="hint">由原有排盘程序生成</p><div id="chart"></div>
+<details><summary>四柱天干位置</summary><pre id="positions"></pre></details>
+<h2>本轮依据</h2><div id="sources"></div><details><summary>检索和上下文</summary><pre id="budget"></pre></details>
+</aside></div></main>
+<main id="casePanel" hidden><p>原书逐段查看。原盘为书中转录，作者分析、纠正及反馈分别保留；这些内容不会送入新问题的预测。</p>
+<label>全部案例<select id="cases"></select></label><div id="caseContent"></div></main>
+<footer>候选模型仍有已知错误。页面保留原始回答；来源编号检查不代表专业结论已核准。没有新增训练或人工吉凶打分。</footer>
+<script src="/app.js"></script></body></html>

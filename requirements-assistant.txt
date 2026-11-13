@@ -1,0 +1,2 @@
+# Timezone data only. The frozen calendar works without optional pyswisseph.
+tzdata==2025.2
