@@ -24,6 +24,9 @@ def main():
     packet = cast('2009-07-18T09:45', 'Asia/Shanghai')
     if packet['calendar']['four_pillars'] != {'year': '己丑', 'month': '辛未', 'day': '甲子', 'hour': '己巳'}:
         raise ValueError('既有排盘校验不同，停止而不修改原程序')
+    late = cast('2000-09-21T23:45', 'Asia/Shanghai')
+    if late['calendar']['four_pillars'] != {'year': '庚辰', 'month': '乙酉', 'day': '癸未', 'hour': '壬子'}:
+        raise ValueError('原书23点换日校验不同')
     print('两书来源、194案目录、原有排盘及本地8B缓存已就绪。正在打开本地问答页面。', flush=True)
     return 0
 

@@ -1,0 +1,68 @@
+{
+  "rule_id": "two_book_zi_initial_23_v1",
+  "label": "子初23点换日",
+  "zi_hour_local_interval": "23:00:00 through 00:59:59.999999",
+  "day_changes_at_local": "23:00:00",
+  "day_only_advanced_at_23": true,
+  "solar_terms_year_and_month_use_actual_instant": true,
+  "sources": [
+    {
+      "book_id": "shenqi",
+      "chapter": "1",
+      "chapter_title": "时家奇门的起局方法",
+      "lines": [
+        46,
+        46
+      ],
+      "source_sha256": "177f6ecba2bf4c165524a48adbdab8fdbd535cdb700dca12b5e5f29b1a75afb2",
+      "quote_sha256": "e71c706edb5fae91d452dd96de2b6d9b723c493d1fb9badfd3ba4a26b99f3c45"
+    },
+    {
+      "book_id": "shenqi",
+      "chapter": "1",
+      "chapter_title": "时家奇门的起局方法",
+      "lines": [
+        48,
+        48
+      ],
+      "source_sha256": "177f6ecba2bf4c165524a48adbdab8fdbd535cdb700dca12b5e5f29b1a75afb2",
+      "quote_sha256": "d0405dbc2aa65efcaecef3f83114601793b41a0703fb62fff99e7768f59b8547"
+    },
+    {
+      "book_id": "shenqi",
+      "chapter": "1",
+      "chapter_title": "时家奇门的起局方法",
+      "lines": [
+        54,
+        54
+      ],
+      "source_sha256": "177f6ecba2bf4c165524a48adbdab8fdbd535cdb700dca12b5e5f29b1a75afb2",
+      "quote_sha256": "043b8ec60809bcf429aac296c1827069958f2876fd93d0a62989c61760855d6f"
+    },
+    {
+      "book_id": "kaiwu",
+      "chapter": "29",
+      "chapter_title": "第二章 日常百事预测评析 / 第二节 恋爱婚姻预测(共6例)",
+      "lines": [
+        303,
+        303
+      ],
+      "source_sha256": "4df9dfe432daec759df4f0e01449bc4a2381eb4251e1290a0d99d199e467fa01",
+      "quote_sha256": "034e4e34a4221505162dc0e171a8e56908b15b879d2da093cb78c91d3fbef34a"
+    },
+    {
+      "book_id": "kaiwu",
+      "chapter": "43",
+      "chapter_title": "第三章 答疑解惑与错例剖析",
+      "lines": [
+        387,
+        387
+      ],
+      "source_sha256": "2f52d1ed878f77f619e5cf48c088a9f2e25afe59daaae037b97fcb96b0bd947a",
+      "quote_sha256": "0dfff21fa33bb36dd0bcb13743232ac264c2b6cbd39b97c19d38e3e155f12d85"
+    }
+  ],
+  "historical_outcomes_used": false,
+  "new_training_examples": 0,
+  "original_text_changed": false
+}

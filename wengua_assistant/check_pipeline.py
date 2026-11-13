@@ -11,7 +11,8 @@ def fixture_sources():
             'all_workflow_rules_loaded': False,
             'documents': [{'id': 'synthetic:book-rule', 'kind': 'rule', 'phase': 'general_rule',
                            'content': 'one two answer', 'title': 'synthetic source', 'retrieval_stage': 'fixture',
-                           'sources': [{'book_title': 'synthetic fixture', 'chapter': 'software', 'lines': [1, 1]}]}]}
+                           'sources': [{'book_title': 'synthetic fixture', 'chapter': 'software', 'lines': [1, 1],
+                                        'method_id': 'wengua_shijia_zhuanpan'}]}]}
 
 
 def cpu_reply(path):
@@ -52,10 +53,17 @@ def main():
         original = prompt.build
         def short(*args, **kwargs): return original(*args, **kwargs, max_new_tokens=4)
         app = service.Service(tokenizer=tok, launch=launch); app.root = root / 'assistant'
-        with patch.object(sources, 'retrieve', lambda *a, **kw: deepcopy(fixture_sources())), \
+        def retrieved(*args, **kwargs):
+            found = deepcopy(fixture_sources())
+            mode = args[2] if len(args) > 2 else kwargs.get('mode', 'knowledge')
+            if mode == 'reading': found.update(mode='reading', domain_candidates=['health'])
+            return found
+        with patch.object(sources, 'retrieve', retrieved), \
              patch.object(g, 'adapter_receipt', fixture_receipt), patch.object(service, 'build', short):
-            def ask(variant, session=None):
-                job = app.submit({'variant': variant, 'mode': 'knowledge', 'time': None, 'zone': None,
+            def ask(variant, session=None, reading=False):
+                job = app.submit({'variant': variant, 'mode': 'reading' if reading else 'knowledge',
+                                  'time': '2000-09-21T23:45' if reading else None,
+                                  'zone': 'Asia/Shanghai' if reading else None, 'domain': 'health' if reading else None,
                                   'question': 'question one answer', 'session': session})
                 for _ in range(600):
                     status = app.poll(job['job'])
@@ -65,24 +73,30 @@ def main():
                 return job, status
             first, a = ask('official'); second, b = ask('official', first['session'])
             third, c = ask('v67_e1')
+            fourth, late = ask('official', reading=True)
             saved = json.loads(launches[1].read_text(encoding='utf8'))['prompt']
             assert saved['messages'][1]['content'] == 'question one answer'
             assert saved['messages'][2]['content'] == a['result']['raw_answer']
             assert saved['current_references'][0]['citation'] == 'S2'
             assert saved['previous_references_not_current_evidence'][0]['citation'] == 'S1'
-            for answer in [a, b, c]:
+            for answer in [a, b, c, late]:
                 assert answer['result']['training_updates'] == 0 and answer['result']['all_parameters_frozen']
                 trace = json.loads(Path(answer['trace']).read_text(encoding='utf8'))
                 assert trace['added_to_training_or_rag'] is False
             assert first['session'] != third['session']
+            final_prompt = json.loads(launches[-1].read_text(encoding='utf8'))['prompt']
+            assert final_prompt['chart_receipt']['calendar']['four_pillars']['day'] == '癸未'
+            assert final_prompt['chart_receipt']['time'] == '2000-09-21T23:45:00+08:00'
+            assert '子初23点换日' in final_prompt['messages'][-1]['content']
         app.close()
     if os.name == 'nt':
         command = subprocess.run(['cmd.exe', '/d', '/c', str(g.ROOT / 'start_wengua_assistant.cmd'), '--help'],
                                  env=os.environ | {'WENGUA_PY': sys.executable}, capture_output=True,
                                  text=True, encoding='utf8', timeout=60)
         assert command.returncode == 0 and '--no-browser' in command.stdout, command.stdout + command.stderr
-    proof = {'software_fixture_only': True, 'actual_tiny_qwen_generations': 3, 'separate_cpu_processes': 3,
+    proof = {'software_fixture_only': True, 'actual_tiny_qwen_generations': 4, 'separate_cpu_processes': 4,
              'actual_own_history': True, 'stable_source_identity': True, 'official_and_peft_paths': True,
+             'actual_23h_chart_through_reading_prompt_and_generation': True,
              'parameters_unchanged': True, 'training_updates': 0, 'actual_8b_quality_verified': False,
              'native_windows_cmd_help': os.name == 'nt'}
     g.write(g.ROOT / 'local/assistant_cpu_verification.json', proof)

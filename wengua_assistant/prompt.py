@@ -34,7 +34,7 @@ def aware_time(value, zone):
 def cast(value, zone):
     from wengua_course.runtime import configure
     configure()
-    from src.wengua.book_rag_query import cast_time
+    from .calendar import cast_time
     return cast_time(aware_time(value, zone), zone)
 
 
@@ -76,7 +76,8 @@ def validate_facts(facts):
 def build(question, tokenizer, *, domain=None, packet=None, facts=None, history=(), previous_refs=(), max_new_tokens=768):
     from wengua_course.runtime import configure
     configure()
-    from src.wengua.book_rag_query import SYSTEM, checked_chart, compact_chart
+    from src.wengua.book_rag_query import SYSTEM
+    from .calendar import checked_chart, compact_chart
     from .sources import retrieve
     if not isinstance(question, str) or not question.strip() or len(question) > 4000:
         raise ValueError('请输入问题，最多4000字')

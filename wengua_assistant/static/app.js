@@ -34,6 +34,7 @@ function preview(p) {
   if(p.chart) {
     const packet=p.chart, c=packet.chart, pillars=packet.calendar.four_pillars;
     $('clock').textContent=packet.calendar.reference_civil_local.slice(0,19).replace('T',' ')+' · '+['year','month','day','hour'].map(k=>pillars[k]).join(' ')+' · '+(c.dun==='yang'?'阳遁':'阴遁')+c.ju+'局';
+    if(packet.calendar.day_boundary_label)$('clock').textContent+=' · '+packet.calendar.day_boundary_label;
     $('chart').replaceChildren();
     for(const n of [4,9,2,3,5,7,8,1,6]) {
       const cell=c.palaces[String(n)], node=document.createElement('div');node.className='palace';
